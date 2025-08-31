@@ -1,0 +1,284 @@
+#!/usr/bin/env python3
+"""
+Download ultimate final push - 478 companies
+Law firms, food/agriculture, airlines, and everything else we missed
+"""
+
+import os
+import json
+import requests
+import urllib.parse
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
+from ultimate_final_push import get_all_ultimate_final_companies
+from ultimate_final_push import (
+    LAW_FIRMS, FOOD_AGRICULTURE, ACCOUNTING_FIRMS, REGIONAL_BANKS,
+    AIRLINES_TRANSPORT, UTILITIES, ENTERPRISE_TECH, SPECIALTY_SECTORS,
+    FAILED_RETRIES
+)
+
+# Create output directory
+OUTPUT_DIR = 'logos/ultimate_final'
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Check existing logos
+existing_logos = set()
+check_dirs = [
+    'logos/downloaded', 'logos/global_mba_logos', 'logos/institution_logos',
+    'logos/business_school_logos', 'logos/comprehensive_fix', 
+    'logos/expanded_business_schools', 'logos/employers_2025',
+    'logos/comprehensive_global', 'logos/final_expansion'
+]
+
+print("Loading existing logos...")
+for dir_path in check_dirs:
+    if os.path.exists(dir_path):
+        for f in os.listdir(dir_path):
+            if f.endswith(('.png', '.jpg', '.svg')):
+                # Multiple ways to identify
+                normalized = f.lower().replace('.png', '').replace('.jpg', '').replace('.svg', '')
+                existing_logos.add(normalized)
+                # Also add parts
+                for part in normalized.split('_'):
+                    if len(part) > 3:
+                        existing_logos.add(part)
+
+def company_already_exists(company_name):
+    """Check if we already have this company"""
+    # Quick checks
+    name_clean = company_name.lower().replace(' ', '').replace('&', '').replace('.', '').replace('-', '').replace("'", "")
+    
+    if name_clean in existing_logos:
+        return True
+    
+    # Check key parts
+    parts = company_name.lower().split()
+    for part in parts:
+        if len(part) > 4 and part in existing_logos:
+            # Special cases where part match is not enough
+            if part in ['bank', 'group', 'capital', 'digital', 'global', 'international', 'foods', 'airlines']:
+                continue
+            return True
+    
+    # Known mappings
+    known_mappings = {
+        "Cargill": "cargill",
+        "ADM": "adm",
+        "Tyson Foods": "tysonfoods",
+        "Boeing": "boeing",
+        "Airbus": "airbus",
+        "American Airlines": "americanairlines",
+        "Delta Air Lines": "delta",
+        "United Airlines": "united"
+    }
+    
+    if company_name in known_mappings and known_mappings[company_name] in existing_logos:
+        return True
+    
+    return False
+
+def download_company_logo(company_name, domain):
+    """Download logo for a company"""
+    # Check existence
+    if company_already_exists(company_name):
+        return {
+            'company': company_name,
+            'status': 'already_exists',
+            'domain': domain
+        }
+    
+    # Clean filename
+    filename_base = company_name.replace(' ', '_').replace('/', '_').replace(':', '').replace('&', 'and').replace("'", "").replace('.', '')
+    
+    # Strategies
+    strategies = []
+    
+    # Direct domain
+    strategies.append({'url': f"https://logo.clearbit.com/{domain}", 'name': 'clearbit_direct'})
+    
+    # Remove subdomain
+    if domain.count('.') > 1:
+        parent = '.'.join(domain.split('.')[-2:])
+        strategies.append({'url': f"https://logo.clearbit.com/{parent}", 'name': 'clearbit_parent'})
+    
+    # For law firms and special domains
+    if domain.endswith(('.law', '.legal')):
+        base = domain.split('.')[0]
+        strategies.append({'url': f"https://logo.clearbit.com/{base}.com", 'name': 'clearbit_com'})
+    
+    # Special cases
+    special_domains = {
+        "Cravath Swaine & Moore": "cravath.com",
+        "Wachtell Lipton": "wlrk.com",
+        "Sullivan & Cromwell": "sullcrom.com",
+        "Kirkland & Ellis": "kirkland.com",
+        "Cargill": "cargill.com",
+        "ADM": "adm.com",
+        "Tyson Foods": "tysonfoods.com",
+        "American Airlines": "aa.com",
+        "Delta Air Lines": "delta.com",
+        "United Airlines": "united.com",
+        "Southwest Airlines": "southwest.com"
+    }
+    
+    if company_name in special_domains:
+        strategies.insert(0, {'url': f"https://logo.clearbit.com/{special_domains[company_name]}", 'name': 'clearbit_special'})
+    
+    # Logo.dev
+    strategies.append({'url': f"https://img.logo.dev/{domain}?token=pk_X-1ZO13GSgeOoUrIuCGGfw", 'name': 'logodev'})
+    
+    # Try simplified name
+    simple_name = company_name.split()[0].lower() if ' ' in company_name else company_name.lower()
+    strategies.append({'url': f"https://logo.clearbit.com/{simple_name}.com", 'name': 'clearbit_simple'})
+    
+    # For law firms, try without "LLP", "LLC", etc
+    if any(suffix in company_name for suffix in [' LLP', ' LLC', ' PC', ' PA']):
+        clean_name = company_name
+        for suffix in [' LLP', ' LLC', ' PC', ' PA']:
+            clean_name = clean_name.replace(suffix, '')
+        clean_domain = clean_name.lower().replace(' ', '').replace('&', '') + '.com'
+        strategies.append({'url': f"https://logo.clearbit.com/{clean_domain}", 'name': 'clearbit_clean'})
+    
+    for strategy in strategies:
+        try:
+            response = requests.get(strategy['url'], timeout=5, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            })
+            
+            if response.status_code == 200 and response.headers.get('content-type', '').startswith('image'):
+                ext = 'png'
+                content_type = response.headers.get('content-type', '')
+                if 'svg' in content_type:
+                    ext = 'svg'
+                elif 'jpeg' in content_type or 'jpg' in content_type:
+                    ext = 'jpg'
+                
+                filename = f"{filename_base}.{ext}"
+                filepath = os.path.join(OUTPUT_DIR, filename)
+                
+                with open(filepath, 'wb') as f:
+                    f.write(response.content)
+                
+                return {
+                    'company': company_name,
+                    'status': 'success',
+                    'method': strategy['name'],
+                    'domain': domain,
+                    'filepath': filepath,
+                    'size': len(response.content)
+                }
+        except:
+            continue
+    
+    return {
+        'company': company_name,
+        'status': 'failed',
+        'domain': domain
+    }
+
+def main():
+    all_companies = get_all_ultimate_final_companies()
+    
+    print("=" * 80)
+    print("ULTIMATE FINAL PUSH - LAW FIRMS, FOOD, AIRLINES & MORE")
+    print("=" * 80)
+    print(f"Total new organizations: {len(all_companies)}")
+    print()
+    
+    # Categories
+    categories = [
+        ("LAW FIRMS", LAW_FIRMS),
+        ("FOOD & AGRICULTURE", FOOD_AGRICULTURE),
+        ("ACCOUNTING FIRMS", ACCOUNTING_FIRMS),
+        ("REGIONAL BANKS", REGIONAL_BANKS),
+        ("AIRLINES & TRANSPORT", AIRLINES_TRANSPORT),
+        ("UTILITIES", UTILITIES),
+        ("ENTERPRISE TECH", ENTERPRISE_TECH),
+        ("SPECIALTY SECTORS", SPECIALTY_SECTORS),
+        ("FAILED RETRIES", FAILED_RETRIES)
+    ]
+    
+    all_results = []
+    
+    for category_name, companies in categories:
+        print(f"\n{'='*60}")
+        print(f"{category_name} ({len(companies)} companies)")
+        print(f"{'='*60}")
+        
+        category_results = []
+        success_count = 0
+        exists_count = 0
+        
+        # Process in batches
+        batch_size = 10
+        company_items = list(companies.items())
+        
+        for i in range(0, len(company_items), batch_size):
+            batch = company_items[i:i+batch_size]
+            batch_num = i//batch_size + 1
+            total_batches = (len(company_items) + batch_size - 1)//batch_size
+            
+            print(f"\nBatch {batch_num}/{total_batches}:")
+            
+            with ThreadPoolExecutor(max_workers=5) as executor:
+                futures = {executor.submit(download_company_logo, company, domain): company 
+                          for company, domain in batch}
+                
+                for future in as_completed(futures):
+                    result = future.result()
+                    category_results.append(result)
+                    
+                    if result['status'] == 'success':
+                        success_count += 1
+                        print(f"✓ {result['company']:<40} [{result['method']}]")
+                    elif result['status'] == 'already_exists':
+                        exists_count += 1
+                        print(f"◆ {result['company']:<40} [cached]")
+                    else:
+                        print(f"✗ {result['company']:<40} [failed]")
+            
+            # Rate limiting
+            if i + batch_size < len(company_items):
+                time.sleep(1)
+        
+        # Summary
+        failed_count = len(companies) - success_count - exists_count
+        print(f"\n{category_name} Summary:")
+        print(f"  New: {success_count}, Exists: {exists_count}, Failed: {failed_count}")
+        print(f"  Coverage: {(success_count + exists_count)/len(companies)*100:.1f}%")
+        
+        all_results.extend(category_results)
+        
+        # Save progress
+        with open('logos/ultimate_final_results.json', 'w') as f:
+            json.dump(all_results, f, indent=2)
+    
+    # Final summary
+    print("\n" + "=" * 80)
+    print("ULTIMATE FINAL PUSH COMPLETE")
+    print("=" * 80)
+    
+    total_success = sum(1 for r in all_results if r['status'] == 'success')
+    total_exists = sum(1 for r in all_results if r['status'] == 'already_exists')
+    total_failed = sum(1 for r in all_results if r['status'] == 'failed')
+    
+    print(f"Total processed: {len(all_results)}")
+    print(f"New downloads: {total_success}")
+    print(f"Already existed: {total_exists}")
+    print(f"Failed: {total_failed}")
+    print(f"Coverage: {(total_success + total_exists)/len(all_results)*100:.1f}%")
+    
+    # Show some failures
+    if total_failed > 0:
+        failures = [r for r in all_results if r['status'] == 'failed']
+        print(f"\nTop failures ({len(failures)} total):")
+        for r in failures[:20]:
+            print(f"  • {r['company']} ({r['domain']})")
+        if len(failures) > 20:
+            print(f"  ... and {len(failures) - 20} more")
+    
+    print(f"\nResults: logos/ultimate_final_results.json")
+    print(f"Logos: {OUTPUT_DIR}")
+
+if __name__ == "__main__":
+    main()

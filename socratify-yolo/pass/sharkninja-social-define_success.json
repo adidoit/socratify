@@ -1,0 +1,241 @@
+{
+  "exerciseVersion": 4,
+  "exerciseUuid": "4e773c2b-b02e-4a20-bdad-1ec4a7458994",
+  "exerciseType": "define_success",
+  "status": "active",
+  "storyType": "News",
+  "storyUuid": null,
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding how to define success for a large social media marketing budget requires familiarity with concepts like Return on Ad Spend, Customer Acquisition Cost, brand equity, and net sales growth, which are standard first-year business school topics. Analyzing the trade-offs between these metrics and considering the long-term implications beyond virality demands multi-factor strategic analysis.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because the exercise requires understanding how to measure the effectiveness of a significant marketing investment ($700M) to justify its impact on overall business objectives. This involves grasping industry-standard marketing performance metrics and considering how they relate to competitive positioning and long-term brand building, typical of someone who follows industry publications and analyses.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "fileName": "sharkninja-social-define_success.xml",
+    "backgroundNeeded": "Remember that SharkNinja sells premium appliances and spends $700M on social media advertising, understand concepts like Return on Ad Spend (ROAS), Customer Acquisition Cost (CAC), brand equity, and net sales growth, and apply strategic thinking to evaluate how these diverse metrics can collectively define success for a social-first marketing strategy.",
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the core of the exercise revolves around defining success metrics for a \"social-first\" marketing strategy. This necessitates understanding key marketing concepts like brand equity, customer acquisition, viral demand, and the challenges of justifying premium pricing against competitors, which is characteristic of an informed marketing follower.",
+    "happyPath": "SharkNinja stands at an interesting inflection point, having successfully leveraged a \"social-first\" strategy and massive marketing investments to drive impressive sales and viral product moments. However, for a company that has surpassed $5 billion in annual revenue and offers premium-priced products, defining \"success\" for its marketing efforts is far more complex than just tallying views or initial sales. It requires a multifaceted approach that balances immediate returns with long-term strategic objectives like brand equity and market leadership. One crucial lens for defining success is through financial impact and efficiency. While viral videos like the TurboBlade fan generating 32 million views are impressive, the ultimate measure for a $700 million annual ad spend must be its contribution to the bottom line. Success could be defined by metrics such as a favorable Return on Ad Spend (ROAS), consistent net sales growth (like the 14.7% Q1 rise), a healthy Customer Acquisition Cost (CAC), or the sustained sales velocity of new products post-launch (e.g., Ninja Swirl selling one unit every eight seconds). This ensures that marketing isn't just generating buzz, but directly contributing to profitable growth and justifying the substantial investment. Beyond immediate financial returns, success must be defined by SharkNinja's ability to build strong brand equity and justify its premium pricing. In a market prone to ",
+    "faviconUrl": "https://sharkninja.com/wp-content/uploads/2024/02/SN_Favicon.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "Upright vacuum cleaner with a sleek, dark obsidian housing, accented by a vibrant burst of crimson. The dust collection bin is clear plastic, showcasing a swirl of collected dust and debris.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/sharkninja-social-define_success-d31ea13f-4d97-4011-8d14-b6b1ba0229a6.png",
+    "coverPlainTitle": "SharkNinja Measures Social Ad Impact",
+    "coverWittyTitle": "Viral or Worth the While?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 15,
+    "coverQuestion": "How should appliance brands measure ad success?",
+    "coverParagraph": "**SharkNinja** spends $700M on **social media ads**. Define how they should measure the success of their marketing strategy.",
+    "tags": "Marketing,Strategy,Consumer,Digital Marketing",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Ad Proof",
+      "text": "SharkNinja spends $700 million on social ads annually. They **must prove these ads work**. The appliance maker creates buzz for its products on social media. But it needs to build **lasting brand value** beyond short-term trends.",
+      "chartConfig": {
+        "archetype": "multi-line-comparison",
+        "title": "SharkNinja Net Sales vs International Sales",
+        "subtitle": "USD billions, 2020-2024",
+        "color": "#1f77b4",
+        "source": "[SharkNinja Investor Presentation, 2024. Socratify Analysis]",
+        "features": [
+          "zero baseline",
+          "two series",
+          "sequential years"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "series": [
+            {
+              "name": "Total Net Sales",
+              "color": "#1f77b4",
+              "valueType": "currency",
+              "points": [
+                {
+                  "year": 2020,
+                  "value": 3.2
+                },
+                {
+                  "year": 2021,
+                  "value": 3.7
+                },
+                {
+                  "year": 2022,
+                  "value": 4.25
+                },
+                {
+                  "year": 2023,
+                  "value": 4.3
+                },
+                {
+                  "year": 2024,
+                  "value": 5.53
+                }
+              ]
+            },
+            {
+              "name": "International Net Sales",
+              "color": "#ff7f0e",
+              "valueType": "currency",
+              "points": [
+                {
+                  "year": 2020,
+                  "value": 0.7
+                },
+                {
+                  "year": 2021,
+                  "value": 0.85
+                },
+                {
+                  "year": 2022,
+                  "value": 1.05
+                },
+                {
+                  "year": 2023,
+                  "value": 1.2
+                },
+                {
+                  "year": 2024,
+                  "value": 1.6
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Sales Challenge",
+      "text": "SharkNinja focuses its marketing on social media to sell **premium products globally**. Measuring the impact of its **$700 million annual ad spend** is key.",
+      "zoomOutTextQuote": {
+        "text": "“The best marketing comes from real people doing real things.”",
+        "source": "Lana Sanleandro, global CMO for Shark Home"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're a kid selling cookies. You spend your allowance on posters to get people to buy them. SharkNinja spends a lot of money on these \"posters\" (social media ads) and needs to know if they're worth it.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "SharkNinja spends big on social ads. They must prove it drives sales, not just clicks.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How can SharkNinja ensure ads build long-term brand value?",
+        "answer": "SharkNinja could measure how ads affect repeat purchases or brand searches over time. They also need to ensure ads resonate consistently with the brand's premium positioning across different countries.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are some challenges in measuring social ad effectiveness?",
+        "answer": "Attributing sales directly to social ads is tricky because customers see many ads before buying. Also, social media algorithms change constantly, so an ad that works today might not work tomorrow.",
+        "type": "deep"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "How should appliance brands measure ad success?",
+    "choices": [
+      {
+        "title": "Overall Net Sales Growth",
+        "text": "Total company sales growth sustained by social-first campaigns",
+        "feedback": "Sales growth looks key. Why is this the right metric to measure success for their social-first strategy?",
+        "correct": false
+      },
+      {
+        "title": "Customer Acquisition Cost",
+        "text": "Lower costs to acquire new customers through social channels",
+        "feedback": "Acquisition costs matter. Why is this the right metric to measure success for their social marketing?",
+        "correct": false
+      },
+      {
+        "title": "Market Share Increase",
+        "text": "Growing market share across product categories by social virality",
+        "feedback": "Market share seems critical. Why is this the right metric to measure success for their social approach?",
+        "correct": false
+      },
+      {
+        "title": "Return on Ad Spend",
+        "text": "Direct revenue generated per dollar spent on social advertising",
+        "feedback": "Return on ads looks important. Why is this the right metric to measure success for their social bet?",
+        "correct": false
+      }
+    ]
+  },
+  "mentalModel": {
+    "mentalModelName": "attribution_complexity",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/attribution_complexity.png",
+    "mentalModelImageDescription": "Imagine a spider web, each strand representing a different marketing channel (social media, email, search, etc.). The fly caught in the web represents a customer conversion. Attribution complexity arises when trying to determine which strand (channel) was most responsible for catching the fly, as it likely touched multiple strands before being caught.",
+    "mentalModelLinkText": "Attribution complexity shows how customers interact with many ads and touchpoints before buying. For SharkNinja, this makes it hard to pinpoint which specific social ad drove a sale, challenging efforts to prove their $700M ad spend works.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're baking a cake, and your mom, dad, and grandma all helped. Who gets the credit? It's hard to say because everyone played a part! That's attribution complexity – figuring out who did what in a big project.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Attribution complexity makes it difficult to pinpoint which marketing touchpoints are most responsible for conversions because customers interact with many channels before buying.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to SharkNinja's situation?",
+        "answer": "SharkNinja's customers are exposed to numerous social media ads, influencer campaigns, and website content before purchasing. Determining which specific touchpoints contributed most to the sale is challenging, leading to potential misallocation of advertising resources.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model highlights the need for SharkNinja to move beyond simplistic attribution models and explore more sophisticated techniques, such as multi-touch attribution or marketing mix modeling, to gain a more accurate understanding of its social media advertising effectiveness and inform strategic decisions.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "A common trap is **vanity metrics**: focusing on easily measured but ultimately meaningless data. For SharkNinja, this could mean celebrating social media \"likes\" while sales stagnate. The nuance here is that $700 million can buy a lot of attention, but attention doesn't guarantee revenue or long-term brand equity. _What's counterintuitive is that proving social ads \"work\" might require ignoring the most obvious metrics._ It's like judging a restaurant by its Instagram photos instead of its food.",
+  "keyQuestion": {
+    "keyQuestionRole": "You are SharkNinja's Head of Marketing Operations",
+    "keyQuestionText": "SharkNinja spends $700M on social ads. They aim to prove their social ads work. How would you define success for their overall marketing strategy?",
+    "hintText": "Consider how broad sales growth, customer acquisition, or market share changes would justify this massive investment.",
+    "shortKeyQuestionText": "How would you define success for their overall marketing strategy?",
+    "choices": [
+      {
+        "title": "Overall Net Sales Growth",
+        "text": "Total company sales growth sustained by social-first campaigns",
+        "followUpQuestion": "Sales growth looks key. Why is this the right metric to measure success for their social-first strategy?"
+      },
+      {
+        "title": "Customer Acquisition Cost",
+        "text": "Lower costs to acquire new customers through social channels",
+        "followUpQuestion": "Acquisition costs matter. Why is this the right metric to measure success for their social marketing?"
+      },
+      {
+        "title": "Market Share Increase",
+        "text": "Growing market share across product categories by social virality",
+        "followUpQuestion": "Market share seems critical. Why is this the right metric to measure success for their social approach?"
+      },
+      {
+        "title": "Return on Ad Spend",
+        "text": "Direct revenue generated per dollar spent on social advertising",
+        "followUpQuestion": "Return on ads looks important. Why is this the right metric to measure success for their social bet?"
+      }
+    ]
+  }
+}

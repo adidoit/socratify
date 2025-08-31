@@ -1,0 +1,161 @@
+{
+  "exerciseUuid": "68c9c4d5-cc8f-41ec-8887-197eaae14052",
+  "exerciseVersion": 4,
+  "exerciseType": "elevator_pitch",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding McDonald's challenge requires familiarity with concepts like brand perception, competitive positioning, and strategic trade-offs between corporate strategy and franchisee profitability, which are standard first-year business school topics.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing McDonald's efforts to restore value perception while managing franchisee tensions requires following fast-food industry trends and understanding competitive dynamics, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because the exercise involves recognizing basic brand positioning concepts and how customer perception of value influences purchasing decisions, which is observable through general news and market commentary.",
+    "fileName": "mcdonalds-value-elevator_pitch.xml",
+    "backgroundNeeded": "Remember that McDonald's is known for affordability but faces rising prices and customer anger, understand how franchisees' profitability is linked to corporate pricing strategies, and apply basic marketing and strategic thinking to propose a value-restoring pitch to a customer.",
+    "happyPath": "McDonald's finds itself at a critical juncture, needing to reaffirm its core identity as a value leader while navigating a complex internal dynamic with its franchisees and a challenging external economic environment. The tension between corporate's strategic imperative to regain market share through affordability and franchisees' operational concerns about profitability creates a classic business challenge. Successfully bridging this gap requires nuanced strategic communication and a deep understanding of stakeholder motivations. From a strategic perspective, McDonald's corporate recognizes that its brand strength is inextricably linked to its value perception. As CEO Chris Kempczinski stated, their \"relative superiority on affordability has declined,\" and U.S. President Joe Erlinger admitted they \"got offsides\" on prices. This isn't just about selling more burgers; it's about defending market share against competitors like Chick-fil-A and Shake Shack, and even against consumers opting to cook at home due to \"inflation fatigue.\" For corporate, the $5 meal deal and other value promotions are a necessary investment in long-term brand equity and customer loyalty, aiming to reverse the \"biggest drop in McDonald’s quarterly U.S. sales since 2020.\" However, franchisees, who own and operate 95% of U.S. locations, face a different reality. They have absorbed significant cost increases—40% for labor and 35% for goods since 2019—and have seen their profit margins decline. For them, deep discounts, sometimes 40-50% off a la carte prices, directly impact their bottom line. The National Owners Association's assertion, \"To provide the consumer with more affordable options, they must be affordable for the owner,\" highlights this fundamental conflict. They are not against value in principle, but require assurance that these deals will genuinely be \"moneymakers\" as claimed by McDonald's U.S. finance chief, Tom Dillon, who asserts the \"total check is still very profitable.\" This scenario underscores that strategic leadership in a franchised model is a \"delicate dance.\" It's not enough to have a sound strategy from a corporate perspective; it must also be viable and appealing to the independent operators who execute it daily. Successful communication, therefore, must balance the macro strategic imperative with micro-level financial realities. It means demonstrating not just that deals \"boost visits\" but that increased volume sufficiently offsets lower per-item margins, perhaps with corporate incentives like the nearly $5 million in marketing funds from Coca-Cola or direct reimbursements. Ultimately, solving this challenge isn't about one \"right\" answer, but about forging a sustainable partnership where corporate vision and franchisee viability are mutually reinforced, allowing McDonald's to truly \"step up\" in a tough environment.",
+    "faviconUrl": "https://www.mcdonalds.com/content/dam/sites/ca/nfl/icons/favicon-ca.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A red and yellow striped box sits open. The inside is lined with gold foil.  Grease stains the bottom.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/dollar-store-delivery-industry_trend-c779b909-c8b3-4874-8b35-cc4015400f55.png",
+    "coverPlainTitle": "McDonald's Recaptures Lost Loyal Customers",
+    "coverWittyTitle": "Can McDonald's Still Afford to be Affordable?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can McDonald's win back angry customers?",
+    "coverParagraph": "McDonald's prices are up, and customers are mad online. Can **McDonald's** **restore brand value**? ",
+    "tags": "Marketing,Product,Food & Beverage,Pricing",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Value Crisis",
+      "text": "McDonald's customers are angry over rising prices, hurting its value perception. To win them back, McDonald's offers deep discounts. But **franchisees fear eroding profits**. The company must restore customer value while **keeping store owners profitable**.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "McDonald's U.S. Same-Store Sales",
+        "subtitle": "Percentage, Q1 2025 YoY change",
+        "color": "#FFCC00",
+        "source": "[McDonald's Q1 2025 Earnings Release. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "percentage"
+        },
+        "data": {
+          "value": -3.6,
+          "change": -3.6,
+          "changeValue": -3.6,
+          "trend": "down",
+          "insight": "Sales decline reflects economic pressure on customers"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "“Our relative superiority on affordability has declined.”",
+        "source": "Chris Kempczinski, CEO, McDonald’s, Earnings call April 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine McDonald's is like your allowance. If things get too expensive, you might choose to eat at home. McDonald's wants to give discounts to get you back, but the people who own each McDonald's might lose money.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "McDonald's prices are too high. Discounts hurt owners.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's McDonald's biggest strategic challenge?",
+        "answer": "McDonald's needs to balance attracting price-sensitive customers with maintaining franchisee profitability. If discounts are too deep or poorly targeted, franchisees could resist participating, limiting the impact of the strategy.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are the business dynamics at play?",
+        "answer": "McDonald's corporate owns the brand and sets overall strategy, but franchisees operate individual locations and bear much of the cost of discounts. Disagreement over pricing strategy affects adoption and service quality.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are McDonald's Head of U.S. Marketing",
+    "keyQuestionText": "McDonald's faces angry customers over rising prices. They want to restore brand value perception. What's your pitch to a former loyal customer?",
+    "hintText": "Consider what specific deals or value propositions would help a frustrated customer feel McDonald's is affordable again.",
+    "shortKeyQuestionText": "What's your pitch to a former loyal customer?",
+    "choices": [
+      {
+        "title": "Real deal savings",
+        "text": "Highlight specific meal deals that offer significant discounts",
+        "followUpQuestion": "Real deal savings sounds effective. How would you expand on this argument to convince a former loyal customer McDonald's offers good value?"
+      },
+      {
+        "title": "Inflation context",
+        "text": "Explain that all food prices have risen, not just McDonald's",
+        "followUpQuestion": "Inflation context makes sense. How would you develop this case to convince a former loyal customer McDonald's offers good value?"
+      },
+      {
+        "title": "Expanded menu options",
+        "text": "New menu items provide more choices at lower price points",
+        "followUpQuestion": "Expanded menu options seem valuable. How would you make this case to convince a former loyal customer McDonald's offers good value?"
+      },
+      {
+        "title": "Total experience value",
+        "text": "Focus on speed, convenience, and consistent quality",
+        "followUpQuestion": "Total experience value looks important. How would you present this argument to convince a former loyal customer McDonald's offers good value?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "reference_price_memory",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/reference_price_memory.png",
+    "mentalModelImageDescription": "A person looking at a price tag with a \"was\" price crossed out and a lower \"now\" price highlighted. The crossed-out price acts as a memory anchor, making the current price seem like a better deal, even if it's still higher than before.",
+    "mentalModelLinkText": "Reference price memory shows how past prices shape customer expectations. Like McDonald's customers remembering items used to be cheaper, making today's deals feel less significant if they're still above those old, ingrained prices.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your favorite candy used to cost $1, but now it's $2. Even if it goes on sale for $1.50, you'll still remember when it was cheaper, making it seem like a bad deal!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Reference price memory: People judge current prices based on what they remember paying in the past, influencing their perception of value and deal satisfaction.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to McDonald's situation?",
+        "answer": "McDonald's long-time customers have a strong memory of what items *used* to cost. Current price increases are judged against this remembered reference point. Even discounts might feel inadequate if the discounted price is still significantly higher than what customers remember, impacting their perception of value.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "McDonald's needs to offer deep discounts to truly impact customers' perceived value. Minor price cuts won't be enough to overcome the negative feeling associated with rising prices. Consider offering items at prices *below* the customers' reference point to create a sense of exceptional value.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "The **endowment effect** says we value things more just because we own them. For McDonald's customers, that \"ownership\" is psychological – loyalty built over years of cheap, convenient meals. Now, as prices rise, they feel like something familiar is being taken away. The company's discounts are fighting against customers' inflated sense of what a McDonald's meal _should_ cost, making the value proposition a tough **perception battle**. It's not just about price; it's about violating an unspoken agreement, like a friend suddenly asking for rent money."
+}

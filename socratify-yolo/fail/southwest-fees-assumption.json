@@ -1,0 +1,173 @@
+{
+  "exerciseUuid": "b29c9712-cd33-4ee6-b2a1-41baec8c4aaa",
+  "exerciseVersion": 4,
+  "exerciseType": "assumption",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the assumptions behind Southwest's controversial policy changes requires familiarity with core business concepts like customer segmentation, brand loyalty, competitive advantage, and strategic trade-offs, which are typical for first-year business students.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the strategic pivot of Southwest Airlines requires understanding major industry trends (airline pricing, customer expectations) and competitive dynamics, which is characteristic of users who follow industry publications.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because evaluating how changes to core policies like \"Bags Fly Free\" impact customer loyalty and brand perception requires understanding marketing concepts related to brand equity and customer relationship management.",
+    "fileName": "southwest-fees-assumption.xml",
+    "backgroundNeeded": "Remember Southwest's unique policies like free checked bags and open seating, understand how strategic decisions can balance profitability with brand heritage and customer loyalty, and apply customer relationship concepts to analyze the assumptions behind changing long-standing perks.",
+    "happyPath": "Southwest Airlines finds itself at a critical strategic crossroads, grappling with the tension between its iconic, customer-centric heritage and the imperative for modern profitability. The decision to dismantle long-cherished policies like \"Bags Fly Free\" and open seating, despite significant customer backlash, represents a bold and potentially risky bet. CEO Bob Jordan's challenge is to justify these controversial changes, which are projected to yield $4 billion in additional profit, while preserving the \"LUV\" brand identity and addressing the concerns of disgruntled loyalists. This strategic pivot can be analyzed through several lenses. Firstly, from a market evolution and competitive parity perspective, Southwest is effectively \"catching up\" to an industry standard. Most major airlines have long adopted unbundled pricing and premium options, driving significant ancillary revenue. Southwest might be assuming that its unique benefits, while once differentiators, have become a competitive disadvantage in an evolving market where customers increasingly expect choice and are accustomed to paying for add-ons. The gamble here is that the overall market demand for air travel, combined with the familiarity of unbundled pricing across the industry, will mitigate customer churn. Customers may grumble, but ultimately, they may find little compelling reason to switch if the base fares remain competitive and other airlines offer similar unbundled models. Secondly, considering brand elasticity and customer value perception, Southwest is testing the true depth of its \"LUV\" brand. The historical emphasis on hospitality and customer service, embodied by figures like Herb Kelleher, might lead the company to assume that its core brand equity is strong enough to withstand policy changes. They are betting that customer loyalty is tied less to specific freebies and more to an overall positive travel experience, perceived reliability, and the foundational aspects of its culture (e.g., friendly staff, direct routes). The introduction of \"choice\" in fares (basic vs. flexible) suggests an assumption that a segment of customers *desires* to pay only for what they need, even if it means sacrificing previously free benefits. This implies a shift in customer segmentation or a belief that new, more profitable segments can be attracted or existing ones better monetized. Finally, an organizational adaptability perspective is crucial. Bob Jordan notes employees are \"excited about the changes\" because it reduces friction (e.g., policing open seating). This highlights an assumption about the workforce's readiness to embrace change and internalize the new operational model. Southwest likely believes its strong culture of problem-solving and efficiency can absorb these shifts without significant internal resistance, enabling smooth implementation. This internal buy-in is critical, as employees are the frontline deliverers of the \"LUV\" experience, and their ability to adapt to new processes while maintaining customer service is paramount. The company assumes that operational benefits and improved employee experience from structured boarding or reduced gate-checked bags will translate into overall better service delivery that outweighs the initial customer discontent. Southwest's strategic shift reveals a complex interplay of market forces, evolving customer expectations, and internal organizational dynamics. Their decision is predicated on a set of core assumptions: that the market values choice and unbundling, that their brand loyalty extends beyond specific freebies, and that their culture can adapt. The success of this move hinges on whether these assumptions hold true, demonstrating that strategic insight often lies in identifying and rigorously testing the unspoken beliefs underpinning major business decisions, rather than just reacting to immediate feedback.",
+    "faviconUrl": "https://www.southwest.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A dark blue airplane seat with a bright orange life vest underneath. The seat is fabric. The vest is plastic.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/southwest-fees-assumption-9abd5baa-9622-4568-917d-71bdc83e89d9.png",
+    "coverPlainTitle": "Southwest Bets Customers Won't Switch",
+    "coverWittyTitle": "Bags Fly Free? Not Anymore!",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Will customers still fly Southwest for less?",
+    "coverParagraph": "**Southwest** is **charging for bags**. Question what they're assuming about customer loyalty to make this controversial call.",
+    "tags": "Strategy,Operations,Airlines,Customer Relations",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "LUV vs Profit",
+      "text": "Southwest Airlines is famous for its **free checked bags** and open seating. An activist investor now pushes the airline to ditch these policies. This aims for $4 billion profit, but risks **decades of customer loyalty**.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Southwest Airlines Baggage Fee Revenue",
+        "subtitle": "USD millions, 2023-May 2025",
+        "color": "#0073CE",
+        "source": "[DOT/News, 2023. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2023-12-31",
+              "value": 73.0
+            },
+            {
+              "date": "2024-09-30",
+              "value": 62.0
+            },
+            {
+              "date": "2025-05-28",
+              "value": 1500.0
+            }
+          ],
+          "currentValue": 1500.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Post-Pandemic Pivot",
+      "text": "Southwest hemorrhages **$4 billion** as budget rebounds **300%** post-pandemic. The airline gambles chasing **premium seating** won't **defect** their core free bag loyalists.",
+      "zoomOutTextQuote": {
+        "text": "Customers today want a lot of choice, especially coming out of the pandemic. The customer’s needs and wants are just different.",
+        "source": "Bob Jordan, CEO, Southwest Airlines, Not Specified, Not Specified"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Southwest is like a pizza place known for free soda refills. Now, they want to charge for refills to make more money, but some customers might go to a different pizza place instead. Will the extra money be worth losing customers?",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Southwest considers charging for bags. Loyalty vs. profit.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How does Southwest balance short-term profits and brand loyalty?",
+        "answer": "Southwest must gauge if new revenue streams from fees outweigh potential damage to its value-focused brand. Losing loyal customers to competitors could offset any gains from added fees in the long run.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What execution challenges does Southwest face in changing its policies?",
+        "answer": "Southwest risks alienating its core customer base if new fees are implemented poorly or communicated badly. Successfully introducing fees requires careful messaging and phased rollout to avoid customer backlash.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Southwest's Head of Customer Relations",
+    "keyQuestionText": "Southwest is ditching free bags and open seating. They're making these controversial changes anyway, expecting $4 billion profit. What do they assume about their customers?",
+    "hintText": "Think about what customers must believe or want for these changes to succeed.",
+    "shortKeyQuestionText": "What do they assume about their customers?",
+    "choices": [
+      {
+        "title": "Customer demand for choice",
+        "text": "Customers value new options more than old free perks",
+        "followUpQuestion": "Value for choice matters. What would make customers actually prioritize new options over long-standing free perks?"
+      },
+      {
+        "title": "Unhappy few",
+        "text": "Only a small number of customers are truly upset",
+        "followUpQuestion": "Upset customers matter. What would make the upset group's churn not impact $4 billion in new profit?"
+      },
+      {
+        "title": "Other features matter more",
+        "text": "Customers care more about low fares than specific policies",
+        "followUpQuestion": "Low fares seem key. What would make customers prioritize overall low fares over individual policy changes?"
+      },
+      {
+        "title": "Competitors are similar",
+        "text": "Other airlines also charge fees, so customers won't switch",
+        "followUpQuestion": "Competitive similarity matters. What would prevent customers from switching to an airline with free bags?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "deprival_super-reaction_syndrome",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/deprival_super-reaction_syndrome.png",
+    "mentalModelImageDescription": "A child throws a dramatic tantrum after having a toy taken away, illustrating the intense emotional response to losing something that was previously possessed.",
+    "mentalModelLinkText": "Deprival super-reaction syndrome shows how losing a long-enjoyed benefit triggers extreme anger—like Southwest customers feeling genuinely wronged when free bags are taken away after decades of loyalty.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine someone promised you candy every day, and then suddenly stopped. You'd be REALLY mad, even if you didn't need the candy. It's because taking something away feels much worse than never having it at all!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Deprival super-reaction syndrome is an intense, often irrational negative reaction to the loss of something previously enjoyed or expected.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Southwest's situation?",
+        "answer": "Southwest customers who have enjoyed free bags for years will likely experience a disproportionately strong negative reaction to its removal. This reaction could manifest as boycotts, negative reviews, and a loss of loyalty, potentially outweighing the financial benefits of the policy change.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model highlights the potential for severe customer backlash. Southwest needs to anticipate and mitigate this reaction by providing compelling alternatives, communicating the changes transparently, and acknowledging the emotional impact on its loyal customer base.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes companies focus too much on current customers, forgetting about **market segmentation**. This is carving up your market into distinct groups with different needs. Southwest is betting they can grab high-value customers without losing their budget travelers. The nuance here is how much overlap exists between those segments. *It's easy to overestimate how many customers will trade loyalty for a slightly nicer seat.* Think of it as assuming everyone who flies coach secretly wants to fly first class."
+}

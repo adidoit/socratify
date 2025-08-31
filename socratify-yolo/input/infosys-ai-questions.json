@@ -1,0 +1,172 @@
+{
+  "exerciseUuid": "7e80365d-cd15-4d10-9e14-08afd1fc2729",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic implications of AI automation for a large IT services company requires familiarity with concepts like the innovator's dilemma, labor arbitrage, and workforce transformation, which are standard in first-year business education.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how AI automation impacts a company built on labor arbitrage requires understanding competitive dynamics in the IT services sector and the strategic challenges of technological disruption, typical of regular industry observers.",
+    "secondaryDomainName": "Operations",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the core of the exercise involves understanding the operational shift required for AI integration, workforce automation, and potential impacts on service delivery, necessitating knowledge of operational concepts and change management.",
+    "fileName": "infosys-ai-questions.xml",
+    "backgroundNeeded": "Remember that Infosys uses a large, cost-effective workforce for IT services and that AI can automate many tasks, understand the concept of the innovator's dilemma where companies must disrupt themselves to survive, and apply strategic thinking to identify the most critical first question for a CTO facing widespread automation.",
+    "happyPath": "Infosys stands at a critical juncture, facing an existential threat to its long-standing and highly successful labor arbitrage business model from the rapid advancements in Artificial Intelligence. This scenario perfectly encapsulates the \"Innovator's Dilemma,\" where a leading company must decide whether to disrupt its own profitable cash cow or risk being made obsolete by emerging technology and agile competitors. The stakes are monumental, impacting an $18 billion enterprise and a workforce exceeding 300,000 individuals. Strategically, Infosys must first consider the fundamental redefinition of its value proposition. For decades, its competitive edge stemmed from cost-effective human labor for services like coding and testing. AI, by automating these very tasks, directly attacks this cost advantage. The company needs to move beyond thinking of AI solely as a cost-cutting tool or a threat to its existing structure, and instead envision how AI can augment human capabilities to deliver higher-value, more complex, or innovative services. This involves identifying new customer pain points that a hybrid human-AI model can uniquely solve, shifting the focus from \"cheaper hands\" to \"smarter solutions\" and exploring how their deep client relationships can be leveraged in an AI-powered future. Secondly, the human capital dimension is paramount. Transitioning a workforce of 300,000 people, even if only 30-40% of their work is automated, presents an immense challenge. This isn't merely about re-skilling, but about a comprehensive workforce transformation, requiring significant investment in training, potential redeployment, and managing the psychological impact on employee morale and retention. Infosys must strategically assess which roles will truly be eliminated, which will be augmented, and what new roles will emerge, alongside developing a robust change management strategy to navigate this profound internal shift. A failure to manage this transition gracefully could jeopardize not only their internal operations but also their ability to deliver consistent service to clients. Finally, the competitive landscape demands urgent attention. While self-disruption is painful, the alternative — waiting to be disrupted — could be fatal. Infosys must realistically assess the speed and scale at which pure-play AI firms or other large IT service providers will integrate AI and offer more efficient, cost-effective services. This requires monitoring technological advancements, understanding competitor strategies, and making bold, timely investments in AI research, development, and integration. The decision isn't whether AI *will* change the game, but whether Infosys proactively shapes its role in that changed game, determining if it becomes a leader in AI-augmented services or a cautionary tale of disruption. In essence, navigating this challenge demands a holistic strategic perspective, one that balances the need for internal transformation with external competitive pressures. It highlights that true strategic insight comes not from finding a single \"right\" answer, but from rigorously exploring the interconnected financial, human, technological, and market implications of an unavoidable shift, ensuring all critical questions are asked before committing to a path that will redefine the company's future.",
+    "faviconUrl": "https://www.infosys.com/content/dam/infosys-web/en/global-resource/icons/apple-touch-icon.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "Modern office building with glass windows and steel beams in dark blue. Within the building, tiny human figures are being replaced by small, metallic silver robots.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/stripe-staying-private-data-e6ea32af-7999-4e9f-b5d5-8c1a1610ba6b.png",
+    "coverPlainTitle": "Infosys Questions AI Automation Urgency",
+    "coverWittyTitle": "Robot Revolution or Risky Rollout?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Should IT firms automate most jobs?",
+    "coverParagraph": "**Infosys** considers AI to **cut 30-40% human jobs**. As CTO, decide what question to ask first before automating.",
+    "tags": "Strategy,Operations,Tech,AI",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "AI Threat",
+      "text": "Infosys built its **$18 billion business** on a vast workforce of 300,000 people. Now, AI could automate 30-40% of their tasks. The company must decide: **transform its core model or lose its edge.**",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Infosys Revenue per Employee",
+        "subtitle": "USD, FY2024 vs TTM Q2 2025",
+        "color": "#0073e6",
+        "source": "[Infosys SEC Filing, 2025. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "FY2024",
+              "value": 53517.0,
+              "color": "#1f77b4"
+            },
+            {
+              "label": "TTM Q2 2025",
+              "value": 60276.0,
+              "color": "#ff7f0e"
+            }
+          ],
+          "changePercent": 12.59,
+          "changeValue": 6759.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "Part of what happens with generative AI is you get more productivity benefits, but a lot of what is happening is you have much larger areas of the enterprise where you can do work in generative AI.",
+        "source": "Salil Parekh, CEO, Infosys, CNBC-TV18 Interview (WEF Davos), 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a factory where robots can now do many jobs people used to do. Infosys has to decide if they want to use more robots, even if it means some people might lose their jobs, or stick with the way things are and risk falling behind.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Infosys faces job cuts from AI, must adapt or decline.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic dilemma for Infosys?",
+        "answer": "Infosys needs to balance short-term cost savings from AI automation with the risk of losing experienced employees and damaging company culture. Investing in retraining programs could help mitigate this risk and position Infosys as a leader in AI adoption.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How could AI impact Infosys' client relationships?",
+        "answer": "If Infosys uses AI to deliver services faster and cheaper, clients might demand lower prices, squeezing profit margins. Infosys could counter this by offering new AI-powered services that create more value for clients.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Infosys's CTO",
+    "keyQuestionText": "Infosys relies on a vast workforce for services. They're considering automating 30-40% of work with AI. As CTO, what question would you ask first?",
+    "hintText": "Consider what technical challenge or integration question is most critical for this massive operational shift.",
+    "shortKeyQuestionText": "As CTO, what question would you ask first?",
+    "choices": [
+      {
+        "title": "AI tool capabilities",
+        "text": "What specific AI tools can automate our core service offerings?",
+        "followUpQuestion": "AI tool capability is fundamental. Why is this the most critical question for Infosys's AI automation plan?"
+      },
+      {
+        "title": "Data security concerns",
+        "text": "What are the data security risks of moving client work to AI systems?",
+        "followUpQuestion": "Data security is always important. Why is this the most critical question for Infosys's AI automation plan?"
+      },
+      {
+        "title": "Integration complexity",
+        "text": "How complex will it be to integrate AI tools into our current systems?",
+        "followUpQuestion": "Integration complexity is a big hurdle. Why is this the most critical question for Infosys's AI automation plan?"
+      },
+      {
+        "title": "Scalability requirements",
+        "text": "Can our current tech infrastructure support large-scale AI deployment?",
+        "followUpQuestion": "Scalability is key for rollouts. Why is this the most critical question for Infosys's AI automation plan?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "automation_paradox",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/automation_paradox.png",
+    "mentalModelImageDescription": "A complex control panel in a nuclear plant where increased automation leads to fewer operators, but those remaining must understand the entire system deeply and react effectively to unexpected events, requiring higher expertise, not less.",
+    "mentalModelLinkText": "Automation paradox shows how automating 30-40% of Infosys tasks means remaining employees need deeper understanding of complex AI systems. This demands enhanced training to handle exceptions, potentially offsetting cost savings or creating new vulnerabilities for the business.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a robot that helps you clean your room. You still need to know where everything goes, or the robot will just mess it up! Automation doesn't remove the need for smart humans; it makes them more important.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The more you automate, the more crucial the remaining human expertise becomes for handling exceptions and understanding the overall system, not less.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Infosys's situation?",
+        "answer": "Infosys must recognize that automating tasks with AI will require retraining employees to manage AI systems, handle exceptions the AI can't, and understand complex interactions within the automated processes. Failing to invest in this expertise can lead to inefficiencies and system failures.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The automation paradox highlights the need for Infosys to invest in upskilling its workforce to manage and oversee AI systems. Neglecting this can lead to increased costs, system errors, and a loss of competitive advantage despite initial automation gains. Strategic training is essential.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Infosys faces a classic **make-or-buy decision**, whether to develop AI capabilities internally or acquire them. Given their scale, building might seem obvious. But the nuance here is **time to market**. Can Infosys develop AI fast enough to stay ahead, or will rivals leapfrog them by acquiring nimble startups? _What's fascinating is that the \"build\" option can feel safe but actually be the riskiest path to take._ It's like choosing to build your own car factory when Tesla already exists."
+}

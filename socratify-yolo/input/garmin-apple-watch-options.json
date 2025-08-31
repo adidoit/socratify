@@ -1,0 +1,179 @@
+{
+  "exerciseUuid": "5cd5b6df-fdc8-4188-b12d-c60d03b4cd84",
+  "exerciseVersion": 4,
+  "exerciseType": "options",
+  "status": "active",
+  "storyType": "Trends",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Garmin's strategic dilemma requires familiarity with concepts like market disruption, competitive advantage, and strategic pivots that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how Garmin should respond to Apple's entry requires following trends in the consumer electronics and fitness technology markets and understanding competitive dynamics.",
+    "secondaryDomainName": "Product",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding the threat requires recognizing the basic product strategies of both Garmin (specialized hardware) and Apple (mass-market smartwatches) and their market impacts.",
+    "fileName": "garmin-apple-watch-options",
+    "backgroundNeeded": "Remember that Garmin specializes in rugged GPS hardware for niche markets and Apple sells mass-market smartwatches, understand how specialized hardware and data services can create competitive advantages, and apply strategic thinking to evaluate how Garmin can adapt its business model against a powerful new competitor.",
+    "happyPath": "Not available",
+    "faviconUrl": "https://static.garmincdn.com/favicons/apple-touch-icon.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "Modern fitness tracker watch with a dark gray band and a rectangular screen displaying workout data. The casing has crimson accents where the strap meets the watch face and along the single button on the side.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/whoop-monetize-data-upside-b99eeee7-5bd0-4cb3-bdcb-1d1fca5bac1a.png",
+    "coverPlainTitle": "Garmin Weighs Fitness Market Options",
+    "coverWittyTitle": "Garmin's Apple-Sized Problem",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How should Garmin fight Apple's fitness push?",
+    "coverParagraph": "**Apple** is attacking **Garmin's** turf. As Garmin's strategist, explore their next move beyond hardware.",
+    "tags": "Strategy,Product,Health,Wearable Tech",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Niche Under Attack",
+      "text": "Apple now targets Garmin's core customers with its fitness smartwatches. Garmin built a business selling **specialized hardware** like GPS watches to serious athletes. They now face Apple, which sells **millions of smartwatches** to a broad market.",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "Garmin Revenue by Segment, 2024",
+        "subtitle": "USD millions, 2024",
+        "color": "#0071CE",
+        "source": "[Breaking Down Garmin Ltd., 2024. Socratify Analysis]",
+        "features": [
+          "vertical-bars"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "Fit",
+              "value": 1589.7
+            },
+            {
+              "label": "Out",
+              "value": 1737.4
+            },
+            {
+              "label": "Avia",
+              "value": 837.3
+            },
+            {
+              "label": "Mar",
+              "value": 1238.8
+            },
+            {
+              "label": "Auto",
+              "value": 336.7
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "Garmin... asserts that the industry has entered a \"Warring States Period,\" with intense competition among various players. However, Garmin maintains an advantage as a first-mover, leveraging its expertise in aviation GPS equipment.",
+        "source": "Meng-Yuan Lin, Garmin VP of Marketing and Business for Asia, DIGITIMES, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Garmin is a store that only sells shoes for runners. Now, Apple, a giant department store, also sells running shoes. Garmin has to convince runners their special shoes are still better.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Garmin's niche GPS watches face competition from Apple's mainstream smartwatches.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How can Garmin stay competitive?",
+        "answer": "Garmin can emphasize features Apple lacks, such as longer battery life or specialized data for specific sports. Building a community around its brand could also increase loyalty among serious athletes.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are Garmin's options for growth?",
+        "answer": "Garmin could expand beyond watches into related fitness products or services. They could also target new niche markets or license their GPS technology to other companies.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Garmin's Chief Strategy Officer",
+    "keyQuestionText": "Apple is entering Garmin's fitness market. Garmin relies on specialized hardware. What new approach should they explore?",
+    "hintText": "Think beyond hardware sales – what other ways could Garmin compete or add value.",
+    "shortKeyQuestionText": "What new approach should they explore?",
+    "choices": [
+      {
+        "title": "Data services focus",
+        "text": "Provide premium data analytics and training services",
+        "followUpQuestion": "Data services make sense. How would this alternative help Garmin stay competitive?"
+      },
+      {
+        "title": "Extreme niche gear",
+        "text": "Focus on ultra-specialized gear for niche sports",
+        "followUpQuestion": "Extreme niches seem smart. How would this alternative help Garmin stay competitive?"
+      },
+      {
+        "title": "Open platform tech",
+        "text": "Integrate third-party apps with Garmin devices",
+        "followUpQuestion": "Open platform is interesting. How would this alternative help Garmin stay competitive?"
+      },
+      {
+        "title": "B2B solutions",
+        "text": "Sell specialized tech to businesses and governments",
+        "followUpQuestion": "B2B partnerships look promising. How would this alternative help Garmin stay competitive?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "sustaining_innovation_trap",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/sustaining_innovation_trap.png",
+    "mentalModelImageDescription": "A mousetrap baited with cheese, with the cheese representing the existing market. A company (the mouse) is drawn to the familiar and profitable market but risks being trapped by focusing solely on sustaining innovations and neglecting disruptive threats.",
+    "mentalModelLinkText": "Sustaining innovation trap shows how refining existing products can make companies vulnerable. Like Garmin focusing on specialized hardware while Apple's broader smartwatch disrupts the market, potentially leaving Garmin behind.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a candy store that only sells one kind of candy, but keeps making it slightly better each year. Then a new store opens selling all kinds of candy! People go to the new store, even if their old favorite is a little better, because it has more choices. The first store got trapped focusing on making the same thing better instead of trying new things.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The sustaining innovation trap is when a company focuses solely on improving existing products for existing customers, neglecting disruptive innovations that could threaten their market position.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Garmin's situation?",
+        "answer": "Garmin is focusing on improving its specialized fitness hardware, catering to its existing customer base. However, Apple is disrupting the market with a more versatile smartwatch that appeals to a broader audience. Garmin is at risk of being trapped if they continue to solely focus on sustaining innovation and neglect the disruptive potential of Apple's product.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model highlights the danger of complacency. Garmin needs to proactively explore disruptive strategies, such as expanding into data services or niche markets, to avoid being overtaken by Apple. Remaining solely focused on improving existing hardware may not be enough to maintain competitiveness.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Companies often fall victim to **status quo bias** -- sticking with what works, even when the world changes. Garmin excels at specialized GPS hardware, targeting serious athletes. The nuance here is that Apple is attacking Garmin's market while Garmin stays focused on high-end features. This focus on sustaining innovations may be a **strategic blindspot** as the broader smartwatch market grows. *Garmin might be optimizing for a game that Apple is rewriting the rules for.* It's like perfecting the horse-drawn carriage as cars take over."
+}

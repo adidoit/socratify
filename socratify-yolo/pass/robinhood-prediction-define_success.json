@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "6bdab7bb-94c3-4f4c-9342-f576da64b6e3",
+  "exerciseVersion": 4,
+  "exerciseType": "define_success",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding how to define success for Robinhood's new venture requires familiarity with concepts like revenue streams, user engagement, brand identity, and regulatory implications, which are standard first-year business school topics.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Robinhood's strategic pivot into prediction markets requires understanding industry trends in fintech and online platforms, and the competitive dynamics of new revenue streams, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding the brand identity and trust concerns for Robinhood requires recognizing basic marketing concepts related to brand perception and customer base alignment.",
+    "fileName": "robinhood-prediction-define_success.xml",
+    "backgroundNeeded": "Remember that Robinhood offers zero-commission stock trading and is expanding into prediction markets with Kalshi, understand how new revenue streams can impact a company's core identity and user trust, and apply strategic thinking to balance financial growth with brand integrity and regulatory considerations.",
+    "happyPath": "Robinhood's foray into prediction markets presents a fascinating challenge in defining success, as the company navigates the tension between financial imperatives, brand integrity, and regulatory oversight. This move, driven by slowing growth, forces a strategic re-evaluation of what \"winning\" truly means for a platform built on the promise of \"democratizing finance.\" Success here is not a singular metric but a delicate balancing act of competing objectives.One lens to consider is financial and user growth. On the surface, success might be defined by measurable revenue generated from transaction fees in the prediction markets, a significant increase in active users engaging with these new features, or a positive impact on Robinhood's overall daily active users and average revenue per user (ARPU). This aligns with the immediate business objective of finding new revenue streams. However, simply maximizing these metrics without considering broader implications risks undermining the company's long-term viability and reputation.Another crucial dimension is brand and trust management. Robinhood's success hinges on whether it can introduce prediction markets without eroding the trust it built with its \"less experienced user base\" and maintaining its identity distinct from pure gambling platforms. Defining success here involves monitoring public sentiment, user surveys reflecting brand perception, and ensuring high retention rates for its traditional stock trading platform. The \"health food store adding a candy aisle\" analogy highlights the risk of confusing the brand's promise; success would mean navigating this without widespread perception of a fundamental shift away from its core mission.Furthermore, regulatory compliance and risk mitigation are paramount. With regulators reportedly watching closely, success for Robinhood's prediction market venture would entail a lack of formal legal actions, fines, or regulatory penalties. Proactive and constructive engagement with key regulatory agencies, maintaining all necessary operating licenses, and minimizing user complaints related to the speculative nature of the markets would be critical indicators of success in this high-stakes environment. This aspect defines success as the effective management of downside risk and maintaining regulatory legitimacy.Ultimately, defining success for Robinhood's prediction markets requires synthesizing these perspectives. It's about achieving sustainable growth in this new vertical while simultaneously preserving the company's brand identity, deepening user trust, ensuring responsible user engagement, and satisfying regulatory bodies. True success would not be merely a spike in revenue, but the evolution of Robinhood's mission to encompass these new offerings without alienating its core user base or facing significant regulatory backlash, thereby demonstrating that strategic insight comes from balancing multiple, often competing, definitions of \"winning.\"",
+    "faviconUrl": "https://robinhood.com/us/en/rh_favicon_32.png?v=2024"
+  },
+  "coverElements": {
+    "coverImageDescription": "A smartphone screen split in half. The left side shows a green stock chart rising. The right shows a blue chart with lines indicating possible outcomes. All charts are on a dark gray background.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/nomura_investment_banking-4b09b6b9-2557-4703-9e9a-9f861443238c.png",
+    "coverPlainTitle": "Robinhood's Bet: Measure Prediction Market Success",
+    "coverWittyTitle": "Predicting Profits for Robinhood?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How should Robinhood measure its new markets' success?",
+    "coverParagraph": "**Robinhood** is trying prediction markets to boost revenue. **Find out** which metrics show if this new product works.",
+    "tags": "Strategy,Product,Finance,Trading",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Growth Gamble",
+      "text": "Robinhood faces slowing growth in its stock trading business. The zero-commission broker now offers prediction markets with Kalshi, letting users **bet on global events** instead of stocks. This blurs investing and gambling, raising **regulatory scrutiny and user trust** concerns.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Funded Investment Accounts",
+        "subtitle": "Millions of accounts, Q1 2024",
+        "color": "#1DA1F2",
+        "source": "Robinhood Markets Q1 2024. Socratify Analysis",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "count",
+          "currencyCode": null
+        },
+        "data": {
+          "value": 24400000.0,
+          "change": 0.0,
+          "changeValue": 0.0,
+          "trend": "flat",
+          "insight": "24.4M accounts, stable vs prior quarter"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Mission Risk",
+      "text": "Robinhood needs **betting revenue** but risks becoming **a casino** instead of a democratized investing platform.",
+      "zoomOutTextQuote": {
+        "text": "We believe event contracts give people a tool to engage in real-time decision-making, unlocking a new asset class that democratizes access to events as they unfold.",
+        "source": "Vladimir Tenev, CEO, Robinhood, Company Press Release, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Robinhood is like a store that only sold healthy food. Now, they're selling candy too to make more money, but some people worry it's not as good for you. Will people still trust the store?",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Robinhood adds event betting, blurring the line between investing and gambling, and risking its reputation.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for Robinhood?",
+        "answer": "Robinhood risks alienating its core user base by offering products that may be perceived as gambling. This could damage their brand as an investment platform and invite increased regulatory oversight.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How does Robinhood balance growth and trust?",
+        "answer": "Robinhood must carefully market prediction markets to avoid misleading users and ensure transparency around the risks involved. Failure could result in backlash, eroding user confidence and regulatory penalties.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Robinhood's Head of Business Operations",
+    "keyQuestionText": "Robinhood faces slowing growth and wants new revenue. They're adding prediction markets with Kalshi. How would you define success for this new revenue stream?",
+    "hintText": "Consider what direct financial metrics like revenue, user activity, or profitability would show this new product is working.",
+    "shortKeyQuestionText": "How would you define success for this new revenue stream?",
+    "choices": [
+      {
+        "title": "Revenue from markets",
+        "text": "Increased transaction fees from prediction market trades",
+        "followUpQuestion": "Transaction fees look key. Why is this the right metric to measure success for Robinhood's new prediction markets?"
+      },
+      {
+        "title": "New market users",
+        "text": "High number of active users trading in prediction markets",
+        "followUpQuestion": "New market users seem critical. Why is this the right metric to measure success for Robinhood's new venture?"
+      },
+      {
+        "title": "Total app activity",
+        "text": "Increased daily active users across the entire Robinhood app",
+        "followUpQuestion": "Total app activity matters. Why is this the right metric to measure success for Robinhood's new offering?"
+      },
+      {
+        "title": "Prediction market profit",
+        "text": "Prediction markets achieve profitability faster than other new products",
+        "followUpQuestion": "Profitability looks important. Why is this the right metric to measure success for Robinhood's prediction markets?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "moral_hazard_creation",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/moral_hazard_creation.png",
+    "mentalModelImageDescription": "A reckless driver speeds down a rain-slicked road, seemingly unconcerned about the danger because they know their insurance will cover any accidents. This illustrates how protection from consequences leads to riskier behavior, creating a moral hazard.",
+    "mentalModelLinkText": "Moral hazard shows how protection from loss can lead to riskier behavior. Robinhood's prediction markets, with capped losses, might tempt users into more speculative bets, blurring investing and gambling.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you have a superhero suit that makes you invincible. You might start doing dangerous stunts you'd never try without it. Moral hazard is like that suit – protection makes people take bigger risks.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Moral hazard arises when protection from risk encourages riskier behavior because the consequences are borne by someone else.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Robinhood's situation?",
+        "answer": "Robinhood's prediction markets, with their capped losses, might incentivize users to place bets without fully understanding the underlying risks. If users feel shielded from substantial losses, they may trade more frequently and recklessly.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals that Robinhood needs to implement safeguards to discourage reckless trading. This may involve user education about the risks involved, or features that prevent users from making excessive bets.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes new ventures cannibalize existing businesses. It's called **market cannibalization**: when a company's new product steals sales from its older, established ones. For Robinhood, prediction markets could lure users away from traditional stock trading. The nuance here is that betting revenue might come at the expense of investment revenue, especially if users perceive them as substitutes. *Robinhood must ensure the new revenue stream enhances rather than diminishes its core value proposition.* It’s like a coffee shop adding a burger menu – potentially more revenue, but is that what customers really want from them?"
+}

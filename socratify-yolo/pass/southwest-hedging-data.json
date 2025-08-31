@@ -1,0 +1,173 @@
+{
+  "exerciseUuid": "433d614e-510f-4378-b340-8633deb74ff9",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Southwest's strategic shift away from fuel hedging requires familiarity with concepts like risk management, operational costs, and competitive advantage that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the implications of ending fuel hedging requires following airline industry trends and understanding how competitive dynamics are affected by operational cost management, typical of regular industry observers.",
+    "secondaryDomainName": "Finance",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic concepts of financial risk management (like hedging) and how changes in market conditions impact company costs, from following general business news.",
+    "fileName": "southwest-hedging-data.xml",
+    "backgroundNeeded": "Remember that airlines use fuel hedging for price protection and Southwest has stopped this program, understand how direct exposure to volatile fuel prices impacts operational costs and profitability for an airline, and apply this knowledge to identify what market data is needed to manage this new risk effectively.",
+    "happyPath": "Southwest Airlines' decision to abandon its long-standing fuel hedging program marks a pivotal moment for the low-cost carrier, exposing it directly to the notoriously volatile global energy markets. This move, driven by a decade of underperforming hedges costing $157 million annually, fundamentally reshapes Southwest's risk profile and demands a sophisticated, multi-faceted approach to maintaining profitability and its signature low-cost advantage. It's a high-stakes gamble that requires rigorous strategic foresight. The immediate consequence of ending hedging is a direct link between market fuel prices and Southwest's operating costs, necessitating agile internal responses. The airline must now master real-time operational efficiencies, scrutinizing every aspect of its fleet's fuel consumption, from precise flight routing and air traffic control negotiations to optimizing maintenance schedules and even pilot behaviors. Data on specific fuel burn rates per aircraft type and flight segment becomes paramount, enabling pinpoint adjustments that can collectively mitigate significant cost fluctuations. This internal optimization represents the first line of defense against volatility, shifting from financial insulation to operational mastery. Beyond internal operations, Southwest must acutely monitor the competitive landscape. While Southwest previously gained an edge through superior hedging, other airlines might still employ various risk management strategies. Understanding competitors' fuel hedging positions, their operational fuel efficiencies, and their dynamic pricing responses to fuel cost changes is crucial. If rivals maintain hedges that prove beneficial, or if they possess a more modern, fuel-efficient fleet, Southwest could face pressure on its low-cost positioning. Conversely, if competitors are also struggling with fuel costs or have less efficient operations, Southwest might find opportunities to leverage its direct exposure through agile pricing, potentially passing on savings to customers quickly when fuel prices drop. Finally, this strategic shift away from traditional hedging could be viewed as a long-term bet on the evolution of energy markets, particularly sustainable aviation fuels (SAFs). By accepting current volatility, Southwest might be signaling a readiness to invest in or transition towards alternative energy sources more aggressively. This requires deep data on SAF production scalability, cost trajectories, and the regulatory environment, as well as advancements in electric or hydrogen-powered aircraft. Such foresight could position Southwest not just to manage today's volatility, but to fundamentally alter its cost structure and environmental footprint for decades to come, moving from a reactive hedging stance to a proactive energy diversification strategy. Southwest's pivot from fuel hedging is not merely a cost-cutting measure; it's a profound strategic recalibration. Navigating this new reality demands a holistic view that integrates real-time internal operational adjustments, granular competitive intelligence, and a forward-looking perspective on the nascent sustainable aviation fuel market. Successful execution requires dynamic data utilization across these dimensions, demonstrating that true strategic resilience comes from adaptive planning and multi-lens analysis, rather than relying on a single financial instrument.",
+    "faviconUrl": "https://www.southwest.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A bright blue airplane wing cuts across the frame. The metal surface reflects the sky. Small red and orange details are visible.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/boeing_boeing_747_model-d29654d4-7cf1-4a1d-acdd-cead8ce0f5e5.png",
+    "coverPlainTitle": "Southwest Gambles on Fuel Data Needs",
+    "coverWittyTitle": "No Hedging, Just Data?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "What fuel data does Southwest Airlines actually need?",
+    "coverParagraph": "**Southwest** stopped hedging fuel costs. Now prices hit them directly. **Find out** what data can help them fly smoothly through volatile markets.",
+    "tags": "Finance,Energy,Airlines,Risk Management",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Fuel Gamble",
+      "text": "Southwest Airlines stopped its fuel hedging program because it cost them $157 million annually. Now they face **volatile fuel prices** and must find new ways to manage the **unpredictable daily swings** in the market.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Southwest Airlines Fuel and Oil Expense",
+        "subtitle": "USD millions, 2022-2024",
+        "color": "#1f77b4",
+        "source": "[Southwest Airlines 2024 Form 10-K, 2024. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2022-12-31",
+              "value": 5975.0
+            },
+            {
+              "date": "2023-12-31",
+              "value": 6217.0
+            },
+            {
+              "date": "2024-12-31",
+              "value": 5812.0
+            }
+          ],
+          "currentValue": 5812.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Quit The Game",
+      "text": "Southwest Airlines **quit 50 years of fuel hedging** after **losing $157 million** last year. Now they gamble completely unprotected against future price spikes.",
+      "zoomOutTextQuote": {
+        "text": "Southwest has determined that, due to the changing nature of energy markets and a shifting corporate strategy, fuel hedging is no longer worth the amount of investment that the carrier puts into it.",
+        "source": "Simple Flying, Analyst Commentary, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you drive a car, and gas prices change every day. Southwest used to buy gas in advance at a set price, but now they stopped. It's like they're hoping gas prices stay low, but if they go up, they'll have to pay more.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Southwest stops fuel hedging; now exposed to price spikes.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's Southwest's strategic risk?",
+        "answer": "Southwest risks higher operating costs if fuel prices rise, potentially reducing profits and increasing fares. Competitors with hedging programs could gain a cost advantage and offer lower prices during periods of high fuel costs.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How will Southwest manage fuel costs?",
+        "answer": "Without hedging, Southwest might use other tactics, such as more fuel-efficient planes or adjusting flight schedules to reduce fuel consumption. They could also try to pass increased costs to customers through higher ticket prices, risking lower demand.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Southwest Airlines' Chief Data Officer",
+    "keyQuestionText": "Southwest Airlines stopped its fuel hedging program. They want to manage volatile fuel costs effectively. What data do you think they need about global fuel markets?",
+    "hintText": "Think about what market information could help Southwest navigate direct fuel price exposure.",
+    "shortKeyQuestionText": "What data do you think they need about global fuel markets?",
+    "choices": [
+      {
+        "title": "Real-time market data",
+        "text": "Current spot prices for crude oil and refined jet fuel",
+        "followUpQuestion": "Spot prices are key. How would knowing global fuel prices help manage their direct exposure?"
+      },
+      {
+        "title": "Futures market structure",
+        "text": "Liquidity and trading volumes of jet fuel futures contracts",
+        "followUpQuestion": "Futures structure is important. Why would this information help understand market stability?"
+      },
+      {
+        "title": "Geopolitical events",
+        "text": "Political instability and conflicts impacting global oil supply",
+        "followUpQuestion": "Geopolitics matters. How would this data help anticipate supply shocks and price changes?"
+      },
+      {
+        "title": "Historical volatility",
+        "text": "Detailed historical data on fuel price volatility and extreme swings",
+        "followUpQuestion": "Historical patterns are useful. Why would knowing past price swings help Southwest manage future risk?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "volatility_drag",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/volatility_drag.png",
+    "mentalModelImageDescription": "Imagine a sailboat trying to cross a choppy lake. With each gust of wind, it veers off course, losing forward momentum. High volatility in fuel prices acts like these unpredictable gusts, slowing Southwest's progress towards profitability and making it harder to reach their financial destination.",
+    "mentalModelLinkText": "Volatility drag shows how constant, unpredictable price swings erode returns—like Southwest Airlines now facing daily fuel fluctuations that can force them to buy high and sell low, reducing overall profitability.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine pushing a swing. If you push smoothly, it goes higher. But if you push randomly, sometimes forward, sometimes backward, it won't go as high. That's volatility drag - random changes slow you down!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Volatility drag means that frequent, large price swings reduce the overall return or efficiency of an investment or strategy.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Southwest's situation?",
+        "answer": "Southwest's fuel costs are now directly exposed to market turbulence. These price fluctuations reduce their ability to budget and forecast accurately, leading to less efficient fuel purchasing and increased operational risk.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals that even if fuel prices average out over time, the daily volatility will still damage profitability. Southwest needs new strategies to minimize the drag caused by these fluctuations, such as strategic fuel reserves or rapid response pricing adjustments.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "A key strategic challenge is **information asymmetry**, where one party has more or better data than another. Southwest, without hedging, is now betting against sophisticated fuel traders who live and breathe market data. The nuance here is that their exposure isn't just to price swings, but to being systematically outmaneuvered. *What nobody talks about is how much profit comes not from predicting the future, but from simply knowing more than the other guy.* Southwest needs an edge beyond gut instinct."
+}

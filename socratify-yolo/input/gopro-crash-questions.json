@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "28ea5764-f2bf-4f41-98fc-f95dfd0bbe58",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the critical operational questions for a supply chain shift requires familiarity with concepts like operational efficiency, cost implications, and logistics that first-year business students learn.",
+    "primaryDomainName": "Operations",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because evaluating the consequences of moving manufacturing requires understanding operational processes, cost structures, and logistical challenges, typical of those who follow industry operations.",
+    "secondaryDomainName": "Strategy",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the decision to shift manufacturing is a strategic one that requires understanding the company's overall financial distress and competitive landscape, reflecting knowledge of strategic trade-offs.",
+    "fileName": "gopro-crash-questions.xml",
+    "backgroundNeeded": "Remember that GoPro is facing financial distress and tariff pressures from China, understand how manufacturing shifts impact costs and efficiency, and apply critical thinking to identify the most crucial initial question a COO would ask regarding supply chain relocation.",
+    "happyPath": "GoPro, a pioneer in action cameras, finds itself at a critical inflection point, striving for a dramatic comeback after a near-100% stock price crash from its peak. Facing a market where consumers don't frequently upgrade cameras and past diversification attempts (like Karma drones) failed, the company is attempting a multi-pronged turnaround. This involves aggressive cost-cutting, a strategic shift towards professional-grade products, and a renewed focus on its subscription business, all amidst a backdrop of decelerating sales and significant financial losses. The core challenge is reinventing its value proposition while achieving sustainable profitability. One key strategic lens is Product-Market Re-orientation. GoPro traditionally targeted the mass consumer, but the article highlights a shift with the Max Two 360 camera, explicitly targeting \"professional content creators and event photographers.\" This is a crucial pivot from a \"one-product company\" trap. Instead of chasing broad consumer upgrades, GoPro is trying to find a high-ARPU niche where specialized features (like 360-degree content) create compelling value. The challenge lies in deeply understanding the unique workflows and unmet needs of this professional segment, which differ significantly from casual users, to ensure true product-market fit and avoid the pitfalls of past diversification failures. Another critical dimension is Balancing Financial Discipline with Future Innovation. GoPro's \"masterclass in operational discipline,\" evidenced by a 26% reduction in OpEx and a narrowed EBITDA loss, is vital for short-term survival and reaching profitability by 2025. However, sustainable growth in a tech industry requires continuous innovation. The strategic tension lies in ensuring these deep cost cuts do not stifle the very R&D and market investment necessary to develop genuinely \"game-changing\" products like the Max Two, or to effectively scale its subscription ecosystem. The emphasis on \"systemic changes\" rather than one-off gains is encouraging, but the long-term impact on R&D capacity and talent retention will be critical to watch. Finally, the Evolution of the Subscription Business Model presents a nuanced strategic puzzle. Despite a slight dip in total subscribers, ARPU rose, signaling effective monetization of its existing base. This implies a strategy of extracting more value from engaged users rather than solely focusing on subscriber count. The potential for \"premium subscribers\" to generate $100+ ARPU could be a steady profit engine. The strategic question here is how to balance the acquisition of new, potentially lower-ARPU subscribers with maximizing value from the current, engaged base. Understanding churn drivers and leveraging data to optimize feature development for these high-value users will be paramount for scaling this revenue stream. GoPro's turnaround narrative reveals a complex interplay of strategic choices. Its success hinges on successfully executing a high-stakes pivot to a professional product niche, maintaining rigorous financial discipline without sacrificing innovation, and expertly growing its subscription business by focusing on value and retention. This multi-dimensional approach highlights that strategic thinking in challenging environments requires not just identifying problems but crafting integrated solutions that address market shifts, financial realities, and evolving customer behaviors simultaneously.",
+    "faviconUrl": "https://gopro.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Compact action camera with a ruggedized dark grey exterior, featuring a prominent wide-angle lens encircled by a raised bezel in vibrant, bold blue and the warm glow of fresh sunflower petals.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/gopro-crash-questions-285e6970-3766-4157-89ad-24f8b3cc71a4.png",
+    "coverPlainTitle": "GoPro Questions Supply Chain Move",
+    "coverWittyTitle": "GoPro's Borderline Decision?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "What risks come with moving factories?",
+    "coverParagraph": "**GoPro** **moved factories** to dodge tariffs. As COO, decide what question to ask first.",
+    "tags": "Operations,Strategy,Consumer,Supply Chain",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Supply Chain Shift",
+      "text": "GoPro's China-made cameras face high tariffs, increasing prices and compounding its **deep financial distress**. GoPro is therefore shifting all manufacturing to **Vietnam and Mexico** to reduce costs and alleviate financial pressure.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "GoPro Revenue, 2024",
+        "subtitle": "USD millions, Annual",
+        "color": "#0072CE",
+        "source": "[GoPro Announces Fourth Quarter and 2024 Results, 2025. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "value": 801000000.0,
+          "change": -30.17,
+          "changeValue": -345000000.0,
+          "trend": "down",
+          "insight": "Revenue declined sharply since 2021 peak"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "These savings are not one-off gains but the result of systemic changes, including supply chain diversification and workforce optimization.",
+        "source": "Brian McGee, CFO, GoPro"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine GoPro is like a toy store that makes its toys in China. But the government is now charging them extra for those toys, making them expensive. So, GoPro is moving its toy factories to Vietnam and Mexico where it's cheaper to make them.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "GoPro avoids tariffs by moving production from China to Vietnam and Mexico amid financial struggles.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How does moving factories help GoPro?",
+        "answer": "Moving production helps GoPro strategically by lowering costs and dodging tariffs, potentially improving profit margins. This move makes GoPro less reliant on China, reducing supply chain risks and increasing flexibility.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Are there risks with moving factories?",
+        "answer": "Moving factories is difficult because GoPro needs to find new workers, ensure quality, and manage logistics across borders. These challenges risk production delays, higher initial costs, and potential quality issues that impact camera sales.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are GoPro's COO",
+    "keyQuestionText": "GoPro moved manufacturing from China for tariffs. They're considering full production shifts. As COO, what question would you ask first?",
+    "hintText": "Consider what operational risks or efficiency questions are most critical for this major supply chain shift.",
+    "shortKeyQuestionText": "What question about the supply chain shift?",
+    "choices": [
+      {
+        "title": "Operational efficiency",
+        "text": "How will efficiency and quality be maintained in new sites?",
+        "followUpQuestion": "Operational efficiency makes sense. Why is this the right question for the supply chain shift?"
+      },
+      {
+        "title": "Long-term cost implications",
+        "text": "What are the true long-term costs of manufacturing in new places?",
+        "followUpQuestion": "Long-term costs are critical. Why is this the right question for the supply chain shift?"
+      },
+      {
+        "title": "New logistics complexity",
+        "text": "How will new logistics routes affect delivery times and costs?",
+        "followUpQuestion": "Logistics complexity matters. Why is this the right question for the supply chain shift?"
+      },
+      {
+        "title": "New geopolitical risks",
+        "text": "What are the geopolitical risks in Vietnam and Mexico?",
+        "followUpQuestion": "Geopolitical risks are important. Why is this the right question for the supply chain shift?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "bullwhip_effect",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/bullwhip_effect.png",
+    "mentalModelImageDescription": "Imagine a whip. A small flick of the wrist at the handle creates a larger, more violent wave at the tip. Similarly, small fluctuations in consumer demand can amplify into massive swings in inventory and production as you move up the supply chain. This effect worsens with multiple tiers.",
+    "mentalModelLinkText": "GoPro's shift could trigger the bullwhip effect. Moving production introduces new suppliers and longer lead times. Small changes in demand forecasts could amplify into large production swings in Vietnam and Mexico, leading to excess inventory or stockouts.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're playing telephone. The first person whispers a small message, but by the time it reaches the last person, the message is totally different and much bigger! That's the bullwhip effect – small changes get amplified as they move along.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The bullwhip effect is when small changes in customer demand cause bigger and bigger swings in inventory and production as you move further up the supply chain.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to GoPro's situation?",
+        "answer": "GoPro's new supply chain in Vietnam and Mexico has more links compared to when they were solely manufacturing in China. Any small change to customer demand will be amplified as it moves up the supply chain and create inventory issues as manufacturing is ramped up and down to try to meet demand.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "GoPro needs to closely monitor demand signals and improve communication with its new manufacturers. They should expect variability. Improving forecasting and coordinating production will be crucial to minimize the bullwhip's impact and avoid costly inventory imbalances or delays.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Companies often chase lower costs without considering **total cost of ownership**. Tariffs pushed **GoPro** to Vietnam and Mexico, but distance, logistics, and quality control can erode those initial savings. The nuance here is that while tariffs are a visible cost, supply chain complexity introduces hidden expenses. _What's counterintuitive is that chasing lower prices can sometimes make the final product more expensive overall._ It's like saving on ingredients but ruining the entire dish."
+}

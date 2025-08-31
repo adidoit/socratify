@@ -1,0 +1,373 @@
+{
+  "total_existing": 4732,
+  "total_checked": 1044,
+  "total_missing": 158,
+  "categories": {
+    "US Fortune 500 Missing": {
+      "total": 49,
+      "missing": 0,
+      "companies": []
+    },
+    "US Tech Unicorns": {
+      "total": 74,
+      "missing": 15,
+      "companies": [
+        "Anduril Industries",
+        "Samsara",
+        "Toast",
+        "Verkada",
+        "Amplitude",
+        "Hopin",
+        "Ironclad",
+        "Mural",
+        "Podium",
+        "Sentry",
+        "Shield AI",
+        "Sourcegraph",
+        "Tekion",
+        "TripActions",
+        "Verkada"
+      ]
+    },
+    "US Regional Banks & Credit Unions": {
+      "total": 35,
+      "missing": 2,
+      "companies": [
+        "PacWest Bancorp",
+        "UMB Financial"
+      ]
+    },
+    "US Retail Chains": {
+      "total": 29,
+      "missing": 11,
+      "companies": [
+        "Menards",
+        "Fleet Farm",
+        "H-E-B",
+        "WinCo Foods",
+        "Hy-Vee",
+        "Big Lots",
+        "Boscov's",
+        "Von Maur",
+        "Dillard's",
+        "Belk",
+        "Stage Stores"
+      ]
+    },
+    "Canadian Companies": {
+      "total": 23,
+      "missing": 6,
+      "companies": [
+        "Alimentation Couche-Tard",
+        "Arc'teryx",
+        "Aritzia",
+        "Second Cup",
+        "New York Fries",
+        "Booster Juice"
+      ]
+    },
+    "European Industrial Giants": {
+      "total": 30,
+      "missing": 9,
+      "companies": [
+        "Voestalpine",
+        "Outokumpu",
+        "SSAB",
+        "Constellium",
+        "Novelis",
+        "Vicat",
+        "Wienerberger",
+        "Imerys",
+        "Rockwool"
+      ]
+    },
+    "European Banks": {
+      "total": 30,
+      "missing": 6,
+      "companies": [
+        "Cr\u00e9dit Agricole",
+        "Cr\u00e9dit Mutuel",
+        "La Banque Postale",
+        "DZ Bank",
+        "Banco Santander",
+        "Belfius"
+      ]
+    },
+    "European Retailers": {
+      "total": 29,
+      "missing": 7,
+      "companies": [
+        "M\u00fcller",
+        "E.Leclerc",
+        "Intermarch\u00e9",
+        "Syst\u00e8me U",
+        "Decathlon",
+        "Leroy Merlin",
+        "Fnac Darty"
+      ]
+    },
+    "Chinese Tech Giants": {
+      "total": 35,
+      "missing": 7,
+      "companies": [
+        "Kuaishou",
+        "iQIYI",
+        "Youku",
+        "Douyin",
+        "Alipay",
+        "Oppo",
+        "Geely"
+      ]
+    },
+    "Japanese Conglomerates": {
+      "total": 33,
+      "missing": 8,
+      "companies": [
+        "IHI Corporation",
+        "Oki Electric",
+        "Konica Minolta",
+        "Olympus",
+        "Yokohama Rubber",
+        "TOTO",
+        "LIXIL",
+        "YKK"
+      ]
+    },
+    "Korean Chaebols": {
+      "total": 29,
+      "missing": 3,
+      "companies": [
+        "Hanjin Group",
+        "Kolon Industries",
+        "Taekwang Group"
+      ]
+    },
+    "Indian Conglomerates": {
+      "total": 25,
+      "missing": 5,
+      "companies": [
+        "Aditya Birla Group",
+        "Piramal Group",
+        "Hinduja Group",
+        "RPG Group",
+        "Raymond Group"
+      ]
+    },
+    "Southeast Asian Giants": {
+      "total": 31,
+      "missing": 1,
+      "companies": [
+        "DFI Retail Group"
+      ]
+    },
+    "Australian Companies": {
+      "total": 28,
+      "missing": 6,
+      "companies": [
+        "ANZ Bank",
+        "QBE Insurance",
+        "Wesfarmers",
+        "JB Hi-Fi",
+        "TPG Telecom",
+        "Mirvac"
+      ]
+    },
+    "Mexican Companies": {
+      "total": 24,
+      "missing": 4,
+      "companies": [
+        "Palacio de Hierro",
+        "Sanborns",
+        "7-Eleven M\u00e9xico",
+        "Chedraui"
+      ]
+    },
+    "Brazilian Companies": {
+      "total": 30,
+      "missing": 7,
+      "companies": [
+        "Minerva Foods",
+        "CSN",
+        "Suzano",
+        "Cosan",
+        "O Botic\u00e1rio",
+        "Assa\u00ed",
+        "DPSP"
+      ]
+    },
+    "Other Latin American": {
+      "total": 20,
+      "missing": 1,
+      "companies": [
+        "Adecoagro"
+      ]
+    },
+    "Middle Eastern Companies": {
+      "total": 34,
+      "missing": 4,
+      "companies": [
+        "Ma'aden",
+        "SAFCO",
+        "Panda Retail",
+        "Masraf Al Rayan"
+      ]
+    },
+    "African Companies": {
+      "total": 38,
+      "missing": 3,
+      "companies": [
+        "Nedbank",
+        "Dis-Chem",
+        "Sibanye-Stillwater"
+      ]
+    },
+    "Global Shipping Lines": {
+      "total": 20,
+      "missing": 5,
+      "companies": [
+        "Matson",
+        "OOCL",
+        "NYK Line",
+        "K Line",
+        "Safmarine"
+      ]
+    },
+    "Global Logistics": {
+      "total": 20,
+      "missing": 5,
+      "companies": [
+        "TNT",
+        "C.H. Robinson",
+        "Bollor\u00e9 Logistics",
+        "Yusen Logistics",
+        "Kerry Logistics"
+      ]
+    },
+    "Global Law Firms": {
+      "total": 25,
+      "missing": 2,
+      "companies": [
+        "Latham & Watkins",
+        "Cravath"
+      ]
+    },
+    "Global Accounting Firms": {
+      "total": 20,
+      "missing": 3,
+      "companies": [
+        "MGI Worldwide",
+        "Allinial Global",
+        "BKR International"
+      ]
+    },
+    "Private Equity Mega Funds": {
+      "total": 20,
+      "missing": 1,
+      "companies": [
+        "Apax Partners"
+      ]
+    },
+    "Sovereign Wealth Funds": {
+      "total": 23,
+      "missing": 4,
+      "companies": [
+        "PIF Saudi Arabia",
+        "CalPERS",
+        "CalSTRS",
+        "OMERS"
+      ]
+    },
+    "Global Hotel Chains": {
+      "total": 25,
+      "missing": 8,
+      "companies": [
+        "Jin Jiang",
+        "Huazhu",
+        "RedDoorz",
+        "Meli\u00e1 Hotels",
+        "Barcel\u00f3",
+        "Iberostar",
+        "RIU Hotels",
+        "Shangri-La"
+      ]
+    },
+    "Global Airlines": {
+      "total": 45,
+      "missing": 2,
+      "companies": [
+        "Aerom\u00e9xico",
+        "EgyptAir"
+      ]
+    },
+    "Streaming & Digital Media": {
+      "total": 30,
+      "missing": 1,
+      "companies": [
+        "fuboTV"
+      ]
+    },
+    "Gaming Companies": {
+      "total": 30,
+      "missing": 1,
+      "companies": [
+        "Garena"
+      ]
+    },
+    "Cryptocurrency Exchanges": {
+      "total": 25,
+      "missing": 4,
+      "companies": [
+        "Bittrex",
+        "Poloniex",
+        "BitMEX",
+        "Deribit"
+      ]
+    },
+    "Electric Vehicle Companies": {
+      "total": 25,
+      "missing": 6,
+      "companies": [
+        "Canoo",
+        "Lordstown Motors",
+        "Arrival",
+        "Proterra",
+        "Geely",
+        "Polestar"
+      ]
+    },
+    "Space Companies": {
+      "total": 25,
+      "missing": 6,
+      "companies": [
+        "ABL Space Systems",
+        "Momentus",
+        "Orbit Fab",
+        "OHB",
+        "AVIO",
+        "ArianeGroup"
+      ]
+    },
+    "Renewable Energy Companies": {
+      "total": 25,
+      "missing": 2,
+      "companies": [
+        "Ionity",
+        "Fastned"
+      ]
+    },
+    "Biotech & Pharma": {
+      "total": 30,
+      "missing": 0,
+      "companies": []
+    },
+    "Food & Beverage Giants": {
+      "total": 30,
+      "missing": 3,
+      "companies": [
+        "ConAgra",
+        "Campbell Soup",
+        "J.M. Smucker"
+      ]
+    }
+  }
+}

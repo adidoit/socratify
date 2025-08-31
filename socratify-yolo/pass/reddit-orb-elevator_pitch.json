@@ -1,0 +1,161 @@
+{
+  "exerciseUuid": "72c9451c-7e6b-49c6-b859-732e2ca3e616",
+  "exerciseVersion": 4,
+  "exerciseType": "elevator_pitch",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic implications of World ID for Reddit requires familiarity with concepts like user anonymity, combating bots, regulatory compliance, and future-proofing a platform that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Reddit's decision to adopt World ID requires understanding current internet trends (AI content, age verification laws) and how new technologies can impact platform strategy, typical of regular industry observers.",
+    "secondaryDomainName": "Product",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because pitching World ID involves understanding its product features (iris scan, privacy preservation) and how they can solve Reddit's specific product challenges (bots, age verification).",
+    "fileName": "reddit-orb-elevator_pitch.xml",
+    "backgroundNeeded": "Remember that Reddit is known for user anonymity and faces AI content issues and age verification laws, understand how World ID uses iris scans to prove human identity while preserving privacy, and apply these concepts to consider how this technology could benefit Reddit's strategic goals.",
+    "happyPath": "Reddit stands at a critical juncture, navigating the escalating challenges posed by artificial intelligence and increasing regulatory demands for online age verification. The core dilemma for the platform is how to implement robust identity verification without compromising the deep-seated user value of anonymity. Considering World ID, a biometric system, represents not just a potential technological adoption but a fundamental strategic choice that could redefine Reddit's future and its relationship with its vast, privacy-conscious community. One strategic lens through which to view this scenario is the emerging imperative of \"proof of humanity\" in the digital age. As AI agents increasingly populate the internet, platforms like Reddit will find it essential to distinguish authentic human interactions from automated content to maintain trust and community integrity. World ID offers a unique solution by verifying unique individuals without storing personally identifiable information, directly addressing Reddit’s need to combat bots and misinformation while respecting user privacy. This positions World ID as a critical infrastructural component for the evolving \"agentic web,\" ensuring human presence remains verifiable amidst a sea of AI. A second crucial perspective involves understanding World ID's privacy-preserving design as a trust mechanism. The article highlights how the Orb scans an iris, creates an encrypted representation, fragments it, and stores it across secret global servers, with the unique World ID then residing on the user's local smartphone. This highly decentralized and non-reconstructible process aims to mitigate the very \"trust\" issues commonly associated with biometric data collection. By not storing personal information and giving users control over their unique ID, World ID attempts to build \"trustless\" trust, which could be a powerful differentiator in convincing privacy-advocacy groups and a skeptical user base that this futuristic technology is, paradoxically, designed for enhanced privacy rather than intrusion. Finally, considering the broader ecosystem dynamics and potential for market influence is paramount. While World ID offers a compelling solution, concerns raised in the \"Room for Disagreement\" section about Sam Altman's potential power if the Orb becomes core internet infrastructure are valid. Reddit's adoption of World ID would lend significant credibility and scale to the technology, potentially accelerating its path to becoming a de facto standard. Strategic thinking here must weigh the benefits of early adoption and gaining a competitive edge in human verification against the risks of centralizing internet identity control and fostering a winner-take-all market, emphasizing that interoperability and a multi-solution approach might be more beneficial for the long-term health of the internet. Reddit's decision on World ID is more than a simple vendor selection; it's a strategic move to define its role in an AI-transformed internet. By carefully weighing the imperative for human verification, the innovative privacy architecture of World ID, and the broader implications for internet infrastructure and power dynamics, Reddit can navigate this complex landscape. This scenario underscores that sophisticated strategic thinking requires a multi-dimensional approach, blending immediate operational needs with foresight into long-term technological and societal shifts to make informed, impactful decisions.",
+    "faviconUrl": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "Perfect metallic sphere the size of a grapefruit, smooth reflective surface like liquid mercury, standing on a simple cylindrical base in brushed aluminum",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/machine_enlarging_objects-13bbedfb-4d85-44cf-9509-335326c2c2ce.png",
+    "coverPlainTitle": "Reddit Pushes Eye-Scanning Tech",
+    "coverWittyTitle": "Anonymous Humans Only",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Should forums verify real users?",
+    "coverParagraph": "**Reddit** wants to scan eyes to prove **users are human** without breaking anonymity. Learn how to pitch this to the CEO.",
+    "tags": "Strategy,Product,Media,Social Platforms",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Identity Crisis",
+      "text": "Reddit's platform is flooded with fake AI content. New laws now demand **user verification**. Reddit is considering World ID's iris-scanning technology to prove human identity while preserving **anonymity**.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Reddit Daily Active Users",
+        "subtitle": "Count, Q4 2024 vs Q4 2023",
+        "color": "#FF4500",
+        "source": "[Reddit Q4 and Full Year 2024 Results, 2025. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "value": 101700000.0,
+          "change": 39.0,
+          "changeValue": 28500000.0,
+          "trend": "up",
+          "insight": "Strong user growth amid verification challenges"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Bot Battle",
+      "text": "Reddit faces pressure to verify **users are real** due to AI bots. New laws also push it to verify age. But Reddit wants to preserve **user anonymity**.",
+      "zoomOutTextQuote": {
+        "text": "We will do our best to preserve both the humanness and anonymity of Reddit.",
+        "source": "Steve Huffman, Reddit co-founder and CEO"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Reddit is a park, and some people are pretending to be real people using robot costumes. To keep the park safe and real, Reddit wants to check everyone's ID without knowing their name, like showing your face to prove you're not a robot.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Reddit needs to prove users are human, but wants to keep them anonymous.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What is the strategic risk for Reddit here?",
+        "answer": "Reddit risks alienating users who value anonymity if verification is too intrusive. But, failing to verify users could lead to a decline in real user engagement and advertiser trust.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Why is finding a balance so difficult?",
+        "answer": "Balancing verification and anonymity requires tricky technology. Reddit must verify humanness and age without collecting personal data that could be hacked or misused.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Reddit's Head of Product",
+    "keyQuestionText": "Reddit struggles with AI content and age laws. They want to verify users as human and of a certain age. How would you pitch World ID to CEO Steve Huffman?",
+    "hintText": "Think about what core Reddit values or strategic advantages World ID offers that would appeal to the CEO.",
+    "shortKeyQuestionText": "How would you pitch World ID to CEO Steve Huffman?",
+    "choices": [
+      {
+        "title": "Combating bad actors",
+        "text": "World ID stops bots and coordinated disinformation campaigns",
+        "followUpQuestion": "Combating bad actors sounds critical. How would you expand on this argument to convince Huffman about World ID for Reddit?"
+      },
+      {
+        "title": "Ensuring compliance",
+        "text": "It meets new age verification laws without collecting user data",
+        "followUpQuestion": "Ensuring compliance looks important. How would you develop this argument to convince Huffman about World ID for Reddit?"
+      },
+      {
+        "title": "Protecting user anonymity",
+        "text": "It verifies humans uniquely while strictly preserving privacy",
+        "followUpQuestion": "Protecting user anonymity seems key. How would you make this case to convince Huffman about World ID for Reddit?"
+      },
+      {
+        "title": "Future-proofing platform",
+        "text": "Prepares Reddit for an internet dominated by AI agents",
+        "followUpQuestion": "Future-proofing platforms makes sense. How would you present this argument to convince Huffman about World ID for Reddit?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "information_asymmetry",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/information_asymmetry.png",
+    "mentalModelImageDescription": "Imagine a used car salesman who knows all the hidden problems of a car, while the buyer is clueless. The seller has the upper hand due to unequal information. This imbalance leads to unfair transactions and distrust.",
+    "mentalModelLinkText": "Information asymmetry shows how one side knows more, creating distrust. On Reddit, users struggle to tell bots from humans. World ID reduces this by giving users a verifiable signal of humanness, building trust.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're trading Pokemon cards, but one kid knows secrets about all the cards and you don't. They can trick you! Information asymmetry means one person has way more knowledge, so things aren't fair.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Information asymmetry is when one party in a transaction or interaction has more information than another, leading to potential exploitation and distrust.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Reddit's situation?",
+        "answer": "On Reddit, the platform has better data on bot activity than individual users. World ID can reduce this asymmetry by providing users with a trusted signal about whether an account is human, leveling the playing field.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model highlights the importance of transparency and verification. By reducing information asymmetry, Reddit can foster a more trustworthy environment, reduce bot influence, and improve user experience.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Reddit's facing a classic **principal-agent problem**. Users (agents) act in ways Reddit (the principal) can't fully control or even observe thanks to anonymity. Reddit wants to keep users happy, but also crack down on bots and comply with laws. The nuance here is that verifying identity without sacrificing anonymity requires a delicate balance. *What's counterintuitive is that adding more \"oversight\" could actually drive away the very users Reddit relies on.* It's like trying to herd cats—too much control, and they scatter."
+}

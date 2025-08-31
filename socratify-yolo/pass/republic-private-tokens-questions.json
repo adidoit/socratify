@@ -1,0 +1,172 @@
+{
+  "exerciseUuid": "0abea520-6219-4aae-b672-6c4d828f7c35",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Republic's challenge requires familiarity with concepts like investor trust, regulatory uncertainty, and value proposition communication that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Republic's approach to building investor trust in a novel, legally untested market requires following fintech and blockchain industry trends, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the core question focuses on building investor trust and communicating value without traditional metrics, requiring an understanding of marketing communication strategies and customer psychology in novel financial products.",
+    "fileName": "republic-private-tokens-questions.xml",
+    "backgroundNeeded": "Remember that Republic offers tokens mirroring private shares like SpaceX without financials or ownership, understand how companies build investor trust when traditional transparency is absent, and apply product strategy thinking to determine what questions are most critical for gaining customer confidence.",
+    "happyPath": "Republic's bold move to democratize access to private companies like SpaceX via blockchain tokens is a potentially transformative strategic play. This initiative, while groundbreaking for retail investors, inherently navigates a complex and largely uncharted regulatory and legal landscape. For Republic, the critical challenge isn't just launching the product, but understanding and proactively addressing the myriad questions that arise from operating in this nascent intersection of fintech, private equity, and blockchain. One crucial analytical thread revolves around regulatory and legal foresight. Republic’s CEO expresses confidence in the tokens’ legality, but the history of Binance’s token failures serves as a stark warning. Key questions here involve not just the current interpretation of the JOBS Act's Regulation Crowdfunding exemption, but anticipating how the SEC or other global regulators might evolve their stance as this market scales. Proactive inquiry would involve modeling different regulatory outcomes – from clear approval to outright bans – and understanding the specific triggers for increased scrutiny, such as market size or public interest. This requires asking: \"What are the specific thresholds or market behaviors that could trigger immediate regulatory intervention, and how do we prepare contingency plans?\" A second lens focuses on stakeholder management and trust. Republic claims it doesn't need permission from companies like SpaceX, yet lawyers question potential opposition. This highlights the need for questions around proactive engagement and risk mitigation: \"How do we build a relationship with target companies to mitigate legal challenges or reputational damage from their potential opposition, even if not legally required?\" Simultaneously, the product offers exposure without traditional ownership or access to financials, raising vital questions about investor confidence. The strategic inquiry should be: \"Given the lack of transparency and traditional ownership, what ongoing communication and educational strategies are essential to maintain retail investor trust and manage expectations, particularly regarding liquidity and exit scenarios?\" This addresses the fundamental value proposition and potential for investor disillusionment. Finally, market evolution and competitive positioning demand attention. If successful, Republic's model could fundamentally disrupt the IPO pipeline, impacting traditional finance players. This requires asking: \"What are the second-order effects of democratizing private market access on capital formation and the roles of VCs, private equity, and investment banks, and how can Republic strategically leverage or respond to these shifts?\" Additionally, the \"arms race\" for synthetic private exposure means asking: \"What unique, sustainable competitive advantages can Republic cultivate beyond mere 'access' to ensure long-term differentiation and avoid becoming a commoditized platform?\" Successfully navigating Republic's pioneering venture requires more than just legal acumen; it demands multi-dimensional strategic questioning. By systematically probing regulatory pathways, anticipating stakeholder reactions, and envisioning long-term market shifts, Republic can move beyond simply launching a novel product to building a sustainable and trusted platform that genuinely reshapes financial markets. This approach ensures that potential pitfalls are identified and addressed proactively, transforming unknowns into strategic opportunities and fostering a more robust, resilient business.",
+    "faviconUrl": "https://republic.com/_next-public/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A round, dark blue glass paperweight sits on a flat wooden desk. The paperweight is about the size of a baseball and reflects light. The desk is pale wood, with a smooth, matte finish.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/muji_simple_products-5453c80b-85be-4585-8036-97ff26a6817d.png",
+    "coverPlainTitle": "Republic Gambles on Trust with Private Tokens",
+    "coverWittyTitle": "Token Gesture of Trust?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How can Republic build trust without financials?",
+    "coverParagraph": "**Republic** sells tokens without ownership. **Decide** what to ask about earning investor trust in this new market.",
+    "tags": "Finance,Product,Investing,Alternatives",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Private Tokens",
+      "text": "Retail investors cannot buy private company shares directly, missing out on **high-growth startups**. Republic sells blockchain tokens that mirror these companies without offering financial data or traditional ownership, so **investor trust** is essential.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Minimum Investment: Traditional vs Republic Tokens",
+        "subtitle": "USD, investment thresholds",
+        "color": "#0047AB",
+        "source": "[Republic via Business Wire, 2025. Socratify Analysis]",
+        "features": [
+          "changeValue",
+          "changePercent"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "Traditional Private Equity",
+              "value": 10000.0,
+              "color": "#FF5733"
+            },
+            {
+              "label": "Republic Mirror Tokens",
+              "value": 50.0,
+              "color": "#33C3FF"
+            }
+          ],
+          "changePercent": -99.5,
+          "changeValue": -9950.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Mirror Market",
+      "text": "Republic **insists** no **zero permission** needed for $6B SpaceX mirror tokens, SpaceX **rebuts** these mirrors violate rules exposing possible SEC probe.",
+      "zoomOutTextQuote": {
+        "text": "Nguyen said Republic won’t need permission from the companies whose tokens it is selling because the tokens represent securities sold by Republic.",
+        "source": "Kendrick Nguyen, CEO of Republic, Wall Street Journal"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a store selling toy cars that look like real race cars. Republic sells tokens that act like shares of private companies, but without the actual ownership. It's like selling a picture of a pizza, not the pizza itself, which can make people wonder if it's okay.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Republic sells company-mirroring tokens. SpaceX says \"no way.\" SEC eyes possible violations.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What are the broader market implications?",
+        "answer": "If the SEC rules against Republic, it could stifle innovation in tokenized assets and limit retail investor access to private markets. Conversely, a victory could legitimize mirror tokens, but also increase regulatory scrutiny of token offerings.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How does Republic defend its token sales?",
+        "answer": "Republic claims it doesn't need company permission because the tokens represent securities sold *by* Republic, not direct ownership of the underlying company. However, SpaceX's rebuttal highlights the risk that companies may challenge this interpretation in court.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Republic's Head of Product",
+    "keyQuestionText": "Republic sells tokens without financials or ownership. They want to build long-term investor trust. As Head of Product, what question would you ask about investor trust?",
+    "hintText": "Consider what customer experience or transparency question would ensure confidence in this novel product.",
+    "shortKeyQuestionText": "What question would you ask about investor trust?",
+    "choices": [
+      {
+        "title": "Transparency levels",
+        "text": "What level of company information can we realistically provide?",
+        "followUpQuestion": "Transparency levels are key. Why is this the right question for building investor trust?"
+      },
+      {
+        "title": "Value proposition",
+        "text": "How do we clearly communicate the value of exposure without ownership?",
+        "followUpQuestion": "Value proposition matters. Why is this the right question for building investor trust?"
+      },
+      {
+        "title": "Exit liquidity",
+        "text": "How will token buyers exit their investment if no IPO occurs?",
+        "followUpQuestion": "Exit liquidity is important. Why is this the right question for building investor trust?"
+      },
+      {
+        "title": "Investor education",
+        "text": "What education do investors need to understand these unique risks?",
+        "followUpQuestion": "Investor education is vital. Why is this the right question for building investor trust?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "market_information_asymmetry",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/market_information_asymmetry.png",
+    "mentalModelImageDescription": "Two people facing each other across a table. One person has a clear view of a screen displaying stock data, while the other person's view is blocked. The person with the data has a confident smile, while the other looks confused and anxious.",
+    "mentalModelLinkText": "Market information asymmetry shows how one party has more data than others in a market—like Republic knowing more about the private companies it mirrors than retail token investors, affecting trust.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine trading toys, but one kid knows all the secret codes that unlock special features, while the other doesn't. That's information asymmetry - one person has a big advantage!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Market information asymmetry is when some participants in a market have significantly more relevant information than others, giving them an unfair advantage.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Republic's situation?",
+        "answer": "Republic, as the creator and seller of these tokens, knows details of the underlying assets, private companies, and its legal agreements that retail investors cannot know. This gap impacts pricing and trust.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Republic must actively address this asymmetry by providing credible information or risk alienating its investor base. Third-party audits and disclosure could solve this.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "In markets, **signaling theory** explains how firms convey quality to customers when information is scarce. Think Rolex watches, expensive not just for materials, but to signal status. For Republic, building investor trust is everything, especially with limited financial data available for its private token offerings. The nuance here is deciding what actions best signal **long-term commitment** and alignment. _Republic can't just say \"trust us\"—they need actions that speak louder than words._ It's like a handshake versus years of reliable service."
+}

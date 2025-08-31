@@ -1,0 +1,178 @@
+{
+  "exerciseUuid": "b131e83a-42aa-4eaa-b098-943fcd718c56",
+  "exerciseVersion": 4,
+  "exerciseType": "elevator_pitch",
+  "status": "active",
+  "storyType": "Trends",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Zara's strategic dilemma requires familiarity with concepts like business model reconciliation, market dominance, environmental costs, consumer pressure, and strategic trade-offs that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how Zara should approach sustainability requires following fashion industry trends, understanding competitive dynamics, and grasping the impact of consumer and regulatory pressures.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic consumer awareness regarding environmental issues and how this can influence purchasing decisions or brand perception.",
+    "fileName": "zara-sustainability-elevator_pitch.xml",
+    "backgroundNeeded": "Remember that Zara's success is built on rapid style turnover and its environmental impact, understand how consumer awareness and regulation pressure businesses to adopt sustainable practices, and apply strategic thinking to identify how sustainability can be framed as a growth driver, risk mitigator, innovation catalyst, or cost saver for the CEO.",
+    "happyPath": "Not available",
+    "faviconUrl": "https://www.zara.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Dark green fabric swatch resembling woven forest canopy, contrasted by light beige thread echoing sandy shores. The interwoven pattern gives a textural feel.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/kering_bottega_veneta-5072e9ea-3be0-40e5-9b53-734b68ab3671.png",
+    "coverPlainTitle": "Zara Pitches Greener Future",
+    "coverWittyTitle": "Zara: Sustainable or Bust?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can fashion be fast and sustainable?",
+    "coverParagraph": "**Zara** needs to **pitch sustainability** to their CEO. Can you make the case for long-term growth?",
+    "tags": "Strategy,Marketing,Retail,Sustainability",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Green Dilemma",
+      "text": "Zara's fast fashion model churns out hundreds of new styles weekly. This rapid pace generates **massive environmental waste**. Now, Zara faces pressure to make its operations sustainable while protecting its **market dominance**.",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "Inditex Environmental Impact 2023",
+        "subtitle": "Tonnes and m³, 2023",
+        "color": "#1f77b4",
+        "source": "[Green Digest Impact, 2023 data. Socratify Analysis]",
+        "features": [
+          "vertical-bars"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "Items",
+              "value": 450000000.0
+            },
+            {
+              "label": "Weight",
+              "value": 620000.0
+            },
+            {
+              "label": "CO2",
+              "value": 17000000.0
+            },
+            {
+              "label": "Water",
+              "value": 1800000.0
+            },
+            {
+              "label": "Waste",
+              "value": 21000.0
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "We are working on the different stages of our value chain with a holistic focus... advancing toward a circular economy model that permits lengthening the life cycle of our products.",
+        "source": "Zara Sustainability Team, Zara Website Statement, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Zara is like a candy store that makes lots of new treats every week. But all the wrappers create a huge pile of trash. Now, they need to find a way to make less trash while still selling lots of candy.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Zara makes tons of clothes, creating massive waste. It now needs to clean up its act without losing its fast fashion edge.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How does sustainability affect Zara's market position?",
+        "answer": "If Zara doesn't embrace sustainability, it risks losing customers to more eco-conscious brands. But if it focuses too much on being green, it might lose its appeal to shoppers who love cheap, trendy clothes. ",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are Zara's biggest hurdles to becoming sustainable?",
+        "answer": "Switching to sustainable materials and recycling old clothes costs more money, which could raise prices. Also, Zara needs to convince customers to recycle and change their fast-fashion buying habits.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Zara's Head of Strategy",
+    "keyQuestionText": "Zara's fast fashion model faces a heavy environmental burden. They want to ensure future growth. How would you pitch addressing environmental impact to Zara's CEO?",
+    "hintText": "Think about what strategic benefits or market opportunities would compel Zara's CEO to prioritize environmental impact.",
+    "shortKeyQuestionText": "Pitch addressing environmental impact to Zara's CEO.",
+    "choices": [
+      {
+        "title": "Future growth driver",
+        "text": "Sustainability unlocks new markets and customer segments",
+        "followUpQuestion": "Growth potential sounds compelling. How would you expand on this argument to convince Zara's CEO to prioritize environmental impact?"
+      },
+      {
+        "title": "Risk mitigation",
+        "text": "Reduces regulatory fines and reputational damage",
+        "followUpQuestion": "Risk mitigation makes sense. How would you develop this argument to convince Zara's CEO to address environmental impact?"
+      },
+      {
+        "title": "Innovation catalyst",
+        "text": "Spurs new material and production process innovation",
+        "followUpQuestion": "Innovation catalyst looks key. How would you make this case to convince Zara's CEO to embrace environmental efforts?"
+      },
+      {
+        "title": "Cost savings",
+        "text": "More efficient resource use lowers long-term operational costs",
+        "followUpQuestion": "Cost savings seems valuable. How would you present this argument to convince Zara's CEO to invest in environmental impact solutions?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "collective_action_problem",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/collective_action_problem.png",
+    "mentalModelImageDescription": "A group of people trying to push a stalled car. If everyone contributes, the car moves easily. If some slack off, the burden falls on others. Without cooperation, the car doesn't move. This illustrates the collective action problem where individual incentives hinder group goals.",
+    "mentalModelLinkText": "Collective action problems show how companies hesitate to invest in shared benefits if competitors don't, fearing individual cost. Like Zara improving sustainability alone while rivals continue polluting, risking market share unless the whole industry cooperates.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a group of friends wants to build a treehouse. If everyone helps, it's easy. But if some kids just watch, it's much harder, and they might not finish! That's the collective action problem - it's hard to get everyone to work together for a common goal.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The collective action problem is a situation in which multiple individuals would all benefit from a certain action, but has an associated cost making it implausible that any individual can or will undertake and solve it alone.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Zara's situation?",
+        "answer": "Reducing environmental impact is costly. If Zara invests heavily in sustainability while competitors don't, Zara's prices might increase, making them less competitive. The whole industry benefits from sustainability, but each individual player has little incentive to lead the charge.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model suggests that Zara needs to advocate for industry-wide standards and regulations to ensure a level playing field. Collaborative efforts with competitors, suppliers, and policymakers are crucial to overcome the collective action problem and drive meaningful change.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Companies often face the challenge of **externalities** - costs they don't directly pay for, like pollution. Because Zara isn't fully charged for its environmental impact, it can produce clothing cheaply, even if it creates waste. The nuance here is that sustainability becomes a **public good** - everyone benefits, but no one company wants to shoulder the cost alone. _What nobody talks about is that sometimes doing the \"right thing\" can hurt your bottom line unless everyone else does it too._ It's like volunteering to clean up the park while everyone else has a picnic."
+}

@@ -1,0 +1,173 @@
+{
+  "exerciseUuid": "196feb90-9f0e-4ae3-827f-55071ad10621",
+  "exerciseVersion": 4,
+  "exerciseType": "trade_off",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the trade-offs of Airbnb's brand expansion requires familiarity with concepts like brand dilution, market segmentation, and strategic positioning, which are covered in first-year business studies.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Airbnb's move into competing with platforms like Tripadvisor requires understanding industry trends in travel services and how brand identity impacts competitive strategy, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because evaluating the impact on Airbnb's core identity and customer loyalty requires understanding how brand perception and niche appeal are managed, reflecting knowledge gained from following marketing trends.",
+    "fileName": "airbnb-experiences-trade_off.xml",
+    "backgroundNeeded": "Remember that Airbnb began with peer-to-peer lodging and local experiences, understand how broadening offerings to luxury services can dilute a core brand identity and potentially alienate niche customer segments, and apply strategic thinking to evaluate when such trade-offs are justified for market expansion.",
+    "happyPath": "Not available",
+    "faviconUrl": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-76x76-3b313d93b1b5823293524b9764352ac9.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "Cozy apartment interior with soft ambient lighting in hues reminiscent of a twilight sky over the ocean and the pale luminescence of beach sand. A small vase holds flowers with sunset-toned petals and verdant stems, sitting on a wooden table.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/aman-lifestyle-industry_trend-db218c88-0efe-41f5-a005-67068cd08e7a.png",
+    "coverPlainTitle": "Airbnb Chooses Luxury over Locals",
+    "coverWittyTitle": "From Hostels to High Roller?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Should Airbnb chase luxury travelers?",
+    "coverParagraph": "**Airbnb** adds chefs, yachts, and **loses its local focus**. Decide when to risk brand identity for wider appeal as the Chief Brand Officer.",
+    "tags": "Strategy,Marketing,Consumer,Brand Management",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Brand Tradeoff",
+      "text": "Airbnb started with simple local stays. Now it offers **luxury services like private chefs**. This expansion puts Airbnb in direct competition with **Tripadvisor, risking its unique 'local living' brand** for broader appeal.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Airbnb 2023 Revenue Share",
+        "subtitle": "Percent, 2023",
+        "color": "#1DB954",
+        "source": "Airbnb, Inc. 10-K, 2024. Socratify Analysis",
+        "features": [
+          "two-values",
+          "currency",
+          "percentage-change"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "Rentals (Stays)",
+              "value": 8910.0,
+              "color": "#0073E6"
+            },
+            {
+              "label": "Experiences",
+              "value": 990.0,
+              "color": "#FF6F61"
+            }
+          ],
+          "changePercent": -88.89,
+          "changeValue": -7920.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Host Abandonment",
+      "text": "Airbnb pushes **$200 pasta classes** but hosts wait **hours for plumbing help**. The platform forgot who built them.",
+      "zoomOutTextQuote": {
+        "text": "Our aspiration is to become the ultimate travel platform where you can not only book homes, but also experiences, flights, and more—all seamlessly connected through Airbnb’s identity and trust systems.",
+        "source": "Brian Chesky, CEO, Airbnb, Q1 2024 Earnings Call, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Airbnb started as just a place to sleep, like a friend's couch. Now it's trying to be a fancy hotel with cooking classes, but forgetting to help its original friends with their leaky faucets.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Airbnb chases luxury, risks alienating original hosts.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic trade-off for Airbnb?",
+        "answer": "Airbnb aims to be a full-service travel platform, competing with giants like Tripadvisor. The risk is damaging its unique brand built on authentic, local experiences, potentially alienating loyal users and hosts.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are the execution challenges?",
+        "answer": "Airbnb must balance investments in new luxury services with maintaining support for its original hosts. Neglecting host support could degrade the core rental experience and drive hosts to rival platforms.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Airbnb's Chief Brand Officer",
+    "keyQuestionText": "Airbnb broadens its offerings to compete with Tripadvisor. They're sacrificing their unique \"local living\" brand for wider market appeal. When do you think this tradeoff makes sense?",
+    "hintText": "Consider what authentic, niche identity or customer connection Airbnb might give up by becoming a more general travel platform.",
+    "shortKeyQuestionText": "When do you think this tradeoff makes sense?",
+    "choices": [
+      {
+        "title": "Original brand appeal",
+        "text": "Diluting the core identity of \"live like a local\" with luxury services",
+        "followUpQuestion": "Original brand appeal matters. When would diluting this make sense for Airbnb's market reach?"
+      },
+      {
+        "title": "Niche market focus",
+        "text": "Moving away from its distinctive peer-to-peer lodging segment",
+        "followUpQuestion": "Niche market focus seems important. When would expanding beyond this make sense for Airbnb's growth?"
+      },
+      {
+        "title": "Simplicity and ease",
+        "text": "Adding complex services to a platform known for straightforward stays",
+        "followUpQuestion": "Simplicity might be valued. When would adding complexity make sense for Airbnb's expansion?"
+      },
+      {
+        "title": "Customer segment loyalty",
+        "text": "Potentially alienating core users who prefer independent, local stays",
+        "followUpQuestion": "Customer loyalty seems key. When would risking this make sense for Airbnb's new offerings?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "value_dilution",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/value_dilution.png",
+    "mentalModelImageDescription": "A glass of concentrated juice being diluted with water. The juice represents the core value proposition of Airbnb as a platform for unique, local stays. As more services (the water) are added, the original flavor (core value) becomes less potent, leading to value dilution.",
+    "mentalModelLinkText": "Value dilution shows how adding new services can weaken a product's core appeal—like Airbnb diluting its unique 'local living' brand by adding luxury services to compete with Tripadvisor.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you have a super-delicious lemonade. If you add too much water, it won't taste as good anymore.  That's value dilution - when something special becomes less special because it's mixed with too much ordinary stuff.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Value dilution occurs when the addition of new features or services diminishes the core value proposition of a product or brand.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Airbnb's situation?",
+        "answer": "By adding luxury services and experiences, Airbnb risks diluting its core value of providing unique, affordable, and local stays.  The platform becomes less distinct and more like other general travel booking sites, reducing its appeal to its original customer base.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals the importance of maintaining a clear and focused value proposition. It suggests that Airbnb should carefully consider whether new offerings enhance or detract from its core identity, and prioritize preserving the unique aspects that attract customers.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Growth can create unforeseen problems. Think of **cannibalization**, where new products steal sales from existing ones. For Airbnb, pushing experiences like fancy pasta classes risks overshadowing its core business: unique local stays. What was once a differentiator—authentic, budget-friendly travel—could become a diluted brand known for expensive add-ons. *The nuance here is that success in one area can undermine the very foundation that made it possible.* It's like a band selling out and losing its original fans."
+}

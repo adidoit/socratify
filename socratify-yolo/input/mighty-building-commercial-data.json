@@ -1,0 +1,171 @@
+{
+  "exerciseUuid": "d35328eb-a41b-4e74-adb0-188a8319fd3c",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the operational data needed for scaling construction requires familiarity with concepts like market analysis, resource allocation, and strategic trade-offs that first-year business students learn.",
+    "primaryDomainName": "Operations",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because this exercise requires understanding operational data needs, such as labor availability, costs, skills, and union presence, which is typical for those who regularly follow operational efficiencies and market dynamics.",
+    "secondaryDomainName": "Strategy",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the exercise is situated within a strategic dilemma of scaling the business, requiring an understanding of how operational data impacts strategic choices like direct building versus licensing.",
+    "fileName": "mighty-building-commercial-data.xml",
+    "backgroundNeeded": "Remember that Mighty Buildings 3D-prints homes quickly but must scale nationally, understand how efficient project execution relies on understanding construction labor markets, and apply this knowledge to identify critical data points for managing labor resources.",
+    "happyPath": "Mighty Buildings stands at a pivotal strategic juncture, grappling with how to scale its innovative 3D-printed home technology. Having secured substantial funding and proven its ability to rapidly construct homes, the company faces an \"innovator's dilemma\": either pursuing slow, controlled growth as a direct builder or rapidly expanding through licensing. This decision is not merely operational; it will fundamentally define Mighty Buildings' market impact, financial structure, and competitive posture in the slow-to-change construction industry, making the right data paramount. The core dilemma is a classic strategic choice between being a vertically integrated player or a platform/enabler. If Mighty Buildings chooses direct building, they retain full control over quality and capture higher margins, but face immense capital and logistical challenges in scaling across diverse regional markets. This requires deep data on local labor markets, supply chains, and regulatory nuances to ensure efficient build times and cost management. Conversely, a licensing model shifts the scaling burden and capital expenditure to partners, accelerating market penetration. However, this necessitates sophisticated data on potential licensees' operational quality standards, financial stability, and strategic alignment to prevent brand dilution or the creation of future competitors. The critical insight here is that the \"right\" path depends on which set of risks Mighty Buildings is better equipped to manage through data-driven insights. The construction industry is \"slow-to-change,\" implying significant inertia, established networks, and potential resistance to new technologies. For direct building, Mighty Buildings needs to precisely identify 'greenfield' markets with high housing demand and low existing supply, or where specific demographics (e.g., tech-savvy early adopters, those seeking affordable/rapid housing) are most receptive. This moves beyond basic housing data to behavioral economics. For licensing, data on incumbent builders' willingness to adopt innovation, their current R&D investments in similar technologies, and the flexibility of their supply chains is paramount. It’s not just about finding partners, but finding *adaptable* partners who won't undermine the technology's promise. Regardless of the chosen path, Mighty Buildings operates within a dynamic ecosystem. Long-term success hinges on understanding how competitors will react and how the regulatory environment will evolve. Data on traditional builders' strategic investments in automation or prefabrication can signal future threats. More crucially for a novel technology, tracking the evolution of national and regional building codes and material safety standards is essential. Proactive data gathering on regulatory sentiment and public perception of 3D-printed homes is critical for ensuring compliance and maintaining social license to operate, safeguarding future expansion opportunities. Mighty Buildings' decision demands a multi-dimensional data strategy. Moving beyond simple financial projections, critical insights will derive from understanding the nuanced capabilities of potential partners, the true receptiveness of target markets, and the anticipated reactions from a conservative industry and its regulators. Strategic success will not come from choosing a single \"best\" path in isolation, but from continuously leveraging diverse data streams to navigate the inherent complexities and adapt to an evolving ecosystem, ensuring their revolutionary technology achieves its full potential.",
+    "faviconUrl": "https://cdn.prod.website-files.com/6344c0ba57e1efcfbf2f564b/63450f2572818bafe342a18f_Mighty-32.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A hard yellow construction hat sits on a stack of rectangular wooden planks.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/construction_helmet_with_plans-1dc6d5c1-7da7-4b4a-ab97-e695f4eebbe9.png",
+    "coverPlainTitle": "Mighty Buildings' Labor Data Reveals Bottlenecks",
+    "coverWittyTitle": "Building Blocks or Brick Walls?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can 3D-printed homes scale fast enough?",
+    "coverParagraph": "Today, **Mighty Buildings** faces construction delays. **Discover how** labor data impacts their 3D homebuilding scale strategy.",
+    "tags": "Operations,Strategy,Construction,Real Estate",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Scaling Homes",
+      "text": "Mighty Buildings **3D-prints homes quickly**, but scaling production nationally is difficult. They are considering becoming a direct homebuilder, which demands a deep understanding of local markets and **construction labor** for these homes.",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "Mighty Buildings Funding Rounds",
+        "subtitle": "USD millions, 2017-2023",
+        "color": "#1f77b4",
+        "source": "[Mighty Buildings press release, Sept 2023. Socratify Analysis]",
+        "features": [
+          "vertical-bars"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "SeriesB",
+              "value": 52.0
+            },
+            {
+              "label": "Total",
+              "value": 150.0
+            },
+            {
+              "label": "Grant",
+              "value": 5.0
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Scale Strategy",
+      "text": "Mighty Buildings **3D-prints homes** faster, securing $100M in funding. But can the startup scale in the slow-moving construction industry without **licensing to builders**?",
+      "zoomOutTextQuote": {
+        "text": "Rather than build and operate every facility ourselves, we are entering B2B partnerships and licensing arrangements... so developers worldwide can meet demand... at lower cost. This allows Mighty Buildings to scale impact well beyond where we could with a direct-to-consumer model.",
+        "source": "Scott Gebicke, CEO Mighty Buildings, Spotlyts Interview, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you have a cool machine that makes LEGO houses super fast. Should you open your own LEGO neighborhood, or sell the machine to other builders? Mighty Buildings has to make a similar choice.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Mighty Buildings 3D-prints houses fast, but struggles to scale. License or build?",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic trade-off?",
+        "answer": "Becoming a homebuilder gives Mighty Buildings more control but requires mastering local construction markets. Licensing lowers risk, but sacrifices margin and direct customer relationships. Which path maximizes long-term growth?",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are the biggest hurdles to scaling?",
+        "answer": "Construction regulations vary widely by location, and labor costs fluctuate. Licensing helps Mighty Buildings avoid these operational headaches, but it relies on other companies to properly use their 3D-printing tech.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Mighty Buildings' VP of Operations",
+    "keyQuestionText": "Mighty Buildings considers scaling as a direct homebuilder. They want to ensure efficient and timely projects. What data do you think they need about construction labor?",
+    "hintText": "Think about what information on construction crews would ensure Mighty Buildings can build quickly and on schedule.",
+    "shortKeyQuestionText": "What data do you think they need about construction labor?",
+    "choices": [
+      {
+        "title": "Labor availability",
+        "text": "Number of skilled construction workers and subcontractors in target regions",
+        "followUpQuestion": "Labor availability is crucial. Why would this data help Mighty Buildings build homes on time?"
+      },
+      {
+        "title": "Labor costs",
+        "text": "Average wages and benefits for construction trades in different areas",
+        "followUpQuestion": "Labor costs matter. How would this information help ensure projects stay within budget and timeline?"
+      },
+      {
+        "title": "Skill levels",
+        "text": "Certification rates and experience of local construction teams with new methods",
+        "followUpQuestion": "Skill levels seem vital. Why would knowing this ensure their 3D-printed homes are built correctly?"
+      },
+      {
+        "title": "Union presence",
+        "text": "Strength and influence of construction unions in potential operating regions",
+        "followUpQuestion": "Union presence could be key. How would this information affect their ability to scale projects efficiently?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "information_asymmetry_exploitation",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/information_asymmetry_exploitation.png",
+    "mentalModelImageDescription": "A seesaw where one person is significantly higher than the other, symbolizing the uneven distribution of knowledge. The higher person holds a magnifying glass, scrutinizing the lower person, representing how those with more information can exploit those with less.",
+    "mentalModelLinkText": "Information asymmetry shows how local contractors could exploit Mighty Buildings' lack of data on labor and market conditions. Without this knowledge, Mighty Buildings risks inflated prices and project delays for its 3D-printed homes.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're trading toys, and the other kid knows their toy is broken, but you don't. They win because they had secret information!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Information asymmetry exploitation is when one party uses their knowledge advantage to take advantage of another.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Mighty Buildings' situation?",
+        "answer": "Mighty Buildings needs to gather data on local labor costs, union power, and material prices. Lacking this data, local subcontractors could inflate their bids, knowing Mighty Buildings lacks the insight to negotiate effectively, impacting project profitability.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model warns Mighty Buildings about the potential for local contractors to exploit their lack of knowledge. By actively seeking and verifying information, Mighty Buildings can level the playing field, negotiate better deals, and maintain project control.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes a tech advantage can blind you to basic business realities. That's **information asymmetry**: when one party knows more than the other. **Mighty Buildings** may assume its tech solves all, but local contractors know labor costs and market quirks far better. This creates a huge risk when they move to become a direct homebuilder, potentially leading to cost overruns. *The more innovative your product, the more you must master the unglamorous fundamentals.* It’s like launching a rocket without understanding gravity."
+}

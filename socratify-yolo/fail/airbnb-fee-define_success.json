@@ -1,0 +1,173 @@
+{
+  "exerciseUuid": "91cdfa5b-6f18-4784-84be-236d02ec80d7",
+  "exerciseVersion": 4,
+  "exerciseType": "define_success",
+  "status": "active",
+  "storyType": "Trends",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding how to define success for a marketplace fee strategy requires familiarity with concepts like supply/demand balance, competitive positioning, and key financial metrics that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Airbnb's fee shift requires understanding marketplace dynamics and competitive pressures within the travel industry, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic concepts of price sensitivity and how fee changes can impact customer perception, from following general market trends.",
+    "fileName": "airbnb-fee-define_success.xml",
+    "backgroundNeeded": "Remember that Airbnb is a platform connecting travelers with hosts and professional hosts have leverage, understand how shifting fees impacts both host supply and guest demand in a two-sided marketplace, and apply metrics to evaluate the health and success of this new strategy.",
+    "happyPath": "Opening: Airbnb faces a classic two-sided marketplace dilemma: powerful professional hosts demand lower fees, threatening the platform's crucial inventory. In response, Airbnb is shifting the entire booking fee onto guests, a move aimed at appeasing hosts but which risks making Airbnb appear more expensive to travelers. Defining success for this complex fee strategy requires navigating this inherent tension, ensuring both sides of the marketplace remain vibrant and engaged while securing Airbnb's long-term competitive advantage and profitability. Analysis: Defining success for Airbnb's fee strategy necessitates a multi-faceted approach that considers both immediate operational outcomes and broader strategic implications. Firstly, from the supply-side perspective, success must be measured by the retention and continued growth of professional host inventory. Key metrics would include the churn rate of existing professional hosts, the acquisition rate of new high-value professional hosts, and their overall satisfaction levels. Without a stable and growing base of desirable listings, the platform's value proposition diminishes regardless of guest demand. The strategic rationale is clear: powerful hosts can easily migrate to competing platforms like Vrbo, and their departure directly impacts Airbnb's core offering. Secondly, and critically, success must be defined from the demand-side perspective, focusing on guest behavior and perception. Shifting fees to guests risks increasing the total booking price, potentially deterring travelers, especially as price comparison tools highlight these higher final costs. Therefore, success metrics here would include guest booking conversion rates, repeat guest rates, and a vigilant monitoring of Airbnb's perceived price competitiveness against rivals. If guest demand falters, even with abundant host inventory, the marketplace liquidity suffers, eroding the platform's revenue base. It's not enough to have listings if no one books them. Finally, true success must encompass the overall marketplace health, financial viability, and competitive positioning. This involves synthesizing the host and guest dynamics into a holistic view. Metrics such as Gross Booking Value (GBV), net take rate (Airbnb's effective revenue percentage), and profitability per listing would be crucial to assess the financial sustainability of the new model. Beyond numbers, measuring the overall balance and \"liquidity\" of the marketplace (e.g., bookings per available listing) indicates whether the supply and demand are effectively meeting. Competitively, success would mean not just retaining hosts but also ensuring that Airbnb's overall value proposition—considering both choice and price—remains compelling relative to rivals, preventing a loss of market share or brand equity in the long run. Conclusion: Ultimately, defining success for Airbnb's fee strategy is not a singular objective but an intricate balancing act. It requires simultaneously satisfying powerful suppliers, maintaining sensitive consumer demand, ensuring financial health, and preserving competitive advantage. A narrow focus on host retention alone could lead to guest alienation and diminished profitability, while ignoring host needs would cripple supply. Therefore, true success will be reflected in a resilient, growing two-sided marketplace that sustainably delivers value to both hosts and guests, reinforcing Airbnb's position in the evolving travel ecosystem.",
+    "faviconUrl": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-76x76-3b313d93b1b5823293524b9764352ac9.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A small, bright red roofed dollhouse sits on a larger, light blue platform. Small square windows dot the sides. The platform and house appear slightly unbalanced.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/goldman-marcus-exit-data-2a3280f7-1157-4d62-8a6c-6a3c51c1239a.png",
+    "coverPlainTitle": "Airbnb Measures Tricky Marketplace Balance",
+    "coverWittyTitle": "Airbnb's Fee-nomenal Challenge",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How does Airbnb balance hosts and guests?",
+    "coverParagraph": "**Airbnb** needs happy hosts and guests. **Define success** when Airbnb changes its fees to keep its marketplace balanced.",
+    "tags": "Strategy,Operations,Marketplace,Pricing",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Marketplace Balance",
+      "text": "Powerful professional hosts threaten to pull their listings from Airbnb over fees. Airbnb is now putting all booking fees onto guests to keep these **hosts**, risking higher prices and competition from **rival Vrbo**.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Airbnb Quarterly Revenue, 2024-2025",
+        "subtitle": "USD millions, quarterly",
+        "color": "#FF5A5F",
+        "source": "[Airbnb 2024 10-K, filed February 2025. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2024-02-29",
+              "value": 2750.0
+            },
+            {
+              "date": "2024-09-30",
+              "value": 3700.0
+            },
+            {
+              "date": "2025-03-31",
+              "value": 2300.0
+            }
+          ],
+          "currentValue": 2300.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Fee Hijack",
+      "text": "Airbnb **commandeers 15% fees** from guests while **hosts surrender pricing power** in platform siege.",
+      "zoomOutTextQuote": {
+        "text": "This isn’t just about clarity—it’s about platform control. Airbnb is reining in off-platform behavior... The endgame: a consistent, tightly managed guest experience where Airbnb owns the data, pricing logic, and the guest relationship.",
+        "source": "Rentalscaleup, Airbnb Industry Analysis, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Airbnb is like a playground where kids (guests) pay to use the swings (houses). Now, Airbnb makes the kids pay an extra fee, hoping the swing owners (hosts) won't leave for another playground (Vrbo).",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Airbnb shifts fees to guests, hosts risk losing pricing control.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's Airbnb's strategic goal?",
+        "answer": "Airbnb wants complete control over the booking experience, from pricing to guest data, reducing host power. This could improve consistency but also alienate hosts who prefer more independence and higher margins.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How do hosts react to higher fees?",
+        "answer": "Professional hosts with many listings might move to Vrbo if Airbnb's fees make them uncompetitive. Airbnb must balance revenue gains from fees with the risk of losing valuable inventory and market share.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Airbnb's Chief Operating Officer",
+    "keyQuestionText": "Airbnb shifts fees, trying to balance host needs and guest demand. How should they measure success for this marketplace balance?",
+    "hintText": "Consider combined host and guest metrics that show a healthy and engaged two-sided marketplace.",
+    "shortKeyQuestionText": "How should they measure success for this marketplace balance?",
+    "choices": [
+      {
+        "title": "Gross Booking Value",
+        "text": "Total monetary value of bookings processed on the platform",
+        "followUpQuestion": "Gross Booking Value seems key. Why would higher GBV prove Airbnb's fee strategy works?"
+      },
+      {
+        "title": "Net take rate",
+        "text": "Airbnb's percentage of revenue from each successful booking",
+        "followUpQuestion": "Net take rate looks important. Why would a higher take rate prove Airbnb's fee strategy works?"
+      },
+      {
+        "title": "Host-to-guest booking ratio",
+        "text": "Balanced ratio of available listings to guest bookings on the platform",
+        "followUpQuestion": "Booking ratio matters. Why would a balanced ratio prove Airbnb's fee strategy works?"
+      },
+      {
+        "title": "Combined satisfaction index",
+        "text": "Overall satisfaction index for both hosts and guests on the platform",
+        "followUpQuestion": "Combined satisfaction looks valuable. Why would a high index prove Airbnb's fee strategy works?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "goodhart's_law",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/goodhart's_law.png",
+    "mentalModelImageDescription": "A speedometer where the needle is bent to always show the highest speed, regardless of the actual speed. This illustrates how a metric, once targeted, ceases to be a good measure because people will manipulate it to achieve the target.",
+    "mentalModelLinkText": "Goodhart's Law shows how a measure, once targeted, ceases to be good. If Airbnb measures fee shift success by just host bookings, hosts might inflate prices, harming guests while the metric looks good.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your teacher only cares about test scores. Students might cheat to get high scores, but they don't actually learn anything. Focusing only on the score makes it meaningless!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "When a measure becomes a target, it ceases to be a good measure.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Airbnb's situation?",
+        "answer": "If Airbnb only targets increasing its net take rate, it could raise fees so high that it drives hosts and guests to competitors, even if it hits the take rate target in the short term. The metric itself will become misleading and ultimately fail.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model warns Airbnb against fixating on a single metric, like GBV or take rate. Airbnb must balance multiple metrics that indicate overall platform health. Focusing solely on one can lead to unintended consequences and undermine the marketplace.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "When firms focus too narrowly on one goal, they risk **goal displacement**: optimizing a metric at the expense of overall success. Airbnb's fee shift to guests, meant to appease powerful **hosts**, might backfire if guests flee to **rival Vrbo** due to higher prices. The nuance here is that improving host satisfaction scores alone isn't enough; Airbnb must also consider guest behavior. *What's counterintuitive is that a win for hosts could become a loss for Airbnb itself.* It's like optimizing a car for speed while forgetting about fuel efficiency."
+}

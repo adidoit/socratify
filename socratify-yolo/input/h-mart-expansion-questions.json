@@ -1,0 +1,192 @@
+{
+  "exerciseVersion": 4,
+  "exerciseUuid": "6c392f46-bfa6-4674-956b-2bb8d070c60f",
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "news",
+  "storyUuid": null,
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding H-Mart's expansion challenges requires familiarity with concepts like brand authenticity, market segmentation, scaling operations, and competitive dynamics that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because H-Mart's expansion into new markets and the tension between growth and authenticity requires users to follow retail and niche brand expansion trends and understand competitive dynamics.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "fileName": "h-mart-expansion-questions.xml",
+    "backgroundNeeded": "Remember that H-Mart is known for authentic Asian foods and is expanding, understand how scaling operations can conflict with maintaining niche brand appeal and authenticity, and apply strategic thinking to identify the most critical initial question for new market entry.",
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the question of how brand messaging resonates with a broader customer base and the risk of being perceived as \"gentrified\" requires understanding marketing principles related to brand perception and customer segmentation.",
+    "happyPath": "H-Mart's journey from a single store to a billion-dollar enterprise built on authentic Asian foods presents a classic strategic conundrum: how to achieve aggressive growth without diluting the very essence that made the brand special. The company's explicit desire to avoid becoming \"gentrified\" highlights the delicate balancing act between scaling operations and preserving a unique niche identity, a challenge common to many beloved brands seeking broader market appeal. Navigating this tension requires a multi-faceted approach. First, H-Mart must precisely define and measure \"authenticity\" from its core customers' perspective. Is it solely about the unique product assortment (e.g., live seafood, specific cuts of meat), the shopping experience that evokes a direct journey to Seoul, the cultural familiarity, or a combination? Understanding these nuances is crucial because different elements will have different implications for scalability and broader market acceptance. For loyal patrons, \"authenticity\" might be non-negotiable, while new customers might value accessibility or variety differently. A clear definition allows H-Mart to identify which aspects are sacrosanct and which can evolve. Secondly, the operational implications of maintaining authenticity at scale must be thoroughly assessed. Highly specialized products like live seafood require complex, often costly supply chains and expert handling. Can H-Mart replicate these intricate logistical networks across 100+ locations and further expansion, or will simplification be forced by volume and geographic spread? This involves evaluating existing vendor relationships for scalability, assessing distribution capabilities, and ensuring quality control processes remain stringent across a larger footprint. The financial sustainability of maintaining these high-cost, high-touch elements will directly influence the viability of their growth strategy without \"gentrification.\" Finally, H-Mart needs to critically examine market fit and brand perception in new territories. As they occupy spaces vacated by mainstream grocers, they will inevitably attract a more diverse customer base. What are the expectations of these new demographics regarding an \"authentic Asian supermarket\"? What elements of H-Mart's current offering might be perceived as inaccessible or niche, and what might be considered \"gentrified\" if adapted? Strategic insights come from understanding these new customer segments, not just current loyalists, and determining how to communicate H-Mart's unique value proposition without alienating either group. This might involve a nuanced product assortment for certain locations or adapting marketing messages. Conclusion: H-Mart's challenge is not merely about opening more stores; it's about managing a strategic evolution. True strategic insight arises from systematically exploring how \"authenticity\" is defined, operationalized, and perceived across diverse markets. By understanding these interdependent dimensions—from customer definitions to supply chain realities and market dynamics—H-Mart can make informed trade-offs, ensuring that growth strengthens rather than dilutes the distinctive identity that has been the bedrock of its billion-dollar success. This multi-perspective thinking is key to navigating complex business challenges.",
+    "faviconUrl": "https://hmartus.vteximg.com.br/arquivos/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Glass kimchi jar with a fiery red fermented cabbage inside, sealed with a beige ceramic lid.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/h-mart-expansion-response-969e9fbe-b7c9-4d21-921d-96d0fe9a30e7.png",
+    "coverPlainTitle": "H-Mart Asks: How to Expand?",
+    "coverWittyTitle": "Kimchi & Opportunity?",
+    "coverRatingStat": 4.8,
+    "coverUsersPlayedStat": 14,
+    "coverQuestion": "Can H-Mart stay authentic while growing?",
+    "coverParagraph": "**H-Mart** is **expanding into new markets**. Consider what question to ask before entering a new major market.",
+    "tags": "Strategy,Marketing,Retail,Grocery",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Authentic Growth",
+      "text": "H-Mart built a $1 billion business selling authentic Asian foods. The family-owned chain is rapidly expanding into mainstream spaces. However, it risks losing its **unique cultural appeal** by becoming too **gentrified for its core customers**.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "H Mart Annual Sales: 2023 vs 2024",
+        "subtitle": "USD millions, year-over-year",
+        "color": "#004B23",
+        "source": "[Bloomberg, 2025. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "2023 Sales",
+              "value": 950.0,
+              "color": "#1F77B4"
+            },
+            {
+              "label": "2024 Sales",
+              "value": 1000.0,
+              "color": "#FF7F0E"
+            }
+          ],
+          "changePercent": 5.26,
+          "changeValue": 50.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Authenticity Risk",
+      "text": "H-Mart built a **$1 billion grocery empire** on authentic Asian foods. Now, **aggressive expansion** risks \"gentrifying\" its unique identity.",
+      "zoomOutTextQuote": {
+        "text": "We are thrilled to introduce our latest food hall at American Dream. Our food halls are iconic staples of H Mart stores, and our American Dream location wouldn’t feel complete without one.",
+        "source": "Stacey Kwon, President of H Mart, RetailWire, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your favorite small pizza shop. It becomes super popular and opens lots of new stores, but the pizza doesn't taste the same. H Mart is like that pizza shop and hopes its new stores don't lose what makes it special.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "H Mart expands rapidly, risking its core appeal.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What is the strategic risk for H Mart?",
+        "answer": "H Mart risks alienating its loyal customer base if it becomes too mainstream, because these customers value the specific cultural authenticity. However, broadening its appeal could unlock new growth from a wider audience, offsetting any losses from core customers.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How does H Mart balance growth and authenticity?",
+        "answer": "H Mart must carefully curate its product selection and store design to appeal to both its original customers and new shoppers. This includes maintaining authentic Asian products while introducing items that appeal to a broader demographic without losing its core identity.",
+        "type": "deep"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "How can H-Mart effectively expand into new markets while maintaining its core brand authenticity?",
+    "choices": [
+      {
+        "title": "Prioritize authentic product offerings",
+        "text": "Focus on core products that define H-Mart's identity.",
+        "feedback": "This approach ensures the brand's authenticity remains intact, fostering loyalty.",
+        "correct": true
+      },
+      {
+        "title": "Expand product variety broadly",
+        "text": "Offer a wide range of products to appeal to all demographics.",
+        "feedback": "While diverse, this may risk diluting core authenticity if not carefully managed.",
+        "correct": false
+      },
+      {
+        "title": "Lower quality standards for scale",
+        "text": "Reduce costs by simplifying supply chains.",
+        "feedback": "This could compromise authenticity and quality, harming brand image.",
+        "correct": false
+      }
+    ]
+  },
+  "mentalModel": {
+    "mentalModelName": "network_tipping_point",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/network_tipping_point.png",
+    "mentalModelImageDescription": "Imagine a playground where only one kid plays. It's not much fun! But when all your friends join, it becomes super fun. A network tipping point is when something becomes way better because lots of people use it.",
+    "mentalModelLinkText": "Network tipping point shows how H-Mart's authentic products create value for a loyal customer network. Diluting these core items too much through gentrification could trigger a sudden exodus, making the store less valuable to its community.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a playground where only one kid plays. It's not much fun! But when all your friends join, it becomes super fun. A network tipping point is when something becomes way better because lots of people use it.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "A network tipping point is the critical mass at which the value of a product or service increases exponentially as more people use it.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to H-Mart's situation?",
+        "answer": "H-Mart's customer base creates value for each other through shared preferences for authentic Asian products. If the range of these products diminishes significantly, the value of shopping at H-Mart decreases for the core customers, potentially leading them to seek alternatives elsewhere.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "H-Mart needs to maintain a critical mass of core product offerings to sustain the network effect among its loyal customer base. Diluting its authenticity could lead to a downward spiral, eroding its brand value and market position.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes growth can be a trap. That's **mission creep**: when a company's expansion dilutes its core identity. For H-Mart, the nuance here is that new locations could introduce products that appeal to a broader audience, but alienate its loyal base. The challenge is that increased sales might come at the cost of its **core values**. _What nobody talks about is how success itself can erode the very qualities that made it possible._ It's like a band selling out to mainstream pop—more fans, but at the cost of their original soul.",
+  "keyQuestion": {
+    "keyQuestionRole": "You are H-Mart's Head of Strategic Planning",
+    "keyQuestionText": "H-Mart is expanding into new territories taking over mainstream spaces. They're considering entry into a new major market. As Head of Strategic Planning, what question would you ask first?",
+    "hintText": "Think about what competitive or market dynamic question is most critical for new market entry.",
+    "shortKeyQuestionText": "What question would you ask about new market entry?",
+    "choices": [
+      {
+        "title": "Competitive response",
+        "text": "How will other grocery chains react to our unique market entry?",
+        "followUpQuestion": "Competitive response is crucial. Why is this the right question for H-Mart's new market entry given its authenticity goal?"
+      },
+      {
+        "title": "Market demand assessment",
+        "text": "Is there sufficient local demand for our specific Asian products?",
+        "followUpQuestion": "Market demand matters. Why is this the right question for H-Mart's new market entry given its authenticity goal?"
+      },
+      {
+        "title": "Local supply chain",
+        "text": "Can we secure local vendors to maintain our unique fresh offerings?",
+        "followUpQuestion": "Local supply chain seems key. Why is this the right question for H-Mart's new market entry given its authenticity goal?"
+      },
+      {
+        "title": "Brand messaging impact",
+        "text": "How will our brand message resonate with a broader, diverse customer base?",
+        "followUpQuestion": "Brand messaging is important. Why is this the right question for H-Mart's new market entry given its authenticity goal?"
+      }
+    ]
+  }
+}

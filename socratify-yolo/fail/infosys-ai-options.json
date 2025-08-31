@@ -1,0 +1,181 @@
+{
+  "exerciseUuid": "c858d63a-ee8c-4ae8-abef-314bd9dd0971",
+  "exerciseVersion": 4,
+  "exerciseType": "options",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Infosys's strategic dilemma requires familiarity with concepts like competitive advantage, business models, and strategic trade-offs that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how Infosys should respond to AI requires following IT services industry trends and understanding how companies adapt their business models to technological disruption.",
+    "secondaryDomainName": "Operations",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding the impact of AI on a large workforce and the need for re-skilling requires knowledge of operational challenges and human capital management within large organizations.",
+    "fileName": "infosys-ai-options.xml",
+    "backgroundNeeded": "Remember that Infosys is an IT services company that uses a large workforce for coding and testing, understand how AI can automate these tasks and challenge a labor-arbitrage business model, and apply strategic thinking to evaluate different options for adapting to technological disruption.",
+    "happyPath": "Infosys, a company built on the massive scale and cost advantage of its human workforce via labor arbitrage, faces an acute strategic dilemma. The rise of AI directly challenges its core business model by automating tasks that were once human-intensive, threatening to erode its competitive edge and potentially replace a significant portion of its workforce. This situation demands a proactive and multi-faceted strategic response to ensure long-term viability and growth, moving beyond simply defending a legacy \"cash cow\" towards embracing disruptive innovation. One critical strategic lens involves re-evaluating Infosys's core value proposition. For decades, their advantage stemmed from delivering digital work affordably. Now, AI offers even greater cost efficiency. Infosys must decide if it will primarily use AI for internal cost optimization and efficiency within its existing service lines (e.g., using AI for faster coding or testing), or if it will fundamentally shift to offering AI *as a service* or developing proprietary AI solutions. The former risks continued commoditization, while the latter requires significant investment, re-skilling, and a potential pivot in client relationships from service provider to innovation partner. Another crucial perspective revolves around human capital transformation. With over 300,000 employees, automating 30-40% of tasks presents an immense organizational challenge. Infosys must consider aggressive re-skilling programs, not just in technical AI skills but in areas where human creativity, complex problem-solving, and relationship management remain irreplaceable. This involves cultural shifts to embrace a human-AI collaborative model, potentially redeploying employees to higher-value consulting, client engagement, or AI implementation roles. Managing this transition sensitively, transparently, and effectively is paramount to retaining talent and avoiding internal resistance. Finally, the competitive dynamics demand aggressive action. The choice isn't just between \"cannibalizing\" one's own success or \"being eaten\" by competitors; it's about leading the transformation. If Infosys waits, agile, AI-native competitors or even traditional rivals who move faster could capture market share by offering superior, AI-powered services at lower costs. Proactive adoption, even with short-term revenue impact, positions Infosys to define the new industry standards, attract top AI talent, and evolve its offerings before being forced to react from a position of weakness. This requires a willingness to take calculated risks and make bold investments in new capabilities. Ultimately, Infosys's future hinges on its ability to navigate this complex technological and strategic inflection point. It must thoughtfully integrate AI not just as a cost-cutting tool but as a catalyst for redefining its service portfolio and transforming its massive workforce. Success will require a holistic strategy that balances immediate operational efficiencies with long-term business model innovation, ensuring Infosys remains a relevant and competitive force in a rapidly evolving digital landscape.",
+    "faviconUrl": "https://www.infosys.com/content/dam/infosys-web/en/global-resource/icons/apple-touch-icon.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A tall, rectangular server rack in the deep blue of a clear sky and crisp white, with numerous data cables. A robotic arm extends from one side, touching glowing digital lines.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/cloudflare_cdn_server-bab0e8b8-3771-463f-a2a7-fa29e6bdb8ad.png",
+    "coverPlainTitle": "Infosys Chooses AI Future",
+    "coverWittyTitle": "Bots Replace Brains?",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can AI replace IT service jobs?",
+    "coverParagraph": "**Infosys** built its $18B business on **human coders**. AI now automates their work. Explore options for their future.",
+    "tags": "Strategy,Product,Tech,AI",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "AI Dilemma",
+      "text": "Infosys built its $18 billion IT business on **human coding and testing** in India. The Indian IT giant, with 300,000 employees, must now proactively adopt AI or face obsolescence from **faster, cheaper AI tools**.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Infosys Revenue, FY20-FY24",
+        "subtitle": "USD billions, fiscal years ending March 31",
+        "color": "#0072C6",
+        "source": "[Infosys FY24 IFRS – USD Press Release, 2024. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2020-03-31",
+              "value": 13.0
+            },
+            {
+              "date": "2021-03-31",
+              "value": 14.5
+            },
+            {
+              "date": "2022-03-31",
+              "value": 16.1
+            },
+            {
+              "date": "2023-03-31",
+              "value": 18.0
+            },
+            {
+              "date": "2024-03-31",
+              "value": 18.562
+            }
+          ],
+          "currentValue": 18.562
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Model Mismatch",
+      "text": "Infosys's $18 billion business built its success on **300,000+ human workers**. But **AI can automate 30-40%** of their tasks, threatening their cost advantage.",
+      "zoomOutTextQuote": {
+        "text": "Our focus on AI and automation is not just about enhancing our service delivery but also about creating a more agile workforce that can adapt to the changing demands of our clients.",
+        "source": "Salil Parekh, Chief Executive Officer and Managing Director, Infosys, Q2 FY 2025 Earnings Call, October 17, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a factory that makes toys using people. Now, robots can make toys faster and cheaper. Infosys is like that factory, and it needs to figure out how to use robots without firing everyone.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Infosys hires many people, but AI can do much of their work. The company must adapt or shrink.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for Infosys?",
+        "answer": "Infosys risks alienating its massive workforce by aggressively implementing AI. However, failing to adopt AI quickly enough could make them uncompetitive compared to rivals who are automating faster and offering lower prices.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What makes AI adoption tricky for Infosys?",
+        "answer": "Reskilling 300,000 employees for AI-related tasks requires massive investment and might not succeed for everyone. Replacing workers with AI could hurt employee morale and damage Infosys's reputation.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Infosys's Chief Strategy Officer",
+    "keyQuestionText": "Infosys's core human-driven business is threatened by AI automation. They want to navigate this unavoidable shift. Which options should they explore to secure their future?",
+    "hintText": "Think about how Infosys could redefine its value beyond just cheap human labor in an AI world.",
+    "shortKeyQuestionText": "Which options should they explore to secure their future?",
+    "choices": [
+      {
+        "title": "AI solutions provider",
+        "text": "Become a leader in developing and deploying AI solutions for other companies",
+        "followUpQuestion": "AI solutions make sense. How would this alternative help Infosys navigate the AI threat to its human-powered IT services business?"
+      },
+      {
+        "title": "Human-AI hybrid services",
+        "text": "Integrate AI tools deeply into existing human services to boost efficiency",
+        "followUpQuestion": "Human-AI hybrid seems smart. How would this alternative help Infosys navigate the AI threat to its human-powered IT services business?"
+      },
+      {
+        "title": "High-value consulting",
+        "text": "Shift focus to high-level strategic consulting, beyond routine IT tasks",
+        "followUpQuestion": "High-value consulting looks promising. How would this alternative help Infosys navigate the AI threat to its human-powered IT services business?"
+      },
+      {
+        "title": "Niche human expertise",
+        "text": "Double down on specialized services requiring human creativity or complex problem-solving",
+        "followUpQuestion": "Niche human expertise is interesting. How would this alternative help Infosys navigate the AI threat to its human-powered IT services business?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "ai-training-data-services_0",
+    "mentalModelImageUrl": "https://cdn.socratify.com/business-models/images/ai-training-data-services_0.png",
+    "mentalModelImageDescription": "A diverse set of data points (images, text, audio) being meticulously labeled and organized by a team, which is then fed into an AI model for training. The data is the fuel and the meticulous organization ensures the model learns efficiently.",
+    "mentalModelLinkText": "AI training data services show how businesses prepare labeled datasets for AI models. Infosys could leverage its large workforce to provide this crucial service, helping other companies train AI while generating new revenue.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're teaching a puppy to recognize cats. You show it lots of pictures of cats and tell it, \"This is a cat!\" The more pictures you show, the better the puppy gets at recognizing cats. AI training data services do the same thing – they provide lots of labeled pictures and information to help AI learn.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "AI training data services involve collecting, cleaning, and labeling data that is used to train machine learning models, enabling them to perform specific tasks accurately.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How could Infosys use this model?",
+        "answer": "Infosys can leverage its workforce to prepare high-quality training data for AI models in various domains, such as computer vision, natural language processing, and fraud detection. They can then sell this data to companies developing AI solutions, generating a new revenue stream from their existing skills.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What opportunity does this model create?",
+        "answer": "This model allows Infosys to capitalize on the growing demand for AI training data. It leverages their large workforce to provide a valuable service to companies developing AI solutions, creating a new revenue stream and positioning them as a key player in the AI ecosystem.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "When facing disruption, firms often struggle with **the innovator's dilemma**: clinging to what works instead of embracing change. Infosys risks prioritizing its profitable human-centric model, even as AI offers superior efficiency. The nuance here is that shifting to AI isn't just about tech—it demands completely new business models. *What's counterintuitive is that their current strengths might blind them to future opportunities.* It's like being so good at horse-drawn carriages that you miss the invention of the automobile."
+}

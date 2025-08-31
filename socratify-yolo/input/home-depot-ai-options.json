@@ -1,0 +1,169 @@
+{
+  "exerciseUuid": "b9ec89f8-9538-4cf5-9615-37beb4e91cac",
+  "exerciseVersion": 4,
+  "exerciseType": "options",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic trade-offs in scaling expert advice digitally requires familiarity with concepts like competitive advantage, digital transformation, and customer trust, which are standard first-year business school topics.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Home Depot's digital expansion requires understanding industry trends in retail technology and how companies leverage existing assets to create competitive advantage, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding the trust issues related to a chatbot requires basic awareness of brand perception and customer relationship management in a retail context.",
+    "fileName": "home-depot-ai-options.xml",
+    "backgroundNeeded": "Remember that Home Depot's core strength is in-store expert advice and they are trying to replicate this online with an AI chatbot, understand the challenges of maintaining customer trust and accuracy when scaling expertise digitally, and apply strategic thinking to evaluate alternative digital approaches beyond a basic chatbot.",
+    "happyPath": "Home Depot faces a classic strategic dilemma: how to leverage new technology to scale a core competitive advantage (expert advice) without undermining the foundational elements (human trust, nuanced guidance) that made it successful. The introduction of 'Magic Apron' is an initial step, but the complexities of home improvement—where incorrect advice can lead to safety hazards—demand a multi-faceted approach to digital expansion. One strategic lens involves exploring blended human-AI models. Instead of viewing AI as a complete replacement for human experts, Home Depot could design systems where AI handles common queries and provides initial suggestions, but seamlessly escalates complex, high-risk, or personalized questions to live human experts. This preserves the \"human touch\" for critical junctures, reinforces trust, and mitigates liability while still gaining the scalability benefits of AI for routine interactions. This blended approach could involve live video consultations with store associates or specialized experts, ensuring that the \"magic\" of helpfulness remains rooted in genuine expertise. A second critical perspective focuses on leveraging Home Depot's existing, highly differentiated assets: its extensive network of physical stores and its highly-regarded staff. Rather than solely attempting to replicate in-store experiences online, Home Depot could integrate these physical assets directly into its digital strategy. This could include online appointment booking for in-person or virtual consultations, creating a library of associate-led video tutorials for common projects, or even utilizing in-store digital kiosks that connect customers to specific departmental experts via video. This approach capitalizes on their unique competitive advantage – a large, knowledgeable workforce – which competitors, particularly pure-play online retailers, cannot easily replicate. Finally, Home Depot should think beyond just a chatbot to a diverse portfolio of digital expert offerings. This could include developing sophisticated augmented reality (AR) tools for project visualization and step-by-step guidance, specialized AI diagnostic tools for specific issues like plumbing leaks or electrical problems, or even building out a crowdsourced community platform where experienced DIYers can share advice. Each option carries different trade-offs in terms of cost, scalability, and trust, but together they could create a robust digital ecosystem that serves a wider range of customer needs and preferences, enhancing accessibility and reinforcing Home Depot's position as the go-to resource for home improvement. Ultimately, Home Depot's success in this digital transformation hinges on a comprehensive strategy that recognizes the limitations of a single technology and embraces a holistic view of expertise delivery. By strategically blending AI with human interaction, integrating its physical assets into the digital realm, and diversifying its digital offerings beyond a basic chatbot, Home Depot can evolve its brand from a hardware retailer to a trusted, omni-channel home improvement solutions provider, capable of delivering reliable guidance anytime, anywhere, and with the essential element of trust preserved.",
+    "faviconUrl": "https://www.homedepot.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A bright orange, heavy-duty plastic bucket sits next to a wooden-handled hammer. The bucket is mostly full of small silver nails.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/coins_dropping_into_buckets-bb6bac8a-182d-4341-870e-7d14e473850b.png",
+    "coverPlainTitle": "Home Depot Chooses Digital Advice Options",
+    "coverWittyTitle": "Nailed It? Advice Goes Digital",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How can Home Depot give advice online?",
+    "coverParagraph": "Customers trust **Home Depot** for expert home improvement advice. Now **weigh their options** for delivering that expertise online.",
+    "tags": "Strategy,Product,Retail,AI",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Trust Problem",
+      "text": "Home Depot's strength comes from in-store experts giving project advice. To reach more customers, the retail giant launched an AI chatbot. However, it struggles to build **customer trust** and provide **accurate guidance** for complex projects.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Home Depot Total Sales, Q1 2024 to Q1 2025",
+        "subtitle": "USD billions, quarterly",
+        "color": "#FF6600",
+        "source": "[Digital Commerce 360, 2025. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2024-02-29",
+              "value": 36.42
+            },
+            {
+              "date": "2025-05-04",
+              "value": 39.86
+            }
+          ],
+          "currentValue": 39.86
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "AI Betrays",
+      "text": "Home Depot bets AI **answers faster** than orange apron experts. When bot **misses deadly codes** for wiring leaks, they gamble their **$157B trust** on DIY rage vs real safety.",
+      "zoomOutTextQuote": {
+        "text": "We see AI not as a standalone feature, but as the connective tissue for a more intelligent, efficient, and defensible business... we’re fundamentally transforming how we serve both DIY and Pro customers.",
+        "source": "Ted Decker, CEO, The Home Depot, Analyst Deep Dive in Klover.AI Strategy Report, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine asking a robot for help building a treehouse, but it tells you to use rotten wood. Home Depot's AI is like that: it's supposed to help, but if it gives bad advice, people might get hurt and stop trusting Home Depot.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Home Depot's AI gives dangerous advice. Trust erodes.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for Home Depot?",
+        "answer": "Home Depot risks damaging its reputation for expertise and reliability if the AI provides inaccurate or unsafe advice. This could drive customers back to competitors or towards in-person assistance, undermining the purpose of the AI initiative.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What makes it hard to build a trustworthy AI for DIY projects?",
+        "answer": "DIY projects are highly variable, and incorrect guidance can lead to safety hazards and legal liabilities. Building an AI that can handle the complexity and nuance of home improvement requires a massive, constantly updated dataset and robust error detection.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Home Depot's Chief Technology Officer",
+    "keyQuestionText": "Home Depot needs to scale its expert advice digitally. Its new AI chatbot faces trust issues. What other digital approaches should they explore?",
+    "hintText": "Think beyond a text-based chatbot. What other technologies could replicate human expertise online?",
+    "shortKeyQuestionText": "What other digital approaches should they explore?",
+    "choices": [
+      {
+        "title": "Live video consultations",
+        "text": "Connect customers directly to in-store experts via live video calls",
+        "followUpQuestion": "Live video makes sense. How would this alternative help Home Depot digitally replicate expert advice and build trust?"
+      },
+      {
+        "title": "Augmented reality guides",
+        "text": "Offer AR tools for visual step-by-step project guidance and product placement",
+        "followUpQuestion": "AR guides look promising. How would this alternative help Home Depot digitally replicate expert advice and build trust?"
+      },
+      {
+        "title": "AI diagnostic tools",
+        "text": "Develop specialized AI systems for diagnosing specific project problems",
+        "followUpQuestion": "AI diagnostics seem smart. How would this alternative help Home Depot digitally replicate expert advice and build trust?"
+      },
+      {
+        "title": "Crowdsourced community",
+        "text": "Build a platform for customers to ask and answer project questions",
+        "followUpQuestion": "Community support is interesting. How would this alternative help Home Depot digitally replicate expert advice and build trust?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "tacit_knowledge_problem",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/tacit_knowledge_problem.png",
+    "mentalModelImageDescription": "A person attempting to assemble a complex piece of furniture using only written instructions, struggling while another person easily assembles the same furniture by watching someone else do it, visually highlighting how some knowledge is difficult to transfer through explicit methods.",
+    "mentalModelLinkText": "Home Depot's AI struggles because expert advice uses tacit knowledge—intuition and experience hard to codify. The bot's explicit wiring codes are insufficient, leading to inaccurate guidance and eroded trust, as the unwritten 'feel' for a project is missing.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine trying to teach someone to ride a bike just by reading a book. You need to *feel* the balance. That's tacit knowledge - the stuff you know how to do but can't easily write down.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Tacit knowledge is the \"know-how\" gained through experience, making it difficult to transfer through written instructions alone.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Home Depot's situation?",
+        "answer": "Home Depot's in-store experts possess years of tacit knowledge about home improvement projects. The AI chatbot, relying solely on explicit data, fails to capture this \"feel,\" leading to mistakes and customer distrust.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals that replicating expert advice requires more than just data; it demands capturing the nuances of tacit knowledge through approaches like video demonstrations or expert consultations. Ignoring this will limit the AI's effectiveness.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "One trap for established players is the **innovator's dilemma**: clinging to what works instead of embracing disruptive change. Home Depot's success with in-store expertise makes it hard to fully commit to AI, which currently falls short. The nuance here is that *investing in imperfect AI threatens their core advantage even if it's the future.* It's like Blockbuster sticking with physical stores while Netflix streamed ahead."
+}

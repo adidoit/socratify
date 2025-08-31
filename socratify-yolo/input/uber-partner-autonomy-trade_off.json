@@ -1,0 +1,198 @@
+{
+  "exerciseVersion": 4,
+  "exerciseUuid": "5f61c481-52b8-47f8-a9dc-35e9e12aec78",
+  "exerciseType": "trade_off",
+  "status": "active",
+  "storyType": "News",
+  "storyUuid": null,
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic trade-offs of Uber's AV partnership model requires familiarity with concepts like competitive advantage, market positioning, and strategic partnerships that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the risks of disintermediation and the value of platform indispensability requires following ride-hailing and AV industry trends and understanding competitive dynamics.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "fileName": "uber-partner-autonomy-trade_off.xml",
+    "backgroundNeeded": "Remember that Uber connects riders with drivers via its app and is now partnering with AV companies like Waymo, understand the concept of disintermediation where partners might bypass the platform, and apply strategic thinking to evaluate when sacrificing direct customer control for faster market entry is worthwhile.",
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding customer loyalty and the importance of direct relationships is helpful for grasping the risks of Uber's partnership strategy.",
+    "happyPath": "Uber's strategic pivot in autonomous vehicles marks a significant trade-off: moving from costly in-house R&D to an asset-light partnership model with rivals like Waymo. This shift immediately reduces immense financial burdens and accelerates market access for AV services. However, it introduces a profound sacrifice: relinquishing direct control over core AV technology and, more critically, exposing itself to the risk of disintermediation, where partners might eventually bypass Uber’s platform, threatening its long-term customer relationship and revenue streams. This strategic choice involves a complex interplay of gains and sacrifices across multiple dimensions. Financially, Uber is trading a massive, uncertain capital expenditure on AV R&D for a more predictable, commission-based revenue model. The immediate benefit is avoiding the multi-billion-dollar investment and inherent risks associated with developing cutting-edge autonomous technology. The sacrifice, however, is the potential for higher long-term profit margins and proprietary intellectual property that comes with owning the full AV stack. Uber is betting on the efficiency of an asset-light model, prioritizing rapid scale over deep technological ownership and its associated risks. From a control and customer relationship perspective, Uber is giving up direct oversight of the underlying AV technology and, by extension, parts of the end-to-end customer experience. While it gains immediate access to a wider range of AV services and accelerated deployment, it accepts the critical vulnerability of disintermediation. Its partners, who also possess their own customer apps, could leverage their introduction via Uber to foster direct relationships, thereby cutting Uber out of future transactions. The strategic imperative for Uber now becomes: can it offer such compelling value through its platform – convenience, aggregation, unique features – that riders remain loyal to Uber even when direct alternatives from AV partners exist? Finally, regarding competitive positioning and long-term value capture, Uber is redefining its role in the future of mobility. By foregoing the ",
+    "faviconUrl": "https://cdn.socratify.com/favico/uber.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "Smartphone screen displaying ride-hailing app with sleek black and white interface, split-screen showing traditional car icon on left and futuristic autonomous vehicle icon on right, with subtle electrical blue glow accents around the AV icon",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/uber-partner-autonomy-industry_trend-aa13394e-1e1a-4695-90ba-5f150a2702c8.png",
+    "coverPlainTitle": "Uber Sacrifices Direct Rider Access",
+    "coverWittyTitle": "Cut Out the Middleman?",
+    "coverRatingStat": 4.8,
+    "coverUsersPlayedStat": 12,
+    "coverQuestion": "When should ride apps share customers?",
+    "coverParagraph": "**Uber** **stopped building self-driving cars** to partner with Waymo instead. Trade direct customer access for faster market entry - when does this gamble pay off?",
+    "tags": "Strategy,Partnerships,Tech,Ride-Hailing",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "AV Gamble",
+      "text": "Uber spent billions trying to build its own self-driving cars but failed to **launch service**. Now, Uber partners with Waymo and others. They integrate these self-driving vehicles to gain faster market access, but risk partners **bypassing Uber entirely**.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Uber Mobility Revenue",
+        "subtitle": "USD billions, quarterly, Q1 2023 vs Q1 2024",
+        "color": "#1FBAD6",
+        "source": "[Uber Q1 2024 Earnings Press Release, May 2024. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "Q1 2023",
+              "value": 4.33,
+              "color": "#FF6F61"
+            },
+            {
+              "label": "Q1 2024",
+              "value": 5.63,
+              "color": "#4CAF50"
+            }
+          ],
+          "changePercent": 30.02,
+          "changeValue": 1.3
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Bypass Threat",
+      "text": "Uber connects **millions of riders** to autonomous vehicles, yet risks partners using **their own apps to cut Uber out** of transactions.",
+      "zoomOutTextQuote": {
+        "text": "By leveraging Uber’s global scale, operational expertise, and leading marketplace technology, we are thrilled to partner with cutting-edge AV companies… to help them commercialize their vehicles and bring the benefits of autonomy.",
+        "source": "Dara Khosrowshahi, CEO of Uber, Inside Autonomous Vehicles interview, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Uber is a store that brings customers to self-driving taxis. But what if those taxis decide to open their own store and take Uber's customers?",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Uber uses self-driving cars, but risks those companies cutting them out.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What is Uber's biggest strategic risk?",
+        "answer": "Uber risks investing in partners who eventually compete directly by creating their own rider apps. Uber must ensure its platform offers unique value beyond simply connecting riders and drivers.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How can AV companies bypass Uber?",
+        "answer": "Self-driving car companies could create their own apps and dispatch vehicles directly to riders, cutting out Uber's fees. They could also partner with other platforms or transportation services.",
+        "type": "deep"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "When is the trade-off of relinquishing control for faster market access worthwhile?",
+    "choices": [
+      {
+        "title": "Customer loyalty",
+        "text": "Risking customers bypassing Uber's app to book directly",
+        "feedback": "Customer loyalty seems crucial. When would risking this make sense for Uber's long-term AV strategy?",
+        "correct": false
+      },
+      {
+        "title": "Direct relationships",
+        "text": "Losing the primary, direct relationship with the end rider",
+        "feedback": "Direct relationships feel vital. When would losing this make sense for Uber's long-term AV strategy?",
+        "correct": false
+      },
+      {
+        "title": "Revenue per ride",
+        "text": "Accepting a commission instead of full ride fare revenue",
+        "feedback": "Revenue per ride is key. When would accepting less make sense for Uber's long-term AV strategy?",
+        "correct": false
+      },
+      {
+        "title": "Platform indispensability",
+        "text": "Becoming less essential if partners build their own rider base",
+        "feedback": "Platform value matters. When would risking this make sense for Uber's long-term AV strategy?",
+        "correct": true
+      }
+    ]
+  },
+  "mentalModel": {
+    "mentalModelName": "platform_envelopment",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/platform_envelopment.webp",
+    "mentalModelImageDescription": "Imagine a central hub, like a town square, surrounded by shops offering various services. As the town grows, one large department store starts offering all the services within its walls, enveloping the smaller shops. The department store leverages its existing customer base to promote the new services.",
+    "mentalModelLinkText": "Platform envelopment shows how AV partners, like Waymo, could use their own apps to bypass Uber. By leveraging their tech and vehicles, they might build direct customer relationships, making Uber's ride-hailing platform less essential.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you have a lemonade stand, and then a big store opens next door that sells everything, including lemonade. People might just go to the big store instead of your stand, even if your lemonade is better!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Platform envelopment is when a dominant platform expands its services to include those offered by smaller players, potentially displacing them.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Uber's situation?",
+        "answer": "Uber's ride-hailing platform can be enveloped by AV companies if they create their own direct-to-consumer interfaces, disintermediating Uber's app and customer relationships, potentially reducing Uber to a mere infrastructure provider.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Uber should prioritize features that increase customer loyalty and stickiness within their app. They need to integrate services that AV companies can't easily replicate (e.g. rewards programs, package delivery, integrated entertainment) to avoid being bypassed.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Companies often face a build vs. buy decision. The nuance here is **make vs. ally**. Uber tried to build its own self-driving tech but now partners instead. Uber gains access to vehicles quickly, but becomes reliant on partners like Waymo. This dependence creates a **hold-up risk** - where partners gain leverage over Uber. _What's counterintuitive is that relinquishing control can paradoxically increase long-term vulnerability._ It’s like choosing to rent instead of own: less upfront investment, but always at the landlord's mercy.",
+  "keyQuestion": {
+    "keyQuestionRole": "You are Uber's Head of Business Development",
+    "keyQuestionText": "Uber seeks AV scale via partnerships. They're trading exclusive customer access for faster market entry. When would this sacrifice be worthwhile?",
+    "hintText": "Consider the risks of disintermediation and how giving up direct customer control affects Uber's platform.",
+    "shortKeyQuestionText": "When would this sacrifice be worthwhile?",
+    "choices": [
+      {
+        "title": "Customer loyalty",
+        "text": "Risking customers bypassing Uber's app to book directly",
+        "followUpQuestion": "Customer loyalty seems crucial. When would risking this make sense for Uber's long-term AV strategy?"
+      },
+      {
+        "title": "Direct relationships",
+        "text": "Losing the primary, direct relationship with the end rider",
+        "followUpQuestion": "Direct relationships feel vital. When would losing this make sense for Uber's long-term AV strategy?"
+      },
+      {
+        "title": "Revenue per ride",
+        "text": "Accepting a commission instead of full ride fare revenue",
+        "followUpQuestion": "Revenue per ride is key. When would accepting less make sense for Uber's long-term AV strategy?"
+      },
+      {
+        "title": "Platform indispensability",
+        "text": "Becoming less essential if partners build their own rider base",
+        "followUpQuestion": "Platform value matters. When would risking this make sense for Uber's long-term AV strategy?"
+      }
+    ]
+  }
+}

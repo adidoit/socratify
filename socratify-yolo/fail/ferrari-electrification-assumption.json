@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "4fee4063-fc2d-4341-8da1-c47e9de1a4ab",
+  "exerciseVersion": 4,
+  "exerciseType": "assumption",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Ferrari's strategic pivot requires familiarity with concepts like brand identity, market positioning, and strategic trade-offs that first-year business students learn, while analyzing the implications of transitioning a heritage-rich brand to new technology.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Ferrari's adaptation requires following automotive industry trends and understanding competitive dynamics in the luxury market, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding how brand loyalty and perception are maintained during technological shifts, especially in luxury markets, requires knowledge gained from following marketing trends and consumer psychology.",
+    "fileName": "ferrari-electrification-assumption.xml",
+    "backgroundNeeded": "Remember that Ferrari is known for loud engines and racing heritage, and is moving to silent electric vehicles; understand how brands maintain their identity during technological transitions and how luxury pricing is justified; and apply strategic thinking to analyze what aspects of the Ferrari brand loyal customers might value most beyond engine sound.",
+    "happyPath": "Ferrari's iconic status was forged upon the power and sound of screaming V12 engines, but the automotive landscape is shifting, demanding a move towards silence. This presents the brand with a significant challenge: how to reinvent its core identity for the electric era while staying true to its roots. Built on decades of roaring engines and celebrated racing victories since its founding in 1947, Ferrari has become the very definition of high-performance combustion vehicles. The pivot to silent electric power forces Ferrari to confront and potentially redefine its fundamental nature. As part of this transition, Ferrari is set to launch its first fully electric supercar in 2025. This move represents a significant break from the signature combustion engines that have historically defined the company's legacy. The task ahead involves not only reinventing core vehicle technology but also fiercely safeguarding its unique and deeply ingrained brand identity. The very thought of \"Engine Note Optional?\" strikes at the heart of Ferrari's brand. For many, thinking of Ferrari immediately brings to mind the distinctive engine roar. This powerful sound is far more than just noise; it serves as the sonic signature of decades of racing heritage and supercar excellence, cultivating extreme loyalty among enthusiasts and justifying premium price points. Now, driven by regulations and the competitive landscape, Ferrari is increasingly moving towards electric power, launching itFerrari's brand is synonymous with the loud, thrilling sound of its V12 engines. The company is now adapting to electric vehicles. Ferrari's identity relies on its roaring V12 engines. They're now building silent electric vehicles. Ferrari must redefine its appeal without that iconic sound, risking whether it can justify premium prices to loyal buyers.",
+    "faviconUrl": "https://www.ferrari.com/static/favicon_32x32.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A bright red sports car with a long, curved body and black tires sits on a gray road. Sunlight glints off its shiny, polished surface.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/ferrari-electrification-response-580401ce-2aba-468f-9a0b-46d168f32408.png",
+    "coverPlainTitle": "Ferrari Bets Brand Outweighs Engine Sound",
+    "coverWittyTitle": "Silent Ferraris? Hear Them Out!",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can luxury cars stay special going electric?",
+    "coverParagraph": "**Ferrari** is releasing a silent EV. **Question** what they're assuming about why loyal customers buy their cars.",
+    "tags": "Strategy,Product,Automotive,Brand Management",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Brand Bet",
+      "text": "Ferrari's identity relies on its roaring V12 engines. **They're now building silent electric vehicles.** Ferrari must redefine its appeal without that iconic sound, risking whether it can justify **premium prices** to loyal buyers.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Ferrari Hybrid Sales %",
+        "subtitle": "% of vehicles, 2024",
+        "color": "#D40000",
+        "source": "Motor Authority, 2025. Socratify Analysis",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "percentage",
+          "currencyCode": null
+        },
+        "data": {
+          "value": 51.0,
+          "change": 0.0,
+          "changeValue": 0.0,
+          "trend": "flat",
+          "insight": "51% of Ferrari sales were hybrids"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Sound Sacrifice",
+      "text": "Ferrari kills **engine roars** forever, betting **$500,000 buyers** prefer eco-status over heritage.",
+      "zoomOutTextQuote": {
+        "text": "“We believe combustion technology is intrinsically linked to Ferrari’s DNA... The transition to electric is not about abandoning our heritage, but about integrating new technology while continuing to provide the emotion and performance that define Ferrari.”",
+        "source": "Benedetto Vigna, CEO Ferrari, Shareholder Meeting, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Ferrari is famous for loud, fast cars. Now they're making quiet electric cars. It's like a rockstar switching to classical music – will fans still love them?",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Ferrari goes electric. Engine roar dies. Brand loyalty at risk.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for Ferrari?",
+        "answer": "Ferrari risks alienating core enthusiasts who value the visceral engine experience above all else. However, attracting new, environmentally conscious luxury buyers could expand the brand's reach and secure its future.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How does Ferrari balance heritage with innovation?",
+        "answer": "Ferrari must convince buyers that electric performance matches the thrill of its combustion engines. Successfully blending cutting-edge technology with iconic design is crucial to retain its premium status.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Ferrari's Head of Strategy",
+    "keyQuestionText": "Ferrari's identity relies on loud engines. They're releasing a silent EV anyway. What are they betting on about their loyal customers?",
+    "hintText": "Consider what non-sonic aspects of the brand loyal customers might value most.",
+    "shortKeyQuestionText": "What are they betting on about their loyal customers?",
+    "choices": [
+      {
+        "title": "Loyalty is intrinsic",
+        "text": "Loyalty comes from brand image, not just engine sound",
+        "followUpQuestion": "Intrinsic loyalty matters. What might make customers stay loyal without the iconic engine sound?"
+      },
+      {
+        "title": "Driving feel is king",
+        "text": "Customers prioritize the unique feel of driving a Ferrari",
+        "followUpQuestion": "Driving feel is critical. What might make customers prioritize feel over the car's sound?"
+      },
+      {
+        "title": "Innovation valued",
+        "text": "Customers want Ferrari to be at the forefront of automotive tech",
+        "followUpQuestion": "Innovation is appealing. What might make customers value cutting-edge tech more than traditional sounds?"
+      },
+      {
+        "title": "Collectibility drives sales",
+        "text": "Customers buy for collectibility and status, not sound",
+        "followUpQuestion": "Collectibility drives demand. What might make customers buy silent EVs for their collection value?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "handicap_principle",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/handicap_principle.png",
+    "mentalModelImageDescription": "A peacock with an extravagant, colorful tail. Its elaborate tail, while a hindrance to movement and survival, signals genetic superiority because it demonstrates the peacock's ability to thrive despite the burden.",
+    "mentalModelLinkText": "The handicap principle shows how sacrificing a costly trait signals underlying quality—like Ferrari abandoning its iconic engine roar to prove its inherent brand superiority despite the perceived loss.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a bird with big, heavy feathers that make it hard to fly. If it's still strong and healthy, it shows how super-duper it is! The hard feathers are like a handicap, and the bird is showing off that it's amazing even with the handicap.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The handicap principle is when a costly or difficult trait signals underlying quality or strength because only the best can afford it.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Ferrari's situation?",
+        "answer": "Ferrari going electric, despite the loss of its iconic engine sound, demonstrates confidence and capability. By succeeding in the EV market, Ferrari proves that its brand is strong enough to thrive even without its traditional signature.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model suggests that Ferrari's willingness to move to EVs is a sign of strength, not weakness. It implies that the brand is resilient and innovative, and that customers value this more than the traditional engine sound.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes companies face a innovator's dilemma: clinging to what works versus embracing disruption. Ferrari's V12 engines are legendary, but electric is the future. The nuance here is whether Ferrari can transfer its brand cachet—built on visceral thrills—to the silent EV market. It faces a **credibility challenge**, proving it's still \"Ferrari\" without the roar. *Ferrari is betting its brand is strong enough to redefine luxury performance beyond just sound.* This is like a master chef known for steak now trying to win over vegans."
+}

@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "dc2d2b54-bc45-4ff7-8a8c-cf7602a1c33e",
+  "exerciseVersion": 4,
+  "exerciseType": "hypothesis",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the factors behind \"Godzilla Minus One's\" unexpected global success requires familiarity with concepts like cultural export, market resonance, and strategic positioning, typical of first-year business students.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the global impact of a culturally specific film requires understanding broader market trends and cultural exchange dynamics, aligning with regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding the appeal of authentic perspectives and the role of social media virality requires knowledge of modern marketing and communication strategies.",
+    "fileName": "godzilla-global-hypothesis",
+    "backgroundNeeded": "Remember that Toho is a Japanese film studio known for Godzilla, understand how cultural products can find global audiences despite language barriers, and apply concepts of market resonance and strategic growth to hypothesize the reasons for \"Godzilla Minus One's\" success.",
+    "happyPath": "Toho's Japanese-language \"Godzilla Minus One\" had massive global impact and Oscar recognition. This defies expectations for culturally specific film export. What are some hypotheses for this outcome?",
+    "faviconUrl": "https://www.toho.co.jp/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A dark green, spiky dinosaur toy. Its mouth is open, showing small white teeth. The toy is made of hard plastic.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/godzilla-global-hypothesis-7e2741f7-98ae-4c80-87f2-b686e0a3ef10.png",
+    "coverPlainTitle": "Godzilla's Global Smash Challenges Expectations",
+    "coverWittyTitle": "Godzilla Conquers the World...Again?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Why did Godzilla become a global hit?",
+    "coverParagraph": "“Godzilla Minus One,” a low-budget Japanese film, won an Oscar. Now, **explore** why **Godzilla** resonated worldwide.",
+    "tags": "Strategy,Economics,Film,Culture",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Global Surprise",
+      "text": "Japanese films rarely achieve global box-office success or Oscars. Yet Toho, a Japanese studio, made \"Godzilla Minus One\" on a low budget. The film **won an Oscar** and had massive **global impact**, defying non-Hollywood cinema norms.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Godzilla Minus One Global Box Office",
+        "subtitle": "USD millions, 2023",
+        "color": "#FF4500",
+        "source": "[Screenrant, 2023. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "value": 60600000.0,
+          "change": 304.0,
+          "changeValue": 45600000.0,
+          "trend": "up",
+          "insight": "Grossed $60.6M on $15M budget"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "For Toho to grow... we have to really see opportunities outside of Japan.",
+        "source": "Hiroyasu Matsuoka, CEO of Toho"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a local band making a hit song that everyone around the world loves, even though most bands from that town only play for their neighbors. Toho made a movie that was a big deal globally, even though Japanese movies often don't do well outside Japan.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Toho's \"Godzilla Minus One\" smashes global box office, defying expectations for Japanese cinema.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "Why does \"Godzilla Minus One's\" success matter for Toho's strategy?",
+        "answer": "The film's global appeal validates Toho's expansion strategy beyond Japan, paving the way for more international productions. This success also positions Toho as a serious contender in the global film market, attracting talent and investment.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are some key challenges Toho faces in replicating this success?",
+        "answer": "Toho must balance maintaining its unique Japanese identity with appealing to global audiences. This includes navigating cultural nuances, distribution complexities, and competition with established Hollywood studios while keeping production costs reasonable.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are a cultural economist",
+    "keyQuestionText": "Toho's Japanese-language \"Godzilla Minus One\" had massive global impact and Oscar recognition. This defies expectations for culturally specific film export. What are some hypotheses for this outcome?",
+    "hintText": "Think about the broader \"Cool Japan\" strategy and increasing global cultural exchange trends.",
+    "shortKeyQuestionText": "What explains Godzilla Minus One's global cultural impact?",
+    "choices": [
+      {
+        "title": "\"Cool Japan\" effect",
+        "text": "Government strategy for exporting Japanese culture facilitated global impact",
+        "followUpQuestion": "\"Cool Japan\" looks key. Why is this the right explanation for Godzilla Minus One's global cultural impact?"
+      },
+      {
+        "title": "Authenticity appeal",
+        "text": "Film's authentic Japanese perspective resonated with global audiences",
+        "followUpQuestion": "Authenticity appeal seems critical. Why is this the right explanation for the film's widespread critical acclaim?"
+      },
+      {
+        "title": "Universal themes",
+        "text": "Core themes like post-war trauma and human resilience resonated universally",
+        "followUpQuestion": "Universal themes matter. Why is this the right explanation for a Japanese-specific film's global resonance?"
+      },
+      {
+        "title": "Social media virality",
+        "text": "Online buzz and fan communities significantly amplified the film's reach",
+        "followUpQuestion": "Social media virality makes sense. Why is this the right explanation for its unexpected global popularity?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "cultural_drift",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/cultural_drift.png",
+    "mentalModelImageDescription": "Imagine a river slowly carving a new channel over time. The water, initially flowing straight, gradually shifts course due to erosion and sediment deposit. A small change in direction accumulates until the river's path is completely altered.",
+    "mentalModelLinkText": "Cultural drift shows how global tastes slowly evolve. The massive impact of Toho's Japanese-language 'Godzilla Minus One' suggests a gradual shift, rewarding authentic cultural content instead of Hollywood conformity.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a playground where everyone starts playing tag the same way. Over time, kids change the rules a little bit, and then a little bit more. After a while, they're playing a whole new game without even realizing how it happened! That’s cultural drift.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Cultural drift describes how norms and values gradually evolve within a population over time.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Toho's situation?",
+        "answer": "\"Godzilla Minus One\" benefiting from cultural drift means that global audiences are increasingly open to diverse cultural products. Toho’s success could influence other filmmakers and studios to embrace their unique cultural perspectives, rather than homogenizing content for wider appeal. ",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Toho should stay attuned to evolving global tastes. Cultural drift suggests that embracing authenticity and cultural specificity can provide a competitive advantage. By understanding the underlying trends that fuel the shift, Toho can make strategic decisions that capitalize on this new cultural landscape.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes success comes from doing the opposite of what everyone expects. This is **blue ocean strategy**: creating new demand in uncontested market spaces, rather than battling rivals. Toho defied Hollywood's dominance, making a Japanese-language film that resonated globally, even winning an Oscar. The nuance here is that Toho avoided direct competition with the Hollywood **blockbuster** machine. _What's counterintuitive is that by embracing its unique cultural identity, \"Godzilla Minus One\" found a bigger audience than it might have by trying to imitate Hollywood._ It's like opening a vegan burger joint in a steakhouse district."
+}

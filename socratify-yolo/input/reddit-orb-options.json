@@ -1,0 +1,170 @@
+{
+  "exerciseUuid": "3de04b77-5de1-471f-ad1e-b460773c722f",
+  "exerciseVersion": 4,
+  "exerciseType": "options",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic trade-offs between user anonymity, new verification laws, and AI content requires familiarity with concepts like strategic positioning, user trust, and regulatory compliance, which first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Reddit's decision on identity verification requires understanding evolving online platform dynamics, regulatory pressures, and competitive responses to AI, typical of regular observers of the tech industry.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "",
+    "fileName": "reddit-orb-options.xml",
+    "backgroundNeeded": "Remember that Reddit relies on user anonymity and faces new laws for age verification and AI content, understand how iris scanning (World ID) works for identity verification, and apply strategic thinking to evaluate trust-building approaches beyond the technology itself.",
+    "happyPath": "Reddit's consideration of World ID for user verification highlights a critical strategic inflection point for online platforms. The increasing prevalence of AI-generated content and evolving regulatory demands around age verification necessitate a robust identity solution. However, for a platform like Reddit, which deeply values user anonymity and privacy, this isn't merely a technical implementation but a fundamental strategic choice that will shape its future, user base, and competitive positioning. One crucial strategic lens involves evaluating the technological paradigms for identity verification. World ID's iris-scanning system, which aims for privacy through fragmented, non-identifiable data storage, represents one advanced biometric approach. However, Reddit must consider alternatives that push different boundaries of privacy and security. For instance, the article mentions \"Badge\" as a startup exploring biometric authentication without storing any information, hinting at zero-knowledge proof or decentralized identity solutions that could offer even greater anonymity and user control. Contrasting these diverse technical pathways involves weighing the trade-offs between verifiable uniqueness, ease of use, and the philosophical implications of centralized versus self-sovereign identity, which directly impacts user trust and adoption. A second strategic perspective revolves around Reddit's operating model and ecosystem strategy. Should Reddit develop a proprietary in-house solution, granting it full control but incurring significant development and maintenance costs? Or should it embrace the \"third-party provider\" model, as currently explored with World ID? Furthermore, the article suggests it's \"unlikely to be a winner-take-all market\" for identity solutions and that \"interoperability is a likely characteristic.\" This implies Reddit could choose to integrate with a diverse set of providers, or even take a leadership role in establishing open, industry-wide identity standards. This decision dictates Reddit's influence in the broader \"agentic web\" where AI agents may outnumber humans, affecting its ability to ensure fair competition and avoid undue power concentration with a single provider, as warned by critics like Billy Perrigo. Finally, the strategic challenge is deeply tied to user trust and adoption. As Reed Albergotti points out, human trust in novel technologies, especially invasive ones like iris scans, often overrides technical explanations of privacy. Reddit must consider not just the efficacy of the technology, but how it will manage public perception and win over a notoriously skeptical user base. Strategic options here include robust transparency around data handling, community-driven policy development, or even incentivizing verification. The success of any identity solution hinges on its widespread acceptance, making communication, community engagement, and the perception of control over personal data as vital as the underlying technology itself. Ultimately, Reddit's path forward is a multi-faceted strategic decision, balancing the immediate demands of regulation and AI with its core values and long-term vision for an \"agentic web.\" It requires navigating complex trade-offs between privacy, security, and convenience, choosing an ecosystem model that promotes interoperability, and prioritizing user trust above all else. The \"right\" option isn't singularly defined but emerges from a holistic understanding of these interconnected strategic dimensions.",
+    "faviconUrl": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "Stylized human eye graphic rendered in Reddit's signature vibrant orange and white colors. The iris shows a faint pattern suggesting biometric scanning.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/reddit-orb-options-2444fce5-65aa-487c-97de-a1b130d517b9.png",
+    "coverPlainTitle": "Reddit Seeks User Trust",
+    "coverWittyTitle": "Seeing is Believing?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How can Reddit earn user trust?",
+    "coverParagraph": "**Reddit** needs trust to **verify user identities**. Explore approaches beyond iris scans as Head of Community Trust.",
+    "tags": "Strategy,Product,Tech,Social Media",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Trust Challenge",
+      "text": "Reddit must verify users for new age laws and to manage AI-generated content. However, the platform's foundation is **user anonymity**. Reddit is testing World ID's iris scans for identity, but many users fear **losing their privacy**.",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "World ID Tech Timeline",
+        "subtitle": "Years since founding, 2025",
+        "color": "#4A90E2",
+        "source": "[Article, 2025. Socratify Analysis]",
+        "features": [
+          "vertical bars"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "Founded",
+              "value": 6.0
+            },
+            {
+              "label": "TechAge",
+              "value": 6.0
+            },
+            {
+              "label": "OrbAge",
+              "value": 1.0
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "We will do our best to preserve both the humanness and anonymity of Reddit.",
+        "source": "Steve Huffman, Reddit co-founder and CEO"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a secret club where everyone wears masks. To keep robots out, the club asks you to show your eyes, but some members worry others will recognize them anyway. It's like proving you're human without revealing who you are.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Reddit wants to verify users with iris scans. Anonymity is threatened.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for Reddit?",
+        "answer": "Reddit risks alienating its core user base, who value anonymity, by implementing invasive verification methods. If users leave for platforms that prioritize privacy, Reddit's community and content could suffer significantly.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What business dynamics are in play?",
+        "answer": "Reddit must balance regulatory compliance and AI content mitigation with user privacy expectations. Choosing a verification method that minimizes data collection while still being effective is key to retaining users and satisfying legal requirements.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Reddit's Head of Community Trust",
+    "keyQuestionText": "World ID's iris scans face public skepticism. Building trust is crucial for adoption. What other trust-building approaches should they consider?",
+    "hintText": "Think beyond the technology itself and focus on how to gain user acceptance for any verification method.",
+    "shortKeyQuestionText": "What other trust-building approaches should they consider?",
+    "choices": [
+      {
+        "title": "Transparent communication",
+        "text": "Educate users on privacy and security mechanisms rigorously",
+        "followUpQuestion": "Transparency is key. How would this alternative help Reddit build trust for identity verification?"
+      },
+      {
+        "title": "Community-led policy",
+        "text": "Allow Reddit communities to set their own verification requirements",
+        "followUpQuestion": "Community-led sounds empowering. How would this alternative help Reddit build trust for identity verification?"
+      },
+      {
+        "title": "Incentivize verification",
+        "text": "Offer exclusive features or perks for verified accounts",
+        "followUpQuestion": "Incentives are powerful. How would this alternative help Reddit build trust for identity verification?"
+      },
+      {
+        "title": "Third-party auditing",
+        "text": "Engage independent auditors to certify privacy and security claims",
+        "followUpQuestion": "Third-party auditing adds credibility. How would this alternative help Reddit build trust for identity verification?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "trust_thermocline",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/trust_thermocline.webp",
+    "mentalModelImageDescription": "Imagine a clear lake with distinct layers. The surface, warmed by the sun, represents initial trust. As you dive deeper, the temperature drops sharply, mirroring how trust rapidly decreases as risks or perceived privacy violations increase. The cold depths symbolize a state of distrust, difficult to recover from.",
+    "mentalModelLinkText": "Trust thermocline shows how trust can rapidly vanish once a hidden threshold is crossed—like Reddit's iris scans causing user trust to plummet due to perceived privacy violations.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine jumping into a lake. The top is warm and nice, but as you go deeper, it gets super cold really fast! Trust is like that. It's easy to have a little trust at first, but it can disappear quickly if something bad happens.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Trust is easily lost when expectations are violated, creating a sharp decline, much like temperature changes in a thermocline.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Reddit's situation?",
+        "answer": "Reddit risks a rapid decline in user trust with iris scans. Users may tolerate minor data collection, but biometric data crosses a threshold, causing widespread distrust. Reddit needs to carefully navigate this sensitivity to avoid alienating its community.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model highlights the fragility of trust. Reddit needs to proactively address privacy concerns and demonstrate transparency to maintain user confidence. Failing to do so could lead to mass exodus and a damaged reputation that's hard to recover from.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes, businesses must balance competing values. This is **values tension**: when serving one stakeholder harms another. Reddit prioritizes user anonymity, yet faces increasing pressure to verify identities. The nuance here is that Reddit's historical value proposition—anonymous community—conflicts directly with new demands for accountability. What's at stake is not just privacy, but also Reddit's core appeal. *The challenge lies in finding verification methods that don't destroy the very thing that made Reddit popular.* It's like promising both freedom and security, a tightrope walk for any platform."
+}

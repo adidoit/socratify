@@ -1,0 +1,29 @@
+{
+  "timestamp": 1754227369.5840538,
+  "statistics": {
+    "companies": {
+      "other": 5475,
+      "north_america": 35,
+      "europe": 32,
+      "asia": 39
+    },
+    "universities": {
+      "asia": 115,
+      "other": 1244,
+      "europe": 31,
+      "north_america": 34
+    },
+    "business_schools": {
+      "other": 348,
+      "europe": 65,
+      "north_america": 38,
+      "asia": 66
+    }
+  },
+  "total_files": 7522,
+  "structure": {
+    "business_schools": "Separate logos for business schools (Wharton, Kellogg, INSEAD, etc.)",
+    "universities": "Parent university logos (Harvard, MIT, Oxford, etc.)",
+    "companies": "All employer logos (consulting, finance, tech, etc.)"
+  }
+}

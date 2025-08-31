@@ -1,0 +1,188 @@
+{
+  "exerciseVersion": 4,
+  "exerciseUuid": "229a3e8f-4a09-4dd1-9347-be685ea7d3ae",
+  "exerciseType": "response",
+  "status": "active",
+  "storyType": "News",
+  "storyUuid": null,
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding potential employee responses to significant job market shifts requires familiarity with concepts like labor markets, wage competition, and skills development that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how Amazon's strategic investment impacts rural economies and labor requires understanding broad economic trends and how major companies leverage scale, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "fileName": "amazon-rural-response.xml",
+    "backgroundNeeded": "Remember that rural labor markets have unique challenges and that Amazon is investing heavily in these areas with competitive wages, understand how significant job creation impacts local employment and wages, and apply knowledge of employee motivations to predict responses to new opportunities.",
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding the appeal of Amazon's job offers and potential employee responses requires recognizing basic marketing concepts related to value propositions and employer branding.",
+    "happyPath": "Not available",
+    "faviconUrl": "https://www.amazon.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A bright yellow cardboard box sits on a brown wooden porch.  A dark brown delivery truck is in the blurred background.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/amazon-rural-questions-a6d2037e-d1e1-4a36-86b4-a81556e5035f.png",
+    "coverPlainTitle": "Amazon's Jobs Challenge Rural Areas",
+    "coverWittyTitle": "Prime Time for Rural Jobs?",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 12,
+    "coverQuestion": "How will rural workers respond to Amazon jobs?",
+    "coverParagraph": "Rural areas often lack good jobs. **Amazon** is **adding jobs**. What choices will rural workers make?",
+    "tags": "Economics,Operations,Labor,Rural",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Rural Opportunity",
+      "text": "Many logistics companies are pulling out of rural areas due to **high operating costs**. But Amazon is investing $4 billion to create 100,000 new jobs, offering **competitive wages and benefits** in these underserved communities.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "New Jobs Created by Amazon in Rural Areas",
+        "subtitle": "Count, Projected by 2026",
+        "color": "#FF9900",
+        "source": "[CNBC, 2025. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "count",
+          "currencyCode": null
+        },
+        "data": {
+          "value": 100000.0,
+          "change": 100.0,
+          "changeValue": 50000.0,
+          "trend": "up",
+          "insight": "Doubling jobs since 2023 expansion"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Situational Context",
+      "text": "Sometimes, good intentions backfire. This is **unintended consequences**: when actions produce unexpected and often negative outcomes. Amazon's investment in rural jobs, while positive, might unintentionally drive up local wages across the board. This could strain smaller businesses lacking Amazon's deep pockets, leading to closures and reduced services. _What's counterintuitive is that Amazon's attempt to help could inadvertently hurt the very communities it aims to serve._ It’s like trying to water a garden and accidentally flooding the whole neighborhood.",
+      "zoomOutTextQuote": {
+        "text": "At a time where many logistics providers are backing away... because of the cost to serve, we are stepping up our investment to make their lives easier and better.",
+        "source": "Udit Madan, SVP Worldwide Operations, Amazon, Company Blog Post (cited by FreightWaves), 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a bus company that only drives in cities because it's cheaper. Amazon is like a bus company that also drives to small towns, even though it costs more, to help people there get what they need and to give people jobs.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Logistics firms flee rural areas. Amazon doubles down and creates jobs.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "Why is Amazon investing when others pull back?",
+        "answer": "Amazon likely anticipates long-term benefits like customer loyalty and goodwill outweighing short-term cost disadvantages. Moreover, establishing infrastructure early creates a barrier to entry for competitors wanting to serve those markets later.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are the challenges to operating in rural areas?",
+        "answer": "Serving rural areas involves higher transportation costs, longer delivery times, and difficulty finding qualified employees. Amazon needs innovative solutions to overcome logistical hurdles and ensure profitability in these less-dense markets.",
+        "type": "deep"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "How could potential employees respond to Amazon's job offers in rural areas?",
+    "choices": [
+      {
+        "title": "Acquire new skills",
+        "text": "Seek training for logistics roles Amazon offers",
+        "feedback": "New skills are vital. Why would this be employees' best response to Amazon's new job types?",
+        "correct": false
+      },
+      {
+        "title": "Shift from old jobs",
+        "text": "Leave lower-paying local jobs for Amazon's higher wages",
+        "feedback": "Shifting jobs seems logical. Why would this be employees' best response to Amazon's new job types?",
+        "correct": false
+      },
+      {
+        "title": "Demand better wages",
+        "text": "Negotiate for higher wages from existing local employers",
+        "feedback": "Demanding better wages is bold. Why would this be employees' best response to Amazon's new job types?",
+        "correct": false
+      },
+      {
+        "title": "Embrace flexible work",
+        "text": "Join Amazon Flex for part-time earnings and autonomy",
+        "feedback": "Flexible work appeals to many. Why would this be employees' best response to Amazon's new job types?",
+        "correct": false
+      }
+    ]
+  },
+  "mentalModel": {
+    "mentalModelName": "substitution_vs_income_effect",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/substitution_vs_income_effect.png",
+    "mentalModelImageDescription": "A person choosing between two apples: one shiny and new (Amazon job), and one slightly bruised but familiar (existing local job). Below, a graph shows that as income rises due to the new job, spending on goods and services also increases.",
+    "mentalModelLinkText": "Substitution vs. Income Effect shows how higher pay attracts workers, but also how new job requirements influence choices—like rural employees weighing Amazon's better wages against learning different skills for logistics roles.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you have two candies: one that tastes okay but you always have, and another that tastes amazing but you need to learn how to unwrap it. You choose the new candy for the better taste (income effect), or stick with the easy candy if you don't want to learn (substitution effect).",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The substitution effect is the change in consumption due to a change in relative prices, while the income effect is the change in consumption due to a change in purchasing power.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Amazon's situation?",
+        "answer": "Amazon's higher wages represent the income effect, attracting employees with increased purchasing power. However, the need for new skills for Amazon jobs represents the substitution effect, potentially deterring those unwilling or unable to acquire these skills, influencing their job choice.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model indicates Amazon's ability to attract employees depends on balancing the higher income with the required new skills. Those who prioritize income will switch, while those who value their existing skills and roles may not, segmenting the labor market response.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes, good intentions backfire. This is **unintended consequences**: when actions produce unexpected and often negative outcomes. Amazon's investment in rural jobs, while positive, might unintentionally drive up local wages across the board. This could strain smaller businesses lacking Amazon's deep pockets, leading to closures and reduced services. _What's counterintuitive is that Amazon's attempt to help could inadvertently hurt the very communities it aims to serve._ It’s like trying to water a garden and accidentally flooding the whole neighborhood.",
+  "keyQuestion": {
+    "keyQuestionRole": "You are a Rural Workforce Development Officer",
+    "keyQuestionText": "Amazon adds over 100,000 new jobs in rural areas, offering competitive wages and benefits. This impacts local employment and wages. How do you think potential employees could respond?",
+    "hintText": "Consider the appeal of new jobs, the need for new skills, or the impact on traditional local employment.",
+    "shortKeyQuestionText": "How do you think potential employees could respond?",
+    "choices": [
+      {
+        "title": "Acquire new skills",
+        "text": "Seek training for logistics roles Amazon offers",
+        "followUpQuestion": "New skills are vital. Why would this be employees' best response to Amazon's new job types?"
+      },
+      {
+        "title": "Shift from old jobs",
+        "text": "Leave lower-paying local jobs for Amazon's higher wages",
+        "followUpQuestion": "Shifting jobs seems logical. Why would this be employees' best response to Amazon's new job types?"
+      },
+      {
+        "title": "Demand better wages",
+        "text": "Negotiate for higher wages from existing local employers",
+        "followUpQuestion": "Demanding better wages is bold. Why would this be employees' best response to Amazon's new job types?"
+      },
+      {
+        "title": "Embrace flexible work",
+        "text": "Join Amazon Flex for part-time earnings and autonomy",
+        "followUpQuestion": "Flexible work appeals to many. Why would this be employees' best response to Amazon's new job types?"
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "7cdc5d13-6fb6-4270-96f0-c961042cdb5e",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "Trends",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the data L'Oréal needs to assess customer preferences for AI versus human interaction requires familiarity with concepts like customer segmentation, brand perception, and the strategic implications of technology adoption, which are typically covered in first-year business studies.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the strategic dilemma of integrating AI with human advisors requires understanding industry trends in beauty tech and the competitive dynamics between new technologies and established customer service models.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding customer preferences for beauty advice, brand feel, and trust requires knowledge of marketing concepts related to customer experience, brand equity, and segmentation, typical of those who follow marketing trends.",
+    "fileName": "loreal-ai-advisor-data.xml",
+    "backgroundNeeded": "Remember that L'Oréal sells beauty products and is introducing AI for personalized recommendations, understand how customer preferences for AI versus human interaction can differ across market segments, and apply strategic thinking to determine what data is needed to guide L'Oréal's integration plan.",
+    "happyPath": "L'Oréal, the undisputed global giant in the beauty industry, boasts impressive scale, selling over 2 billion products annually across both mass-market and luxury segments. Now, the company is making a significant bet on technology by deploying AI that can analyze a user's skin via their phone, promising instant, personalized beauty recommendations. This AI technology is highlighted for its potential precision and ability to operate on a massive scale, potentially surpassing the capabilities of traditional human advisors. However, this technological advancement creates inherent tension within L'Oréal's existing structure. The company relies on over 20,000 beauty advisors globally who traditionally build customer relationships and serve as crucial brand representatives in retail environments. The core question facing L'Oréal is how to best integrate this AI: should it be positioned as an assistant to empower these existing human advisors, enhancing their service, or should it entirely bypass them, serving as a primary beauty advisor itself? The move towards AI is partly driven by the desire for scale and the ability to leverage vast amounts of data, allowing L'Oréal to reach millions of customers instantly and learn from every interaction. Yet, beauty advice often involves trust, personal relationships, and artistry—elements that AI currently struggles to fully replicate. There is a significant, perhaps unseen, risk that aggressively pushing AI as a direct replacement for human advisors could undermine the luxurious, personalized feel that is crucial for L'Oréal's high-end brands. Ultimately, L'Oréal's path forward is not a binary choice between AI efficiency and human connection, but rather a sophisticated integration challenge. Success will hinge on a thoughtful hybrid model that leverages AI's unparalleled scale and precision to augment, rather than replace, the invaluable human element. By understanding the distinct needs of different customer segments, investing in advisor enablement, and meticulously safeguarding brand equity, L'Oréal can harness technology to enrich the overall beauty experience, ensuring that innovation strengthens its legacy of trust and personalization.",
+    "faviconUrl": "https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/favicon.png?rev=554080d754e74135be5a53f094b381c2"
+  },
+  "coverElements": {
+    "coverImageDescription": "A small, rounded, light pink bottle with a metallic silver top, sitting on a shiny white surface. A few light pink flower petals are scattered around it.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/christian-dior_luxury_cosmetics-bcfbfd83-46fd-499d-8b4a-58a94528e502.png",
+    "coverPlainTitle": "Data Reveals AI Beauty Advice Impact",
+    "coverWittyTitle": "Mirror, Mirror, on the Algorithm?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Do customers trust beauty AI or humans?",
+    "coverParagraph": "**L'Oréal** uses AI for recommendations. **Find out** what data reveals about AI’s impact on customer trust in beauty advice.",
+    "tags": "Marketing,Product,AI,Customer Insights",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Human vs. AI",
+      "text": "L'Oréal offers AI-powered beauty advice, potentially challenging its **20,000 human advisors**. The company aims to expand these recommendations, yet must avoid losing its **personal brand feel** or alienating staff.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "AR Try-On Sessions",
+        "subtitle": "Count, 2023",
+        "color": "#FF69B4",
+        "source": "BrandXR AR Case Study, 2025. Socratify Analysis",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "count",
+          "currencyCode": null
+        },
+        "data": {
+          "value": 100000000.0,
+          "change": 0.0,
+          "changeValue": 0.0,
+          "trend": "flat",
+          "insight": "Stable session volume"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Trust Risk",
+      "text": "L'Oréal needs **AI efficiency** but **wrong lipstick suggestions** destroy luxury trust and send shoppers fleeing.",
+      "zoomOutTextQuote": {
+        "text": "We can recognize the incredible power of AI and its potential to amplify our creativity. But at the same time, we know that the collective intuition of our talented team … can further spark the fire of innovation and be a competitive advantage … That’s why I’m convinced that the future of beauty will need the best of tech and the best of human.",
+        "source": "Nicolas Hieronimus, CEO L'Oréal, Viva Tech Conference remarks, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine L'Oréal has human makeup helpers, but now robots give advice too. If the robot suggests the wrong makeup, people might stop trusting L'Oréal, like if your doctor gave bad medicine advice.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "L'Oréal uses AI for beauty advice, but bad suggestions risk losing customer trust.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How does AI advice affect L'Oréal's luxury brand?",
+        "answer": "If AI gives generic advice, L'Oréal risks cheapening its brand, as luxury relies on personalized service. However, successful AI integration could lower costs and reach more customers, widening L'Oréal's market.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What internal challenge does L'Oréal face with AI?",
+        "answer": "L'Oréal must balance AI advice with its 20,000 human advisors, as AI threatens their jobs. If L'Oréal doesn't manage this transition well, it could lose experienced staff and damage morale.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are L'Oréal's Head of Customer Insights",
+    "keyQuestionText": "L'Oréal deploys AI for beauty recommendations. They want to understand if customers prefer AI advice. What data do you think they need about customer preferences?",
+    "hintText": "Explore what information about customer preferences for AI versus human interaction could be valuable.",
+    "shortKeyQuestionText": "What data do you think they need about customer preferences?",
+    "choices": [
+      {
+        "title": "AI usage frequency",
+        "text": "How often customers use the new AI recommendation tool",
+        "followUpQuestion": "AI usage seems key. Why would knowing how often customers use AI help guide their integration plan?"
+      },
+      {
+        "title": "Customer trust levels",
+        "text": "How much customers trust AI recommendations compared to human advisors",
+        "followUpQuestion": "Customer trust matters. Why is this data essential for L'Oréal's AI growth?"
+      },
+      {
+        "title": "Purchase conversion rates",
+        "text": "How AI-driven recommendations influence product sales directly",
+        "followUpQuestion": "Conversion rates are important. How would this data inform L'Oréal's AI strategy?"
+      },
+      {
+        "title": "Post-recommendation feedback",
+        "text": "What specific feedback customers provide after using the AI tool",
+        "followUpQuestion": "Feedback could be valuable. Why would this information reveal AI's true impact on beauty advice?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "algorithm_aversion",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/algorithm_anxiety.png",
+    "mentalModelImageDescription": "A person recoils from a robot offering advice, while eagerly accepting the same advice from another human. This illustrates algorithm aversion, where individuals distrust algorithmic recommendations more than human advice, even when the algorithm is statistically superior, highlighting a preference for human touch despite potential inaccuracies.",
+    "mentalModelLinkText": "Algorithm aversion shows how people distrust AI advice more than human, even if accurate. L'Oréal customers may prefer human beauty advisors, fearing impersonal AI. This impacts AI adoption and threatens L'Oréal's personal brand feel, making trust vital.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your mom always gives good advice, but a robot starts giving the same advice. You might trust your mom more, even if the robot is just as right! That's algorithm aversion - we often prefer advice from people over machines.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Algorithm aversion is the tendency to distrust and avoid algorithm-based advice, even when it's superior, due to a preference for human input and interaction.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to L'Oréal's situation?",
+        "answer": "L'Oréal's customers might resist AI beauty recommendations, preferring advice from human advisors in stores, even if AI is accurate. This resistance impacts the rollout of AI tools and the potential alienation of human advisors, influencing L'Oréal’s growth.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals the need to balance AI efficiency with the human touch to maintain customer trust and brand loyalty. L'Oréal must design AI implementations that complement, not replace, human interaction to avoid customer resistance and ensure the successful adoption of AI beauty recommendations.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "When customers doubt AI, that's **algorithm aversion**—they distrust AI advice over humans, even if it’s better. For L'Oréal, the nuance here is **brand perception**. If customers see AI as cheapening the luxury experience, they might reject even perfect lipstick matches. That skepticism could hurt adoption and undermine L'Oréal's advisor teams. *What's interesting is that proving AI's accuracy might not be enough; L'Oréal also has to make it feel trustworthy and personal.* It's about high-tech meeting high-touch."
+}

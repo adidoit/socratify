@@ -1,0 +1,174 @@
+{
+  "exerciseUuid": "ca354677-d92d-4da8-ab42-6bd02efea344",
+  "exerciseVersion": 4,
+  "exerciseType": "hypothesis",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the breakdown of CrossFit's licensing model requires familiarity with concepts like brand equity erosion, intellectual property defensibility, and platform economics, which are standard first-year business school topics.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing why affiliates value workouts but not the brand requires understanding competitive dynamics, brand management fundamentals, and how platform value propositions can degrade, which is typical for industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding how brand image can be tarnished by scandals or perceived fee mismatches requires basic awareness of brand perception and customer value, common when following industry news.",
+    "fileName": "crossfit-turnaround-hypothesis.xml",
+    "backgroundNeeded": "Remember that CrossFit licenses its brand and workouts, understand how brand value can erode and intellectual property can become commoditized, and apply strategic thinking to analyze why affiliates might continue workout methods but abandon the brand license.",
+    "happyPath": "CrossFit's current predicament presents a compelling case study in the vulnerabilities of platform and licensing business models, especially when the core value proposition erodes. The puzzling outcome – thousands of affiliate gyms abandoning the CrossFit brand and its annual fees, yet continuing to implement similar workout methods – forces a deeper look into the dynamics of brand equity, intellectual property, and perceived value within a distributed network. One critical strategic lens to apply here is the erosion of brand equity and perceived value. Initially, the strong CrossFit brand attracted members and justified the annual $4,500 fee for affiliates. However, a series of scandals and tragedies seemingly tarnished this image. A brand's value isn't just about recognition; it's about trust, reputation, and the intangible benefits it confers. When this intangible value diminishes, the perceived utility of paying for the \"license\" plummets, regardless of the underlying product's quality. Affiliates likely found that the negative press associated with the brand started to outweigh the marketing and community benefits it once offered, leading them to question the return on their annual investment, particularly as HQ support reportedly did not keep pace with fee increases. A second crucial perspective involves intellectual property defensibility and commoditization. The analogy of \"software\" (workouts) versus \"license\" (brand and HQ support) is highly instructive. The text explicitly states that the underlying workouts were \"relatively easy to replicate independently.\" This highlights a fundamental weakness: CrossFit’s core offering lacked strong proprietary protection or inherent complexity that would make it difficult for affiliates to replicate or evolve on their own. In a knowledge-based economy, if your \"software\" can be easily copied or learned and then decoupled from the \"license,\" your business model faces an existential threat. Once affiliates mastered the methodologies, the ongoing need for the official \"license\" diminished, especially if they could achieve similar results without the associated costs or reputational risks. Finally, this scenario exposes vulnerabilities inherent in platform economics and network stickiness. A successful platform thrives on continuously demonstrating its indispensable role, whether through proprietary tools, network effects, or ongoing value creation that justifies membership. CrossFit, as an \"operating system for gyms,\" relied on affiliates perceiving a net positive value from participating in its network. When the brand weakened, HQ support lagged, and the core IP became widely accessible, the platform's stickiness declined. The network effects (community, major events) also waned, further reducing the value proposition. This demonstrates that for platform businesses, it's not enough to create initial value; continuous innovation, robust support, and maintaining the unique, irreplaceable elements of the platform are vital to prevent participants from extracting the valuable components and operating independently. In synthesis, CrossFit's decline offers a multi-layered lesson: a powerful brand can be a strong initial moat, but it must be meticulously managed and continuously reinforced. Concurrently, a business model dependent on licensing must ensure its core intellectual property is genuinely proprietary and difficult to replicate. Most importantly, a platform's long-term viability hinges on its ability to consistently deliver tangible, irreplaceable value to its participants, ensuring that the \"license\" remains essential, even if the \"software\" becomes widely known. This case underscores that strategic insight in complex situations comes from examining the interplay of multiple, often interdependent, business dynamics.",
+    "faviconUrl": "https://www.crossfit.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A thick, dark gray rubber mat covers the floor. A bright red medicine ball, about the size of a basketball, sits in the center, scuffed from use.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/gym_sweat_towel-2d195665-1f00-4158-bdfb-f0d4e0ab7450.png",
+    "coverPlainTitle": "CrossFit's Lost Gyms: Brand or Workout?",
+    "coverWittyTitle": "CrossFit: Software > Gym Hardware?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Why did gyms ditch the brand name?",
+    "coverParagraph": "Over 4,000 **CrossFit** gyms closed, but many kept the workouts. **Hypothesize why** gyms valued the workout \"software\" but not the brand \"license\".",
+    "tags": "Strategy,Marketing,Fitness,Brand Management",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Copycat Crisis",
+      "text": "CrossFit gyms cancel their affiliations but continue using the workouts—**nine out of ten stopped paying.** CrossFit charges 15,000 gyms $99 per month for workout plans, but gyms can use the exercises for free since **workouts cannot be copyrighted.**",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "CrossFit Gym Status, 2024",
+        "subtitle": "Number of gyms, mid/late 2024",
+        "color": "#FF4500",
+        "source": "[CrossFit Inc., via Barbend.com report, 2024. Socratify Analysis]",
+        "features": [
+          "vertical-bars"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "Total",
+              "value": 12000.0
+            },
+            {
+              "label": "Quit",
+              "value": 4000.0
+            },
+            {
+              "label": "Use Wkout",
+              "value": 1400.0
+            },
+            {
+              "label": "Paying",
+              "value": 1500.0
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "CrossFit affiliation is a grassroots movement started by CrossFit athletes who wanted their own local gyms, trainers, and communities.",
+        "source": "CrossFit.com, About CrossFit Affiliates, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a club where you pay to get special workout plans. Some gyms stopped paying but kept using the plans anyway because the plans are like recipes - you can't own them. CrossFit is like that club, and it's trying to figure out how to get the gyms to pay again.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "CrossFit gyms ditch membership but steal workouts; CrossFit loses cash.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How can CrossFit protect its business?",
+        "answer": "CrossFit must offer benefits beyond workout plans that gyms can't easily copy. This could include exclusive training, branding support, or a strong community that gyms find valuable enough to pay for.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are CrossFit's options?",
+        "answer": "CrossFit could lower prices to reduce the incentive to cheat, or it could focus on gyms that value the brand. Legal action is unlikely to work, because it is hard to copyright workout routines.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are a business analyst",
+    "keyQuestionText": "CrossFit lost over 4,000 affiliates, with 1,400+ continuing to use similar workout methods. This defies licensing model logic. What are some hypotheses for why these gyms valued the workout \"software\" but not the brand \"license\"?",
+    "hintText": "Consider how a brand's intangible value might erode, making its core offering seem independent.",
+    "shortKeyQuestionText": "What explains affiliates valuing workouts but not brand?",
+    "choices": [
+      {
+        "title": "Brand scandals",
+        "text": "Scandals tarnished brand image reducing perceived value",
+        "followUpQuestion": "Brand scandals seem key. Why is this the right explanation for gyms valuing workouts but not the brand?"
+      },
+      {
+        "title": "Fee value mismatch",
+        "text": "Annual fees increased while perceived value declined",
+        "followUpQuestion": "Fee value mismatch matters. Why is this the right explanation for gyms valuing workouts but not the brand?"
+      },
+      {
+        "title": "Workouts replicable",
+        "text": "Core workout programming was easily replicated independently",
+        "followUpQuestion": "Workouts replicable looks important. Why is this the right explanation for gyms valuing workouts but not the brand?"
+      },
+      {
+        "title": "HQ support gap",
+        "text": "Headquarters support did not keep pace with fee increases",
+        "followUpQuestion": "HQ support gap seems compelling. Why is this the right explanation for gyms valuing workouts but not the brand?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "razor-and-blade_0",
+    "mentalModelImageUrl": "https://cdn.socratify.com/business-models/images/razor-and-blade_0.png",
+    "mentalModelImageDescription": "A razor handle being sold cheaply to get you hooked, while the razor blades, which are constantly needed, provide a steady and higher-margin revenue stream. The handle may even be given away to create even more blade purchasers.",
+    "mentalModelLinkText": "Razor-and-blade shows how a cheap 'razor' (CrossFit workouts) is sold to drive high-margin 'blades' (the brand license). If the 'blades' lack value, like CrossFit's license, affiliates will find other ways to 'shave' for free.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a store sells a cheap game console, but you need to buy expensive games to play on it. The console is the \"razor,\" and the games are the \"blades.\" Crossfit has cheap workouts, but not good enough blades.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The razor-and-blade model involves selling a product at a low cost (or even at a loss) to increase the sales of complementary goods or services, which are typically higher-margin items.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How could CrossFit use this model?",
+        "answer": "CrossFit could offer basic workout programming for free or at a very low cost, and increase sales of certifications, exclusive events, and premium equipment (the blades). This requires improving the appeal of the blades.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What opportunity does this model create?",
+        "answer": "This model allows CrossFit to scale the reach of its workout methodology while generating revenue through value-added products and services. However, it is important that the premium services provided add enough value to be purchased, and are not replicable. ",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes success is self-defeating. This is **cannibalization**: when a new product steals sales from your existing ones. CrossFit's free workout plans could be **cannibalizing** its paid licenses. After all, why pay for a brand when the core product is free? The nuance here is that CrossFit's offering of \"software\" is impacting the perceived value of its \"license.\" *What's counterintuitive is that providing more value can paradoxically reduce willingness to pay.* It's like offering free popcorn at a movie theater—great for customers, terrible for popcorn sales."
+}

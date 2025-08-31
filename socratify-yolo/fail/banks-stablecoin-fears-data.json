@@ -1,0 +1,197 @@
+{
+  "exerciseUuid": "39a0a64d-c429-4607-b6c5-50ea95114e6e",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic implications of stablecoins and new legislation for banks requires familiarity with concepts like competitive threats, regulatory impact, and strategic risk assessment, which first-year business students learn.",
+    "primaryDomainName": "Finance",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the impact of stablecoins on bank deposits and understanding potential regulatory shifts requires following financial industry trends and knowledge of how financial regulations affect deposit levels.",
+    "secondaryDomainName": "Strategy",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because anticipating future regulatory changes and their impact on deposit levels requires understanding strategic risk management and how external factors like legislation can alter market dynamics.",
+    "fileName": "banks-stablecoin-fears-data.xml",
+    "backgroundNeeded": "Remember that banks manage customer deposits and provide loans, understand how stablecoins could potentially siphon deposits away from traditional banks, and apply knowledge of regulatory processes to anticipate how legislation and industry lobbying might shape future rules impacting financial institutions.",
+    "happyPath": "Not available",
+    "faviconUrl": "https://www.federalreserve.gov/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A stack of dark green US currency sits on a shiny silver digital tablet. The screen displays a graph with jagged red lines. The cash is slightly askew, creating a sense of unease.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/liquid-death-global-data-dbf5a14d-f514-4d85-9255-1af707b2fefc.png",
+    "coverPlainTitle": "Banks Track Stablecoin Regulation To Survive",
+    "coverWittyTitle": "Stablecoins: Risky Business for Banks?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How will stablecoins change banking rules?",
+    "coverParagraph": "Stablecoins threaten traditional bank deposits. As a bank CRO, **anticipate future regulation** and **analyze what data** can help the bank prepare for the shift.",
+    "tags": "Finance,Economics,Banking,Regulation",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Deposit Threat",
+      "text": "Stablecoins could draw **customer deposits** away from traditional banks. New laws, like the Genius Act, may let nonbank issuers offer stablecoins directly through the Fed. This forces banks to anticipate **new rules** and defend their existing deposits.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "US Bank Deposits",
+        "subtitle": "Trillions USD, quarterly, Q1 2022-Q1 2024",
+        "color": "#1f77b4",
+        "source": "[Federal Financial Institutions Examination Council data, 2024. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2022-03-31",
+              "value": 20.0
+            },
+            {
+              "date": "2022-06-30",
+              "value": 19.7
+            },
+            {
+              "date": "2022-09-30",
+              "value": 19.4
+            },
+            {
+              "date": "2022-12-31",
+              "value": 19.0
+            },
+            {
+              "date": "2023-03-31",
+              "value": 18.8
+            },
+            {
+              "date": "2023-06-30",
+              "value": 18.5
+            },
+            {
+              "date": "2023-09-30",
+              "value": 18.5
+            },
+            {
+              "date": "2023-12-31",
+              "value": 18.9
+            },
+            {
+              "date": "2024-03-31",
+              "value": 19.3
+            }
+          ],
+          "currentValue": 19.3
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Data Blindness",
+      "text": "**Major banks** see stablecoins drained **$200B deposits**, yet lack **customer trigger data** to predict when savings flee crypto at 2% yields.",
+      "zoomOutTextQuote": {
+        "text": "Nonbank stablecoin issuers could sap deposits from banks and simply invest them for their own benefit, rather than use them to help fund loans 'that benefit banks, borrowers and the economy.'",
+        "source": "Karen Petrou, Managing Partner, Federal Financial Analytics, Analysis, Unknown Year"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine banks are like candy stores. Stablecoins are like new, cooler candy stores that might take customers away. Banks need to know why kids like the new candy to keep their stores full.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Stablecoins lure deposits. Banks lack insight into why.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What is the long-term strategic threat?",
+        "answer": "If stablecoins become widespread, banks could lose a cheap source of funding for loans, raising borrowing costs for everyone. Banks that understand why customers choose stablecoins can better compete and retain deposits.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How can banks better anticipate deposit flight?",
+        "answer": "Banks need real-time data showing which customers are moving money into stablecoins and why, perhaps through surveys or tracking app usage. With these insights, banks can offer competitive products or incentives to keep deposits.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are a Major Bank's Chief Risk Officer",
+    "keyQuestionText": "The Genius Act has passed, but regulators still need to establish rules, and nonbank issuers might gain Fed access. They want to anticipate future regulatory changes and their impact on deposit levels. What data do you think they need about regulatory developments?",
+    "hintText": "Think about what information regarding regulatory bodies and industry influence would reveal future policy directions.",
+    "shortKeyQuestionText": "What data do you think they need about regulatory developments?",
+    "choices": [
+      {
+        "title": "Regulator policy stances",
+        "text": "Public comments and policy positions of key banking regulatory officials",
+        "followUpQuestion": "Regulator stances are critical. Why would knowing their public views help banks predict future stablecoin rules?"
+      },
+      {
+        "title": "Industry lobbying efforts",
+        "text": "Lobbying expenditures and specific legislative pushes by stablecoin industry groups",
+        "followUpQuestion": "Lobbying efforts are powerful. How would tracking these efforts predict changes in stablecoin access to the Fed?"
+      },
+      {
+        "title": "Historical regulatory shifts",
+        "text": "Historical patterns of financial regulatory responses to new technologies",
+        "followUpQuestion": "Historical patterns are a guide. Why would past regulatory changes help banks anticipate stablecoin rules now?"
+      },
+      {
+        "title": "Global stablecoin rules",
+        "text": "Stablecoin regulatory frameworks and outcomes in major international markets",
+        "followUpQuestion": "Global frameworks are interesting. How would knowing international rules predict US regulatory impacts on deposits?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "regulatory_capture",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/regulatory_arbitrage.png",
+    "mentalModelImageDescription": "Imagine a hunter setting a trap to catch an animal, but instead, the hunter gets caught in their own trap. This reflects when a regulatory agency, intended to oversee an industry, ends up being controlled by the industry it's supposed to regulate, ultimately serving the industry's interests instead of the public good.",
+    "mentalModelLinkText": "Regulatory capture shows how an industry can influence regulators to get favorable rules. Like stablecoin lobbyists pushing the Genius Act for Fed access, potentially harming bank deposits by bending the rules in their favor.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a cookie jar watcher who loves cookies so much, they start helping themselves instead of protecting the cookies. Regulatory capture is when the people who are supposed to watch over a business start helping the business instead of protecting everyone else.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Regulatory capture is when a regulatory agency ends up serving the interests of the industry it is supposed to regulate, rather than the public.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to [Company]'s situation?",
+        "answer": "Major Banks must assess if stablecoin companies could influence regulators to create lenient rules. Tracking the prior relationships between stablecoin firms and regulators, along with their financial support, is crucial to understanding the risk of regulatory capture.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model warns that regulators may prioritize the stability of stablecoins and innovation over the stability of traditional bank deposits. Banks should track the regulatory approach, public comments, and policy stances of key banking regulatory officials to anticipate such bias.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Banks should consider **competitive dynamics**, not just isolated moves. Stablecoins introduce a new kind of indirect competitor, outside the traditional banking system, vying for customer deposits. The nuance here is that the Genius Act lowers barriers to entry, attracting more nonbank competitors and intensifying the battle for **customer deposits**. _What's counterintuitive is that seemingly small regulatory changes can reshape the entire competitive landscape._ It's like a single drop of dye that suddenly changes the color of the whole pool."
+}

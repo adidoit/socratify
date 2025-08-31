@@ -1,0 +1,184 @@
+{
+  "exerciseUuid": "f7e45fde-9e18-4f53-b982-f3c17e9626be",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding H-Mart's expansion challenge requires familiarity with concepts like brand positioning, customer loyalty, and strategic trade-offs between growth and niche identity, which are standard first-year business concepts.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how H-Mart can scale without diluting its identity requires understanding common retail expansion trends and competitive dynamics, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic brand perception concepts and how customer loyalty is built through unique offerings, which can be understood from general market awareness.",
+    "fileName": "h-mart-expansion-data.xml",
+    "backgroundNeeded": "Remember that H-Mart is an Asian grocery chain known for authentic products and loyal customers, understand the tension between scaling a niche brand and avoiding 'gentrification', and apply customer-centric thinking to identify what data reveals shifts in core shopper loyalty.",
+    "happyPath": "H-Mart's impressive journey from a single store to a $1 billion grocery empire is a testament to its focus on authentic Asian foods and a loyal customer base. However, its current aggressive expansion, taking over large retail spaces, introduces a significant strategic tension: how to grow substantially without losing the unique qualities that made it special, specifically avoiding the label of a \"gentrified store.\" This dilemma forces H-Mart to carefully manage brand perception, customer loyalty, and operational complexities to ensure long-term success. The core challenge for H-Mart is to quantify and track something as qualitative as \"authenticity\" and \"gentrification.\" This requires moving beyond simple sales figures to deeper insights into customer behavior and perception across different segments. For its core \"loyal Asian consumers and informed foodies,\" H-Mart needs to understand if their purchasing patterns of niche products are changing, if their store visit frequency is declining in new, larger stores, or if their satisfaction with the unique product depth and atmosphere is eroding. Surveys, loyalty program data analysis (e.g., specific authentic product redemption rates), and qualitative feedback channels could reveal shifts. Simultaneously, for new customer segments, H-Mart needs data on what \"authenticity\" means to them and whether they are drawn to the unique offerings or merely the convenience of a larger grocery store. This allows H-Mart to identify potential dilution early, ensuring new stores don't just mimic mainstream chains. Beyond customer perception, maintaining authenticity during rapid expansion also presents significant operational data challenges. As H-Mart acquires larger retail spaces, it must ensure its extensive and unique product selection, like live seafood and specialty meats, remains consistently available and fresh. This requires granular data on supplier capabilities—can they scale without compromising quality or variety for niche items? It also demands advanced inventory management data to track the sales velocity and turnover of specialty vs. mainstream products across diverse store locations. Are niche items selling as well in new, broader markets as they do in established, core locations? Data on out-of-stock rates for unique items, customer requests for specific products, and even supply chain logistics efficiencies for perishable, culturally specific goods would be critical. This operational data informs merchandising decisions, ensuring the \"direct journey to Seoul\" feel isn't lost to supply chain inefficiencies or simplified product assortments. Finally, H-Mart needs to proactively monitor how its brand identity is evolving in the broader market, particularly relative to competitors. This involves collecting forward-looking data on public sentiment through social media monitoring, online reviews, and traditional media mentions, specifically tracking keywords related to \"authenticity\" or \"gentrification.\" Understanding how mainstream grocery chains are expanding their ethnic food sections and how independent Asian markets are positioning themselves provides competitive intelligence. This data can reveal if H-Mart's differentiation is weakening or if competitors are successfully replicating parts of its niche appeal. Regular qualitative focus groups in new markets could provide nuanced insights into whether the \"feel\" of H-Mart's stores still resonates as a unique cultural experience or if it's becoming generic. This comprehensive data allows H-Mart to adapt its strategy and marketing to reinforce its unique brand promise. Navigating H-Mart's growth while preserving its authentic identity requires a sophisticated approach to data. It's not just about sales figures but deeply understanding customer behavior, ensuring operational integrity for unique offerings, and proactively managing brand perception in a dynamic market. By focusing on multi-dimensional data—from customer purchase patterns to supply chain metrics and sentiment analysis—H-Mart can make informed decisions that allow it to scale successfully while fiercely protecting the \"unique qualities that made them special in the first place,\" thereby avoiding the feared \"gentrified store\" label and reinforcing its strategic differentiation.",
+    "faviconUrl": "https://hmartus.vteximg.com.br/arquivos/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A metal shopping cart, its basket overflowing with colorful Asian produce and packaged goods, with handles in the vibrant hue of spring meadow grass, accented with the warm glow of ripe persimmons.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/generated_20250706_170230-2a35ec34-c458-4c34-b610-202413ff1692.png",
+    "coverPlainTitle": "H-Mart Tracks Loyalty Data",
+    "coverWittyTitle": "Culture Shock in Aisle Five?",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How do growing stores stay authentic?",
+    "coverParagraph": "**H-Mart** rapidly **grows to 100 stores** but fears losing loyal shoppers. Decide what data helps them stay authentic.",
+    "tags": "Strategy,Marketing,Retail,Customer Loyalty",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Growth Dilemma",
+      "text": "H-Mart is rapidly expanding its authentic Asian supermarkets into new, larger spaces. The **$1 billion chain** fears **gentrification**, which could alienate its loyal core customers who seek a traditional shopping experience.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "H-Mart Store Growth",
+        "subtitle": "Store count, 1982-2024",
+        "color": "#FF6600",
+        "source": "[H-Mart Corporate Data, 2024. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "1982-01-01",
+              "value": 1.0
+            },
+            {
+              "date": "1990-01-01",
+              "value": 10.0
+            },
+            {
+              "date": "2000-01-01",
+              "value": 30.0
+            },
+            {
+              "date": "2010-01-01",
+              "value": 60.0
+            },
+            {
+              "date": "2020-01-01",
+              "value": 90.0
+            },
+            {
+              "date": "2024-01-01",
+              "value": 100.0
+            }
+          ],
+          "currentValue": 100.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Authenticity Balance",
+      "text": "H-Mart started as a single store serving the Korean community. Now, the chain is **expanding to 100+ locations**. They insist on **maintaining their authentic Asian selection.**",
+      "zoomOutTextQuote": {
+        "text": "We're part of what are creating the awareness...when it comes to food culture...that's part of our mission statement: increase the growth of Asian food culture in the US but doing it in a sustaining way. I must say we're not riding a wave, we're part of the engine...",
+        "source": "Vince Colatriano, Executive Vice President at H Mart, NRF Big Ideas 2025, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a small Korean restaurant getting popular. Now, it wants to open bigger restaurants, but it doesn't want to lose its original customers who loved it for its special, hard-to-find Korean dishes. H-Mart faces that challenge.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "H-Mart expands rapidly, but it fears gentrification will alienate its core customers.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How could H-Mart's expansion strategy impact its brand?",
+        "answer": "If H-Mart's new stores become too upscale, its original customers may feel left behind, damaging brand loyalty. However, attracting a broader customer base could also increase overall revenue and market share.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How does H-Mart balance serving diverse customer needs?",
+        "answer": "H-Mart must decide whether to focus on authentic items that appeal to its core base or broaden its selection for mainstream consumers. Getting this balance wrong risks losing both its original customers and failing to attract new ones.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are H-Mart's Chief Customer Officer",
+    "keyQuestionText": "H-Mart expands fast but fears gentrification. They want to keep core customers loyal. What data do you think they need about their existing shoppers?",
+    "hintText": "Explore what information about existing customer satisfaction would help H-Mart maintain its unique appeal.",
+    "shortKeyQuestionText": "What data do you think they need about their existing shoppers?",
+    "choices": [
+      {
+        "title": "Core customer satisfaction",
+        "text": "How satisfied loyal customers are with the expanded store experience",
+        "followUpQuestion": "Satisfaction is vital. Why would this information help them preserve authenticity during growth?"
+      },
+      {
+        "title": "Purchase patterns",
+        "text": "Changes in what authentic items loyal customers are buying",
+        "followUpQuestion": "Purchase patterns matter. How would this data help them track if stores feel gentrified?"
+      },
+      {
+        "title": "Store visit frequency",
+        "text": "How often long-time customers visit new, larger H-Mart locations",
+        "followUpQuestion": "Visit frequency seems important. Why would this data show if H-Mart is losing its appeal?"
+      },
+      {
+        "title": "Demographic shifts",
+        "text": "Demographic changes among their long-standing, loyal customer base",
+        "followUpQuestion": "Demographics could be a factor. Why would this information reveal changes in core customer loyalty?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "preference_falsification",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/preference_falsification.png",
+    "mentalModelImageDescription": "A crowded street scene where everyone is smiling and waving flags, but their eyes betray a sense of unease and forced enthusiasm. This shows how individuals publicly express support for something while privately holding different beliefs, hiding their true feelings to conform or avoid social repercussions.",
+    "mentalModelLinkText": "Preference falsification shows how H-Mart customers might publicly praise new stores but privately dislike the change. They hide true feelings to conform, causing satisfaction data to mask real customer disappointment and gentrification’s actual impact.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine everyone at school pretends to love a new lunch menu even if they secretly hate it, because they don't want to be the only one complaining. That's preference falsification - pretending to like something you don't.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Preference falsification is when people publicly express opinions or preferences that differ from their private beliefs, often to avoid social consequences.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to H-Mart's situation?",
+        "answer": "Loyal H-Mart customers might say they like the bigger stores to be polite or avoid seeming resistant to change, even if they miss the more intimate, authentic feel of the older stores. This masks their true feelings, making it difficult for H-Mart to gauge the impact of gentrification accurately.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Traditional surveys might not capture true customer sentiment. H-Mart needs to use methods that reveal unspoken preferences, such as observational studies or indirect questioning, to understand how the expansion impacts their core customers' loyalty.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "A danger for booming businesses is **mission drift**. H-Mart risks losing its original focus on serving the Asian community as it chases broader appeal. Each new customer pulled in by larger stores and trendier offerings could dilute the experience for loyalists. This creates a tricky problem: Is H-Mart maximizing profit or preserving its soul? *What's unseen is the quiet alienation of the customers who were there first.* Like a band that gets too famous, H-Mart may find its oldest fans no longer recognize the music."
+}

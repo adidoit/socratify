@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "891208bd-cf0a-4171-bafb-e2ddcb3bff06",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the trade-offs between a proactive AI and established user habits requires familiarity with concepts like user behavior, competitive advantage, and revenue impact, which are typical of first-year business students.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the strategic implications of integrating an AI that could disrupt user habits requires following industry trends in e-commerce and AI, and understanding competitive dynamics.",
+    "secondaryDomainName": "Product",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the decision hinges on understanding how product features (the AI) interact with user behavior and the potential for new user experiences, requiring knowledge of product development and user psychology.",
+    "fileName": "amazon-interests-ai-questions.xml",
+    "backgroundNeeded": "Remember that Amazon is a large online retailer with an optimized platform for search and browsing, understand how established user habits can drive significant revenue, and apply strategic thinking to evaluate the potential risks and benefits of introducing a proactive AI that could alter these habits.",
+    "happyPath": "Amazon's contemplation of integrating an 'Interests' AI is a classic illustration of a market leader grappling with the innovator's dilemma: how to embrace new technology and enhance customer value without undermining the highly optimized, revenue-generating core business. The scenario is particularly complex because Amazon's success is built on a foundation of user-driven efficiency, where established habits are directly tied to massive transaction volumes. This strategic decision necessitates a multifaceted approach to questioning that extends beyond mere technical feasibility to encompass user behavior, financial impact, and long-term strategic alignment. One critical analytical thread revolves around understanding the *nature of user habits* and their elasticity. Amazon's current model thrives on predictable, goal-oriented user behavior (search-to-purchase). Introducing proactive AI risks shifting users from intent-driven discovery to a more passive, serendipitous mode. Key questions would delve into mapping current user journeys, identifying precise points of potential friction, and segmenting users by their receptiveness to proactive suggestions. How do we quantify the \"stickiness\" of current habits, and what specific behaviors would indicate successful, non-disruptive adoption of the AI, rather than just initial engagement? This demands a deep dive into qualitative user research alongside quantitative behavioral analytics. A second crucial dimension involves the *financial implications of behavioral shifts*. The story highlights that even a \"small decline in conversion rate\" could lead to \"substantial financial losses.\" This underscores the need for questions that model and quantify risk beyond A/B test click-through rates. Decision-makers must ask how specific changes in user paths – e.g., fewer direct searches, longer time-to-purchase due to browsing suggestions – translate into revenue impact. What are the leading indicators of revenue cannibalization versus additive value? This involves constructing detailed financial scenarios and sensitivity analyses, not just focusing on direct AI-driven sales, but on the net effect on overall platform economics. Finally, the strategic questions should consider the *long-term evolution of Amazon's customer relationship and platform*. The 'Interests' AI is about \"discovery,\" but what kind of discovery truly adds strategic value for Amazon? Is it about expanding product categories, increasing basket size, enhancing loyalty, or driving new types of engagements? Critical questions here would explore how this AI aligns with Amazon's broader strategic goals for customer lifetime value and competitive differentiation. Does it deepen Amazon’s unique value proposition, or merely add a feature that competitors can easily replicate?",
+    "faviconUrl": "https://www.amazon.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A virtual shopping cart filled with assorted products and shimmering in a spectrum of hues mimicking a sunrise, reflecting off the screen of a tablet device.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/rakuten_e-commerce_app-d38abafc-4c19-413c-972f-c68426941101.png",
+    "coverPlainTitle": "Amazon AI: Will Habits Change?",
+    "coverWittyTitle": "Prime-d to Shop Different?",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How will AI change shopping habits?",
+    "coverParagraph": "**Amazon** adds AI: **will users adapt**? As Head of User Research, choose the question to ask first.",
+    "tags": "Product,Strategy,Retail,E-commerce",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Discovery Dilemma",
+      "text": "Amazon's search engine generates billions in sales daily. Amazon is considering an 'Interests' AI to suggest products, which risks its ingrained **user shopping habits**. Even a small shift could cost the company **billions in revenue**.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Amazon Advertising Service Net Sales",
+        "subtitle": "USD millions, 2023",
+        "color": "#FF9900",
+        "source": "[Amazon 10-K, 2023. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "value": 46905000000.0,
+          "change": 0.0,
+          "changeValue": 0.0,
+          "trend": "flat",
+          "insight": "Represents proxy for search-related revenue"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "Generative AI is going to reinvent virtually every customer experience we know, and enable altogether new ones about which we’ve only fantasised.",
+        "source": "Andy Jassy, CEO Amazon, Annual Shareholder Letter, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Amazon's store where the shelves are perfectly organized based on what you usually buy. Now, they're thinking of using a robot that suggests new things you might like. If the robot messes up the shelves, people might not find what they need and buy less.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Amazon considers AI-driven product suggestions, but risks disrupting established shopping habits and billions in revenue.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What are the strategic implications of changing Amazon's search algorithm?",
+        "answer": "A new AI 'interests' algorithm could cannibalize existing high-margin sales if it promotes less profitable items. However, it could also unlock new product categories for users, increasing long-term customer value and overall market share.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How could Amazon test this new 'Interests' AI safely?",
+        "answer": "Amazon could A/B test the AI with a small subset of users or product categories to measure its impact on sales and customer satisfaction. Limiting the initial scope allows Amazon to refine the algorithm and mitigate potential losses from poor recommendations.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Amazon's Head of User Research",
+    "keyQuestionText": "Amazon's users have ingrained shopping habits. They're considering adding 'Interests' AI. As Amazon's Head of User Research, what question would you ask first?",
+    "hintText": "Consider how user behavior might fundamentally change with the introduction of proactive AI suggestions.",
+    "shortKeyQuestionText": "What question would you ask about user habits?",
+    "choices": [
+      {
+        "title": "Shift in shopping patterns",
+        "text": "How will the AI change core user shopping behaviors over time?",
+        "followUpQuestion": "Shopping pattern shift seems critical. Why is this the right question for Amazon's new AI integration?"
+      },
+      {
+        "title": "Friction points for users",
+        "text": "What specific elements of the AI cause user friction or confusion?",
+        "followUpQuestion": "Friction points matter. Why is this the right question for Amazon's new AI integration?"
+      },
+      {
+        "title": "User feedback collection",
+        "text": "How will we gather qualitative feedback on the AI experience?",
+        "followUpQuestion": "Feedback collection makes sense. Why is this the right question for Amazon's new AI integration?"
+      },
+      {
+        "title": "New user onboarding",
+        "text": "How will the AI affect how new users learn to shop on Amazon?",
+        "followUpQuestion": "New user onboarding looks important. Why is this the right question for Amazon's new AI integration?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "habit_loop",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/growth_loops.png",
+    "mentalModelImageDescription": "A looping road, where a car (representing a user) follows a set path: a sign (cue) triggers the car to accelerate down the road (routine), leading to a destination (reward). This illustrates how cues trigger routines that lead to rewards, reinforcing the habit and perpetuating the loop.",
+    "mentalModelLinkText": "A habit loop shows how cues trigger routines, leading to rewards that reinforce behavior. Amazon's 'Interests' AI could disrupt user habits by changing cues, risking the established search-and-purchase routine that generates billions.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you always brush your teeth before breakfast. The AI is like someone suggesting you floss first. It might be better, but it changes your usual morning routine!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Habit loops are neurological patterns where a cue triggers a routine, leading to a reward, which reinforces the habit, creating a continuous loop.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Amazon's situation?",
+        "answer": "Amazon users have specific cues (e.g., needing a gift) that trigger routines (searching specific keywords) leading to rewards (finding a suitable product). The AI changes the cue. If the new AI cue isn't effective, it disrupts the whole habit loop and could reduce sales.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals that changing established habits is difficult. The AI needs to seamlessly integrate into existing loops, not disrupt them. Consider making the AI's product suggestions feel like a natural extension of existing search and browse patterns, not a replacement.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Introducing **path dependence**: the idea that history shapes future choices. Past decisions limit options, even if better solutions emerge. For Amazon, years of optimizing its search engine for direct purchases created a powerful—but rigid—system. Now, pivoting to an 'Interests' AI means fighting against the very habits that made them successful. The nuance here is Amazon could become a victim of its own success. _Sometimes, the best path forward is the hardest one to see because it requires undoing what worked before._"
+}

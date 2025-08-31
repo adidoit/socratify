@@ -1,0 +1,188 @@
+{
+  "exerciseVersion": 4,
+  "exerciseUuid": "b43988fd-4a75-4943-a145-2e80a632f68e",
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "news",
+  "storyUuid": null,
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding customer data needs for a novel energy source requires familiarity with business concepts like sales cycles, product integration, and competitive analysis that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing customer data needs for a new energy technology requires following industry trends and understanding how early adoption and customer acquisition dynamics work in nascent markets.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "fileName": "helion-grid-data.xml",
+    "backgroundNeeded": "Remember that Helion Energy provides direct fusion power to large businesses like Microsoft, understand how understanding customer energy usage, integration needs, and decision processes is crucial for sales and scaling, and apply this knowledge to identify vital data for successful client onboarding.",
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding the importance of customer data for sales and client management requires recognizing basic marketing and sales principles from general business awareness.",
+    "happyPath": "Helion Energy stands at a pivotal juncture, holding the promise of clean, direct fusion power capable of fundamentally reshaping the global energy landscape. Their strategic choice – to build proprietary infrastructure and serve customers directly, or to partner with established players, such as existing utility companies – is fraught with both immense opportunity and significant risk. Navigating this \"fork in the road\" for such a disruptive technology demands an exceptionally data-driven approach, as the insights gleaned will dictate deployment speed, control over the value chain, and ultimately, market success. The decision to pursue a direct-to-consumer model, exemplified by the Microsoft deal, necessitates deep, granular data on potential large industrial clients. This goes beyond simple energy consumption; Helion needs precise data on customer demand profiles (e.g., peak loads, intermittency needs) to optimize reactor output, technical integration capabilities (existing grid connections, internal power infrastructure) to ensure seamless onboarding, and internal decision-making hierarchies to navigate complex enterprise sales cycles. Understanding these elements minimizes integration friction and accelerates adoption. Simultaneously, Helion's ambition to connect directly to the grid bypasses traditional utility structures, thrusting them into a complex regulatory environment. Critical data here includes grid stability requirements and interconnection standards from regional grid operators, vital for technical compliance. Furthermore, insights into regulatory precedents for direct energy sales and the unstated priorities or concerns of energy commissions could uncover unspoken barriers or potential allies, enabling Helion to proactively shape policy rather than merely react to it. This holistic view of the regulatory ecosystem de-risks market entry. Finally, the commitment to a direct model requires substantial internal capability building, particularly in sales, maintenance, and operations for a novel technology. Helion must gather data on the availability and compensation benchmarks for niche engineering and energy sales talent. This internal readiness must be complemented by strategic insights into potential utility partners. Even if leaning direct, understanding utility infrastructure capacity, their renewable energy transition goals, and their history of adopting disruptive technologies provides valuable optionality and intelligence, potentially revealing future collaboration pathways or competitive threats that further inform Helion’s own strategic build. For a company like Helion, introducing a revolutionary technology means operating with high uncertainty. Comprehensive data across these diverse dimensions – from the micro-level specifics of customer needs and talent pools to the macro-level dynamics of regulatory bodies and competing energy investments – is not merely helpful; it is existential. By systematically gathering and analyzing this multi-faceted data, Helion can de-risk its ambitious market entry strategy, optimize its operations, and adapt its approach, ensuring that its groundbreaking fusion technology successfully alters the power landscape for the long term.",
+    "faviconUrl": "https://www.helionenergy.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A shiny silver sphere sits on a dark blue surface. Thin, bright blue beams of light shoot out from the core of the sphere.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/helion-grid-data-f969d30d-9227-4034-ae04-9f8f84204baf.png",
+    "coverPlainTitle": "Helion Energy Needs Customer Energy Data",
+    "coverWittyTitle": "Helion: Watt's the Plan?",
+    "coverRatingStat": 4.8,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "What data does Helion need from big clients?",
+    "coverParagraph": "**Helion Energy** aims to **power big clients** directly with fusion. What info will help them scale up and serve companies like Microsoft? ",
+    "tags": "Strategy,Operations,Energy,Sustainability",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Energy Gamble",
+      "text": "Helion Energy built direct fusion power, a technology that **supplies electricity directly**, cutting out utilities. The company is onboarding large industrial clients like Microsoft. To serve **these early clients** effectively, Helion needs specific customer data.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Microsoft Fusion PPA Capacity",
+        "subtitle": "Capacity MW, 2023",
+        "color": "#0078D7",
+        "source": "Helion Energy Press Release, 2023. Socratify Analysis",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "count",
+          "currencyCode": null
+        },
+        "data": {
+          "value": 50.0,
+          "change": 0.0,
+          "changeValue": 0.0,
+          "trend": "flat",
+          "insight": "50 MW fusion PPA signed"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Power Trap",
+      "text": "Helion's fusion cuts energy costs **90%** but **utility partnerships** in 34 states block direct sales.",
+      "zoomOutTextQuote": {
+        "text": "We’re seeing a fundamental shift: industrial and tech customers are willing to sign long-term power agreements and invest up front... This accelerates our commercialization path and de-risks new fusion projects.",
+        "source": "David Kirtley, CEO Helion Energy, GeekWire Interview, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you baked the best cookies ever, but can only sell them if you go through a middleman who takes most of the money. Helion makes cheap power but needs the power company's permission to sell directly to you.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Helion's fusion power is cheap. Power companies block direct sales.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What is Helion's biggest strategic challenge?",
+        "answer": "Helion must navigate regulations favoring existing utilities while proving its technology to large customers like Microsoft. Securing long-term power agreements directly with these customers is key to bypass utility restrictions.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How do utility partnerships limit Helion?",
+        "answer": "Utility partnerships force Helion to sell electricity at a regulated rate, missing out on higher profits and limiting its ability to offer discounted rates to attract large industrial clients, even with 90% lower costs.",
+        "type": "deep"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "What data does Helion need from big clients?",
+    "choices": [
+      {
+        "title": "Energy consumption profiles",
+        "text": "Specific peak and off-peak energy usage patterns of clients",
+        "feedback": "Consumption profiles sound key. Why would understanding these patterns help Helion serve customers better?",
+        "correct": false
+      },
+      {
+        "title": "Infrastructure compatibility",
+        "text": "How current client energy systems can integrate fusion power",
+        "feedback": "Infrastructure compatibility seems vital. How would this information guide Helion's onboarding process?",
+        "correct": false
+      },
+      {
+        "title": "Decision-making hierarchy",
+        "text": "Who makes energy procurement decisions within large organizations",
+        "feedback": "Decision hierarchy matters. Why would knowing this help Helion acquire and manage clients effectively?",
+        "correct": false
+      },
+      {
+        "title": "Competitor energy contracts",
+        "text": "Current pricing and terms of energy agreements with other providers",
+        "feedback": "Competitor contracts could be useful. Why is this the right data for Helion's direct customer strategy?",
+        "correct": false
+      }
+    ]
+  },
+  "mentalModel": {
+    "mentalModelName": "vendor_lock-in",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/vendor_lock-in.png",
+    "mentalModelImageDescription": "A customer trapped inside a cage built of proprietary technology and restrictive contracts, with the vendor holding the key. It visually represents how dependent a customer becomes on a specific vendor's products and services, making it difficult to switch to competitors.",
+    "mentalModelLinkText": "Large industrial clients are often locked into contracts with existing energy vendors. To effectively serve these clients, Helion must understand the terms of those contracts and the potential costs associated with breaking them, which can act as a significant barrier to entry.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you have a toy that only works with special batteries from one company. You’re stuck buying their batteries even if they're expensive. That's vendor lock-in - being stuck with one company because their stuff only works with their other stuff!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Vendor lock-in is when a customer becomes dependent on a specific vendor's products or services, making it difficult and costly to switch to alternative providers.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Helion's situation?",
+        "answer": "Industrial clients may be locked into long-term power purchase agreements (PPAs) with traditional utilities. Helion needs to gather data on these existing agreements to understand the financial implications of early termination and offer compelling incentives to switch.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Helion should focus on identifying customers with expiring contracts or those willing to explore creative financing options to overcome vendor lock-in. Offering to buy out existing contracts or providing flexible, performance-based agreements could incentivize early adoption.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Large clients aren't blank slates; they're locked into existing deals. This is **vendor lock-in**: when switching costs make it too painful to leave an existing provider. Helion may offer cheaper power, but Microsoft likely has contracts, infrastructure, and relationships tied to current utilities. The nuance here is understanding those **switching costs**, from contract break fees to infrastructure upgrades, which are often invisible barriers. *The real battle isn't about price—it's about making the pain of switching less than the promise of savings.* It's like convincing someone to move out of a rent-controlled apartment.",
+  "keyQuestion": {
+    "keyQuestionRole": "You are Helion Energy's Chief Commercial Officer",
+    "keyQuestionText": "Helion Energy is onboarding early direct customers like Microsoft. They want to successfully scale and serve these clients. What data do you think they need about their large industrial customers?",
+    "hintText": "Consider what specific energy needs, technical requirements, and decision processes of large industrial customers would be vital.",
+    "shortKeyQuestionText": "What data do you think they need about large industrial customers?",
+    "choices": [
+      {
+        "title": "Energy consumption profiles",
+        "text": "Specific peak and off-peak energy usage patterns of clients",
+        "followUpQuestion": "Consumption profiles sound key. Why would understanding these patterns help Helion serve customers better?"
+      },
+      {
+        "title": "Infrastructure compatibility",
+        "text": "How current client energy systems can integrate fusion power",
+        "followUpQuestion": "Infrastructure compatibility seems vital. How would this information guide Helion's onboarding process?"
+      },
+      {
+        "title": "Decision-making hierarchy",
+        "text": "Who makes energy procurement decisions within large organizations",
+        "followUpQuestion": "Decision hierarchy matters. Why would knowing this help Helion acquire and manage clients effectively?"
+      },
+      {
+        "title": "Competitor energy contracts",
+        "text": "Current pricing and terms of energy agreements with other providers",
+        "followUpQuestion": "Competitor contracts could be useful. Why is this the right data for Helion's direct customer strategy?"
+      }
+    ]
+  }
+}

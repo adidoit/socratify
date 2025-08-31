@@ -1,0 +1,171 @@
+{
+  "exerciseUuid": "b9c3b21f-60a1-4e07-a154-ec32658e4b6e",
+  "exerciseVersion": 4,
+  "exerciseType": "assumption",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic implications of Reddit's potential adoption of iris-scanning technology requires familiarity with concepts like online anonymity, AI-generated content, age verification regulations, and the trade-offs between privacy and trust, which are standard first-year business concepts.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Reddit's decision requires understanding the current trends in online content authenticity, the impact of AI on platforms, and the competitive landscape of identity verification technologies, typical of someone who follows industry news and analyses.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding how Reddit's decision might impact user perception and community trust requires recognizing basic marketing concepts related to brand image and customer expectations.",
+    "fileName": "reddit-orb-assumption.xml",
+    "backgroundNeeded": "Remember that Reddit is known for anonymous user communities, understand how AI-generated content and age verification laws create new challenges, and apply strategic thinking to consider what assumptions Reddit might be making about user priorities regarding privacy versus platform trust and authenticity.",
+    "happyPath": "Reddit's contemplation of World ID's iris-scanning technology presents a fascinating strategic dilemma, forcing the platform to reconcile its foundational commitment to anonymity with the pressing realities of AI-driven content and regulatory demands. The situation underscores how rapidly evolving technological landscapes compel companies to re-evaluate their core value propositions and make bold bets about future user behavior and market dynamics. This scenario is a testament to the complex trade-offs inherent in maintaining a vibrant online community in the age of advanced AI. One critical strategic lens through which to view Reddit's decision is the evolving user perception of online \"authenticity\" versus \"privacy.\" Traditionally, Reddit users have prized anonymity above almost all else. However, with the rise of AI agents and sophisticated bots, the value of interacting with verifiable human beings might be increasing. Reddit could be assuming that a significant portion of its user base is experiencing \"bot fatigue\" and that a \"humanity scarcity premium\" is emerging. They might believe users will, in time, prioritize a genuine, bot-free experience over the perceived absolute anonymity that is increasingly compromised by synthetic content anyway. This suggests a strategic bet that the definition of \"privacy\" for online users is shifting to mean \"privacy from identity disclosure to the platform,\" rather than \"privacy from unique human verification.\" A second analytical thread concerns the unique privacy claims of World ID itself. The system is designed to verify uniqueness without storing personal identifying information, creating an encrypted, fragmented \"proof of humanity.\" Reddit's consideration of World ID suggests an assumption that its privacy-conscious users will accept this redefined notion of anonymity. The company might be betting that technical transparency and a robust cryptographic architecture, as described in the article, can build sufficient trust to overcome the initial unease associated with biometric scanning. This implies a belief that users are capable of understanding and trusting complex technical assurances over a simpler, but perhaps less effective, absence of verification. Finally, the context of a rapidly \"agentic web\" reveals another layer of Reddit's strategic thinking. If the internet indeed becomes dominated by AI agents, as suggested, then a clear, interoperable \"proof of humanity\" system like World ID could become a necessary piece of online infrastructure. Reddit's move could be an early play in positioning itself for a future where users *demand* ways to differentiate themselves from AI, not just from other humans. The assumption here is that \"verification becomes normal,\" and platforms that offer robust, widely accepted identity solutions will gain a competitive advantage, especially if non-verified accounts begin to stand out negatively, as the article suggests. This implies a proactive strategic move to secure future relevance rather than a purely reactive one. In conclusion, Reddit's exploration of World ID is a multifaceted strategic gamble on the future of digital identity. It reflects a nuanced understanding that user values, competitive landscapes, and regulatory environments are in flux. By considering this controversial technology, Reddit is implicitly assuming a fundamental shift in user priorities from pure anonymity to verifiable humanity, a redefined acceptance of privacy, and the growing inevitability of robust identity systems in an AI-saturated online world. This scenario highlights how companies must anticipate and adapt to evolving user needs and technological paradigms, even when it means challenging their own long-held principles.",
+    "faviconUrl": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A white speech bubble on a pale orange background, with a dark gray iris in the center. The iris has intricate black lines and a small white reflection spot, like a real eye.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/reddit-orb-assumption-b3fcd507-63bc-402e-974e-85b9ff4e73b7.png",
+    "coverPlainTitle": "Reddit's Eye-Scan Plan Challenges User Beliefs",
+    "coverWittyTitle": "Seeing is disbelieving?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "What do people want from Reddit?",
+    "coverParagraph": "**Reddit** is **betting big** on eye scans for age checks. Question what they're assuming about users to roll out this controversial tech.",
+    "tags": "Strategy,Product,Tech,Social Media",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Identity Crisis",
+      "text": "Reddit, an anonymous platform, struggles with a **flood of fake content** and new age laws. To verify users, Reddit explores iris-scanning tech. This clashes with **deeply ingrained privacy expectations**.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Reddit Daily Active Unique Users Q1 2023 vs Q1 2024",
+        "subtitle": "Millions of users, year-over-year",
+        "color": "#FF4500",
+        "source": "[Reddit Q1 2024 Earnings Release, 2024. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "Q1 2023",
+              "value": 60.36,
+              "color": "#FF4500"
+            },
+            {
+              "label": "Q1 2024",
+              "value": 82.7,
+              "color": "#FFA500"
+            }
+          ],
+          "changePercent": 37.0,
+          "changeValue": 22.34
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "The Standoff",
+      "text": "Platform battles **500M masked voices** forcing Orb scans to **expose hidden faces**.",
+      "zoomOutTextQuote": {
+        "text": "“We will do our best to preserve both the humanness and anonymity of Reddit.”",
+        "source": "Steve Huffman, Co-founder and CEO of Reddit"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a school where some kids wear masks and pretend to be other students. To stop this, the principal wants to scan everyone's eyes. Reddit wants to make sure people are real but also let them stay anonymous, which is like trying to have your cake and eat it too.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Reddit fights bots with eye scans; anonymity threatened.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What is the strategic risk for Reddit?",
+        "answer": "Reddit risks alienating its core user base, who value anonymity, by implementing invasive verification methods. Losing these users could impact engagement and content quality, undermining Reddit's unique appeal.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How could verification backfire on Reddit?",
+        "answer": "If iris scans are hacked or leaked, users' biometric data could be exposed, creating a privacy nightmare. Also, some users might simply leave the platform rather than submit to scanning, reducing activity.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Reddit's Head of Community",
+    "keyQuestionText": "Reddit struggles with a flood of fake content and new age laws. They're considering iris-scanning anyway. What assumption do you think Reddit is making about its users?",
+    "hintText": "Consider what core beliefs about users would make Reddit adopt this new technology.",
+    "shortKeyQuestionText": "What assumption is Reddit making about its users?",
+    "choices": [
+      {
+        "title": "Privacy vs. trust",
+        "text": "Users will trade some privacy for a more trustworthy, human-only platform",
+        "followUpQuestion": "Privacy vs. trust is central. What might make users actually prioritize a bot-free platform over strict anonymity?"
+      },
+      {
+        "title": "Bot problem acceptance",
+        "text": "Users are already tired of bots and AI, and will welcome solutions",
+        "followUpQuestion": "Bot fatigue seems real. What might make users actually see iris-scanning as a necessary solution to AI content?"
+      },
+      {
+        "title": "Simple tech adoption",
+        "text": "Users find iris-scanning easy and won't face big technical hurdles",
+        "followUpQuestion": "Ease of use could matter. What might make users actually view iris-scanning as a simple, accessible verification method?"
+      },
+      {
+        "title": "Identity proof demand",
+        "text": "Users already see the need for proving they are human online",
+        "followUpQuestion": "Proof of humanity is crucial. What might make users actually recognize the value of verifying their unique identity?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "privacy_paradox",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/knowledge_hoarding_paradox.png",
+    "mentalModelImageDescription": "A person enthusiastically posting personal details online, despite a background filled with warning signs about privacy breaches. The person declares caring about privacy while continuously behaving in ways that undermine it.",
+    "mentalModelLinkText": "Privacy paradox shows how stated privacy preferences often conflict with actual user behavior—like Reddit assuming users will trade some anonymity for a bot-free platform, despite their deep privacy expectations.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "It's like saying you love cookies but then eating all the vegetables on your plate instead! You say one thing, but do another.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The privacy paradox is the discrepancy between people's stated privacy preferences and their actual online behavior, where they often share personal information despite expressing concern about privacy.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Reddit's situation?",
+        "answer": "Reddit users may claim to value anonymity and privacy. However, if faced with a platform filled with bots and AI, they may find it preferable to sacrifice some anonymity through iris scanning in exchange for a more human experience.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The privacy paradox suggests that Reddit can potentially implement iris scanning, even with some privacy concerns. It can do this if they convincingly frame it as a necessary trade-off for combating bots and ensuring a trustworthy platform with higher quality user content.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Every business faces the **adoption chasm**, the gap between early adopters and the mainstream. Reddit is banking that users will leap across this divide, trading some anonymity for a bot-free platform. The nuance here is whether Reddit's core community, known for its privacy advocacy, sees iris scans as a necessary evil or a **deal-breaker**. _What's counterintuitive is that Reddit's most loyal users might be the hardest to convert._ It's like asking a speakeasy to install security cameras—the very thing that made it cool now threatens its existence."
+}

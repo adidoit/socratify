@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "ad0f2525-482f-44a8-8d18-c122b9194493",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding GM's strategic shift and the user interface implications requires familiarity with concepts like competitive positioning, market differentiation, and strategic trade-offs, which first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing GM's decision to remove popular features and build its own system requires following automotive industry trends and understanding how major companies leverage proprietary platforms, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding the impact of GM's decision requires recognizing basic customer preferences and how brand messaging might influence adoption of new systems.",
+    "fileName": "gm-bans-carplay-questions.xml",
+    "backgroundNeeded": "Remember that Apple CarPlay and Android Auto are popular phone mirroring systems for cars and GM is removing them from its EVs to use its own Ultifi system, understand how proprietary software can offer control and revenue but risks alienating users, and apply strategic thinking to identify the most critical question for a Chief Product Officer facing this user interface shift.",
+    "happyPath": "GM's decision to remove Apple CarPlay and Android Auto from its future electric vehicles, in favor of its proprietary Ultifi system, represents a high-stakes strategic pivot. This move is driven by the desire to gain complete control over the in-car software experience, monetize data, and unlock new subscription-based revenue streams, mirroring the successful 'walled garden' model of tech giants like Apple. However, it forces a deeply ingrained user habit to change, with 80% of car buyers valuing phone mirroring, making this a critical test of GM's foresight and execution capabilities. One strategic lens for understanding this situation is platform control and ecosystem development. GM is betting that by owning the digital interface, it can create a more seamless, integrated experience, much like Apple controls iOS and its devices. This strategy offers clear benefits: direct access to valuable user data, the ability to rapidly iterate features, and the potential to build a lucrative services business. However, it also demands an enormous investment in software development, a capability not traditionally core to automakers. GM must not only match, but significantly exceed, the user experience and reliability offered by established tech platforms to justify this control and overcome the substantial user friction. A second crucial perspective involves the trade-off between consumer preference and value capture. Consumers view cars as significant, long-term investments, and they expect their existing tech ecosystems to integrate effortlessly. By forcing a proprietary system, GM risks eroding customer trust and loyalty, potentially driving a significant portion of the market to competitors who continue to offer smartphone mirroring. The challenge for GM is to demonstrate that the value delivered by Ultifi—be it through unique features, enhanced safety, or truly integrated services—outweighs the convenience and familiarity of Apple CarPlay and Android Auto. This requires a deep understanding of user needs beyond simple mirroring. Finally, consider the competitive landscape and long-term brand implications. Rivals, both traditional automakers (e.g., Ford, which offers CarPlay) and new EV players (e.g., Tesla, which built its own system from the ground up), will likely respond to GM's move. Some might leverage the absence of mirroring as a key differentiator, attracting alienated customers. Meanwhile, GM's brand, historically built on automotive engineering, must now also be perceived as a leading software innovator. Failure to deliver a genuinely superior Ultifi experience could severely damage GM's reputation as a tech-forward EV leader, hindering its ability to compete in the rapidly evolving automotive market. In conclusion, GM's strategy is a bold attempt to secure a more profitable, software-driven future. Its success hinges on its ability to transition from a hardware-first manufacturer to a true software company, one capable of building a compelling digital ecosystem that justifies its 'walled garden' approach. The decision will ultimately reveal whether the financial upside of controlling the in-car experience outweighs the significant risks of alienating tech-savvy consumers and competing directly with Silicon Valley giants on their own terms, defining GM's strategic position in the EV era for decades to come.",
+    "faviconUrl": "https://www.gm.com/content/dam/company/img/us/en/gmcom/v4_webready/favicons/icon-192.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A car dashboard featuring a blank, dark digital screen. The screen is rectangular with rounded corners, set in a sleek black frame.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/gm-bans-carplay-business_model-c9325a5d-a09f-495b-ae14-e1674c12f2d2.png",
+    "coverPlainTitle": "GM Bets Drivers Will Ditch CarPlay",
+    "coverWittyTitle": "GM's Ultifi: iWho?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Will drivers accept GM's phone-free future?",
+    "coverParagraph": "**General Motors** is **removing CarPlay**. Decide what question you'd ask to avoid losing customers who love mirroring their phones in their cars.",
+    "tags": "Product,Strategy,Automotive,Tech",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Forced Switch",
+      "text": "General Motors is banning **Apple CarPlay and Android Auto** from its new electric cars. This move risks alienating 80% of buyers. They must now use GM's proprietary **Ultifi software system**.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "General Motors Revenue",
+        "subtitle": "USD billions, 2023",
+        "color": "#003366",
+        "source": "[General Motors Company, 2023 Form 10-K, 2023. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "value": 171800000000.0,
+          "change": 0.0,
+          "changeValue": 0.0,
+          "trend": "flat",
+          "insight": "Baseline revenue before Ultifi impact"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "By controlling the software stack, we can integrate battery and charging features, advanced driver assist, and personalized safety systems, all in ways that third-party platforms can’t deliver.",
+        "source": "Mary Barra, CEO, General Motors, Earnings Call, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your mom makes you use her music player, even though you like Spotify better. GM wants you to use their car computer, even if you prefer Apple CarPlay or Android Auto.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "GM ditches CarPlay. Drivers cry.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for GM here?",
+        "answer": "GM risks losing customers who strongly prefer CarPlay or Android Auto, potentially pushing them to competing brands. However, control over the software could allow GM to create unique features and services that differentiate its EVs.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are the challenges of building their own system?",
+        "answer": "GM needs to create a user-friendly, reliable system competitive with established platforms like Apple CarPlay. Attracting developers and maintaining software quality requires significant investment and could distract from core car-making activities.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are GM's Chief Product Officer",
+    "keyQuestionText": "GM risks alienating 80% of EV buyers. They're committing to their Ultifi system. As Chief Product Officer, what question would you ask first?",
+    "hintText": "Consider what customer demand or product experience question is most critical for this major interface shift.",
+    "shortKeyQuestionText": "As CPO, what question would you ask first?",
+    "choices": [
+      {
+        "title": "Buyer preference data",
+        "text": "What percent of EV buyers demand CarPlay or Android Auto?",
+        "followUpQuestion": "Buyer data makes sense. Why is this the most critical question for GM's Ultifi decision?"
+      },
+      {
+        "title": "Ultifi feature parity",
+        "text": "Will Ultifi features truly match or exceed phone mirroring options?",
+        "followUpQuestion": "Feature parity matters. Why is this the most critical question for GM's Ultifi decision?"
+      },
+      {
+        "title": "Marketing communication",
+        "text": "How will we convince buyers Ultifi is better than phone mirroring?",
+        "followUpQuestion": "Marketing communication is key. Why is this the most critical question for GM's Ultifi decision?"
+      },
+      {
+        "title": "User training plan",
+        "text": "What training will help drivers adapt to the new Ultifi system?",
+        "followUpQuestion": "User training is important. Why is this the most critical question for GM's Ultifi decision?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "loss_aversion",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/loss_aversion.png",
+    "mentalModelImageDescription": "A person clutching tightly to a familiar object while a newer, shinier alternative sits nearby untouched, illustrating how people value what they might lose more than equivalent gains",
+    "mentalModelLinkText": "Loss aversion shows how people fear losing familiar things more than they value new gains—like GM removing CarPlay from new EVs, causing customers to feel a loss that sparks strong resistance, even if Ultifi is better.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your favorite toy gets replaced with a newer one. Even if the new toy has more features, you'd probably cry for your old toy back. That's loss aversion - we hate losing things more than we like getting new things!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Loss aversion is the tendency to prefer avoiding losses over acquiring equivalent gains - losses feel twice as powerful as gains.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to GM's situation?",
+        "answer": "GM customers have used CarPlay and Android Auto for years, integrating it into their daily routines. Removing them forces customers to experience a loss before they can appreciate GM's alternative. This psychological pain could drive customers to competitors who still offer these options, even if Ultifi is technically superior.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What warning does this model suggest?",
+        "answer": "The model warns that GM might underestimate customer backlash. Even small feature removals can trigger disproportionate negative reactions. GM needs to frame the change as gaining new capabilities rather than losing CarPlay, or risk a customer revolt that damages brand loyalty.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Businesses often fall victim to the **sunk cost fallacy**: continuing to invest in a failing project simply because of the resources already committed. GM has poured significant resources into its Ultifi system. But doubling down on Ultifi, despite the potential loss of customers attached to **CarPlay**, could be a costly error. *The nuance here is that sometimes the hardest decision is admitting a mistake and pivoting*, even when it means abandoning a significant investment."
+}

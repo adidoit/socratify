@@ -1,0 +1,172 @@
+{
+  "exerciseUuid": "818d5619-2c81-440a-9a6f-aea6519a475c",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Ferrari's challenge of translating sensory thrill to silent EVs requires familiarity with concepts like brand positioning, strategic trade-offs, and customer loyalty that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how Ferrari can redefine its core identity and maintain exclusivity during the EV transition requires following automotive industry trends and understanding brand-related strategic dynamics, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding how Ferrari can maintain its exclusive market position and deep emotional connection with customers during a major product shift requires knowledge of brand perception and customer loyalty drivers, typical of regular industry observers.",
+    "fileName": "ferrari-electrification-questions.xml",
+    "backgroundNeeded": "Remember that Ferrari's brand is built on roaring combustion engines and exclusivity, understand how translating sensory thrill to silent EVs is a key challenge for luxury brands, and apply brand strategy concepts to consider how Ferrari might maintain customer emotional connection and market position.",
+    "happyPath": "Ferrari built its luxury brand on the visceral experience of roaring combustion engines, but the shift to silent electric vehicles presents a fundamental challenge. As Ferrari prepares to launch its first EV in 2025, it must redefine its core identity and \"sensory thrill\" without diluting the exclusivity and deep emotional connection that justify its market valuation. The strategic stakes involve not just product innovation, but the very soul of the brand and its unique positioning in the ultra-luxury market. A critical strategic question is how Ferrari can replicate the unique sensory thrill with electric power, as this directly addresses the core tension between its heritage and the future of performance vehicles. This requires understanding how to create new forms of exhilaration beyond engine noise, perhaps through innovative haptic feedback, unique acceleration profiles, or novel interior designs. Additionally, preserving exclusivity and customer loyalty is paramount. Ferrari's strategy of selling fewer cars than the market demands protects its desirability and pricing power. The challenge is scaling EV production without diluting scarcity, requiring careful segmentation of its affluent, repeat customers and personalized experiences that reinforce the bespoke nature of the brand. Finally, Ferrari must strategically differentiate its EVs in a competitive market, leveraging its racing heritage, design prowess, and luxury appeal to create a compelling narrative that ensures its electric vehicles are not just fast, but inherently desirable and unmistakably \"Ferrari,\" maintaining its premium valuation and insulating it from market downturns.",
+    "faviconUrl": "https://www.ferrari.com/static/favicon_32x32.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A shiny car seat in bright red leather with curved lines, accented by a horse logo stitched in yellow thread.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/ferrari-electrification-questions-709da949-5a12-47af-ab86-fcc9efc2de0c.png",
+    "coverPlainTitle": "Ferrari's Electric Future Challenges Engine Thrill",
+    "coverWittyTitle": "Ferrari: From Roar to a Hum?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can electric Ferraris still thrill drivers?",
+    "coverParagraph": "**Ferrari** is **launching its first EV in 2025**. Decide what question to ask to make sure drivers still feel the thrill.",
+    "tags": "Product,Strategy,Automotive,Electric Vehicles",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Silent Roar",
+      "text": "Ferrari built its luxury brand on **roaring combustion engines**. The carmaker struggles to translate that sensory thrill to silent EVs. It launches its first model in 2025, risking its **exclusive market position**.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Ferrari Net Revenues 2023 vs 2024",
+        "subtitle": "Euros millions, annual",
+        "color": "#B22222",
+        "source": "[Ferrari N.V. FY 2024 preliminary unaudited results, 2025. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "EUR"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "2023",
+              "value": 5969.0,
+              "color": "#D32F2F"
+            },
+            {
+              "label": "2024",
+              "value": 6677.0,
+              "color": "#B71C1C"
+            }
+          ],
+          "changePercent": 11.83,
+          "changeValue": 708.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Silent Revolution",
+      "text": "Since 1947, **Ferrari's brand** was built on loud, powerful engines. Their first **electric supercar arrives in 2025**. Can Ferrari recreate its \"thrill\" without the roar?",
+      "zoomOutTextQuote": {
+        "text": "Customers accept that Ferrari cannot serve everyone.",
+        "source": "Enrico Galliera, Ferrari Marketing Chief (dubbed \"Mr No\")"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Ferrari is famous for loud race cars. Now, they're making a quiet electric car. Will people still like it if it doesn't make the same exciting noises?",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Ferrari goes electric. Can the brand survive silence?",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How does Ferrari's EV affect its brand?",
+        "answer": "Ferrari risks losing its identity tied to combustion engines and racing heritage by going electric. If the EV does not evoke a similar emotional response, it could erode the brand's exclusive appeal and pricing power.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What challenges does Ferrari face in making an EV?",
+        "answer": "Ferrari must create an electric vehicle that delivers similar thrills without the signature engine sound, a challenge in engineering and marketing. Attracting a new customer base while retaining loyal enthusiasts is key to success.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Ferrari's Head of Product Development",
+    "keyQuestionText": "Ferrari struggles to translate engine thrill to silent EVs. They're launching their first EV in 2025. As Head of Product Development, what question would you ask first?",
+    "hintText": "Consider what product design or sensory experience question would be most critical for this EV launch.",
+    "shortKeyQuestionText": "What question would you ask about the first EV launch?",
+    "choices": [
+      {
+        "title": "Sensory thrill replication",
+        "text": "How can we replicate the unique sensory thrill with electric power?",
+        "followUpQuestion": "Sensory thrill matters here. Why is this a critical question for Ferrari's EV transition?"
+      },
+      {
+        "title": "Performance benchmarks",
+        "text": "What specific performance benchmarks define a Ferrari electric supercar?",
+        "followUpQuestion": "Performance benchmarks make sense. Why is this a critical question for Ferrari's EV transition?"
+      },
+      {
+        "title": "Engineering hurdles",
+        "text": "What are the main engineering hurdles to make a silent supercar thrilling?",
+        "followUpQuestion": "Engineering hurdles are key. Why is this a critical question for Ferrari's EV transition?"
+      },
+      {
+        "title": "Driver emotional link",
+        "text": "How will drivers emotionally connect with a silent electric Ferrari?",
+        "followUpQuestion": "Driver emotional link matters. Why is this a critical question for Ferrari's EV transition?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "signal_amplification",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/signal_amplification.png",
+    "mentalModelImageDescription": "An audio amplifier boosting a faint whisper into a clear, loud announcement, visualizing how a small input can be magnified to produce a significant output.",
+    "mentalModelLinkText": "Signal amplification shows how a faint input becomes a strong output—like Ferrari amplifying the instant torque, unique sounds, or haptic feedback in its EV to replace the missing engine roar and create a new thrill.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're trying to tell a secret, but no one can hear you. If you use a megaphone, your secret becomes super loud! Signal amplification makes small things much bigger and noticeable.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Signal amplification is the process of strengthening a weak input or signal to produce a significant, noticeable output or effect.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Ferrari's situation?",
+        "answer": "Ferrari must amplify the unique sensory experiences of electric driving (acceleration, handling) to create excitement. By enhancing these signals through design and technology, Ferrari can ensure the EV delivers a thrilling experience that compensates for the missing engine roar.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals that Ferrari should focus on enhancing specific sensory elements within the EV's design to compensate for the lack of engine noise. Successfully amplifying these elements is essential to creating a thrilling, desirable EV experience.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "**Brand extensions** boost growth, but risk diluting what makes Ferrari special. Think of **luxury creep**: stretching \"exclusivity\" so far it loses meaning. The nuance here is that Ferrari can't just electrify—it must electrify *differently*. Every silent motor risks turning a prancing horse into just another car. The hidden dynamic is that success isn't just about technology; it’s about preserving the brand's mystique in a changing world. It’s like selling bottled water in Heaven."
+}

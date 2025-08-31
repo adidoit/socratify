@@ -1,0 +1,169 @@
+{
+  "exerciseUuid": "d64d1400-c646-4016-9879-f9c341908b63",
+  "exerciseVersion": 4,
+  "exerciseType": "elevator_pitch",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because the exercise requires understanding standard business concepts like transaction fees, operational expenses, and payment systems, which are characteristic of first-year business studies.",
+    "primaryDomainName": "Finance",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because users need to understand how stablecoins and traditional payment systems operate, including their associated costs and settlement times, which requires following basic financial technology trends.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic customer preferences (tech-savvy customers) and how these can be leveraged for business advantage, which is typical of following general market trends.",
+    "fileName": "stablecoin-walmart-elevator_pitch.xml",
+    "backgroundNeeded": "Remember that small businesses face high credit card fees and seek lower operating expenses, understand how stablecoins can offer lower transaction costs and faster payments compared to traditional methods, and apply this knowledge to pitch the benefits to a local small business owner.",
+    "happyPath": "The core challenge in an elevator pitch is to distill complex information into a compelling, concise message tailored to a specific audience, anticipating their concerns and highlighting relevant benefits. The potential emergence of merchant-issued stablecoins, enabled by legislation like the \"Genius Act,\" presents a rich scenario for mastering this skill. This isn't just about a new technology; it's a multi-faceted strategic shift with profound implications for commerce, finance, and regulation. The prospect of retail giants like Walmart and Amazon entering the stablecoin arena to bypass traditional payment systems highlights a brewing revolution in financial services. Driven by the allure of billions in fee savings and faster transaction settlements, this strategic pivot challenges deeply entrenched incumbents while requiring careful navigation of a nascent regulatory landscape, epitomized by the \"Genius Act.\" Crafting an effective pitch in this dynamic environment demands a nuanced understanding of various stakeholders' interests and potential objections. For a company like Walmart, the pitch for issuing its own stablecoin or embracing the Genius Act centers on direct, tangible economic benefits. The core argument would be the elimination of billions in interchange and processing fees, translating directly to improved margins or competitive pricing. Beyond cost, it's about strategic control: owning the payment rail allows for greater data insights, faster innovation in customer experience, and potentially new revenue streams from offering payment services. The pitch must convey a vision of operational efficiency and competitive advantage gained by disintermediating legacy systems, directly addressing the board's fiduciary duties and growth aspirations. Pitching the \"Genius Act\" to a skeptical U.S. Senator requires a different approach, balancing economic benefits with broader public interest concerns. While highlighting the potential for reduced costs for businesses (which could trickle down to consumers), a compelling pitch would also emphasize fostering American innovation in the fintech space, creating a competitive payments market, and establishing a robust regulatory framework. Addressing concerns about financial stability and consumer protection is paramount; the Genius Act's role in bringing clarity and oversight to stablecoins would be positioned as a proactive measure to manage risk, not introduce it. The message would need to resonate with a legislator's mandate to promote economic growth while safeguarding the financial system. For traditional banks and card networks facing this disruption, the internal pitch to their executives would focus on the existential threat and the urgency of a proactive response. This isn't just about lost transaction fees; it's about potential customer disintermediation and losing control over the payment ecosystem. The pitch would advocate for aggressive innovation (e.g., forming their own stablecoin consortiums), lobbying efforts to shape regulations favorably, or acquiring fintech capabilities. The narrative would underscore the imperative to adapt rapidly, showcasing how their existing trust, infrastructure, and regulatory experience can be leveraged to compete effectively in a decentralized payment future, rather than becoming obsolete. Mastering the art of the elevator pitch in complex business scenarios like the stablecoin debate means understanding that there's no single \"right\" message. Strategic thinking requires tailoring the narrative to the audience, anticipating their unique priorities and concerns, and framing the benefits in a way that resonates with their specific worldview. Whether it's driving internal change, shaping public policy, or navigating competitive threats, the ability to synthesize multifaceted information into a concise, persuasive argument is a hallmark of effective business leadership, allowing one to influence outcomes across diverse stakeholder landscapes.",
+    "faviconUrl": "https://www.walmart.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A stack of gold coins next to a small rectangular credit card reader. The reader has a blank white screen and a slot for inserting cards. The coins are shiny and reflect light.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/stablecoin-walmart-elevator_pitch-dd7a9f5e-632d-46c4-acf0-499a6979d218.png",
+    "coverPlainTitle": "Stablecoins Challenge Credit Card Fees",
+    "coverWittyTitle": "Coining a New Payment System?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can stablecoins help small businesses save money?",
+    "coverParagraph": "Small businesses pay big fees to credit card companies. **You** are a stablecoin advocate and will **pitch stablecoins to a local business**.",
+    "tags": "Finance,Payments,Retail,Small Business",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Fee Fighter",
+      "text": "Credit card fees cost businesses billions each year, hurting small businesses most. Major retailers are turning to **digital currencies** like stablecoins. These allow them to bypass traditional payment networks and offer **drastically lower transaction costs** and instant payments.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Stablecoin Transfer Volume, Coinbase",
+        "subtitle": "USD billions, Dec 2024-Apr 2025",
+        "color": "#2E86C1",
+        "source": "[Coinbase, 2025. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2024-12-01",
+              "value": 719.0
+            },
+            {
+              "date": "2025-04-01",
+              "value": 717.1
+            }
+          ],
+          "currentValue": 717.1
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "For big retail, it's the latest opportunity in a long-running hunt to cut billions in costs and days of delays tied to payment transactions. Cash transactions cost a retailer nothing. And stablecoins get very close to that.",
+        "source": "https://www.axios.com/2025/06/13/amazon-walmart-stablecoin, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine stores have to pay a small fee every time you use a credit card. Digital money, like stablecoins, helps them avoid those fees. It's like using cash instead of a card.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Retailers use stablecoins. Credit card fees vanish.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How do stablecoins create a competitive advantage?",
+        "answer": "By reducing transaction costs, retailers can offer lower prices or invest savings in other areas. This can attract more customers and increase profit margins, potentially disrupting traditional payment systems.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What challenges do retailers face in using stablecoins?",
+        "answer": "They need to integrate new payment systems, educate customers about stablecoins, and navigate evolving regulations. Customer trust and acceptance of digital currencies are also key hurdles.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are a Stablecoin Advocate",
+    "keyQuestionText": "Small businesses struggle with high credit card fees. They want to lower operating expenses. How would you pitch using stablecoins for payments to a local small business owner?",
+    "hintText": "Consider what practical benefits or operational improvements would resonate most with a small business owner.",
+    "shortKeyQuestionText": "How would you pitch using stablecoins to a small business owner?",
+    "choices": [
+      {
+        "title": "Reduced Costs",
+        "text": "Significantly lower transaction fees than traditional cards",
+        "followUpQuestion": "Reduced costs sound appealing. How would you expand on this to convince a small business owner to use stablecoins?"
+      },
+      {
+        "title": "Faster Payments",
+        "text": "Quicker settlement of funds directly into their account",
+        "followUpQuestion": "Faster payments seem beneficial. How would you develop this case for a small business owner about stablecoins?"
+      },
+      {
+        "title": "New Customer Access",
+        "text": "Attracting tech-savvy customers who prefer digital payments",
+        "followUpQuestion": "New customer access looks promising. How would you make this argument to a small business owner for stablecoins?"
+      },
+      {
+        "title": "Operational Simplicity",
+        "text": "Streamlined payment processing with less administrative burden",
+        "followUpQuestion": "Operational simplicity sounds valuable. How would you present this to a small business owner about stablecoins?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "fee_extraction_layer",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/fee_extraction_layer.png",
+    "mentalModelImageDescription": "Imagine a multi-layered wedding cake. Each layer represents an intermediary in a transaction (banks, payment processors, etc.). With each layer, a small slice (fee) is taken, reducing the final slice the small business owner receives. The more layers, the smaller the final slice.",
+    "mentalModelLinkText": "Traditional payment systems introduce multiple fee extraction layers between the customer and the small business. Fee Fighter aims to collapse these layers by directly processing payments with stablecoins, drastically improving the final amount the small business receives.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're selling lemonade. Every time someone buys a cup, you have to give a little bit of the money to your mom, dad, and your friend who helped you. The more people you have to pay, the less lemonade money you get! That's like credit card fees taking away your profits.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Each intermediary in a transaction extracts a fee, reducing the final revenue received by the small business owner. Stablecoins cut out middlemen, boosting profits.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Fee Fighter's situation?",
+        "answer": "Fee Fighter proposes replacing traditional payment networks (with their many fee layers) with stablecoins. This removes intermediaries like card networks and banks, allowing the small business to keep more of each transaction.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model highlights the hidden costs embedded in traditional payment systems. By understanding these layers, Fee Fighter can demonstrate the tangible financial benefits of switching to a system with drastically lower transaction costs.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Small businesses often fall victim to **power law** dynamics, where a few dominant players capture most of the market. Credit card companies wield immense power, dictating fees that small businesses must accept to reach customers. For Fee Fighter, sidestepping these established networks requires building enough **adoption** to disrupt the power law. _The nuance here is that offering a slightly better deal isn't enough; the value must be exponentially greater to shift ingrained habits._ It's like trying to launch a search engine against Google: being 10% better is still invisible."
+}

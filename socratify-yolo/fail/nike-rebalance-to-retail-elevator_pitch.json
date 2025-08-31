@@ -1,0 +1,191 @@
+{
+  "exerciseUuid": "ed29bef1-898e-41f2-979b-5c568d532a81",
+  "exerciseVersion": 4,
+  "exerciseType": "elevator_pitch",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Nike's strategic channel shift and its impact requires familiarity with concepts like direct-to-consumer (DTC) models, channel conflict, competitive positioning, and strategic trade-offs between margin/control and market reach, which are standard first-year business concepts.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Nike's decision to re-engage retail partners requires following athletic wear industry trends and understanding competitive dynamics related to distribution channels and brand partnerships, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding how physical retail enhances brand visibility and product discovery, as suggested by the 'Brand presence boost' choice, requires only basic awareness of marketing principles and customer shopping habits.",
+    "fileName": "nike-rebalance-to-retail-elevator_pitch.xml",
+    "backgroundNeeded": "Remember that Nike previously shifted to a DTC model, reducing its presence in stores like Foot Locker, understand the trade-offs between DTC benefits (higher margins, customer data) and retail channel drawbacks (lost reach, partner friction), and apply strategic thinking to formulate arguments for re-engaging retail partners to a skeptical Board.",
+    "happyPath": "Nike's DTC focus caused friction and slowing growth. They want to regain lost market reach. How would you pitch re-engaging crucial retail partners to a skeptical Nike Board member? Retailers provide access to vast customer segments. How would you expand on this argument to convince the Board about Nike's re-engagement plan? Re-engaging counters rivals' broader distribution. How would you develop this case to convince the Board about Nike's retail shift? A balanced model sounds wise. How would you make this case to convince the Board about Nike's channel approach? Physical stores enhance brand visibility and product discovery. How would you present this argument to convince the Board about Nike's channel change?",
+    "faviconUrl": "https://www.nike.com/favicon.ico?v=1"
+  },
+  "coverElements": {
+    "coverImageDescription": "A bright orange athletic shoe rests on its side. The thick, white sole angles upward sharply from heel to toe. A swoosh arcs across the side in white.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/air-jordan.fortnite-elevator_pitch-c2f6b1c1-3566-4ba3-ba2e-741f3de7e02c.png",
+    "coverPlainTitle": "Nike Reconsiders its Retail Strategy",
+    "coverWittyTitle": "Nike's Retail Run-Around",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Should Nike sell in stores again?",
+    "coverParagraph": "**Nike's** sales slowed after cutting retailers. **Pitch a plan** to win them back to skeptical board members.",
+    "tags": "Strategy,Marketing,Retail,Brand Management",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Retail Rift",
+      "text": "Nike cut out retailers like Foot Locker to sell shoes directly. This boosted profits but led to **slowing growth** and lost market reach. Now, Nike must convince its Board to re-engage **crucial retail partners** to regain distribution.",
+      "chartConfig": {
+        "archetype": "multi-line-comparison",
+        "title": "Nike vs Foot Locker Revenue and Sales",
+        "subtitle": "USD billions, FY2023-FY2024",
+        "color": "#111111",
+        "source": "[Nike, Inc. 2024 Annual Report/10-K, 2024. Socratify Analysis]",
+        "features": [
+          "two series",
+          "sequential years",
+          "zero baseline"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "series": [
+            {
+              "name": "Nike Total Revenue",
+              "color": "#111111",
+              "valueType": "currency",
+              "points": [
+                {
+                  "year": 2023,
+                  "value": 51.54
+                },
+                {
+                  "year": 2024,
+                  "value": 48.97
+                }
+              ]
+            },
+            {
+              "name": "Foot Locker Total Sales",
+              "color": "#E03C31",
+              "valueType": "currency",
+              "points": [
+                {
+                  "year": 2023,
+                  "value": 8.0
+                },
+                {
+                  "year": 2024,
+                  "value": 7.54
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Shelf Bleed",
+      "text": "Nike **bleeds 12,000 retail spots** while **Foot Locker execs rage** that Adidas fills their space",
+      "zoomOutTextQuote": {
+        "text": "The company’s previous strategy, which prioritized direct-to-consumer (DTC) sales...left the company vulnerable. This approach reduced its presence in retail stores, allowing competitors to gain shelf space.",
+        "source": "Jay's Insight, Senior Analyst, aInvest, Analyst Note, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Nike is a star basketball player who decides to only play one-on-one. They score more points that way, but fewer people see them play. Now Nike wants to play on a team again to reach more fans, but some teammates are mad they left in the first place.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Nike cut retailers, sales slowed. Now Nike begs retailers to take them back.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "Why is Nike reversing course now?",
+        "answer": "Nike’s direct sales strategy wasn’t sustainable, because it turns out many customers still want to try on shoes in a store. Re-engaging retailers like Foot Locker is vital to recapture lost market share from Adidas and other rivals, even if it lowers profit margins.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How does Nike get Foot Locker to forgive and forget?",
+        "answer": "Nike needs to offer better wholesale terms and exclusive products to get Foot Locker to prioritize their brand again. Nike also needs to balance appeasing retailers with continuing to build its direct-to-consumer channel and not anger investors.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Nike's Head of Strategy",
+    "keyQuestionText": "Nike's DTC focus caused friction and slowing growth. They want to regain lost market reach. How would you pitch re-engaging crucial retail partners to a skeptical Nike Board member?",
+    "hintText": "Consider what financial or market share arguments would convince a board about shifting channel focus.",
+    "shortKeyQuestionText": "How would you pitch re-engaging retail partners to Nike's Board?",
+    "choices": [
+      {
+        "title": "Broad market reach",
+        "text": "Retailers provide access to vast customer segments",
+        "followUpQuestion": "Broad reach is vital. How would you expand on this argument to convince the Board about Nike's re-engagement plan?"
+      },
+      {
+        "title": "Competitive necessity",
+        "text": "Re-engaging counters rivals' broader distribution",
+        "followUpQuestion": "Competition always matters. How would you develop this case to convince the Board about Nike's retail shift?"
+      },
+      {
+        "title": "Balanced business model",
+        "text": "A mix of direct and retail channels ensures resilience",
+        "followUpQuestion": "A balanced model sounds wise. How would you make this case to convince the Board about Nike's channel approach?"
+      },
+      {
+        "title": "Brand presence boost",
+        "text": "Physical stores enhance brand visibility and product discovery",
+        "followUpQuestion": "Brand presence is key. How would you present this argument to convince the Board about Nike's channel change?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "channel_conflict",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/channel_conflict.png",
+    "mentalModelImageDescription": "Two rivers, representing different sales channels, converge but create rapids and turbulence at their intersection. The smooth flow of each river is disrupted, illustrating how conflicting channel strategies can hinder overall sales and create inefficiencies. This creates a visual representation of the friction and overlap that occurs when direct and indirect sales compete.",
+    "mentalModelLinkText": "Channel conflict shows how different sales channels fight each other—like Nike's DTC push bypassing Foot Locker, which angered retailers and led them to prioritize Adidas, costing Nike crucial shelf space.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine two ice cream trucks selling the same ice cream on the same street. They start fighting over customers, and nobody buys ice cream! Channel conflict is when different ways of selling something fight each other instead of helping.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Channel conflict arises when different sales channels compete, undermining each other's effectiveness and overall profits.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Nike's situation?",
+        "answer": "Nike's direct sales clashed with Foot Locker's retail efforts. This conflict resulted in Foot Locker promoting competitor brands, leading to reduced Nike sales and shelf presence. To fix this, Nike needs a strategy that prevents its direct and retail channels from competing directly.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals that optimizing sales channels involves more than just adding new channels; it requires managing the interactions between them to prevent cannibalization and conflict. Nike must align incentives across its channels to ensure collaborative sales efforts.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes, chasing growth in one area hurts you in another. That's **cannibalization**: when a new product steals sales from your existing ones. For Nike, its successful DTC channel directly competed with its retail partners like Foot Locker. This created channel conflict, causing retailers to deprioritize Nike and give shelf space to competitors. *The nuance here is that Nike's distribution strategy unintentionally undermined its own brand reach.* It's like a restaurant group opening a new concept next door to their original, only to see both locations suffer."
+}

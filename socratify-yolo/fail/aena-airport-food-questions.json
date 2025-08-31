@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "8345213a-91af-418e-962b-07c5941be36b",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding how to boost passenger spending in terminals requires familiarity with basic business concepts like customer experience, retail sales drivers, and strategic trade-offs between different revenue streams, which first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Aena's approach requires understanding current airport retail trends and how companies leverage commercial activities to offset regulated revenue caps, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the role of Head of Customer Experience, focusing on boosting spending, requires understanding customer behavior, feedback mechanisms, and how marketing elements like digital engagement can influence purchasing decisions.",
+    "fileName": "aena-airport-food-questions.xml",
+    "backgroundNeeded": "Remember that Aena operates Spanish airports and profits from retail sales to offset capped airline fees, understand how different aspects of the passenger journey can influence spending, and apply basic strategic thinking to determine which customer-centric question would be most critical for increasing in-terminal purchases.",
+    "happyPath": "Aena's strategic pivot to leverage Spain's rich food culture within its airports is a fascinating case study in adapting a business model to regulatory and market realities. By focusing on high-margin commercial activities like gourmet food and retail, Aena has effectively created a new profit center that significantly outweighs the growth from traditional airline fees. This success, however, brings forth a new set of critical questions for leadership across different functions. One key area of strategic inquiry revolves around optimizing and sustaining the profit engine. Given the impressive growth in F&B and retail sales, Aena must now ask whether its current terminal design and retail mix are fully optimized. Are there saturation points for specific categories like gourmet food, or untapped opportunities in others? This involves considering market dynamics, evolving passenger preferences, and the optimal allocation of capital. Further capital expenditure decisions, for instance, should be preceded by questions about the incremental ROI, the potential for cannibalization of existing sales, and whether internal optimization (e.g., improving sales per square meter in existing spaces) can yield more efficient returns than pure expansion. Secondly, Aena must delve into questions about risk and resilience. Relying on high-margin, discretionary spending makes the business model vulnerable to external shocks such as economic downturns, changes in consumer travel habits, or even global health crises. Strategic leaders should ask: What are the key assumptions underlying the continued growth of commercial revenue, and how resilient are these assumptions to stress? This includes probing into the long-term trends of discretionary income, the stability of international tourism, and the potential impact of competitive moves from other airports or even alternative travel modes. Building resilience might involve exploring diversification within the commercial segment or stress-testing the financial model against various adverse scenarios. Finally, the success of Aena's model raises questions about competitive strategy and long-term differentiation. If Aena's approach is so profitable, why aren't other airports fully replicating it, and what are Aena's true competitive advantages? Is it solely Spain's food culture, or are there deeper operational efficiencies, brand equity, or regulatory advantages at play? Questions should focus on understanding the barriers to entry for competitors, anticipating their counter-moves, and identifying ways to further enhance Aena's unique value proposition. This involves continuously evaluating the passenger experience, fostering loyalty, and ensuring that the blend of lower airline fees and enticing in-terminal offerings remains a compelling proposition for both airlines and travelers. Ultimately, Aena's journey from a regulated infrastructure provider to a retail-driven profit center demonstrates that strategic insight comes from continuously questioning the status quo, even when successful. Leaders must move beyond celebrating current achievements to proactively identify future opportunities and mitigate emerging risks. This requires a multi-dimensional approach, blending financial optimization, risk management, and competitive foresight to ensure long-term value creation.",
+    "faviconUrl": "https://www.aena.es/publica/assets/images/favico.svg"
+  },
+  "coverElements": {
+    "coverImageDescription": "A curved, metallic silver roof suggests a modern airport terminal. Large windows let light flood the waiting area. A bright yellow sign indicates a cafe.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/aena_airport_control_tower-421b9890-9af1-4612-b75c-4d3a3b6034c6.png",
+    "coverPlainTitle": "Aena Questions How to Boost Terminal Sales",
+    "coverWittyTitle": "Layover? More like Pay-Over!",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How can airports get travelers to spend more?",
+    "coverParagraph": "**Aena** needs higher sales inside its airports. **Decide** which question to ask to improve customer spending and satisfaction.",
+    "tags": "Strategy,Operations,Travel,Retail",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Terminal Sales",
+      "text": "Aena runs Spain's major airports, where airline fees are capped. **They now make profit from high-margin food and retail.** Because **airline revenue is fixed**, Aena encourages more passenger spending inside terminals.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Commercial Revenue, Aena Airports",
+        "subtitle": "EUR millions, YoY change",
+        "color": "#1F77B4",
+        "source": "[Aena Annual Results Press Release, 2024. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "EUR"
+        },
+        "data": {
+          "value": 1780000000.0,
+          "change": 14.7,
+          "changeValue": 228500000.0,
+          "trend": "up",
+          "insight": "Strong growth driven by retail and F&B"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "Total sales have gone up by 10%... on a per passenger basis, by 5.1%. This reflects strong underlying retail demand... but also improved retail mix and new offerings at our airports.",
+        "source": "Ignacio Castellón, CFO, Aena, Q1 2025 Earnings Call Transcript, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine an arcade where the entrance fee is the same for everyone. To make more money, the arcade adds better games and a snack bar to get people to spend more once they're inside. That's like Aena and its airports.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Aena can't increase airline fees, so it focuses on getting travelers to spend more on food and shopping in the airport.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How can Aena strategically increase sales?",
+        "answer": "Aena needs to attract retailers and restaurants that appeal to diverse traveler demographics. This includes understanding spending habits, offering the right mix of luxury and budget options, and optimizing store layouts for maximum exposure.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What business challenges does Aena face?",
+        "answer": "Aena's revenue is exposed to changing consumer trends and discretionary spending. They must balance attracting brands, negotiating favorable lease terms, and ensuring fair pricing so passengers don't simply buy goods elsewhere.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Aena's Head of Customer Experience",
+    "keyQuestionText": "Aena aims to boost sales inside terminals. They want to encourage more passenger spending. As Head of Customer Experience, what question would you ask first?",
+    "hintText": "Consider what customer journey or satisfaction question would be most critical for increasing in-terminal spending.",
+    "shortKeyQuestionText": "As Head of Customer Experience, what question would you ask first?",
+    "choices": [
+      {
+        "title": "Passenger flow",
+        "text": "Does terminal design maximize passenger exposure to retail areas?",
+        "followUpQuestion": "Passenger flow seems key. Why is this the right question for boosting passenger spending and satisfaction inside terminals?"
+      },
+      {
+        "title": "Feedback loops",
+        "text": "How do we collect and use passenger feedback on dining options?",
+        "followUpQuestion": "Feedback loops matter. Why is this the right question for boosting passenger spending and satisfaction inside terminals?"
+      },
+      {
+        "title": "Staff training",
+        "text": "Are our retail staff trained to improve the customer experience?",
+        "followUpQuestion": "Staff training looks important. Why is this the right question for boosting passenger spending and satisfaction inside terminals?"
+      },
+      {
+        "title": "Digital engagement",
+        "text": "Can digital apps increase pre-order or in-terminal retail purchases?",
+        "followUpQuestion": "Digital engagement seems relevant. Why is this the right question for boosting passenger spending and satisfaction inside terminals?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "foot_traffic_dependency",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/foot_traffic_dependency.png",
+    "mentalModelImageDescription": "Visualize a busy city street with shops lining the sidewalk. More people walk by (foot traffic), more customers enter the shops. The shops depend on the constant stream of passersby for survival.",
+    "mentalModelLinkText": "Foot traffic dependency shows how businesses rely on a constant flow of passersby for sales—like Aena's retail success depending on maximizing passenger movement past shops within the airport terminal.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a lemonade stand on a busy street. The more people walk by, the more likely someone is to buy lemonade! The lemonade stand's success depends on lots of people walking by.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Foot traffic dependency describes how businesses located in high-traffic areas rely on a constant flow of passersby to generate sales and revenue.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Aena's situation?",
+        "answer": "Aena benefits directly from the number of passengers moving through its terminals. By designing terminal layouts that encourage passengers to walk past retail outlets, Aena can significantly increase potential sales and improve the overall commercial performance.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model underscores the importance of strategic placement and terminal design. Aena should invest in optimizing passenger flow to maximize exposure to retail areas, which translates into higher revenue and a more vibrant airport experience.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes growth depends on more than just your own efforts. Consider **complementary goods**: products that enhance the value of another. Aena's retail success isn't just about their shops; it's deeply tied to airline schedules and passenger flow. The nuance here is that Aena can't directly control flight delays or traveler demographics, yet these external factors heavily influence in-terminal spending. _What's counterintuitive is that Aena must focus on what they can influence to overcome what they can't._ It's like a stadium selling snacks—they can't make the home team win, but they can make sure every fan has a soda."
+}

@@ -1,0 +1,171 @@
+{
+  "exerciseUuid": "4b8ac4fa-a852-49f2-95b6-ce47589b708e",
+  "exerciseVersion": 4,
+  "exerciseType": "assumption",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Chipotle's assumptions about customer preferences when introducing automation requires familiarity with concepts like brand positioning, customer value, and strategic trade-offs between operational efficiency and brand image, which are foundational to first-year business studies.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the strategic implications of automation for a brand reliant on human craft requires understanding competitive dynamics and how operational changes can affect market positioning, typical of individuals who follow industry news and trends.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because assessing what customers want and how they perceive brand authenticity requires knowledge of customer behavior, brand perception, and marketing communication strategies, which informed observers would possess.",
+    "fileName": "chipotle-automated-kitchen-assumption.xml",
+    "backgroundNeeded": "Remember that Chipotle's brand is built on visible, human-led food preparation and fresh ingredients, understand how operational challenges like labor costs and turnover can drive companies to automation, and apply strategic thinking to infer what customer values (quality, consistency, craft, speed) Chipotle might be prioritizing in its decision to adopt robotic chefs.",
+    "happyPath": "Chipotle's brand relies on human-made food that customers see. They're adding robotic chefs anyway. What do you think they're assuming about what customers want?",
+    "faviconUrl": "https://www.chipotle.com/etc.clientlibs/cmgaemacs/clientlibs/clientlib-base/resources/icon-192x192.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A metal scoop dives into a pile of bright-green guacamole. A dollop sits on a warm yellow tortilla chip.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/chipotle-automated-kitchen-contrarian-ae3146af-4261-41aa-8175-28bc81673856.png",
+    "coverPlainTitle": "Chipotle Bets Customers Want Robot Chefs",
+    "coverWittyTitle": "Guac and Bots?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Is fresh food more important than seeing it made?",
+    "coverParagraph": "With labor costs rising, **Chipotle** is testing robots in the kitchen. **Question** what they're assuming about customer priorities.",
+    "tags": "Strategy,Operations,Food,Automation",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Brand Bet",
+      "text": "Chipotle's staff makes every burrito by hand, leading to **high labor costs** and inconsistent quality. Now, the company is installing robotic chefs in its kitchens, risking its **\"Food With Integrity\" brand** that promises fresh, human-made food.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Chipotle Staff Turnover Rate 2022 vs 2023",
+        "subtitle": "Percentage, 2022 & 2023",
+        "color": "#E2372D",
+        "source": "[Chipotle 2023 Sustainability Report, 2024. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "percentage"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "2022 Turnover",
+              "value": 193.0,
+              "color": "#FF6F61"
+            },
+            {
+              "label": "2023 Turnover",
+              "value": 183.0,
+              "color": "#E2372D"
+            }
+          ],
+          "changePercent": -5.18,
+          "changeValue": -10.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Staffing Crisis",
+      "text": "Chipotle kitchens **dump staffing** faster than the Mexican food chain **fills openings at 150% turnover**.",
+      "zoomOutTextQuote": {
+        "text": "My vision involves hiring fewer workers, but paying them higher wages and giving them more meaningful work. It's reinventing this 'McJob' because we're seeing 150% annualized turnover.",
+        "source": "Steve Ells, Founder of Chipotle and Kernel, Axios interview, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you love your grandma's cookies, but she can't bake as many anymore. Chipotle is like grandma: their food is handmade. Robots are like a machine that helps grandma make more cookies, but they might not taste exactly the same, and some people might miss grandma's touch.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Chipotle adds robots. Brand promise versus cost savings clash.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for Chipotle?",
+        "answer": "Chipotle's core brand relies on \"Food With Integrity,\" but automation might signal a shift away from fresh, human-made food. Can Chipotle balance cost reduction with maintaining its brand identity and customer loyalty, or will customers see them as another fast-food chain?",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How might this impact employees?",
+        "answer": "Robots could displace some workers, but Chipotle hopes to reduce turnover by offering higher pay and more meaningful roles to fewer employees. The challenge will be retraining current staff to manage the robots and ensuring that remaining jobs are truly \"more meaningful.\"",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Chipotle's Head of Customer Experience",
+    "keyQuestionText": "Chipotle's brand relies on human-made food that customers see. They're adding robotic chefs anyway. What do you think they're assuming about what customers want?",
+    "hintText": "Explore what qualities customers value most about Chipotle's food and preparation.",
+    "shortKeyQuestionText": "What do you think they're assuming about what customers want?",
+    "choices": [
+      {
+        "title": "Ingredient quality first",
+        "text": "Customers care more about fresh ingredients than who prepares them",
+        "followUpQuestion": "Ingredient quality matters here. What would make customers prioritize ingredients over visible human preparation?"
+      },
+      {
+        "title": "Consistency is key",
+        "text": "Customers value consistent food quality over a visible human touch",
+        "followUpQuestion": "Consistency matters. How would consistent quality from robots justify a \"hand-made\" brand?"
+      },
+      {
+        "title": "Speed over craft",
+        "text": "Customers prioritize fast service more than seeing food being made by hand",
+        "followUpQuestion": "Speed matters greatly. What would make customers actually choose speed over visible human craft?"
+      },
+      {
+        "title": "Unaware of robots",
+        "text": "Customers won't notice or care about robots if assembly remains human",
+        "followUpQuestion": "Kitchen roles matter. How would customers keep perceiving \"human craft\" if robots are just in the back?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "value_perception_reality",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/value_perception_reality.png",
+    "mentalModelImageDescription": "A split image: On one side, a meticulously crafted burger with visible, fresh ingredients being assembled by a chef. On the other, the same burger being produced by a robot in a sterile environment. The customer's perception of value shifts depending on which image they see, even if the burger tastes identical.",
+    "mentalModelLinkText": "Value perception shows how subjective beliefs about quality—like Chipotle's \"Food With Integrity\"—shape what customers will pay. Introducing robots risks decoupling the perceived value from the actual ingredients, even if quality stays the same.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine two identical toys. One is said to be made by Santa's elves, the other in a factory. The \"elf-made\" toy feels more special, even though they're the same. That's value perception versus reality!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Value perception is the customer's subjective belief about a product's worth, which can differ from its objective qualities, influencing their willingness to pay.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Chipotle's situation?",
+        "answer": "Chipotle's customers currently perceive \"Food With Integrity\" as higher value because of the visible human element. If they perceive the robots as compromising this integrity, they might reduce their perceived value of the food, even if the taste and ingredients are unchanged.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model highlights that Chipotle needs to manage customer perceptions carefully. Transparency about the robots' role and emphasizing the continued quality of ingredients are crucial to maintaining perceived value.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes companies face an **authenticity paradox**: the closer they get to their core promise, the harder it becomes to scale. Chipotle built its brand on \"Food With Integrity,\" linking quality with human preparation. Now, robots promise efficiency but risk eroding that perceived authenticity. The nuance here is that Chipotle must manage customer perception, not just food quality. *It's betting customers care more about speed and price than the hands that assemble their burrito.* This is like a local coffee shop becoming Starbucks: efficient, but losing its soul."
+}

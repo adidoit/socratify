@@ -1,0 +1,188 @@
+{
+  "exerciseVersion": 4,
+  "exerciseUuid": "b2088e5a-324c-4fe5-9088-c65f8575cee0",
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "mental_models",
+  "storyUuid": null,
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic dilemma of balancing growth with risk requires familiarity with core business concepts like unit economics, risk management trade-offs, and platform strategies, which are standard for first-year business students.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Klarna's decision requires following trends in the FinTech/BNPL industry, understanding competitive dynamics, and grasping how partnerships impact financial performance, typical of someone who reads industry publications.",
+    "secondaryDomainName": "Risk Management",
+    "secondaryDomainLevel": 3,
+    "fileName": "klarna-merchant-questions.xml",
+    "backgroundNeeded": "Remember that Klarna is a BNPL service, understand how default rates impact profitability in a two-sided platform model, and apply risk management thinking to evaluate the trade-off between merchant acquisition for growth and financial sustainability.",
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the question posed as Head of Risk requires understanding of credit risk assessment, default drivers, and mitigation strategies, which is standard knowledge for business students learning about financial operations.",
+    "happyPath": "Opening: Klarna, a dominant force in the Buy Now, Pay Later (BNPL) market, finds itself at a critical strategic crossroads. While its two-sided platform model has fueled rapid expansion, the inherent risk in its merchant acquisition strategy is now eroding profitability. The core challenge lies in reconciling the pursuit of market share through broad merchant partnerships with the imperative of sustainable financial health, especially as certain merchant types consistently attract high-default customers. This scenario highlights the complex interplay between growth, risk management, and the fundamental unit economics of a multi-sided platform. Analysis: One crucial analytical thread involves deeply understanding the drivers of customer default beyond just merchant type. While the data points to \"fast fashion\" vs. \"home goods,\" strategic inquiry demands unpacking *why* this correlation exists. Is it purely demographic (e.g., younger, less financially stable customers attracted to fast fashion), behavioral (e.g., impulse purchases, lack of budget planning), or related to the product itself (e.g., lower perceived value for fast fashion items making default more palatable)? Uncovering these root causes is vital because it shifts the focus from simply cutting off entire merchant categories to developing more nuanced risk models. For example, can Klarna identify specific customer segments *within* fast fashion that are low-risk, or could it implement different payment structures or verification processes for higher-risk transactions, regardless of merchant type? This approach moves beyond a blunt instrument to a more precise, data-driven solution. A second perspective centers on the long-term strategic implications of prioritizing \"quality control\" over rapid growth. While reducing defaults seems immediately beneficial for profitability, a key question is the opportunity cost of slower merchant acquisition. What is the projected impact on network effects, competitive positioning, and future market share if Klarna becomes significantly more selective? In a rapidly evolving market like BNPL, ceding growth might allow competitors to establish deeper merchant and customer relationships, potentially making it harder for Klarna to regain momentum later. This requires a sophisticated understanding of customer lifetime value (CLTV) not just in isolation, but in relation to customer acquisition costs (CAC) and the broader market's expansion rate. The decision isn't merely about immediate profit; it's about optimizing for sustainable value creation in a dynamic ecosystem. Finally, Klarna should explore innovative business model adjustments or product features to mitigate risk without sacrificing all growth. Rather than simply rejecting merchants, could Klarna introduce tiered risk-based pricing for merchants or consumers? Could it partner with problematic merchants to offer financial literacy tools or incentivized early repayment options for their customers? Or perhaps Klarna could explore different BNPL products (e.g., requiring a small down payment for higher-risk purchases/customers) that reduce its direct exposure. This thinking challenges the existing paradigm, looking for creative ways to transform high-risk segments into profitable ones or to share risk more equitably across the platform. Conclusion: By examining Klarna's dilemma through the lenses of root cause analysis, strategic trade-offs between growth and profitability, and potential business model innovations, a richer understanding emerges. It's not just about severing ties with certain merchants but about developing a more sophisticated, adaptable strategy. True strategic insight for Klarna lies in leveraging data to pinpoint the true drivers of default, rigorously quantifying the long-term value of growth versus selective quality, and creatively rethinking its product and partnership models to foster sustainable value within its complex two-sided platform. This multi-faceted approach transforms a seemingly simple problem into a robust strategic challenge.",
+    "faviconUrl": "https://www.klarna.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Paper invoice in cool light lavender, with blue accents, rests on a dark wood table, showing several line items and a total amount due.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/klarna-growth-contrarian-3870748e-4d60-42a9-ab47-9b5c6ce659c9.png",
+    "coverPlainTitle": "Klarna Weighs High-Risk Merchant Partners",
+    "coverWittyTitle": "Dine Now, Pay Later?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can payment apps offer riskier loans?",
+    "coverParagraph": "**Klarna's** profits are **hurt by customer defaults**. Decide what risk question to ask before dropping merchant partners.",
+    "tags": "Strategy,Finance,FinTech,Risk Management",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Default Dilemma",
+      "text": "Klarna's profits are shrinking because **millions of customers default** on their buy now, pay later loans. The company operates with 500,000 stores. Yet, it struggles when **certain retailers attract risky buyers**, pushing Klarna to consider dropping partners.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Consumer Credit Losses, Klarna",
+        "subtitle": "SEK billions, YoY change 2022-2023",
+        "color": "#d9534f",
+        "source": "[Klarna Holding AB Annual Report, 2023. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "value": 4000000000.0,
+          "change": -29.0,
+          "changeValue": -1700000000.0,
+          "trend": "up",
+          "insight": "29% reduction in losses despite defaults"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Klarna’s CEO has predicted that a recession could be around the corner as companies... reduce the headcount of well-paid, white collar jobs and replace them with AI.",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "Klarna’s CEO has predicted that a recession could be around the corner as companies... reduce the headcount of well-paid, white collar jobs and replace them with AI.",
+        "source": "Sebastian Siemiatkowski, CEO of Klarna, AllSides interview, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Klarna is like a friend who lends money to people so they can buy things. Sometimes, people don't pay Klarna back, like when you forget to return borrowed toys. Klarna is trying to lend to people who will actually pay.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Klarna loses money from unpaid loans. Some stores attract risky customers. Klarna may drop those stores.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What are the risks of dropping retailers?",
+        "answer": "Dropping retailers reduces Klarna's reach and potential revenue, but it could improve the overall loan portfolio quality. Klarna must carefully weigh lost sales against reduced defaults to maintain profitability.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How can Klarna reduce default risk?",
+        "answer": "Klarna can use better data to predict who will repay loans and charge higher rates to riskier borrowers. Also, Klarna can set borrowing limits per user and automate collections.",
+        "type": "deep"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "What should Klarna consider first when deciding whether to drop high-default merchant partners?",
+    "choices": [
+      {
+        "title": "Root causes of default",
+        "text": "What specific factors cause defaults?",
+        "feedback": "Root causes are critical. Why is this the right question for Klarna's decision to drop high-default merchant partners?",
+        "correct": false
+      },
+      {
+        "title": "Default rate mitigation",
+        "text": "Can we reduce defaults without cutting ties?",
+        "feedback": "Default mitigation is essential. Why is this the right question for Klarna's decision to drop high-default merchant partners?",
+        "correct": false
+      },
+      {
+        "title": "Merchant contract terms",
+        "text": "What are the legal implications of ending contracts?",
+        "feedback": "Contract terms matter. Why is this the right question for Klarna's decision to drop high-default merchant partners?",
+        "correct": false
+      },
+      {
+        "title": "Industry reputation hit",
+        "text": "How will dropping merchants affect our reputation?",
+        "feedback": "Reputation impact is interesting. Why is this the right question for Klarna's decision to drop high-default merchant partners?",
+        "correct": true
+      }
+    ]
+  },
+  "mentalModel": {
+    "mentalModelName": "adverse_selection_spiral",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/adverse_selection_spiral.png",
+    "mentalModelImageDescription": "Imagine a pool where healthy swimmers gradually leave because the water becomes increasingly contaminated, leaving only those resistant to the pollution. The initial contamination (risky merchants) causes healthy participants (good merchants/customers) to exit, further concentrating the contamination (high defaults), and accelerating the downward spiral.",
+    "mentalModelLinkText": "Adverse selection spiral shows how risky merchants attracting high-default customers increases Klarna's risk. This prompts good merchants to leave, concentrating defaults and accelerating a dangerous spiral, pushing Klarna to drop partners.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a candy bowl where only the grossest candies are left because everyone ate the good ones. That's adverse selection! The good stuff leaves, and you're stuck with the yucky stuff.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Adverse selection is when a market attracts the riskiest participants, driving out the safer ones and worsening the overall risk profile.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Klarna's situation?",
+        "answer": "Klarna's platform attracts merchants who, in turn, attract customers with a higher propensity to default. As Klarna absorbs these losses, more reliable merchants may seek alternative payment solutions, accelerating the concentration of risky customers on Klarna's platform.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals the need for aggressive risk management strategies. Without intervention, the concentration of risky customers could lead to unsustainable losses, potentially jeopardizing Klarna's long-term viability as the proportion of risky buyers grows and good merchants leave.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Klarna faces a classic **adverse selection** problem. It means risky merchants attract high-default customers, which Klarna can't easily identify beforehand. This creates a cycle where bad partners drive out good ones, concentrating defaults. The nuance here is that Klarna's very success in attracting merchants also makes it vulnerable. By focusing on rapid growth, they may have inadvertently lowered their screening standards, thus creating a dangerous concentration of **credit risk**. _Sometimes, growth can mask underlying weaknesses that eventually become existential threats._",
+  "keyQuestion": {
+    "keyQuestionRole": "You are Klarna's Head of Risk",
+    "keyQuestionText": "Klarna's profits hurt by defaults from specific merchant customers. They're considering dropping high-default merchant partners. As Head of Risk, what question would you ask first?",
+    "hintText": "Consider what data or risk management question would be most critical.",
+    "shortKeyQuestionText": "As Head of Risk, what question would you ask first?",
+    "choices": [
+      {
+        "title": "Root causes of default",
+        "text": "What specific factors cause defaults?",
+        "followUpQuestion": "Root causes are critical. Why is this the right question for Klarna's decision to drop high-default merchant partners?"
+      },
+      {
+        "title": "Default rate mitigation",
+        "text": "Can we reduce defaults without cutting ties?",
+        "followUpQuestion": "Default mitigation is essential. Why is this the right question for Klarna's decision to drop high-default merchant partners?"
+      },
+      {
+        "title": "Merchant contract terms",
+        "text": "What are the legal implications of ending contracts?",
+        "followUpQuestion": "Contract terms matter. Why is this the right question for Klarna's decision to drop high-default merchant partners?"
+      },
+      {
+        "title": "Industry reputation hit",
+        "text": "How will dropping merchants affect our reputation?",
+        "followUpQuestion": "Reputation impact is interesting. Why is this the right question for Klarna's decision to drop high-default merchant partners?"
+      }
+    ]
+  }
+}

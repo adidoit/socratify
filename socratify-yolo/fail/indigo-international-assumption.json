@@ -1,0 +1,207 @@
+{
+  "exerciseUuid": "f8ff6dd8-f6d1-4974-bf6b-2c46572e172c",
+  "exerciseVersion": 4,
+  "exerciseType": "assumption",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding IndiGo's strategic pivot requires familiarity with concepts like operational efficiency, strategic diversification, and market segmentation that first-year business students learn, while analyzing the trade-offs between maintaining a core competency and pursuing growth in new markets.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing IndiGo's decision to launch long-haul European routes with different aircraft requires following airline industry trends and understanding competitive dynamics related to low-cost carrier models expanding internationally.",
+    "secondaryDomainName": "Operations",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the exercise highlights how introducing a new aircraft type fundamentally changes maintenance, crew training, and logistics, requiring an understanding of operational complexities that impact cost structures.",
+    "fileName": "indigo-international-assumption.xml",
+    "backgroundNeeded": "Remember that IndiGo's success is built on a single-fleet A320 model to keep costs low, understand how introducing new aircraft types (Boeing 787s) increases operational complexity and cost, and apply strategic thinking to infer what assumptions about European travelers justify this costly departure from their core model.",
+    "happyPath": "IndiGo's strategic pivot into long-haul European routes presents a fascinating case of balancing growth ambition with core strategic principles. Having built its domestic dominance and profitability on a hyper-efficient, single-fleet (Airbus A320) model, the decision to introduce new, leased Boeing 787s for international expansion marks a significant departure. This move is a considerable gamble, as it introduces operational complexities that threaten to undermine the cost structure and simplicity key to its initial success. Understanding IndiGo's underlying assumptions is crucial to deciphering the rationale behind such a bold strategic shift. One core assumption IndiGo is making concerns the untapped demand for budget long-haul travel between India and Europe. They are betting that a significant segment of travelers is highly price-sensitive and willing to forgo traditional long-haul amenities for substantially lower fares. This implies a belief that the low-cost carrier model, successful domestically, can translate to long-haul despite different service expectations. They assume cost-conscious consumers prioritize savings, and this segment is large enough to sustain profitable operations on these new routes. A second critical assumption relates to brand transferability and perception in the European market. IndiGo has built a strong reputation in India for reliability, efficiency, and low costs. The airline must assume this domestic brand equity will successfully translate to European consumers, even if unfamiliar with IndiGo's specific service model. This implies a belief that their value proposition – low fares and punctuality – is universally appealing enough to attract a new customer base, overriding established comfort and service expectations for international long-haul travel. They are betting their efficient image will resonate globally. Finally, IndiGo assumes a significant internal operational agility and capability to manage complexity. Introducing a new aircraft type fundamentally changes maintenance, crew training, and supply chain logistics, which previously benefited from single-fleet simplicity. IndiGo must assume its lean operational culture is robust enough to absorb these complexities without eroding its cost advantage across the network. This suggests a belief that they can effectively create a segmented operational model, where the efficient domestic A320 operations remain uncompromised, and the new long-haul arm quickly scales to achieve its own efficiencies, or that the learning curve for these new operations is manageable without significant long-term cost creep. IndiGo's venture into long-haul international routes is underpinned by powerful assumptions about market demand, brand resilience, and internal operational capacity. If these assumptions prove accurate, the strategic pivot could unlock significant new growth avenues and solidify IndiGo's position as a global player. However, if these underlying beliefs about traveler behavior, brand perception, or the company's ability to manage increased complexity are flawed, this ambitious expansion could jeopardize the very efficiency and profitability that defined its domestic success, highlighting the inherent risks in strategic diversification.",
+    "faviconUrl": "https://www.goindigo.in/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Commercial airplane cockpit filled with various instruments in shades of deep cerulean that smoothly transitions into crisp, arctic white.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/indigo-international-contrarian-c7632152-b749-48f9-94ad-712cba1c30e8.png",
+    "coverPlainTitle": "IndiGo Bets on European Travelers",
+    "coverWittyTitle": "IndiGo's European Gamble",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 15,
+    "coverQuestion": "What do flyers want?",
+    "coverParagraph": "**IndiGo** built a fortune on **cheap domestic flights**. See what they assume about European travelers.",
+    "tags": "Strategy,Marketing,Travel,Low Cost Airlines",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Fleet Gamble",
+      "text": "IndiGo earns huge profits by **operating only one plane type** to keep costs low. Now, the airline flies long-haul European routes with different, larger planes, risking its **ultra-lean domestic model**.",
+      "chartConfig": {
+        "archetype": "multi-line-comparison",
+        "title": "IndiGo Revenue vs Net Profit",
+        "subtitle": "INR millions, FY2021-FY2024",
+        "color": "#1f77b4",
+        "source": "[InterGlobe Aviation (IndiGo) 2023-24 Annual Report Analysis, Equitymaster, citing 2023-24 annual report, released 2024. Socratify Analysis]",
+        "features": [
+          "zero baseline",
+          "sequential years",
+          "two series"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "INR"
+        },
+        "data": {
+          "series": [
+            {
+              "name": "Total Revenue",
+              "color": "#1f77b4",
+              "valueType": "currency",
+              "points": [
+                {
+                  "year": 2021,
+                  "value": 547000.0
+                },
+                {
+                  "year": 2022,
+                  "value": 600000.0
+                },
+                {
+                  "year": 2023,
+                  "value": 650000.0
+                },
+                {
+                  "year": 2024,
+                  "value": 712312.0
+                }
+              ]
+            },
+            {
+              "name": "Net Profit",
+              "color": "#ff7f0e",
+              "valueType": "currency",
+              "points": [
+                {
+                  "year": 2021,
+                  "value": 15000.0
+                },
+                {
+                  "year": 2022,
+                  "value": -3058.0
+                },
+                {
+                  "year": 2023,
+                  "value": 60000.0
+                },
+                {
+                  "year": 2024,
+                  "value": 81725.0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "Our decision to diversify the fleet... is about ensuring operational flexibility and risk mitigation as we scale long-haul operations. The A350 provides the right economics for non-stop flights to Europe and North America.",
+        "source": "Pieter Elbers, CEO, IndiGo, FY 2025 Annual Report, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "IndiGo is like a restaurant known for cheap, tasty burgers. Now, they're trying to sell expensive steak dinners too. They're hoping to make more money, but it could mess up what made their burgers so cheap to begin with.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "IndiGo adds new plane types. Costs rise. Profitability threatened.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How might this impact IndiGo's competitive advantage?",
+        "answer": "IndiGo's advantage relies on low costs from a single plane type. Introducing new planes could dilute this cost advantage, making it harder to compete with other airlines, especially on price-sensitive domestic routes.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What operational challenges does IndiGo face now?",
+        "answer": "IndiGo must now manage pilot training, maintenance, and spare parts for multiple plane types. This increases complexity, potentially raising costs and reducing aircraft availability, impacting flight schedules and customer satisfaction.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are IndiGo's Chief Commercial Officer",
+    "keyQuestionText": "IndiGo's profits come from its single-plane fleet. They're flying long-haul to Europe with different planes anyway. What must they believe about European travelers?",
+    "hintText": "Consider what European traveler expectations would justify this costly departure from their core model.",
+    "shortKeyQuestionText": "What must they believe about European travelers?",
+    "choices": [
+      {
+        "title": "Value over comfort",
+        "text": "Travelers prioritize price over in-flight comfort",
+        "followUpQuestion": "Value matters more. What makes travelers sacrifice comfort for cheaper flights?"
+      },
+      {
+        "title": "New market segment",
+        "text": "IndiGo can create a new long-haul budget segment",
+        "followUpQuestion": "New segment creation is key. What makes travelers open to a new option?"
+      },
+      {
+        "title": "Direct route appeal",
+        "text": "Travelers deeply desire direct budget flights to India",
+        "followUpQuestion": "Direct routes are appealing. What makes direct budget flights attractive enough?"
+      },
+      {
+        "title": "Brand recognition grows",
+        "text": "Travelers quickly recognize IndiGo as reliable budget option",
+        "followUpQuestion": "Brand recognition is crucial. What helps travelers quickly trust IndiGo's new service?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "loss-leader-pricing_0",
+    "mentalModelImageUrl": "https://cdn.socratify.com/business-models/images/loss-leader-pricing_0.png",
+    "mentalModelImageDescription": "A shopping cart with a prominently displayed discounted item alongside other regularly priced goods. This illustrates how a loss leader attracts customers who then purchase other, more profitable items, resulting in an overall gain for the business.",
+    "mentalModelLinkText": "IndiGo might be using loss-leader pricing to attract European travelers with incredibly low fares. They hope passengers will then spend money on ancillary services like baggage fees, seat selection, and in-flight meals, generating overall profitability.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a store selling candy bars for super cheap to get you inside, hoping you'll buy other, more expensive things while you're there. That's a loss leader!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Loss-leader pricing involves selling a product or service at a loss to attract customers who will then purchase other, more profitable items.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How could IndiGo use this model?",
+        "answer": "IndiGo can offer extremely cheap fares on long-haul flights to Europe. They believe European travelers will be willing to book those fares. If they choose other fees, like bags and seats, IndiGo can generate profit despite initially losing money on the base fare.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What opportunity does this model create?",
+        "answer": "This strategy relies on the sale of ancillary services to offset the losses. If European travelers expect more to be bundled in, IndiGo may not make money.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "The airline industry lives and dies by **yield management**: selling the right seat, to the right person, at the right price. IndiGo excels at this on domestic routes, filling planes with price-sensitive Indian travelers. The nuance here is whether that model translates to Europe. European travelers might be less willing to sacrifice comfort for price, demanding a different level of service. _IndiGo may be betting that 'good enough' at a lower price is enough to win European loyalty._ They're essentially asking if budget airlines can become intercontinental kings."
+}

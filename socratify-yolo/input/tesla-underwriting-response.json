@@ -1,0 +1,172 @@
+{
+  "exerciseUuid": "f98e1c52-852e-49db-813f-1122dcbe6e50",
+  "exerciseVersion": 4,
+  "exerciseType": "response",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding GEICO's competitive response to Tesla's new insurance model requires familiarity with concepts like competitive advantage, market segmentation, and strategic trade-offs that first-year business students learn, while considering how existing players must adapt to disruptive, data-driven models.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how GEICO should respond requires following insurance industry trends and understanding competitive dynamics between traditional insurers and new, data-leveraging entrants, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic brand positioning concepts and how customer perception of pricing and service can be leveraged in competitive responses.",
+    "fileName": "tesla-underwriting-response.xml",
+    "backgroundNeeded": "Remember that Tesla is integrating auto insurance by using real-time vehicle data for pricing, understand how this data advantage challenges traditional insurers like GEICO, and apply strategic thinking to evaluate GEICO's potential responses such as adjusting pricing, lobbying for regulations, or forming new partnerships.",
+    "happyPath": "Tesla's decision to self-underwrite its auto insurance in California is a strategic move that leverages its extensive vehicle data for more precise risk assessment and potentially lower repair costs, directly challenging traditional insurers like GEICO. This move also positions Tesla strategically for its autonomous robotaxi fleet, where controlling liability will be essential. For GEICO, this threatens their core business model by introducing a data-driven competitor with a potential precision advantage over GEICO's traditional underwriting methods. GEICO could respond by cutting EV insurance premiums to match Tesla's rates, though this is a direct pricing war. Alternatively, GEICO could lobby regulators to limit Tesla's proprietary data usage in pricing, seeking a more level playing field. A third option is to partner with other carmakers (OEMs) on integrated insurance offers, leveraging broader automotive relationships. Finally, GEICO could enhance its claims network and speed to improve customer experience, offering superior service as a differentiator. Each response has different implications for GEICO's market position and profitability in the evolving auto insurance landscape.",
+    "faviconUrl": "https://www.geico.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A stack of rectangular insurance cards in shades of light green and white. A single card is fanned slightly out from the top of the stack.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/republic-private-tokens-industry_trend-39a87857-30a0-4259-81eb-d6e8af0779e1.png",
+    "coverPlainTitle": "Can GEICO Fight Tesla on Insurance?",
+    "coverWittyTitle": "GEICO vs. The Machine?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Should GEICO fear Tesla selling car insurance?",
+    "coverParagraph": "**Tesla** is now directly selling auto insurance. **Consider** how GEICO should react to protect its customers.",
+    "tags": "Strategy,Finance,Insurance,Competitive Intelligence",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Insurance Threat",
+      "text": "Tesla now sells its own car insurance, directly challenging companies like GEICO. Tesla uses real-time vehicle data to price policies, giving it a **precision advantage**. GEICO still relies on **traditional methods** like age and ZIP codes.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Tesla Insurance Written Premiums Q3 2023 vs Q3 2024",
+        "subtitle": "USD millions, quarterly",
+        "color": "#E82127",
+        "source": "[Coverager.com, 2024. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "Q3 2023",
+              "value": 81.7,
+              "color": "#888888"
+            },
+            {
+              "label": "Q3 2024",
+              "value": 198.7,
+              "color": "#E82127"
+            }
+          ],
+          "changePercent": 143.2,
+          "changeValue": 117.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Adverse Risk",
+      "text": "Tesla saves **3% on premiums** but only **risky drivers** may buy this insurance.",
+      "zoomOutTextQuote": {
+        "text": "Insurance is substantial. So, insurance could very well be, I don’t know, 30%, 40% of the value of the car business, frankly.",
+        "source": "Elon Musk, CEO of Tesla"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine two lemonade stands. One charges everyone the same, but Tesla knows exactly who spills lemonade. Tesla's insurance might only attract the kids who spill a lot, costing them more in the long run.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Tesla offers cheaper insurance, but mostly to risky drivers.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for Tesla here?",
+        "answer": "If only risky drivers buy Tesla insurance, Tesla could lose money on each policy due to frequent accidents. This adverse selection problem could undermine Tesla's goal of making insurance a major revenue source.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How does this affect other insurers?",
+        "answer": "GEICO and others might see their risk pool improve as safer Tesla drivers switch to Tesla's insurance, leading to higher profitability. However, they must adapt to Tesla's data-driven approach or risk losing market share among tech-savvy customers.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are GEICO's Head of Competitive Intelligence",
+    "keyQuestionText": "Tesla moves to self-underwrite auto insurance in California. This threatens GEICO's core business model. How do you think GEICO could respond?",
+    "hintText": "Consider what pricing, data, or partnership moves GEICO could make to defend its market.",
+    "shortKeyQuestionText": "How do you think GEICO could respond?",
+    "choices": [
+      {
+        "title": "Match pricing",
+        "text": "Cut EV insurance premiums to compete with Tesla's rates",
+        "followUpQuestion": "That's direct pricing. Why would cutting premiums be GEICO's best response to Tesla's underwriting?"
+      },
+      {
+        "title": "Lobby for regulation",
+        "text": "Push regulators to limit Tesla's data usage in pricing",
+        "followUpQuestion": "Regulation seems key. Why would lobbying be GEICO's best response to Tesla's underwriting?"
+      },
+      {
+        "title": "Partner with OEMs",
+        "text": "Collaborate with other carmakers on integrated insurance offers",
+        "followUpQuestion": "OEM partnerships sound smart. Why would this be GEICO's best response to Tesla's underwriting?"
+      },
+      {
+        "title": "Improve claims",
+        "text": "Enhance repair network and speed to improve customer experience",
+        "followUpQuestion": "Better claims makes sense. Why would this be GEICO's best response to Tesla's underwriting?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "adverse_selection_spiral",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/adverse_selection_spiral.png",
+    "mentalModelImageDescription": "A downward spiral illustrating how initial imbalance in information and risk leads to a worsening pool of participants, causing prices to rise and further driving away lower-risk individuals, creating a negative feedback loop. Visualize this as a drain swirling faster and faster, pulling in only the riskiest participants.",
+    "mentalModelLinkText": "Adverse selection spiral shows how attracting only risky customers can backfire—like if Tesla's cheaper insurance attracts high-risk drivers, their pool worsens, forcing price hikes that erode profitability.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a candy bowl where only kids who make messes are allowed to grab candy. Soon, the only kids left grabbing candy are the messy ones, and the bowl gets messier and messier!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Adverse selection spiral is when a market attracts disproportionately high-risk participants, leading to price increases that drive out lower-risk participants, worsening the risk pool.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to GEICO's situation?",
+        "answer": "If Tesla's insurance primarily attracts riskier drivers due to its initial pricing or data usage, GEICO could see its customer base become relatively less risky. This could give GEICO a competitive advantage to maintain lower overall rates for safer drivers.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals that GEICO should carefully monitor Tesla's customer base. If Tesla's pool is indeed becoming riskier, GEICO can leverage its relatively safer customer base for long-term profitability, focusing on customer retention.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes, competing on price creates a race to the bottom. This is the **price war** dynamic, where companies repeatedly undercut each other. For Tesla, offering 3% cheaper insurance seems like a win, but it could trigger GEICO to slash rates too. The nuance here is that Tesla's \"precision advantage\" is easily copied. *What's counterintuitive is that price wars often hurt everyone.* Like two gas stations battling over pennies, the only winners are the customers… at least until one folds."
+}

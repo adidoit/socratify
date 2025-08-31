@@ -1,0 +1,223 @@
+{
+  "exerciseUuid": "835cb17d-92f2-4893-8f40-514291f4f782",
+  "exerciseVersion": 4,
+  "exerciseType": "assumption",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Aena's strategy requires familiarity with concepts like revenue diversification, strategic trade-offs, and market positioning that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Aena's pivot requires understanding airport industry dynamics and how commercial revenue streams complement or offset regulated fees, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic retail concepts and how passenger behavior in airports can be influenced by offerings, aligning with general business awareness.",
+    "fileName": "aena-airport-food-assumption.xml",
+    "backgroundNeeded": "Remember that airports charge airlines fees and can also make money from shops and food, understand how a captive audience (passengers with few alternatives) can be leveraged for higher profits, and apply these concepts to analyze Aena's focus on retail to offset capped airline fees.",
+    "happyPath": "Aena's airline fees are capped, limiting revenue growth. To boost profits, they're heavily focusing on retail, especially gourmet food. This strategy leverages Spain's renowned food culture and a captive passenger audience to drive high-margin sales. Aena is counting on passengers being a captive audience, having few other options and thus being more likely to buy at the airport, and also on Spanish food culture making passengers willing to pay premium prices for airport food.",
+    "faviconUrl": "https://www.aena.es/publica/assets/images/favico.svg"
+  },
+  "coverElements": {
+    "coverImageDescription": "A small paper bag, cream-colored with two short twisted brown paper handles, sits slightly crumpled. The bag has a splash of bright yellow and bold red color near the top.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/southwest-fees-contrarian-8522b9e5-47d4-4c20-bed9-ad247c069c48.png",
+    "coverPlainTitle": "Aena Bets Passengers Will Overspend",
+    "coverWittyTitle": "Gourmet Food, Terminal Prices?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Why is Aena betting on airport food?",
+    "coverParagraph": "**Aena** limits airline fees. **Question** what they're assuming about travelers' spending habits to make up the difference with fancy airport food.",
+    "tags": "Strategy,Operations,Travel,Retail",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Retail Bet",
+      "text": "Aena's main airline fees are **capped**, restricting revenue growth across its 46 Spanish airports. To offset this, the Spanish airport operator now focuses on **high-margin retail** like gourmet food and shops.",
+      "chartConfig": {
+        "archetype": "multi-line-comparison",
+        "title": "Aena Airline Fees vs Commercial Revenue",
+        "subtitle": "EUR millions, 2019-2024",
+        "color": "#1f77b4",
+        "source": "[Aena Results Presentation, 2024. Socratify Analysis]",
+        "features": [
+          "legend",
+          "axisLabels",
+          "grid"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "EUR"
+        },
+        "data": {
+          "series": [
+            {
+              "name": "Aeronautical Revenue (Airline Fees)",
+              "color": "#1f77b4",
+              "valueType": "currency",
+              "points": [
+                {
+                  "year": 2019,
+                  "value": 2915.3
+                },
+                {
+                  "year": 2020,
+                  "value": 2100.0
+                },
+                {
+                  "year": 2021,
+                  "value": 2400.0
+                },
+                {
+                  "year": 2022,
+                  "value": 2700.0
+                },
+                {
+                  "year": 2023,
+                  "value": 2768.3
+                },
+                {
+                  "year": 2024,
+                  "value": 3147.5
+                }
+              ]
+            },
+            {
+              "name": "Commercial Revenue",
+              "color": "#ff7f0e",
+              "valueType": "currency",
+              "points": [
+                {
+                  "year": 2019,
+                  "value": 1247.5
+                },
+                {
+                  "year": 2020,
+                  "value": 1000.0
+                },
+                {
+                  "year": 2021,
+                  "value": 1200.0
+                },
+                {
+                  "year": 2022,
+                  "value": 1400.0
+                },
+                {
+                  "year": 2023,
+                  "value": 1534.5
+                },
+                {
+                  "year": 2024,
+                  "value": 1760.0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "We envision a diversified retail mix, anchored by a large, innovative duty-paid store, complemented by smaller, brand-specific stores, outlets...enhance the overall airport experience for all travelers.",
+        "source": "Juan José Sánchez Guinoza, Chief Commercial Officer Aena, Travel Markets Insider interview, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine the airport is like a mall, but the rent from the airlines (big stores) is fixed. To make more money, the airport wants to sell more snacks and souvenirs (smaller stores) to people waiting for their planes.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Aena focuses on retail to boost revenue since airline fees are capped.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How does retail impact Aena's strategy?",
+        "answer": "With airline fee growth limited, Aena uses retail to increase profit margins and diversify revenue streams. Success depends on attracting more travelers to spend money in airport shops.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What execution challenges will Aena face?",
+        "answer": "Aena must attract diverse retail brands, manage logistics within the airport, and optimize store layouts. They must also consider security restrictions, and fluctuating passenger traffic which could impact sales.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Aena's Head of Operations",
+    "keyQuestionText": "Aena's airline fees are capped. They're boosting airport retail anyway. What do you think Aena is counting on about passengers?",
+    "hintText": "Consider what basic passenger behaviors or needs would make airport retail highly profitable.",
+    "shortKeyQuestionText": "What is Aena counting on about passengers?",
+    "choices": [
+      {
+        "title": "Willing to spend",
+        "text": "Passengers will spend enough on food and shops to boost profits",
+        "followUpQuestion": "Spending is crucial. What would make passengers actually spend enough to offset capped airline fees?"
+      },
+      {
+        "title": "Food culture drives",
+        "text": "Spanish food culture makes passengers willing to pay premium prices",
+        "followUpQuestion": "Food culture appeals. What would make passengers truly pay premium for airport food?"
+      },
+      {
+        "title": "Captive audience",
+        "text": "Passengers have few other options and will buy at the airport",
+        "followUpQuestion": "Captive audience matters. What would make passengers actually buy primarily from airport shops?"
+      },
+      {
+        "title": "Brand loyalty",
+        "text": "Travelers will choose Aena airports because of great food options",
+        "followUpQuestion": "Brand choice is key. What would make travelers specifically pick Aena airports for their food offerings?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "pricing_power_test",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/pricing_power_test.png",
+    "mentalModelImageDescription": "A business standing confidently, holding a price tag high, while competitors struggle to match, illustrating the ability to maintain prices without losing customers.",
+    "mentalModelLinkText": "Pricing power shows how limited competition allows higher prices—like Aena charging more for airport retail because travelers have few other options after security.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're really thirsty at a baseball game, and there's only one place to buy water. They can charge more because you don't have another choice! That's pricing power – they know you'll pay because you need it.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Pricing power is the ability to raise prices without losing customers due to a unique offering, strong brand, or limited competition.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Aena's situation?",
+        "answer": "Aena believes it has pricing power over passengers within its airports. Post-security, travelers have few other options for food, drinks, or souvenirs. Aena is betting that this captive audience will tolerate higher prices, making retail a significant profit center despite capped airline fees.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Aena's pricing power is derived from the limited choices available to passengers inside the airport. While they can charge more, Aena must balance profit margins with customer satisfaction. Excessively high prices could lead to negative perceptions and a decrease in overall spending.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes growth isn't about more customers, it's about getting more value from existing ones. That's **revenue maximization**: boosting income without necessarily increasing sales volume. For **Aena**, it means squeezing more euros out of each passenger passing through their airports, especially on high-margin retail. The nuance here is understanding where passengers are a **captive audience**. _Aena isn't just selling products; they're selling convenience to a traveler who has limited options._ It's like a concert venue charging $10 for a bottle of water: same product, different context, higher price."
+}

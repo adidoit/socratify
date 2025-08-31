@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "dc92f029-a0fe-4535-ad22-3452aa9fb41b",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the impact of stablecoins on bank funding models requires familiarity with concepts like customer deposits, lending, competitive dynamics, and strategic adaptation that first-year business students learn.",
+    "primaryDomainName": "Finance",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because understanding the implications of stablecoins on bank funding requires following trends in digital assets and their impact on financial markets, typical of regular industry observers.",
+    "secondaryDomainName": "Strategy",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the core question involves strategic adaptation of the bank's business model in response to a new competitive threat, requiring an understanding of strategic planning and competitive positioning.",
+    "fileName": "banks-stablecoin-fears-questions.xml",
+    "backgroundNeeded": "Remember that traditional banks fund loans using customer deposits and stablecoins offer an alternative place for consumers to hold money, understand how potential deposit outflows challenge this funding model, and apply strategic thinking to identify the most critical questions for adapting the business.",
+    "happyPath": "The emergence of stablecoins represents a fascinating, multi-faceted challenge for traditional banks, fundamentally altering the competitive landscape and forcing a re-evaluation of long-held assumptions about their business model. This scenario requires strategic thinking that extends beyond immediate product decisions to consider systemic impacts and the evolving role of financial intermediaries. One critical strategic lens involves assessing the existential threat to the deposit-based lending model. For centuries, banks have relied on low-cost customer deposits to fund higher-yielding loans, thereby fueling economic growth. The Treasury's staggering estimate of up to $6.6 trillion in potential deposit outflows to stablecoins signals not just a shift in customer preference, but a direct challenge to this fundamental mechanism. Banks must ask: \"If a significant portion of our funding base evaporates, what alternative capital structures or revenue streams become essential to maintain our lending capacity and profitability?\" This forces consideration of wholesale funding markets, securitization, or even a pivot towards more fee-based services, fundamentally redefining their financial engineering. A second analytical thread concerns navigating regulatory paradoxes and competitive realities. The Genius Act attempts to level the playing field by prohibiting yield on stablecoins, yet non-bank issuers like Coinbase demonstrate how \"reward programs\" can effectively circumvent this. Banks considering their own stablecoins or competing with existing ones face a dilemma: How can they attract users to a digital currency without the lure of yield, especially when others appear to offer it? This prompts a deeper look into non-monetary value propositions such as trust, regulatory compliance, seamless integration with existing financial services, or superior user experience. The strategic question becomes: \"What unique, non-yield value proposition can a bank-issued stablecoin offer that genuinely resonates with users and provides a competitive edge against agile tech firms?\" Finally, the scenario highlights the Federal Reserve's pivotal role in shaping the financial ecosystem's future. The decision of whether to grant non-bank stablecoin issuers access to the Fed system is a critical policy choice that balances innovation and financial stability. Granting access could enhance efficiency and competition but might also introduce systemic risks like increased uninsured deposits or liquidity fragilities, as stablecoin issuers might not be subject to the same stringent capital and liquidity requirements as traditional banks. The strategic question for regulators is: \"How can we foster responsible innovation in digital payments while safeguarding the stability of the broader financial system and ensuring a level regulatory playing field?\" This requires a delicate balance between encouraging progress and mitigating unforeseen consequences that could ripple through the economy. In synthesis, the rise of stablecoins is not merely a product development challenge but a profound strategic inflection point for the financial industry. It compels banks to rethink their core business model, adapt their competitive strategies to an evolving regulatory environment, and influence the foundational infrastructure decisions being made by central banks. Successfully navigating this shift demands multi-dimensional thinking, recognizing that today's tactical decisions have far-reaching implications for financial stability, market structure, and the very definition of banking in the digital age.",
+    "faviconUrl": "https://traditionalbank.com/sites/default/files/fav.jpg"
+  },
+  "coverElements": {
+    "coverImageDescription": "Neatly stacked US dollar bills with the green hue of new foliage, bound by a simple brown paper band.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/dollar-smile-tarrifs-2025-data-63c6f1b2-0b4b-4ba5-b282-7363ed10b16c.png",
+    "coverPlainTitle": "Stablecoins Threaten Bank Loan Model?",
+    "coverWittyTitle": "Bank Run, Crypto Style?",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can stablecoins replace bank deposits?",
+    "coverParagraph": "**Banks** could lose billions to **stablecoin deposits**. As a bank CEO, decide what question to ask about the lending model.",
+    "tags": "Strategy,Finance,Finance,Fintech",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Deposit Drain",
+      "text": "Traditional banks fund loans using customer deposits. Stablecoins, digital currencies providing an alternative to cash, threaten this model by **siphoning trillions from bank accounts**. This massive outflow could force banks to rethink **how they fund all lending**.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Stablecoin Market Capitalization",
+        "subtitle": "USD billions, Early 2024 vs End 2023",
+        "color": "#1E90FF",
+        "source": "[coinlaw.io, 2025. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "value": 140000000000.0,
+          "change": 1.45,
+          "changeValue": 2000000000.0,
+          "trend": "up",
+          "insight": "Market cap grew despite regulatory pressures"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "Nonbank stablecoin issuers could sap deposits from banks and simply invest them for their own benefit, rather than use them to help fund loans “that benefit banks, borrowers and the economy as a whole.”",
+        "source": "Karen Petrou, Managing Partner, Federal Financial Analytics"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine banks are like lemonade stands that use your money to buy lemons and sugar to sell more lemonade. Now, imagine everyone starts using a new digital token to pay for things instead of putting money in the lemonade stand. Banks worry they won't have enough money to make lemonade, which means fewer loans.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Stablecoins gain popularity, pulling deposits from traditional banks and potentially impacting lending capacity.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "Why is this deposit shift strategically important?",
+        "answer": "Banks may need to find alternative funding sources like bond markets, potentially increasing borrowing costs and reducing overall lending. Stablecoins could reshape the financial landscape by disintermediating traditional banks and altering how credit is deployed in the economy.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How might banks respond to this threat?",
+        "answer": "Banks might offer higher interest rates on deposits to retain customers or develop their own stablecoin offerings to compete directly. Over-regulation of stablecoins could ironically strengthen the position of traditional banks by stifling innovation in digital currencies.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are the CEO of a Traditional Bank",
+    "keyQuestionText": "Treasury estimates stablecoins could siphon $6.6T from banks. They need to rethink funding loans. As CEO, what question would you ask first?",
+    "hintText": "Think about what fundamental business model question is most critical as stablecoins impact deposits.",
+    "shortKeyQuestionText": "What question would you ask about funding loans?",
+    "choices": [
+      {
+        "title": "Lending model impact",
+        "text": "How would deposit outflows fundamentally change our ability to lend?",
+        "followUpQuestion": "Lending model impact seems key. Why is this the right question for adapting to deposit outflows?"
+      },
+      {
+        "title": "Non-deposit funding",
+        "text": "What alternative funding sources could replace lost customer deposits?",
+        "followUpQuestion": "Non-deposit funding matters. Why is this the right question for adapting to deposit outflows?"
+      },
+      {
+        "title": "New revenue streams",
+        "text": "What new services could we offer to offset potential lending reductions?",
+        "followUpQuestion": "New revenue seems important. Why is this the right question for adapting to deposit outflows?"
+      },
+      {
+        "title": "Competitor strategies",
+        "text": "How are our peer banks planning to adapt to this deposit threat?",
+        "followUpQuestion": "Competitor strategies look critical. Why is this the right question for adapting to deposit outflows?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "fractional_reserve_multiplication",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/fractional_reserve_multiplication.png",
+    "mentalModelImageDescription": "A series of interconnected gears, each representing a bank, turning each other. As one gear receives a deposit, it spins, distributing smaller gears representing loans. The smaller gears then feed back into larger gears, illustrating how deposits are multiplied into loans across the banking system.",
+    "mentalModelLinkText": "Fractional reserve multiplication shows how banks turn deposits into many times more loans. Stablecoin outflows disrupt this. Each dollar lost to stablecoins means less funding available, shrinking the bank's overall lending power.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a magic piggy bank. When you put $1 in, it lets your family lend out 90 cents. Then, whoever borrowed it puts 90 cents in THEIR piggy bank, which lets THEM lend out about 80 cents... and so on! Now, if everyone starts using a different magic piggy bank (stablecoins), the first piggy bank can't lend as much!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Fractional reserve multiplication: Banks lend out a fraction of deposits, expanding the money supply; deposit outflows shrink this lending capacity.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to the bank's situation?",
+        "answer": "As deposits shift to stablecoins, the bank's reserves decrease. Because of fractional reserve banking, this decrease has a multiplied effect on the total amount of loans the bank can issue. This constrains lending activity and revenue generation.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals that the impact of deposit outflows is amplified due to the fractional reserve system. Banks need to find ways to either retain deposits or identify alternative funding sources to maintain their lending capacity.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Banks face a classic **hold-up problem**. Once borrowers become dependent on loans, banks can raise rates or reduce lending. But stablecoins change the game, offering borrowers alternative funding. Now banks must compete harder to attract and retain both depositors and borrowers. This dynamic creates a new form of **bargaining power**. _The nuance here is that banks must now prove their value beyond simply being the only game in town._ It's like a small-town monopoly suddenly facing competition from a global online store."
+}

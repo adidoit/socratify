@@ -1,0 +1,4888 @@
+{
+  "total": 823,
+  "success": 764,
+  "exists": 45,
+  "failed": 14,
+  "coverage": 98.29890643985419,
+  "results": [
+    {
+      "university": "Columbia University",
+      "status": "exists",
+      "domain": "columbia.edu"
+    },
+    {
+      "university": "Brown University",
+      "status": "success",
+      "domain": "brown.edu",
+      "size": 10908
+    },
+    {
+      "university": "University of Pennsylvania",
+      "status": "success",
+      "domain": "upenn.edu",
+      "size": 6926
+    },
+    {
+      "university": "Yale University",
+      "status": "success",
+      "domain": "yale.edu",
+      "size": 8277
+    },
+    {
+      "university": "Princeton University",
+      "status": "success",
+      "domain": "princeton.edu",
+      "size": 11268
+    },
+    {
+      "university": "Harvard University",
+      "status": "success",
+      "domain": "harvard.edu",
+      "size": 19543
+    },
+    {
+      "university": "Stanford University",
+      "status": "success",
+      "domain": "stanford.edu",
+      "size": 16543
+    },
+    {
+      "university": "California Institute of Technology",
+      "status": "success",
+      "domain": "caltech.edu",
+      "size": 9241
+    },
+    {
+      "university": "Dartmouth College",
+      "status": "success",
+      "domain": "dartmouth.edu",
+      "size": 21727
+    },
+    {
+      "university": "Cornell University",
+      "status": "success",
+      "domain": "cornell.edu",
+      "size": 19795
+    },
+    {
+      "university": "Massachusetts Institute of Technology",
+      "status": "success",
+      "domain": "mit.edu",
+      "size": 11201
+    },
+    {
+      "university": "University of Chicago",
+      "status": "success",
+      "domain": "uchicago.edu",
+      "size": 18389
+    },
+    {
+      "university": "Northwestern University",
+      "status": "success",
+      "domain": "northwestern.edu",
+      "size": 7484
+    },
+    {
+      "university": "Johns Hopkins University",
+      "status": "success",
+      "domain": "jhu.edu",
+      "size": 16135
+    },
+    {
+      "university": "Duke University",
+      "status": "success",
+      "domain": "duke.edu",
+      "size": 8098
+    },
+    {
+      "university": "Georgetown University",
+      "status": "exists",
+      "domain": "georgetown.edu"
+    },
+    {
+      "university": "Vanderbilt University",
+      "status": "success",
+      "domain": "vanderbilt.edu",
+      "size": 9808
+    },
+    {
+      "university": "Rice University",
+      "status": "success",
+      "domain": "rice.edu",
+      "size": 12680
+    },
+    {
+      "university": "Washington University in St. Louis",
+      "status": "failed",
+      "domain": "wustl.edu"
+    },
+    {
+      "university": "University of Notre Dame",
+      "status": "success",
+      "domain": "nd.edu",
+      "size": 21108
+    },
+    {
+      "university": "University of California Los Angeles",
+      "status": "success",
+      "domain": "ucla.edu",
+      "size": 980
+    },
+    {
+      "university": "Carnegie Mellon University",
+      "status": "success",
+      "domain": "cmu.edu",
+      "size": 12110
+    },
+    {
+      "university": "Emory University",
+      "status": "success",
+      "domain": "emory.edu",
+      "size": 14700
+    },
+    {
+      "university": "University of Southern California",
+      "status": "success",
+      "domain": "usc.edu",
+      "size": 13659
+    },
+    {
+      "university": "University of California Berkeley",
+      "status": "success",
+      "domain": "berkeley.edu",
+      "size": 33895
+    },
+    {
+      "university": "University of North Carolina Chapel Hill",
+      "status": "success",
+      "domain": "unc.edu",
+      "size": 14926
+    },
+    {
+      "university": "University of Virginia",
+      "status": "success",
+      "domain": "virginia.edu",
+      "size": 6458
+    },
+    {
+      "university": "University of Michigan",
+      "status": "success",
+      "domain": "umich.edu",
+      "size": 13660
+    },
+    {
+      "university": "New York University",
+      "status": "success",
+      "domain": "nyu.edu",
+      "size": 6415
+    },
+    {
+      "university": "Boston College",
+      "status": "success",
+      "domain": "bc.edu",
+      "size": 35019
+    },
+    {
+      "university": "Case Western Reserve University",
+      "status": "success",
+      "domain": "case.edu",
+      "size": 10723
+    },
+    {
+      "university": "Boston University",
+      "status": "success",
+      "domain": "bu.edu",
+      "size": 28960
+    },
+    {
+      "university": "University of Rochester",
+      "status": "success",
+      "domain": "rochester.edu",
+      "size": 21846
+    },
+    {
+      "university": "Tufts University",
+      "status": "success",
+      "domain": "tufts.edu",
+      "size": 10160
+    },
+    {
+      "university": "University of California San Diego",
+      "status": "success",
+      "domain": "ucsd.edu",
+      "size": 5388
+    },
+    {
+      "university": "University of Texas Austin",
+      "status": "success",
+      "domain": "utexas.edu",
+      "size": 7752
+    },
+    {
+      "university": "University of Illinois Urbana-Champaign",
+      "status": "success",
+      "domain": "illinois.edu",
+      "size": 4423
+    },
+    {
+      "university": "University of Florida",
+      "status": "success",
+      "domain": "ufl.edu",
+      "size": 7815
+    },
+    {
+      "university": "Georgia Institute of Technology",
+      "status": "success",
+      "domain": "gatech.edu",
+      "size": 6968
+    },
+    {
+      "university": "University of Wisconsin Madison",
+      "status": "success",
+      "domain": "wisc.edu",
+      "size": 27433
+    },
+    {
+      "university": "Pennsylvania State University",
+      "status": "success",
+      "domain": "psu.edu",
+      "size": 16028
+    },
+    {
+      "university": "University of Washington",
+      "status": "success",
+      "domain": "washington.edu",
+      "size": 13868
+    },
+    {
+      "university": "Ohio State University",
+      "status": "success",
+      "domain": "osu.edu",
+      "size": 10949
+    },
+    {
+      "university": "University of Minnesota",
+      "status": "success",
+      "domain": "umn.edu",
+      "size": 9916
+    },
+    {
+      "university": "Indiana University",
+      "status": "success",
+      "domain": "indiana.edu",
+      "size": 10921
+    },
+    {
+      "university": "University of California Davis",
+      "status": "success",
+      "domain": "ucdavis.edu",
+      "size": 8851
+    },
+    {
+      "university": "University of Maryland",
+      "status": "success",
+      "domain": "umd.edu",
+      "size": 19127
+    },
+    {
+      "university": "Michigan State University",
+      "status": "success",
+      "domain": "msu.edu",
+      "size": 9339
+    },
+    {
+      "university": "University of California Irvine",
+      "status": "success",
+      "domain": "uci.edu",
+      "size": 15890
+    },
+    {
+      "university": "University of Pittsburgh",
+      "status": "success",
+      "domain": "pitt.edu",
+      "size": 16784
+    },
+    {
+      "university": "University of Colorado Boulder",
+      "status": "success",
+      "domain": "colorado.edu",
+      "size": 3964
+    },
+    {
+      "university": "University of Arizona",
+      "status": "success",
+      "domain": "arizona.edu",
+      "size": 10006
+    },
+    {
+      "university": "University of California Santa Barbara",
+      "status": "success",
+      "domain": "ucsb.edu",
+      "size": 8129
+    },
+    {
+      "university": "Arizona State University",
+      "status": "success",
+      "domain": "asu.edu",
+      "size": 14059
+    },
+    {
+      "university": "University of Utah",
+      "status": "success",
+      "domain": "utah.edu",
+      "size": 9610
+    },
+    {
+      "university": "University of Oregon",
+      "status": "success",
+      "domain": "uoregon.edu",
+      "size": 9651
+    },
+    {
+      "university": "University of Iowa",
+      "status": "success",
+      "domain": "uiowa.edu",
+      "size": 6917
+    },
+    {
+      "university": "Iowa State University",
+      "status": "success",
+      "domain": "iastate.edu",
+      "size": 8102
+    },
+    {
+      "university": "University of Georgia",
+      "status": "success",
+      "domain": "uga.edu",
+      "size": 1992
+    },
+    {
+      "university": "University of Tennessee",
+      "status": "success",
+      "domain": "utk.edu",
+      "size": 6099
+    },
+    {
+      "university": "Auburn University",
+      "status": "exists",
+      "domain": "auburn.edu"
+    },
+    {
+      "university": "University of Missouri",
+      "status": "success",
+      "domain": "missouri.edu",
+      "size": 13971
+    },
+    {
+      "university": "Louisiana State University",
+      "status": "success",
+      "domain": "lsu.edu",
+      "size": 9968
+    },
+    {
+      "university": "University of Kentucky",
+      "status": "success",
+      "domain": "uky.edu",
+      "size": 11790
+    },
+    {
+      "university": "University of Alabama",
+      "status": "success",
+      "domain": "ua.edu",
+      "size": 11430
+    },
+    {
+      "university": "University of Nebraska",
+      "status": "success",
+      "domain": "unl.edu",
+      "size": 7622
+    },
+    {
+      "university": "University of Miami",
+      "status": "success",
+      "domain": "miami.edu",
+      "size": 10431
+    },
+    {
+      "university": "Texas A&M University",
+      "status": "success",
+      "domain": "tamu.edu",
+      "size": 9096
+    },
+    {
+      "university": "University of Kansas",
+      "status": "success",
+      "domain": "ku.edu",
+      "size": 9841
+    },
+    {
+      "university": "University of Oklahoma",
+      "status": "success",
+      "domain": "ou.edu",
+      "size": 8102
+    },
+    {
+      "university": "Florida State University",
+      "status": "success",
+      "domain": "fsu.edu",
+      "size": 30353
+    },
+    {
+      "university": "Clemson University",
+      "status": "success",
+      "domain": "clemson.edu",
+      "size": 15475
+    },
+    {
+      "university": "North Carolina State University",
+      "status": "success",
+      "domain": "ncsu.edu",
+      "size": 2718
+    },
+    {
+      "university": "University of South Carolina",
+      "status": "success",
+      "domain": "sc.edu",
+      "size": 16738
+    },
+    {
+      "university": "Virginia Tech",
+      "status": "success",
+      "domain": "vt.edu",
+      "size": 10461
+    },
+    {
+      "university": "American University",
+      "status": "exists",
+      "domain": "american.edu"
+    },
+    {
+      "university": "University of Connecticut",
+      "status": "success",
+      "domain": "uconn.edu",
+      "size": 9581
+    },
+    {
+      "university": "George Washington University",
+      "status": "success",
+      "domain": "gwu.edu",
+      "size": 8813
+    },
+    {
+      "university": "University of Massachusetts Amherst",
+      "status": "success",
+      "domain": "umass.edu",
+      "size": 7891
+    },
+    {
+      "university": "Northeastern University",
+      "status": "success",
+      "domain": "northeastern.edu",
+      "size": 25573
+    },
+    {
+      "university": "Rutgers University",
+      "status": "success",
+      "domain": "rutgers.edu",
+      "size": 14881
+    },
+    {
+      "university": "Temple University",
+      "status": "success",
+      "domain": "temple.edu",
+      "size": 5952
+    },
+    {
+      "university": "Drexel University",
+      "status": "success",
+      "domain": "drexel.edu",
+      "size": 23282
+    },
+    {
+      "university": "Syracuse University",
+      "status": "success",
+      "domain": "syr.edu",
+      "size": 6538
+    },
+    {
+      "university": "University of Delaware",
+      "status": "success",
+      "domain": "udel.edu",
+      "size": 16627
+    },
+    {
+      "university": "Williams College",
+      "status": "exists",
+      "domain": "williams.edu"
+    },
+    {
+      "university": "University of Vermont",
+      "status": "success",
+      "domain": "uvm.edu",
+      "size": 13328
+    },
+    {
+      "university": "University of Maine",
+      "status": "success",
+      "domain": "maine.edu",
+      "size": 14903
+    },
+    {
+      "university": "University of Rhode Island",
+      "status": "success",
+      "domain": "uri.edu",
+      "size": 11556
+    },
+    {
+      "university": "University of New Hampshire",
+      "status": "success",
+      "domain": "unh.edu",
+      "size": 7270
+    },
+    {
+      "university": "Amherst College",
+      "status": "success",
+      "domain": "amherst.edu",
+      "size": 24846
+    },
+    {
+      "university": "Wellesley College",
+      "status": "success",
+      "domain": "wellesley.edu",
+      "size": 11143
+    },
+    {
+      "university": "Swarthmore College",
+      "status": "success",
+      "domain": "swarthmore.edu",
+      "size": 19595
+    },
+    {
+      "university": "Bowdoin College",
+      "status": "success",
+      "domain": "bowdoin.edu",
+      "size": 8467
+    },
+    {
+      "university": "Davidson College",
+      "status": "exists",
+      "domain": "davidson.edu"
+    },
+    {
+      "university": "Pomona College",
+      "status": "success",
+      "domain": "pomona.edu",
+      "size": 18956
+    },
+    {
+      "university": "Middlebury College",
+      "status": "success",
+      "domain": "middlebury.edu",
+      "size": 12775
+    },
+    {
+      "university": "Carleton College",
+      "status": "success",
+      "domain": "carleton.edu",
+      "size": 26974
+    },
+    {
+      "university": "Claremont McKenna College",
+      "status": "success",
+      "domain": "cmc.edu",
+      "size": 14863
+    },
+    {
+      "university": "Haverford College",
+      "status": "success",
+      "domain": "haverford.edu",
+      "size": 11063
+    },
+    {
+      "university": "Hamilton College",
+      "status": "success",
+      "domain": "hamilton.edu",
+      "size": 5870
+    },
+    {
+      "university": "Colby College",
+      "status": "success",
+      "domain": "colby.edu",
+      "size": 10056
+    },
+    {
+      "university": "Vassar College",
+      "status": "success",
+      "domain": "vassar.edu",
+      "size": 13351
+    },
+    {
+      "university": "Wesleyan University",
+      "status": "success",
+      "domain": "wesleyan.edu",
+      "size": 11705
+    },
+    {
+      "university": "Bates College",
+      "status": "success",
+      "domain": "bates.edu",
+      "size": 5825
+    },
+    {
+      "university": "Grinnell College",
+      "status": "success",
+      "domain": "grinnell.edu",
+      "size": 12172
+    },
+    {
+      "university": "Barnard College",
+      "status": "success",
+      "domain": "barnard.edu",
+      "size": 16572
+    },
+    {
+      "university": "Mount Holyoke College",
+      "status": "success",
+      "domain": "mtholyoke.edu",
+      "size": 25176
+    },
+    {
+      "university": "Bryn Mawr College",
+      "status": "success",
+      "domain": "brynmawr.edu",
+      "size": 20149
+    },
+    {
+      "university": "Smith College",
+      "status": "success",
+      "domain": "smith.edu",
+      "size": 24878
+    },
+    {
+      "university": "Oberlin College",
+      "status": "success",
+      "domain": "oberlin.edu",
+      "size": 6274
+    },
+    {
+      "university": "Colorado College",
+      "status": "success",
+      "domain": "coloradocollege.edu",
+      "size": 8962
+    },
+    {
+      "university": "Macalester College",
+      "status": "success",
+      "domain": "macalester.edu",
+      "size": 13913
+    },
+    {
+      "university": "Reed College",
+      "status": "success",
+      "domain": "reed.edu",
+      "size": 10494
+    },
+    {
+      "university": "Kenyon College",
+      "status": "success",
+      "domain": "kenyon.edu",
+      "size": 3554
+    },
+    {
+      "university": "Bucknell University",
+      "status": "success",
+      "domain": "bucknell.edu",
+      "size": 6289
+    },
+    {
+      "university": "Lafayette College",
+      "status": "success",
+      "domain": "lafayette.edu",
+      "size": 10339
+    },
+    {
+      "university": "Trinity College",
+      "status": "success",
+      "domain": "trincoll.edu",
+      "size": 5830
+    },
+    {
+      "university": "Colgate University",
+      "status": "success",
+      "domain": "colgate.edu",
+      "size": 7789
+    },
+    {
+      "university": "Connecticut College",
+      "status": "success",
+      "domain": "conncoll.edu",
+      "size": 24799
+    },
+    {
+      "university": "Occidental College",
+      "status": "exists",
+      "domain": "oxy.edu"
+    },
+    {
+      "university": "Skidmore College",
+      "status": "success",
+      "domain": "skidmore.edu",
+      "size": 29764
+    },
+    {
+      "university": "Dickinson College",
+      "status": "success",
+      "domain": "dickinson.edu",
+      "size": 6180
+    },
+    {
+      "university": "Union College",
+      "status": "success",
+      "domain": "union.edu",
+      "size": 10580
+    },
+    {
+      "university": "Franklin and Marshall College",
+      "status": "success",
+      "domain": "fandm.edu",
+      "size": 29846
+    },
+    {
+      "university": "Whitman College",
+      "status": "success",
+      "domain": "whitman.edu",
+      "size": 25089
+    },
+    {
+      "university": "Gettysburg College",
+      "status": "success",
+      "domain": "gettysburg.edu",
+      "size": 9288
+    },
+    {
+      "university": "Wabash College",
+      "status": "success",
+      "domain": "wabash.edu",
+      "size": 7795
+    },
+    {
+      "university": "DePauw University",
+      "status": "success",
+      "domain": "depauw.edu",
+      "size": 18290
+    },
+    {
+      "university": "Furman University",
+      "status": "exists",
+      "domain": "furman.edu"
+    },
+    {
+      "university": "Denison University",
+      "status": "success",
+      "domain": "denison.edu",
+      "size": 10259
+    },
+    {
+      "university": "Rhodes College",
+      "status": "success",
+      "domain": "rhodes.edu",
+      "size": 6623
+    },
+    {
+      "university": "St. Olaf College",
+      "status": "success",
+      "domain": "stolaf.edu",
+      "size": 12703
+    },
+    {
+      "university": "Centre College",
+      "status": "success",
+      "domain": "centre.edu",
+      "size": 8340
+    },
+    {
+      "university": "Trinity University",
+      "status": "success",
+      "domain": "trinity.edu",
+      "size": 10296
+    },
+    {
+      "university": "Sewanee",
+      "status": "success",
+      "domain": "sewanee.edu",
+      "size": 12978
+    },
+    {
+      "university": "Lawrence University",
+      "status": "success",
+      "domain": "lawrence.edu",
+      "size": 12048
+    },
+    {
+      "university": "University of Richmond",
+      "status": "success",
+      "domain": "richmond.edu",
+      "size": 20350
+    },
+    {
+      "university": "Wake Forest University",
+      "status": "success",
+      "domain": "wfu.edu",
+      "size": 17905
+    },
+    {
+      "university": "Tulane University",
+      "status": "success",
+      "domain": "tulane.edu",
+      "size": 11052
+    },
+    {
+      "university": "Villanova University",
+      "status": "exists",
+      "domain": "villanova.edu"
+    },
+    {
+      "university": "University of San Diego",
+      "status": "success",
+      "domain": "sandiego.edu",
+      "size": 13265
+    },
+    {
+      "university": "Loyola Marymount University",
+      "status": "success",
+      "domain": "lmu.edu",
+      "size": 10266
+    },
+    {
+      "university": "Santa Clara University",
+      "status": "success",
+      "domain": "scu.edu",
+      "size": 31488
+    },
+    {
+      "university": "Gonzaga University",
+      "status": "success",
+      "domain": "gonzaga.edu",
+      "size": 10614
+    },
+    {
+      "university": "Lehigh University",
+      "status": "success",
+      "domain": "lehigh.edu",
+      "size": 17326
+    },
+    {
+      "university": "Creighton University",
+      "status": "success",
+      "domain": "creighton.edu",
+      "size": 9549
+    },
+    {
+      "university": "Saint Louis University",
+      "status": "success",
+      "domain": "slu.edu",
+      "size": 11622
+    },
+    {
+      "university": "Xavier University",
+      "status": "success",
+      "domain": "xavier.edu",
+      "size": 8057
+    },
+    {
+      "university": "Marquette University",
+      "status": "success",
+      "domain": "marquette.edu",
+      "size": 29399
+    },
+    {
+      "university": "University of Dayton",
+      "status": "success",
+      "domain": "udayton.edu",
+      "size": 11783
+    },
+    {
+      "university": "University of San Francisco",
+      "status": "success",
+      "domain": "usfca.edu",
+      "size": 17419
+    },
+    {
+      "university": "Seattle University",
+      "status": "success",
+      "domain": "seattleu.edu",
+      "size": 8140
+    },
+    {
+      "university": "DePaul University",
+      "status": "success",
+      "domain": "depaul.edu",
+      "size": 13588
+    },
+    {
+      "university": "Loyola University Chicago",
+      "status": "success",
+      "domain": "luc.edu",
+      "size": 19763
+    },
+    {
+      "university": "University of Portland",
+      "status": "success",
+      "domain": "up.edu",
+      "size": 6639
+    },
+    {
+      "university": "University of Denver",
+      "status": "success",
+      "domain": "du.edu",
+      "size": 16511
+    },
+    {
+      "university": "Southern Methodist University",
+      "status": "success",
+      "domain": "smu.edu",
+      "size": 8350
+    },
+    {
+      "university": "University of Tulsa",
+      "status": "success",
+      "domain": "utulsa.edu",
+      "size": 25610
+    },
+    {
+      "university": "Texas Christian University",
+      "status": "success",
+      "domain": "tcu.edu",
+      "size": 9890
+    },
+    {
+      "university": "Pepperdine University",
+      "status": "exists",
+      "domain": "pepperdine.edu"
+    },
+    {
+      "university": "Fordham University",
+      "status": "exists",
+      "domain": "fordham.edu"
+    },
+    {
+      "university": "Chapman University",
+      "status": "exists",
+      "domain": "chapman.edu"
+    },
+    {
+      "university": "Hofstra University",
+      "status": "exists",
+      "domain": "hofstra.edu"
+    },
+    {
+      "university": "Adelphi University",
+      "status": "exists",
+      "domain": "adelphi.edu"
+    },
+    {
+      "university": "University of the Pacific",
+      "status": "success",
+      "domain": "pacific.edu",
+      "size": 7156
+    },
+    {
+      "university": "Pace University",
+      "status": "success",
+      "domain": "pace.edu",
+      "size": 12236
+    },
+    {
+      "university": "Rochester Institute of Technology",
+      "status": "success",
+      "domain": "rit.edu",
+      "size": 13046
+    },
+    {
+      "university": "St. John's University",
+      "status": "success",
+      "domain": "stjohns.edu",
+      "size": 22937
+    },
+    {
+      "university": "Baylor University",
+      "status": "success",
+      "domain": "baylor.edu",
+      "size": 9297
+    },
+    {
+      "university": "Rensselaer Polytechnic Institute",
+      "status": "success",
+      "domain": "rpi.edu",
+      "size": 29141
+    },
+    {
+      "university": "Worcester Polytechnic Institute",
+      "status": "success",
+      "domain": "wpi.edu",
+      "size": 1267
+    },
+    {
+      "university": "Colorado School of Mines",
+      "status": "success",
+      "domain": "mines.edu",
+      "size": 15209
+    },
+    {
+      "university": "Illinois Institute of Technology",
+      "status": "success",
+      "domain": "iit.edu",
+      "size": 10795
+    },
+    {
+      "university": "Missouri University of Science and Technology",
+      "status": "success",
+      "domain": "mst.edu",
+      "size": 7018
+    },
+    {
+      "university": "University of Cincinnati",
+      "status": "success",
+      "domain": "uc.edu",
+      "size": 21477
+    },
+    {
+      "university": "New Jersey Institute of Technology",
+      "status": "success",
+      "domain": "njit.edu",
+      "size": 18188
+    },
+    {
+      "university": "Clarkson University",
+      "status": "success",
+      "domain": "clarkson.edu",
+      "size": 27419
+    },
+    {
+      "university": "Stevens Institute of Technology",
+      "status": "success",
+      "domain": "stevens.edu",
+      "size": 11811
+    },
+    {
+      "university": "University of Alabama Birmingham",
+      "status": "success",
+      "domain": "uab.edu",
+      "size": 11028
+    },
+    {
+      "university": "University of Montana",
+      "status": "success",
+      "domain": "umt.edu",
+      "size": 10247
+    },
+    {
+      "university": "University of Wyoming",
+      "status": "success",
+      "domain": "uwyo.edu",
+      "size": 16529
+    },
+    {
+      "university": "University of Nevada Las Vegas",
+      "status": "success",
+      "domain": "unlv.edu",
+      "size": 3859
+    },
+    {
+      "university": "University of Houston",
+      "status": "success",
+      "domain": "uh.edu",
+      "size": 10259
+    },
+    {
+      "university": "University of New Mexico",
+      "status": "success",
+      "domain": "unm.edu",
+      "size": 13201
+    },
+    {
+      "university": "University of Arkansas",
+      "status": "success",
+      "domain": "uark.edu",
+      "size": 18610
+    },
+    {
+      "university": "University of North Dakota",
+      "status": "success",
+      "domain": "und.edu",
+      "size": 19578
+    },
+    {
+      "university": "University of South Dakota",
+      "status": "success",
+      "domain": "usd.edu",
+      "size": 8870
+    },
+    {
+      "university": "University of Idaho",
+      "status": "success",
+      "domain": "uidaho.edu",
+      "size": 4695
+    },
+    {
+      "university": "University of Mississippi",
+      "status": "success",
+      "domain": "olemiss.edu",
+      "size": 9640
+    },
+    {
+      "university": "West Virginia University",
+      "status": "success",
+      "domain": "wvu.edu",
+      "size": 18008
+    },
+    {
+      "university": "University of Hawaii",
+      "status": "success",
+      "domain": "hawaii.edu",
+      "size": 25994
+    },
+    {
+      "university": "San Diego State University",
+      "status": "success",
+      "domain": "sdsu.edu",
+      "size": 2293
+    },
+    {
+      "university": "University of Alaska",
+      "status": "success",
+      "domain": "alaska.edu",
+      "size": 9252
+    },
+    {
+      "university": "California State University Long Beach",
+      "status": "success",
+      "domain": "csulb.edu",
+      "size": 18045
+    },
+    {
+      "university": "San Jose State University",
+      "status": "success",
+      "domain": "sjsu.edu",
+      "size": 27270
+    },
+    {
+      "university": "California State University Fullerton",
+      "status": "success",
+      "domain": "fullerton.edu",
+      "size": 17035
+    },
+    {
+      "university": "California Polytechnic State University",
+      "status": "success",
+      "domain": "calpoly.edu",
+      "size": 9186
+    },
+    {
+      "university": "University of Central Florida",
+      "status": "success",
+      "domain": "ucf.edu",
+      "size": 9220
+    },
+    {
+      "university": "Florida International University",
+      "status": "success",
+      "domain": "fiu.edu",
+      "size": 5906
+    },
+    {
+      "university": "University of South Florida",
+      "status": "success",
+      "domain": "usf.edu",
+      "size": 9693
+    },
+    {
+      "university": "Kennesaw State University",
+      "status": "success",
+      "domain": "kennesaw.edu",
+      "size": 16305
+    },
+    {
+      "university": "Georgia State University",
+      "status": "success",
+      "domain": "gsu.edu",
+      "size": 13847
+    },
+    {
+      "university": "University of Texas Dallas",
+      "status": "success",
+      "domain": "utdallas.edu",
+      "size": 5979
+    },
+    {
+      "university": "University of North Texas",
+      "status": "success",
+      "domain": "unt.edu",
+      "size": 17735
+    },
+    {
+      "university": "Portland State University",
+      "status": "success",
+      "domain": "pdx.edu",
+      "size": 17007
+    },
+    {
+      "university": "University of Nevada Reno",
+      "status": "success",
+      "domain": "unr.edu",
+      "size": 7308
+    },
+    {
+      "university": "Texas Tech University",
+      "status": "success",
+      "domain": "ttu.edu",
+      "size": 13569
+    },
+    {
+      "university": "University of Texas San Antonio",
+      "status": "success",
+      "domain": "utsa.edu",
+      "size": 7974
+    },
+    {
+      "university": "Washington State University",
+      "status": "success",
+      "domain": "wsu.edu",
+      "size": 7332
+    },
+    {
+      "university": "Utah State University",
+      "status": "success",
+      "domain": "usu.edu",
+      "size": 15985
+    },
+    {
+      "university": "New Mexico State University",
+      "status": "success",
+      "domain": "nmsu.edu",
+      "size": 13402
+    },
+    {
+      "university": "Colorado State University",
+      "status": "success",
+      "domain": "colostate.edu",
+      "size": 20585
+    },
+    {
+      "university": "Oregon State University",
+      "status": "success",
+      "domain": "oregonstate.edu",
+      "size": 18536
+    },
+    {
+      "university": "Montana State University",
+      "status": "success",
+      "domain": "montana.edu",
+      "size": 6838
+    },
+    {
+      "university": "University of New Orleans",
+      "status": "success",
+      "domain": "uno.edu",
+      "size": 9663
+    },
+    {
+      "university": "Old Dominion University",
+      "status": "success",
+      "domain": "odu.edu",
+      "size": 36803
+    },
+    {
+      "university": "University of Louisville",
+      "status": "success",
+      "domain": "louisville.edu",
+      "size": 9273
+    },
+    {
+      "university": "Boise State University",
+      "status": "success",
+      "domain": "boisestate.edu",
+      "size": 18651
+    },
+    {
+      "university": "University of Memphis",
+      "status": "success",
+      "domain": "memphis.edu",
+      "size": 9923
+    },
+    {
+      "university": "James Madison University",
+      "status": "success",
+      "domain": "jmu.edu",
+      "size": 3251
+    },
+    {
+      "university": "Towson University",
+      "status": "success",
+      "domain": "towson.edu",
+      "size": 8824
+    },
+    {
+      "university": "University of Maryland Baltimore County",
+      "status": "success",
+      "domain": "umbc.edu",
+      "size": 21552
+    },
+    {
+      "university": "George Mason University",
+      "status": "success",
+      "domain": "gmu.edu",
+      "size": 16298
+    },
+    {
+      "university": "Virginia Commonwealth University",
+      "status": "success",
+      "domain": "vcu.edu",
+      "size": 17646
+    },
+    {
+      "university": "University of North Carolina Charlotte",
+      "status": "success",
+      "domain": "uncc.edu",
+      "size": 5824
+    },
+    {
+      "university": "East Carolina University",
+      "status": "success",
+      "domain": "ecu.edu",
+      "size": 9413
+    },
+    {
+      "university": "Western Michigan University",
+      "status": "success",
+      "domain": "wmich.edu",
+      "size": 21802
+    },
+    {
+      "university": "Central Michigan University",
+      "status": "success",
+      "domain": "cmich.edu",
+      "size": 13828
+    },
+    {
+      "university": "University of North Carolina Greensboro",
+      "status": "success",
+      "domain": "uncg.edu",
+      "size": 11582
+    },
+    {
+      "university": "Eastern Michigan University",
+      "status": "success",
+      "domain": "emich.edu",
+      "size": 4039
+    },
+    {
+      "university": "Oakland University",
+      "status": "success",
+      "domain": "oakland.edu",
+      "size": 10481
+    },
+    {
+      "university": "University of Illinois Chicago",
+      "status": "success",
+      "domain": "uic.edu",
+      "size": 9193
+    },
+    {
+      "university": "Wayne State University",
+      "status": "success",
+      "domain": "wayne.edu",
+      "size": 13142
+    },
+    {
+      "university": "University of Wisconsin Milwaukee",
+      "status": "success",
+      "domain": "uwm.edu",
+      "size": 14156
+    },
+    {
+      "university": "Northern Illinois University",
+      "status": "success",
+      "domain": "niu.edu",
+      "size": 4821
+    },
+    {
+      "university": "Southern Illinois University",
+      "status": "success",
+      "domain": "siu.edu",
+      "size": 32357
+    },
+    {
+      "university": "Kent State University",
+      "status": "success",
+      "domain": "kent.edu",
+      "size": 14219
+    },
+    {
+      "university": "University of Toledo",
+      "status": "success",
+      "domain": "utoledo.edu",
+      "size": 13323
+    },
+    {
+      "university": "Ball State University",
+      "status": "success",
+      "domain": "bsu.edu",
+      "size": 12202
+    },
+    {
+      "university": "University of Missouri Kansas City",
+      "status": "success",
+      "domain": "umkc.edu",
+      "size": 10694
+    },
+    {
+      "university": "Cleveland State University",
+      "status": "success",
+      "domain": "csuohio.edu",
+      "size": 6186
+    },
+    {
+      "university": "University of Missouri St. Louis",
+      "status": "success",
+      "domain": "umsl.edu",
+      "size": 6491
+    },
+    {
+      "university": "Wright State University",
+      "status": "success",
+      "domain": "wright.edu",
+      "size": 6797
+    },
+    {
+      "university": "University of Akron",
+      "status": "success",
+      "domain": "uakron.edu",
+      "size": 31702
+    },
+    {
+      "university": "La Salle University",
+      "status": "success",
+      "domain": "lasalle.edu",
+      "size": 17634
+    },
+    {
+      "university": "Fairfield University",
+      "status": "exists",
+      "domain": "fairfield.edu"
+    },
+    {
+      "university": "Duquesne University",
+      "status": "success",
+      "domain": "duq.edu",
+      "size": 11537
+    },
+    {
+      "university": "University of Scranton",
+      "status": "success",
+      "domain": "scranton.edu",
+      "size": 11246
+    },
+    {
+      "university": "Seton Hall University",
+      "status": "success",
+      "domain": "shu.edu",
+      "size": 19818
+    },
+    {
+      "university": "Saint Joseph's University",
+      "status": "success",
+      "domain": "sju.edu",
+      "size": 13489
+    },
+    {
+      "university": "Bentley University",
+      "status": "exists",
+      "domain": "bentley.edu"
+    },
+    {
+      "university": "Stonehill College",
+      "status": "success",
+      "domain": "stonehill.edu",
+      "size": 15747
+    },
+    {
+      "university": "Babson College",
+      "status": "exists",
+      "domain": "babson.edu"
+    },
+    {
+      "university": "Bryant University",
+      "status": "success",
+      "domain": "bryant.edu",
+      "size": 27841
+    },
+    {
+      "university": "Providence College",
+      "status": "success",
+      "domain": "providence.edu",
+      "size": 3639
+    },
+    {
+      "university": "Assumption University",
+      "status": "success",
+      "domain": "assumption.edu",
+      "size": 30348
+    },
+    {
+      "university": "College of the Holy Cross",
+      "status": "success",
+      "domain": "holycross.edu",
+      "size": 17774
+    },
+    {
+      "university": "Olin College",
+      "status": "success",
+      "domain": "olin.edu",
+      "size": 947
+    },
+    {
+      "university": "Clark University",
+      "status": "success",
+      "domain": "clarku.edu",
+      "size": 20258
+    },
+    {
+      "university": "University of Toronto",
+      "status": "success",
+      "domain": "utoronto.ca",
+      "size": 9745
+    },
+    {
+      "university": "Brandeis University",
+      "status": "success",
+      "domain": "brandeis.edu",
+      "size": 8327
+    },
+    {
+      "university": "University of British Columbia",
+      "status": "success",
+      "domain": "ubc.ca",
+      "size": 10352
+    },
+    {
+      "university": "McGill University",
+      "status": "success",
+      "domain": "mcgill.ca",
+      "size": 10758
+    },
+    {
+      "university": "McMaster University",
+      "status": "success",
+      "domain": "mcmaster.ca",
+      "size": 12008
+    },
+    {
+      "university": "University of Alberta",
+      "status": "success",
+      "domain": "ualberta.ca",
+      "size": 13331
+    },
+    {
+      "university": "University of Montreal",
+      "status": "success",
+      "domain": "umontreal.ca",
+      "size": 11276
+    },
+    {
+      "university": "University of Calgary",
+      "status": "success",
+      "domain": "ucalgary.ca",
+      "size": 20463
+    },
+    {
+      "university": "University of Waterloo",
+      "status": "success",
+      "domain": "uwaterloo.ca",
+      "size": 10090
+    },
+    {
+      "university": "University of Ottawa",
+      "status": "success",
+      "domain": "uottawa.ca",
+      "size": 9263
+    },
+    {
+      "university": "Western University",
+      "status": "success",
+      "domain": "uwo.ca",
+      "size": 12026
+    },
+    {
+      "university": "University of Manitoba",
+      "status": "success",
+      "domain": "umanitoba.ca",
+      "size": 10321
+    },
+    {
+      "university": "Queen's University",
+      "status": "success",
+      "domain": "queensu.ca",
+      "size": 13180
+    },
+    {
+      "university": "Dalhousie University",
+      "status": "success",
+      "domain": "dal.ca",
+      "size": 14841
+    },
+    {
+      "university": "Laval University",
+      "status": "success",
+      "domain": "ulaval.ca",
+      "size": 1170
+    },
+    {
+      "university": "University of Victoria",
+      "status": "success",
+      "domain": "uvic.ca",
+      "size": 626
+    },
+    {
+      "university": "University of Saskatchewan",
+      "status": "success",
+      "domain": "usask.ca",
+      "size": 4241
+    },
+    {
+      "university": "Simon Fraser University",
+      "status": "success",
+      "domain": "sfu.ca",
+      "size": 21499
+    },
+    {
+      "university": "York University",
+      "status": "success",
+      "domain": "yorku.ca",
+      "size": 4401
+    },
+    {
+      "university": "Carleton University",
+      "status": "success",
+      "domain": "carleton.ca",
+      "size": 10933
+    },
+    {
+      "university": "Concordia University",
+      "status": "exists",
+      "domain": "concordia.ca"
+    },
+    {
+      "university": "Ryerson University",
+      "status": "success",
+      "domain": "ryerson.ca",
+      "size": 5703
+    },
+    {
+      "university": "Memorial University",
+      "status": "success",
+      "domain": "mun.ca",
+      "size": 7922
+    },
+    {
+      "university": "University of Guelph",
+      "status": "success",
+      "domain": "uoguelph.ca",
+      "size": 13574
+    },
+    {
+      "university": "University of Regina",
+      "status": "success",
+      "domain": "uregina.ca",
+      "size": 12310
+    },
+    {
+      "university": "University of Windsor",
+      "status": "success",
+      "domain": "uwindsor.ca",
+      "size": 14091
+    },
+    {
+      "university": "Brock University",
+      "status": "success",
+      "domain": "brocku.ca",
+      "size": 8885
+    },
+    {
+      "university": "University of New Brunswick",
+      "status": "success",
+      "domain": "unb.ca",
+      "size": 5914
+    },
+    {
+      "university": "Wilfrid Laurier University",
+      "status": "success",
+      "domain": "wlu.ca",
+      "size": 13924
+    },
+    {
+      "university": "UQAM",
+      "status": "success",
+      "domain": "uqam.ca",
+      "size": 5178
+    },
+    {
+      "university": "University of Lethbridge",
+      "status": "success",
+      "domain": "uleth.ca",
+      "size": 15365
+    },
+    {
+      "university": "Trent University",
+      "status": "success",
+      "domain": "trentu.ca",
+      "size": 17613
+    },
+    {
+      "university": "University of Winnipeg",
+      "status": "success",
+      "domain": "uwinnipeg.ca",
+      "size": 17114
+    },
+    {
+      "university": "Sherbrooke University",
+      "status": "success",
+      "domain": "usherbrooke.ca",
+      "size": 11293
+    },
+    {
+      "university": "University of Northern British Columbia",
+      "status": "success",
+      "domain": "unbc.ca",
+      "size": 15589
+    },
+    {
+      "university": "Acadia University",
+      "status": "success",
+      "domain": "acadiau.ca",
+      "size": 14772
+    },
+    {
+      "university": "Saint Mary's University",
+      "status": "success",
+      "domain": "smu.ca",
+      "size": 5196
+    },
+    {
+      "university": "Bishop's University",
+      "status": "success",
+      "domain": "ubishops.ca",
+      "size": 18678
+    },
+    {
+      "university": "St. Francis Xavier University",
+      "status": "success",
+      "domain": "stfx.ca",
+      "size": 23674
+    },
+    {
+      "university": "Mount Allison University",
+      "status": "success",
+      "domain": "mta.ca",
+      "size": 14904
+    },
+    {
+      "university": "Vancouver Island University",
+      "status": "success",
+      "domain": "viu.ca",
+      "size": 6007
+    },
+    {
+      "university": "Mount Royal University",
+      "status": "success",
+      "domain": "mtroyal.ca",
+      "size": 14364
+    },
+    {
+      "university": "Kwantlen Polytechnic University",
+      "status": "success",
+      "domain": "kpu.ca",
+      "size": 14222
+    },
+    {
+      "university": "Brandon University",
+      "status": "success",
+      "domain": "brandonu.ca",
+      "size": 15584
+    },
+    {
+      "university": "MacEwan University",
+      "status": "success",
+      "domain": "macewan.ca",
+      "size": 4425
+    },
+    {
+      "university": "Thompson Rivers University",
+      "status": "success",
+      "domain": "tru.ca",
+      "size": 6359
+    },
+    {
+      "university": "Capilano University",
+      "status": "success",
+      "domain": "capilanou.ca",
+      "size": 8929
+    },
+    {
+      "university": "Emily Carr University",
+      "status": "success",
+      "domain": "ecuad.ca",
+      "size": 13803
+    },
+    {
+      "university": "University of the Fraser Valley",
+      "status": "success",
+      "domain": "ufv.ca",
+      "size": 12057
+    },
+    {
+      "university": "Nipissing University",
+      "status": "success",
+      "domain": "nipissingu.ca",
+      "size": 9153
+    },
+    {
+      "university": "OCAD University",
+      "status": "success",
+      "domain": "ocadu.ca",
+      "size": 7019
+    },
+    {
+      "university": "Algoma University",
+      "status": "success",
+      "domain": "algomau.ca",
+      "size": 7533
+    },
+    {
+      "university": "Laurentian University",
+      "status": "success",
+      "domain": "laurentian.ca",
+      "size": 13176
+    },
+    {
+      "university": "Lakehead University",
+      "status": "success",
+      "domain": "lakeheadu.ca",
+      "size": 20691
+    },
+    {
+      "university": "Royal Roads University",
+      "status": "success",
+      "domain": "royalroads.ca",
+      "size": 10270
+    },
+    {
+      "university": "UOIT",
+      "status": "success",
+      "domain": "ontariotechu.ca",
+      "size": 9641
+    },
+    {
+      "university": "Trinity Western University",
+      "status": "success",
+      "domain": "twu.ca",
+      "size": 19484
+    },
+    {
+      "university": "University of Prince Edward Island",
+      "status": "success",
+      "domain": "upei.ca",
+      "size": 8806
+    },
+    {
+      "university": "Mount Saint Vincent University",
+      "status": "success",
+      "domain": "msvu.ca",
+      "size": 26433
+    },
+    {
+      "university": "Cape Breton University",
+      "status": "success",
+      "domain": "cbu.ca",
+      "size": 12564
+    },
+    {
+      "university": "ENAP",
+      "status": "exists",
+      "domain": "enap.ca"
+    },
+    {
+      "university": "HEC Montreal",
+      "status": "exists",
+      "domain": "hec.ca"
+    },
+    {
+      "university": "Universit\u00e9 de Moncton",
+      "status": "success",
+      "domain": "umoncton.ca",
+      "size": 13882
+    },
+    {
+      "university": "ETS Montreal",
+      "status": "success",
+      "domain": "etsmtl.ca",
+      "size": 12464
+    },
+    {
+      "university": "NSCAD University",
+      "status": "success",
+      "domain": "nscad.ca",
+      "size": 8847
+    },
+    {
+      "university": "Polytechnique Montreal",
+      "status": "success",
+      "domain": "polymtl.ca",
+      "size": 10170
+    },
+    {
+      "university": "TELUQ",
+      "status": "success",
+      "domain": "teluq.ca",
+      "size": 8698
+    },
+    {
+      "university": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski",
+      "status": "success",
+      "domain": "uqar.ca",
+      "size": 13097
+    },
+    {
+      "university": "Universit\u00e9 du Qu\u00e9bec \u00e0 Chicoutimi",
+      "status": "success",
+      "domain": "uqac.ca",
+      "size": 2564
+    },
+    {
+      "university": "Universit\u00e9 du Qu\u00e9bec \u00e0 Trois-Rivi\u00e8res",
+      "status": "success",
+      "domain": "uqtr.ca",
+      "size": 4353
+    },
+    {
+      "university": "Universit\u00e9 du Qu\u00e9bec en Abitibi-T\u00e9miscamingue",
+      "status": "success",
+      "domain": "uqat.ca",
+      "size": 5811
+    },
+    {
+      "university": "Universit\u00e9 du Qu\u00e9bec en Outaouais",
+      "status": "success",
+      "domain": "uqo.ca",
+      "size": 12393
+    },
+    {
+      "university": "Royal Military College",
+      "status": "failed",
+      "domain": "rmc-cmr.ca"
+    },
+    {
+      "university": "St. Thomas University",
+      "status": "success",
+      "domain": "stu.ca",
+      "size": 20263
+    },
+    {
+      "university": "Canadian Mennonite University",
+      "status": "success",
+      "domain": "cmu.ca",
+      "size": 8468
+    },
+    {
+      "university": "First Nations University",
+      "status": "success",
+      "domain": "fnuniv.ca",
+      "size": 10739
+    },
+    {
+      "university": "Yorkville University",
+      "status": "success",
+      "domain": "yorkvilleu.ca",
+      "size": 29500
+    },
+    {
+      "university": "Crandall University",
+      "status": "success",
+      "domain": "crandallu.ca",
+      "size": 9550
+    },
+    {
+      "university": "Dominican University College",
+      "status": "success",
+      "domain": "udominicaine.ca",
+      "size": 6490
+    },
+    {
+      "university": "Kingswood University",
+      "status": "success",
+      "domain": "kingswood.edu",
+      "size": 15325
+    },
+    {
+      "university": "Quest University",
+      "status": "success",
+      "domain": "questu.ca",
+      "size": 6181
+    },
+    {
+      "university": "New York Institute of Technology Vancouver",
+      "status": "success",
+      "domain": "nyit.edu",
+      "size": 13764
+    },
+    {
+      "university": "Fairleigh Dickinson University Vancouver",
+      "status": "success",
+      "domain": "fdu.edu",
+      "size": 4127
+    },
+    {
+      "university": "Northeastern University Vancouver",
+      "status": "success",
+      "domain": "northeastern.edu",
+      "size": 25573
+    },
+    {
+      "university": "SAIT",
+      "status": "success",
+      "domain": "sait.ca",
+      "size": 16727
+    },
+    {
+      "university": "University Canada West",
+      "status": "success",
+      "domain": "ucanwest.ca",
+      "size": 7781
+    },
+    {
+      "university": "BCIT",
+      "status": "success",
+      "domain": "bcit.ca",
+      "size": 6134
+    },
+    {
+      "university": "NAIT",
+      "status": "success",
+      "domain": "nait.ca",
+      "size": 19530
+    },
+    {
+      "university": "Conestoga College",
+      "status": "success",
+      "domain": "conestogac.on.ca",
+      "size": 7380
+    },
+    {
+      "university": "Seneca College",
+      "status": "success",
+      "domain": "senecacollege.ca",
+      "size": 368
+    },
+    {
+      "university": "George Brown College",
+      "status": "success",
+      "domain": "georgebrown.ca",
+      "size": 17623
+    },
+    {
+      "university": "Centennial College",
+      "status": "success",
+      "domain": "centennialcollege.ca",
+      "size": 7038
+    },
+    {
+      "university": "Humber College",
+      "status": "success",
+      "domain": "humber.ca",
+      "size": 14338
+    },
+    {
+      "university": "Sheridan College",
+      "status": "success",
+      "domain": "sheridancollege.ca",
+      "size": 8272
+    },
+    {
+      "university": "Fanshawe College",
+      "status": "success",
+      "domain": "fanshawec.ca",
+      "size": 12769
+    },
+    {
+      "university": "Algonquin College",
+      "status": "success",
+      "domain": "algonquincollege.com",
+      "size": 10305
+    },
+    {
+      "university": "Fleming College",
+      "status": "success",
+      "domain": "flemingcollege.ca",
+      "size": 16874
+    },
+    {
+      "university": "Mohawk College",
+      "status": "success",
+      "domain": "mohawkcollege.ca",
+      "size": 2667
+    },
+    {
+      "university": "Cambrian College",
+      "status": "success",
+      "domain": "cambriancollege.ca",
+      "size": 8460
+    },
+    {
+      "university": "Durham College",
+      "status": "success",
+      "domain": "durhamcollege.ca",
+      "size": 5775
+    },
+    {
+      "university": "University of Oxford",
+      "status": "success",
+      "domain": "ox.ac.uk",
+      "size": 17485
+    },
+    {
+      "university": "Sault College",
+      "status": "success",
+      "domain": "saultcollege.ca",
+      "size": 7875
+    },
+    {
+      "university": "Niagara College",
+      "status": "success",
+      "domain": "niagaracollege.ca",
+      "size": 11988
+    },
+    {
+      "university": "Confederation College",
+      "status": "success",
+      "domain": "confederationcollege.ca",
+      "size": 8006
+    },
+    {
+      "university": "Canadore College",
+      "status": "success",
+      "domain": "canadorecollege.ca",
+      "size": 17043
+    },
+    {
+      "university": "University of Cambridge",
+      "status": "success",
+      "domain": "cam.ac.uk",
+      "size": 17045
+    },
+    {
+      "university": "Imperial College London",
+      "status": "success",
+      "domain": "imperial.ac.uk",
+      "size": 1893
+    },
+    {
+      "university": "University College London",
+      "status": "success",
+      "domain": "ucl.ac.uk",
+      "size": 5952
+    },
+    {
+      "university": "London School of Economics",
+      "status": "success",
+      "domain": "lse.ac.uk",
+      "size": 10224
+    },
+    {
+      "university": "University of Edinburgh",
+      "status": "success",
+      "domain": "ed.ac.uk",
+      "size": 14103
+    },
+    {
+      "university": "King's College London",
+      "status": "success",
+      "domain": "kcl.ac.uk",
+      "size": 9980
+    },
+    {
+      "university": "University of Bristol",
+      "status": "success",
+      "domain": "bristol.ac.uk",
+      "size": 17799
+    },
+    {
+      "university": "University of Manchester",
+      "status": "success",
+      "domain": "manchester.ac.uk",
+      "size": 14458
+    },
+    {
+      "university": "University of Glasgow",
+      "status": "success",
+      "domain": "gla.ac.uk",
+      "size": 14663
+    },
+    {
+      "university": "University of Sheffield",
+      "status": "success",
+      "domain": "sheffield.ac.uk",
+      "size": 17508
+    },
+    {
+      "university": "University of Warwick",
+      "status": "success",
+      "domain": "warwick.ac.uk",
+      "size": 22924
+    },
+    {
+      "university": "Durham University",
+      "status": "success",
+      "domain": "dur.ac.uk",
+      "size": 8407
+    },
+    {
+      "university": "University of Birmingham",
+      "status": "success",
+      "domain": "bham.ac.uk",
+      "size": 18848
+    },
+    {
+      "university": "University of Leeds",
+      "status": "success",
+      "domain": "leeds.ac.uk",
+      "size": 6339
+    },
+    {
+      "university": "University of Nottingham",
+      "status": "success",
+      "domain": "nottingham.ac.uk",
+      "size": 6272
+    },
+    {
+      "university": "Lancaster University",
+      "status": "exists",
+      "domain": "lancaster.ac.uk"
+    },
+    {
+      "university": "University of Southampton",
+      "status": "success",
+      "domain": "soton.ac.uk",
+      "size": 15851
+    },
+    {
+      "university": "Queen Mary University",
+      "status": "success",
+      "domain": "qmul.ac.uk",
+      "size": 19365
+    },
+    {
+      "university": "University of Exeter",
+      "status": "success",
+      "domain": "exeter.ac.uk",
+      "size": 22467
+    },
+    {
+      "university": "University of York",
+      "status": "success",
+      "domain": "york.ac.uk",
+      "size": 16829
+    },
+    {
+      "university": "University of St Andrews",
+      "status": "success",
+      "domain": "st-andrews.ac.uk",
+      "size": 9452
+    },
+    {
+      "university": "Newcastle University",
+      "status": "success",
+      "domain": "ncl.ac.uk",
+      "size": 15029
+    },
+    {
+      "university": "University of Aberdeen",
+      "status": "success",
+      "domain": "abdn.ac.uk",
+      "size": 7252
+    },
+    {
+      "university": "University of Bath",
+      "status": "success",
+      "domain": "bath.ac.uk",
+      "size": 33641
+    },
+    {
+      "university": "University of Liverpool",
+      "status": "success",
+      "domain": "liverpool.ac.uk",
+      "size": 10300
+    },
+    {
+      "university": "University of Reading",
+      "status": "success",
+      "domain": "reading.ac.uk",
+      "size": 15825
+    },
+    {
+      "university": "Queen's University Belfast",
+      "status": "success",
+      "domain": "qub.ac.uk",
+      "size": 8644
+    },
+    {
+      "university": "University of East Anglia",
+      "status": "success",
+      "domain": "uea.ac.uk",
+      "size": 6859
+    },
+    {
+      "university": "University of Dundee",
+      "status": "success",
+      "domain": "dundee.ac.uk",
+      "size": 10219
+    },
+    {
+      "university": "University of Leicester",
+      "status": "success",
+      "domain": "le.ac.uk",
+      "size": 5288
+    },
+    {
+      "university": "Cardiff University",
+      "status": "success",
+      "domain": "cardiff.ac.uk",
+      "size": 25853
+    },
+    {
+      "university": "University of Surrey",
+      "status": "success",
+      "domain": "surrey.ac.uk",
+      "size": 12671
+    },
+    {
+      "university": "University of Strathclyde",
+      "status": "success",
+      "domain": "strath.ac.uk",
+      "size": 10507
+    },
+    {
+      "university": "Heriot-Watt University",
+      "status": "success",
+      "domain": "hw.ac.uk",
+      "size": 13117
+    },
+    {
+      "university": "Royal Holloway",
+      "status": "success",
+      "domain": "rhul.ac.uk",
+      "size": 20229
+    },
+    {
+      "university": "University of Sussex",
+      "status": "success",
+      "domain": "sussex.ac.uk",
+      "size": 5895
+    },
+    {
+      "university": "University of Kent",
+      "status": "success",
+      "domain": "kent.ac.uk",
+      "size": 9811
+    },
+    {
+      "university": "Loughborough University",
+      "status": "success",
+      "domain": "lboro.ac.uk",
+      "size": 20508
+    },
+    {
+      "university": "University of Essex",
+      "status": "success",
+      "domain": "essex.ac.uk",
+      "size": 16636
+    },
+    {
+      "university": "Swansea University",
+      "status": "success",
+      "domain": "swansea.ac.uk",
+      "size": 7553
+    },
+    {
+      "university": "Bangor University",
+      "status": "success",
+      "domain": "bangor.ac.uk",
+      "size": 10139
+    },
+    {
+      "university": "Aberystwyth University",
+      "status": "success",
+      "domain": "aber.ac.uk",
+      "size": 16976
+    },
+    {
+      "university": "Brunel University",
+      "status": "success",
+      "domain": "brunel.ac.uk",
+      "size": 24252
+    },
+    {
+      "university": "SOAS University",
+      "status": "success",
+      "domain": "soas.ac.uk",
+      "size": 19764
+    },
+    {
+      "university": "City University",
+      "status": "success",
+      "domain": "city.ac.uk",
+      "size": 15112
+    },
+    {
+      "university": "Aston University",
+      "status": "success",
+      "domain": "aston.ac.uk",
+      "size": 9624
+    },
+    {
+      "university": "Oxford Brookes University",
+      "status": "success",
+      "domain": "brookes.ac.uk",
+      "size": 4196
+    },
+    {
+      "university": "University of Hull",
+      "status": "success",
+      "domain": "hull.ac.uk",
+      "size": 9114
+    },
+    {
+      "university": "University of Plymouth",
+      "status": "success",
+      "domain": "plymouth.ac.uk",
+      "size": 15783
+    },
+    {
+      "university": "University of Portsmouth",
+      "status": "success",
+      "domain": "port.ac.uk",
+      "size": 4870
+    },
+    {
+      "university": "Northumbria University",
+      "status": "success",
+      "domain": "northumbria.ac.uk",
+      "size": 6738
+    },
+    {
+      "university": "University of Stirling",
+      "status": "success",
+      "domain": "stir.ac.uk",
+      "size": 13630
+    },
+    {
+      "university": "Coventry University",
+      "status": "success",
+      "domain": "coventry.ac.uk",
+      "size": 18779
+    },
+    {
+      "university": "Ulster University",
+      "status": "success",
+      "domain": "ulster.ac.uk",
+      "size": 5458
+    },
+    {
+      "university": "Keele University",
+      "status": "success",
+      "domain": "keele.ac.uk",
+      "size": 11156
+    },
+    {
+      "university": "Glasgow Caledonian University",
+      "status": "success",
+      "domain": "gcu.ac.uk",
+      "size": 10916
+    },
+    {
+      "university": "Edinburgh Napier University",
+      "status": "success",
+      "domain": "napier.ac.uk",
+      "size": 7466
+    },
+    {
+      "university": "De Montfort University",
+      "status": "success",
+      "domain": "dmu.ac.uk",
+      "size": 8626
+    },
+    {
+      "university": "University of Bradford",
+      "status": "success",
+      "domain": "bradford.ac.uk",
+      "size": 2245
+    },
+    {
+      "university": "Kingston University",
+      "status": "exists",
+      "domain": "kingston.ac.uk"
+    },
+    {
+      "university": "Robert Gordon University",
+      "status": "success",
+      "domain": "rgu.ac.uk",
+      "size": 17015
+    },
+    {
+      "university": "University of Lincoln",
+      "status": "success",
+      "domain": "lincoln.ac.uk",
+      "size": 13415
+    },
+    {
+      "university": "University of Hertfordshire",
+      "status": "success",
+      "domain": "herts.ac.uk",
+      "size": 7166
+    },
+    {
+      "university": "University of Huddersfield",
+      "status": "success",
+      "domain": "hud.ac.uk",
+      "size": 10807
+    },
+    {
+      "university": "Liverpool John Moores University",
+      "status": "success",
+      "domain": "ljmu.ac.uk",
+      "size": 10114
+    },
+    {
+      "university": "University of Greenwich",
+      "status": "success",
+      "domain": "gre.ac.uk",
+      "size": 10231
+    },
+    {
+      "university": "Manchester Metropolitan University",
+      "status": "success",
+      "domain": "mmu.ac.uk",
+      "size": 12619
+    },
+    {
+      "university": "Middlesex University",
+      "status": "success",
+      "domain": "mdx.ac.uk",
+      "size": 6068
+    },
+    {
+      "university": "Nottingham Trent University",
+      "status": "success",
+      "domain": "ntu.ac.uk",
+      "size": 7809
+    },
+    {
+      "university": "University of Salford",
+      "status": "success",
+      "domain": "salford.ac.uk",
+      "size": 8144
+    },
+    {
+      "university": "Sheffield Hallam University",
+      "status": "success",
+      "domain": "shu.ac.uk",
+      "size": 10665
+    },
+    {
+      "university": "University of Brighton",
+      "status": "success",
+      "domain": "brighton.ac.uk",
+      "size": 32248
+    },
+    {
+      "university": "University of West London",
+      "status": "success",
+      "domain": "uwl.ac.uk",
+      "size": 3345
+    },
+    {
+      "university": "University of East London",
+      "status": "success",
+      "domain": "uel.ac.uk",
+      "size": 13366
+    },
+    {
+      "university": "University of Central Lancashire",
+      "status": "success",
+      "domain": "uclan.ac.uk",
+      "size": 6803
+    },
+    {
+      "university": "University of Gloucestershire",
+      "status": "success",
+      "domain": "glos.ac.uk",
+      "size": 25409
+    },
+    {
+      "university": "University of Westminster",
+      "status": "success",
+      "domain": "westminster.ac.uk",
+      "size": 559
+    },
+    {
+      "university": "Birmingham City University",
+      "status": "success",
+      "domain": "bcu.ac.uk",
+      "size": 18669
+    },
+    {
+      "university": "University of Derby",
+      "status": "success",
+      "domain": "derby.ac.uk",
+      "size": 9652
+    },
+    {
+      "university": "Leeds Beckett University",
+      "status": "success",
+      "domain": "leedsbeckett.ac.uk",
+      "size": 20667
+    },
+    {
+      "university": "London Metropolitan University",
+      "status": "failed",
+      "domain": "londonmet.ac.uk"
+    },
+    {
+      "university": "University of Roehampton",
+      "status": "success",
+      "domain": "roehampton.ac.uk",
+      "size": 6771
+    },
+    {
+      "university": "University of South Wales",
+      "status": "success",
+      "domain": "southwales.ac.uk",
+      "size": 7910
+    },
+    {
+      "university": "University of Northampton",
+      "status": "success",
+      "domain": "northampton.ac.uk",
+      "size": 3932
+    },
+    {
+      "university": "Staffordshire University",
+      "status": "success",
+      "domain": "staffs.ac.uk",
+      "size": 11811
+    },
+    {
+      "university": "Teesside University",
+      "status": "success",
+      "domain": "tees.ac.uk",
+      "size": 3793
+    },
+    {
+      "university": "Anglia Ruskin University",
+      "status": "success",
+      "domain": "aru.ac.uk",
+      "size": 20362
+    },
+    {
+      "university": "University of Wolverhampton",
+      "status": "success",
+      "domain": "wlv.ac.uk",
+      "size": 8135
+    },
+    {
+      "university": "University of West of England",
+      "status": "success",
+      "domain": "uwe.ac.uk",
+      "size": 7335
+    },
+    {
+      "university": "Edge Hill University",
+      "status": "success",
+      "domain": "edgehill.ac.uk",
+      "size": 19741
+    },
+    {
+      "university": "University of Chester",
+      "status": "success",
+      "domain": "chester.ac.uk",
+      "size": 13595
+    },
+    {
+      "university": "Bath Spa University",
+      "status": "success",
+      "domain": "bathspa.ac.uk",
+      "size": 15633
+    },
+    {
+      "university": "Canterbury Christ Church University",
+      "status": "success",
+      "domain": "canterbury.ac.uk",
+      "size": 9616
+    },
+    {
+      "university": "Falmouth University",
+      "status": "success",
+      "domain": "falmouth.ac.uk",
+      "size": 8060
+    },
+    {
+      "university": "University of Chichester",
+      "status": "success",
+      "domain": "chi.ac.uk",
+      "size": 8824
+    },
+    {
+      "university": "University of Bolton",
+      "status": "failed",
+      "domain": "bolton.ac.uk"
+    },
+    {
+      "university": "University of Winchester",
+      "status": "success",
+      "domain": "winchester.ac.uk",
+      "size": 13945
+    },
+    {
+      "university": "Bournemouth University",
+      "status": "success",
+      "domain": "bournemouth.ac.uk",
+      "size": 16172
+    },
+    {
+      "university": "University of Bedfordshire",
+      "status": "success",
+      "domain": "beds.ac.uk",
+      "size": 8791
+    },
+    {
+      "university": "York St John University",
+      "status": "success",
+      "domain": "yorksj.ac.uk",
+      "size": 7638
+    },
+    {
+      "university": "University of Sunderland",
+      "status": "success",
+      "domain": "sunderland.ac.uk",
+      "size": 22886
+    },
+    {
+      "university": "EPFL",
+      "status": "success",
+      "domain": "epfl.ch",
+      "size": 5293
+    },
+    {
+      "university": "ETH Zurich",
+      "status": "success",
+      "domain": "ethz.ch",
+      "size": 2555
+    },
+    {
+      "university": "University of Zurich",
+      "status": "success",
+      "domain": "uzh.ch",
+      "size": 2634
+    },
+    {
+      "university": "University of Cumbria",
+      "status": "success",
+      "domain": "cumbria.ac.uk",
+      "size": 16387
+    },
+    {
+      "university": "University of St. Gallen",
+      "status": "success",
+      "domain": "unisg.ch",
+      "size": 8284
+    },
+    {
+      "university": "University of Lausanne",
+      "status": "success",
+      "domain": "unil.ch",
+      "size": 7239
+    },
+    {
+      "university": "University of Geneva",
+      "status": "success",
+      "domain": "unige.ch",
+      "size": 11004
+    },
+    {
+      "university": "University of Bern",
+      "status": "success",
+      "domain": "unibe.ch",
+      "size": 4778
+    },
+    {
+      "university": "University of Basel",
+      "status": "success",
+      "domain": "unibas.ch",
+      "size": 9917
+    },
+    {
+      "university": "Technical University of Munich",
+      "status": "success",
+      "domain": "tum.de",
+      "size": 729
+    },
+    {
+      "university": "Ludwig Maximilian University",
+      "status": "success",
+      "domain": "lmu.de",
+      "size": 6785
+    },
+    {
+      "university": "Heidelberg University",
+      "status": "success",
+      "domain": "uni-heidelberg.de",
+      "size": 19469
+    },
+    {
+      "university": "Humboldt University Berlin",
+      "status": "success",
+      "domain": "hu-berlin.de",
+      "size": 20222
+    },
+    {
+      "university": "Free University Berlin",
+      "status": "success",
+      "domain": "fu-berlin.de",
+      "size": 159
+    },
+    {
+      "university": "Technical University Berlin",
+      "status": "success",
+      "domain": "tu-berlin.de",
+      "size": 11824
+    },
+    {
+      "university": "RWTH Aachen",
+      "status": "success",
+      "domain": "rwth-aachen.de",
+      "size": 8975
+    },
+    {
+      "university": "University of G\u00f6ttingen",
+      "status": "success",
+      "domain": "uni-goettingen.de",
+      "size": 14081
+    },
+    {
+      "university": "University of Freiburg",
+      "status": "success",
+      "domain": "uni-freiburg.de",
+      "size": 18002
+    },
+    {
+      "university": "University of T\u00fcbingen",
+      "status": "success",
+      "domain": "uni-tuebingen.de",
+      "size": 6118
+    },
+    {
+      "university": "University of Mannheim",
+      "status": "success",
+      "domain": "uni-mannheim.de",
+      "size": 13424
+    },
+    {
+      "university": "University of Bonn",
+      "status": "success",
+      "domain": "uni-bonn.de",
+      "size": 8007
+    },
+    {
+      "university": "University of Frankfurt",
+      "status": "failed",
+      "domain": "uni-frankfurt.de"
+    },
+    {
+      "university": "Karlsruhe Institute of Technology",
+      "status": "success",
+      "domain": "kit.edu",
+      "size": 11288
+    },
+    {
+      "university": "University of Stuttgart",
+      "status": "success",
+      "domain": "uni-stuttgart.de",
+      "size": 18960
+    },
+    {
+      "university": "University of Hamburg",
+      "status": "success",
+      "domain": "uni-hamburg.de",
+      "size": 6505
+    },
+    {
+      "university": "University of Cologne",
+      "status": "success",
+      "domain": "uni-koeln.de",
+      "size": 35705
+    },
+    {
+      "university": "HEC Paris",
+      "status": "exists",
+      "domain": "hec.edu"
+    },
+    {
+      "university": "INSEAD",
+      "status": "exists",
+      "domain": "insead.edu"
+    },
+    {
+      "university": "Sorbonne University",
+      "status": "success",
+      "domain": "sorbonne-universite.fr",
+      "size": 11432
+    },
+    {
+      "university": "\u00c9cole Polytechnique",
+      "status": "success",
+      "domain": "polytechnique.edu",
+      "size": 12949
+    },
+    {
+      "university": "Sciences Po",
+      "status": "success",
+      "domain": "sciencespo.fr",
+      "size": 6495
+    },
+    {
+      "university": "Paris-Saclay University",
+      "status": "success",
+      "domain": "universite-paris-saclay.fr",
+      "size": 9392
+    },
+    {
+      "university": "\u00c9cole Normale Sup\u00e9rieure",
+      "status": "success",
+      "domain": "ens.fr",
+      "size": 7463
+    },
+    {
+      "university": "PSL University",
+      "status": "success",
+      "domain": "psl.eu",
+      "size": 7463
+    },
+    {
+      "university": "Aix-Marseille University",
+      "status": "success",
+      "domain": "univ-amu.fr",
+      "size": 3584
+    },
+    {
+      "university": "Universit\u00e9 de Paris",
+      "status": "success",
+      "domain": "u-paris.fr",
+      "size": 10037
+    },
+    {
+      "university": "Universit\u00e9 Grenoble Alpes",
+      "status": "success",
+      "domain": "univ-grenoble-alpes.fr",
+      "size": 12667
+    },
+    {
+      "university": "Institut Polytechnique de Paris",
+      "status": "success",
+      "domain": "ip-paris.fr",
+      "size": 14822
+    },
+    {
+      "university": "University of Bordeaux",
+      "status": "success",
+      "domain": "u-bordeaux.fr",
+      "size": 7395
+    },
+    {
+      "university": "University of Amsterdam",
+      "status": "success",
+      "domain": "uva.nl",
+      "size": 8822
+    },
+    {
+      "university": "Delft University of Technology",
+      "status": "success",
+      "domain": "tudelft.nl",
+      "size": 9460
+    },
+    {
+      "university": "Utrecht University",
+      "status": "success",
+      "domain": "uu.nl",
+      "size": 24783
+    },
+    {
+      "university": "University of Strasbourg",
+      "status": "success",
+      "domain": "unistra.fr",
+      "size": 5528
+    },
+    {
+      "university": "Erasmus University Rotterdam",
+      "status": "success",
+      "domain": "eur.nl",
+      "size": 6590
+    },
+    {
+      "university": "University of Groningen",
+      "status": "success",
+      "domain": "rug.nl",
+      "size": 13378
+    },
+    {
+      "university": "Eindhoven University of Technology",
+      "status": "success",
+      "domain": "tue.nl",
+      "size": 7755
+    },
+    {
+      "university": "Wageningen University",
+      "status": "success",
+      "domain": "wur.nl",
+      "size": 6619
+    },
+    {
+      "university": "Maastricht University",
+      "status": "success",
+      "domain": "maastrichtuniversity.nl",
+      "size": 8525
+    },
+    {
+      "university": "Radboud University",
+      "status": "success",
+      "domain": "ru.nl",
+      "size": 12895
+    },
+    {
+      "university": "University of Lyon",
+      "status": "success",
+      "domain": "universite-lyon.fr",
+      "size": 9946
+    },
+    {
+      "university": "University of Toulouse",
+      "status": "success",
+      "domain": "univ-toulouse.fr",
+      "size": 3891
+    },
+    {
+      "university": "Leiden University",
+      "status": "success",
+      "domain": "leidenuniv.nl",
+      "size": 24592
+    },
+    {
+      "university": "VU Amsterdam",
+      "status": "success",
+      "domain": "vu.nl",
+      "size": 8602
+    },
+    {
+      "university": "Tilburg University",
+      "status": "success",
+      "domain": "tilburguniversity.edu",
+      "size": 19860
+    },
+    {
+      "university": "Ghent University",
+      "status": "success",
+      "domain": "ugent.be",
+      "size": 7686
+    },
+    {
+      "university": "KU Leuven",
+      "status": "success",
+      "domain": "kuleuven.be",
+      "size": 8311
+    },
+    {
+      "university": "Vrije Universiteit Brussel",
+      "status": "success",
+      "domain": "vub.be",
+      "size": 9790
+    },
+    {
+      "university": "Karolinska Institute",
+      "status": "success",
+      "domain": "ki.se",
+      "size": 21868
+    },
+    {
+      "university": "Universit\u00e9 Libre de Bruxelles",
+      "status": "success",
+      "domain": "ulb.be",
+      "size": 7530
+    },
+    {
+      "university": "Lund University",
+      "status": "success",
+      "domain": "lu.se",
+      "size": 21454
+    },
+    {
+      "university": "Uppsala University",
+      "status": "success",
+      "domain": "uu.se",
+      "size": 9463
+    },
+    {
+      "university": "Universit\u00e9 Catholique de Louvain",
+      "status": "success",
+      "domain": "uclouvain.be",
+      "size": 2161
+    },
+    {
+      "university": "KTH Royal Institute",
+      "status": "success",
+      "domain": "kth.se",
+      "size": 12922
+    },
+    {
+      "university": "Stockholm University",
+      "status": "success",
+      "domain": "su.se",
+      "size": 11721
+    },
+    {
+      "university": "University of Antwerp",
+      "status": "success",
+      "domain": "uantwerpen.be",
+      "size": 4726
+    },
+    {
+      "university": "Chalmers University",
+      "status": "success",
+      "domain": "chalmers.se",
+      "size": 30312
+    },
+    {
+      "university": "Copenhagen Business School",
+      "status": "exists",
+      "domain": "cbs.dk"
+    },
+    {
+      "university": "University of Gothenburg",
+      "status": "success",
+      "domain": "gu.se",
+      "size": 5686
+    },
+    {
+      "university": "University of Copenhagen",
+      "status": "success",
+      "domain": "ku.dk",
+      "size": 12134
+    },
+    {
+      "university": "Technical University of Denmark",
+      "status": "success",
+      "domain": "dtu.dk",
+      "size": 7531
+    },
+    {
+      "university": "Aarhus University",
+      "status": "success",
+      "domain": "au.dk",
+      "size": 14221
+    },
+    {
+      "university": "Aalborg University",
+      "status": "success",
+      "domain": "aau.dk",
+      "size": 17829
+    },
+    {
+      "university": "University of Bergen",
+      "status": "success",
+      "domain": "uib.no",
+      "size": 600
+    },
+    {
+      "university": "University of Oslo",
+      "status": "success",
+      "domain": "uio.no",
+      "size": 33752
+    },
+    {
+      "university": "University of Turku",
+      "status": "success",
+      "domain": "utu.fi",
+      "size": 8971
+    },
+    {
+      "university": "Aalto University",
+      "status": "success",
+      "domain": "aalto.fi",
+      "size": 3558
+    },
+    {
+      "university": "University of Helsinki",
+      "status": "success",
+      "domain": "helsinki.fi",
+      "size": 5087
+    },
+    {
+      "university": "University of Oulu",
+      "status": "success",
+      "domain": "oulu.fi",
+      "size": 12876
+    },
+    {
+      "university": "University of Vienna",
+      "status": "success",
+      "domain": "univie.ac.at",
+      "size": 23106
+    },
+    {
+      "university": "University of Innsbruck",
+      "status": "success",
+      "domain": "uibk.ac.at",
+      "size": 6335
+    },
+    {
+      "university": "University of Troms\u00f8",
+      "status": "success",
+      "domain": "uit.no",
+      "size": 19216
+    },
+    {
+      "university": "University of Bologna",
+      "status": "success",
+      "domain": "unibo.it",
+      "size": 33664
+    },
+    {
+      "university": "Vienna University of Technology",
+      "status": "success",
+      "domain": "tuwien.ac.at",
+      "size": 12359
+    },
+    {
+      "university": "University of Milan",
+      "status": "success",
+      "domain": "unimi.it",
+      "size": 16687
+    },
+    {
+      "university": "Sapienza University Rome",
+      "status": "success",
+      "domain": "uniroma1.it",
+      "size": 20136
+    },
+    {
+      "university": "Norwegian University of Science and Technology",
+      "status": "success",
+      "domain": "ntnu.no",
+      "size": 9991
+    },
+    {
+      "university": "Politecnico di Milano",
+      "status": "success",
+      "domain": "polimi.it",
+      "size": 7217
+    },
+    {
+      "university": "University of Padua",
+      "status": "success",
+      "domain": "unipd.it",
+      "size": 12114
+    },
+    {
+      "university": "University of Naples",
+      "status": "success",
+      "domain": "unina.it",
+      "size": 20035
+    },
+    {
+      "university": "University of Pisa",
+      "status": "success",
+      "domain": "unipi.it",
+      "size": 33342
+    },
+    {
+      "university": "University of Turin",
+      "status": "success",
+      "domain": "unito.it",
+      "size": 33243
+    },
+    {
+      "university": "Bocconi University",
+      "status": "success",
+      "domain": "unibocconi.it",
+      "size": 2503
+    },
+    {
+      "university": "University of Florence",
+      "status": "success",
+      "domain": "unifi.it",
+      "size": 15256
+    },
+    {
+      "university": "Medical University of Vienna",
+      "status": "success",
+      "domain": "meduniwien.ac.at",
+      "size": 3478
+    },
+    {
+      "university": "Autonomous University of Barcelona",
+      "status": "success",
+      "domain": "uab.cat",
+      "size": 3908
+    },
+    {
+      "university": "University of Barcelona",
+      "status": "success",
+      "domain": "ub.edu",
+      "size": 17012
+    },
+    {
+      "university": "Complutense University Madrid",
+      "status": "success",
+      "domain": "ucm.es",
+      "size": 22647
+    },
+    {
+      "university": "IESE Business School",
+      "status": "exists",
+      "domain": "iese.edu"
+    },
+    {
+      "university": "Pompeu Fabra University",
+      "status": "success",
+      "domain": "upf.edu",
+      "size": 10404
+    },
+    {
+      "university": "Autonomous University of Madrid",
+      "status": "success",
+      "domain": "uam.es",
+      "size": 9914
+    },
+    {
+      "university": "IE University",
+      "status": "success",
+      "domain": "ie.edu",
+      "size": 2869
+    },
+    {
+      "university": "ESADE",
+      "status": "success",
+      "domain": "esade.edu",
+      "size": 7066
+    },
+    {
+      "university": "University of Porto",
+      "status": "success",
+      "domain": "up.pt",
+      "size": 6041
+    },
+    {
+      "university": "University of Lisbon",
+      "status": "success",
+      "domain": "ulisboa.pt",
+      "size": 23521
+    },
+    {
+      "university": "Nova University Lisbon",
+      "status": "success",
+      "domain": "unl.pt",
+      "size": 5698
+    },
+    {
+      "university": "IIT Bombay",
+      "status": "success",
+      "domain": "iitb.ac.in",
+      "size": 24558
+    },
+    {
+      "university": "University of Coimbra",
+      "status": "success",
+      "domain": "uc.pt",
+      "size": 5425
+    },
+    {
+      "university": "IIT Delhi",
+      "status": "success",
+      "domain": "iitd.ac.in",
+      "size": 32211
+    },
+    {
+      "university": "IIT Kanpur",
+      "status": "success",
+      "domain": "iitk.ac.in",
+      "size": 17434
+    },
+    {
+      "university": "IIT Roorkee",
+      "status": "success",
+      "domain": "iitr.ac.in",
+      "size": 33866
+    },
+    {
+      "university": "IIT Kharagpur",
+      "status": "success",
+      "domain": "iitkgp.ac.in",
+      "size": 23861
+    },
+    {
+      "university": "IIT Guwahati",
+      "status": "success",
+      "domain": "iitg.ac.in",
+      "size": 27708
+    },
+    {
+      "university": "IIT Madras",
+      "status": "failed",
+      "domain": "iitm.ac.in"
+    },
+    {
+      "university": "University of Valencia",
+      "status": "success",
+      "domain": "uv.es",
+      "size": 20272
+    },
+    {
+      "university": "IIT Hyderabad",
+      "status": "success",
+      "domain": "iith.ac.in",
+      "size": 9111
+    },
+    {
+      "university": "IIT Bhubaneswar",
+      "status": "success",
+      "domain": "iitbbs.ac.in",
+      "size": 19324
+    },
+    {
+      "university": "IIT Patna",
+      "status": "success",
+      "domain": "iitp.ac.in",
+      "size": 28583
+    },
+    {
+      "university": "IIT Jodhpur",
+      "status": "success",
+      "domain": "iitj.ac.in",
+      "size": 29100
+    },
+    {
+      "university": "IIT Tirupati",
+      "status": "success",
+      "domain": "iittp.ac.in",
+      "size": 11275
+    },
+    {
+      "university": "IIT Indore",
+      "status": "success",
+      "domain": "iiti.ac.in",
+      "size": 33090
+    },
+    {
+      "university": "IIT Mandi",
+      "status": "success",
+      "domain": "iitmandi.ac.in",
+      "size": 29026
+    },
+    {
+      "university": "IIT Jammu",
+      "status": "success",
+      "domain": "iitjammu.ac.in",
+      "size": 25592
+    },
+    {
+      "university": "IIT Gandhinagar",
+      "status": "success",
+      "domain": "iitgn.ac.in",
+      "size": 30472
+    },
+    {
+      "university": "IIT Goa",
+      "status": "success",
+      "domain": "iitgoa.ac.in",
+      "size": 19582
+    },
+    {
+      "university": "IIT Ropar",
+      "status": "success",
+      "domain": "iitrpr.ac.in",
+      "size": 32251
+    },
+    {
+      "university": "IIT Palakkad",
+      "status": "success",
+      "domain": "iitpkd.ac.in",
+      "size": 15618
+    },
+    {
+      "university": "IIM Ahmedabad",
+      "status": "exists",
+      "domain": "iima.ac.in"
+    },
+    {
+      "university": "IIM Bangalore",
+      "status": "exists",
+      "domain": "iimb.ac.in"
+    },
+    {
+      "university": "IIM Calcutta",
+      "status": "exists",
+      "domain": "iimcal.ac.in"
+    },
+    {
+      "university": "IIM Lucknow",
+      "status": "exists",
+      "domain": "iiml.ac.in"
+    },
+    {
+      "university": "IIT BHU",
+      "status": "success",
+      "domain": "iitbhu.ac.in",
+      "size": 32307
+    },
+    {
+      "university": "IIT Bhilai",
+      "status": "success",
+      "domain": "iitbhilai.ac.in",
+      "size": 27355
+    },
+    {
+      "university": "IIT ISM Dhanbad",
+      "status": "failed",
+      "domain": "iitism.ac.in"
+    },
+    {
+      "university": "IIT Dharwad",
+      "status": "success",
+      "domain": "iitdh.ac.in",
+      "size": 11430
+    },
+    {
+      "university": "IIM Shillong",
+      "status": "exists",
+      "domain": "iimshillong.ac.in"
+    },
+    {
+      "university": "IIM Rohtak",
+      "status": "exists",
+      "domain": "iimrohtak.ac.in"
+    },
+    {
+      "university": "IIM Raipur",
+      "status": "exists",
+      "domain": "iimraipur.ac.in"
+    },
+    {
+      "university": "IIM Kozhikode",
+      "status": "exists",
+      "domain": "iimk.ac.in"
+    },
+    {
+      "university": "IIM Ranchi",
+      "status": "exists",
+      "domain": "iimranchi.ac.in"
+    },
+    {
+      "university": "IIM Kashipur",
+      "status": "exists",
+      "domain": "iimkashipur.ac.in"
+    },
+    {
+      "university": "IIM Udaipur",
+      "status": "exists",
+      "domain": "iimu.ac.in"
+    },
+    {
+      "university": "IIM Indore",
+      "status": "exists",
+      "domain": "iimidr.ac.in"
+    },
+    {
+      "university": "IIM Amritsar",
+      "status": "exists",
+      "domain": "iimamritsar.ac.in"
+    },
+    {
+      "university": "IIM Jammu",
+      "status": "exists",
+      "domain": "iimj.ac.in"
+    },
+    {
+      "university": "IIM Nagpur",
+      "status": "exists",
+      "domain": "iimnagpur.ac.in"
+    },
+    {
+      "university": "IIM Sambalpur",
+      "status": "exists",
+      "domain": "iimsambalpur.ac.in"
+    },
+    {
+      "university": "IIM Sirmaur",
+      "status": "exists",
+      "domain": "iimsirmaur.ac.in"
+    },
+    {
+      "university": "IIM Visakhapatnam",
+      "status": "exists",
+      "domain": "iimv.ac.in"
+    },
+    {
+      "university": "NIT Trichy",
+      "status": "success",
+      "domain": "nitt.edu",
+      "size": 31445
+    },
+    {
+      "university": "IIM Tiruchirappalli",
+      "status": "success",
+      "domain": "iimtrichy.ac.in",
+      "size": 14295
+    },
+    {
+      "university": "NIT Warangal",
+      "status": "success",
+      "domain": "nitw.ac.in",
+      "size": 27758
+    },
+    {
+      "university": "NIT Karnataka",
+      "status": "success",
+      "domain": "nitk.ac.in",
+      "size": 12349
+    },
+    {
+      "university": "NIT Calicut",
+      "status": "success",
+      "domain": "nitc.ac.in",
+      "size": 6696
+    },
+    {
+      "university": "IIM Bodhgaya",
+      "status": "success",
+      "domain": "iimbg.ac.in",
+      "size": 16889
+    },
+    {
+      "university": "NIT Jaipur",
+      "status": "success",
+      "domain": "mnit.ac.in",
+      "size": 30562
+    },
+    {
+      "university": "NIT Surat",
+      "status": "success",
+      "domain": "svnit.ac.in",
+      "size": 32839
+    },
+    {
+      "university": "NIT Bhopal",
+      "status": "success",
+      "domain": "manit.ac.in",
+      "size": 5131
+    },
+    {
+      "university": "Jawaharlal Nehru University",
+      "status": "success",
+      "domain": "jnu.ac.in",
+      "size": 11955
+    },
+    {
+      "university": "NIT Durgapur",
+      "status": "success",
+      "domain": "nitdgp.ac.in",
+      "size": 22210
+    },
+    {
+      "university": "University of Delhi",
+      "status": "success",
+      "domain": "du.ac.in",
+      "size": 33734
+    },
+    {
+      "university": "Banaras Hindu University",
+      "status": "success",
+      "domain": "bhu.ac.in",
+      "size": 16563
+    },
+    {
+      "university": "Aligarh Muslim University",
+      "status": "success",
+      "domain": "amu.ac.in",
+      "size": 34112
+    },
+    {
+      "university": "Jamia Millia Islamia",
+      "status": "success",
+      "domain": "jmi.ac.in",
+      "size": 27103
+    },
+    {
+      "university": "Pondicherry University",
+      "status": "success",
+      "domain": "pondiuni.edu.in",
+      "size": 26629
+    },
+    {
+      "university": "Visva-Bharati University",
+      "status": "failed",
+      "domain": "visvabharati.ac.in"
+    },
+    {
+      "university": "University of Hyderabad",
+      "status": "success",
+      "domain": "uohyd.ac.in",
+      "size": 16425
+    },
+    {
+      "university": "NIT Allahabad",
+      "status": "success",
+      "domain": "mnnit.ac.in",
+      "size": 20855
+    },
+    {
+      "university": "Tezpur University",
+      "status": "success",
+      "domain": "tezu.ernet.in",
+      "size": 13656
+    },
+    {
+      "university": "NIT Kurukshetra",
+      "status": "failed",
+      "domain": "nitkkr.ac.in"
+    },
+    {
+      "university": "University of Mumbai",
+      "status": "success",
+      "domain": "mu.ac.in",
+      "size": 18064
+    },
+    {
+      "university": "University of Calcutta",
+      "status": "success",
+      "domain": "caluniv.ac.in",
+      "size": 27106
+    },
+    {
+      "university": "University of Madras",
+      "status": "success",
+      "domain": "unom.ac.in",
+      "size": 25508
+    },
+    {
+      "university": "Pune University",
+      "status": "success",
+      "domain": "unipune.ac.in",
+      "size": 20904
+    },
+    {
+      "university": "North Eastern Hill University",
+      "status": "success",
+      "domain": "nehu.ac.in",
+      "size": 2692
+    },
+    {
+      "university": "Anna University",
+      "status": "success",
+      "domain": "annauniv.edu",
+      "size": 14553
+    },
+    {
+      "university": "Andhra University",
+      "status": "success",
+      "domain": "andhrauniversity.edu.in",
+      "size": 27699
+    },
+    {
+      "university": "University of Kerala",
+      "status": "success",
+      "domain": "keralauniversity.ac.in",
+      "size": 830
+    },
+    {
+      "university": "Osmania University",
+      "status": "success",
+      "domain": "osmania.ac.in",
+      "size": 24517
+    },
+    {
+      "university": "Indian Institute of Science",
+      "status": "success",
+      "domain": "iisc.ac.in",
+      "size": 11602
+    },
+    {
+      "university": "University of Mysore",
+      "status": "success",
+      "domain": "uni-mysore.ac.in",
+      "size": 12439
+    },
+    {
+      "university": "IISER Bhopal",
+      "status": "success",
+      "domain": "iiserb.ac.in",
+      "size": 20272
+    },
+    {
+      "university": "IISER Mohali",
+      "status": "success",
+      "domain": "iisermohali.ac.in",
+      "size": 29051
+    },
+    {
+      "university": "AIIMS Delhi",
+      "status": "success",
+      "domain": "aiims.edu",
+      "size": 32334
+    },
+    {
+      "university": "IISER Pune",
+      "status": "failed",
+      "domain": "iiserpune.ac.in"
+    },
+    {
+      "university": "Jadavpur University",
+      "status": "failed",
+      "domain": "jadavpuruniversity.in"
+    },
+    {
+      "university": "Christian Medical College",
+      "status": "success",
+      "domain": "cmch-vellore.edu",
+      "size": 27101
+    },
+    {
+      "university": "BITS Pilani",
+      "status": "success",
+      "domain": "bits-pilani.ac.in",
+      "size": 26527
+    },
+    {
+      "university": "IISER Thiruvananthapuram",
+      "status": "success",
+      "domain": "iisertvm.ac.in",
+      "size": 15860
+    },
+    {
+      "university": "IISER Kolkata",
+      "status": "success",
+      "domain": "iiserkol.ac.in",
+      "size": 15106
+    },
+    {
+      "university": "PGIMER",
+      "status": "failed",
+      "domain": "pgimer.edu.in"
+    },
+    {
+      "university": "VIT University",
+      "status": "success",
+      "domain": "vit.ac.in",
+      "size": 33156
+    },
+    {
+      "university": "Manipal University",
+      "status": "success",
+      "domain": "manipal.edu",
+      "size": 24579
+    },
+    {
+      "university": "JIPMER",
+      "status": "failed",
+      "domain": "jipmer.edu.in"
+    },
+    {
+      "university": "SRM University",
+      "status": "success",
+      "domain": "srmist.edu.in",
+      "size": 12231
+    },
+    {
+      "university": "Symbiosis International",
+      "status": "success",
+      "domain": "siu.edu.in",
+      "size": 20033
+    },
+    {
+      "university": "O.P. Jindal Global University",
+      "status": "success",
+      "domain": "jgu.edu.in",
+      "size": 12909
+    },
+    {
+      "university": "Amrita University",
+      "status": "success",
+      "domain": "amrita.edu",
+      "size": 10088
+    },
+    {
+      "university": "Shiv Nadar University",
+      "status": "success",
+      "domain": "snu.edu.in",
+      "size": 10484
+    },
+    {
+      "university": "Ashoka University",
+      "status": "success",
+      "domain": "ashoka.edu.in",
+      "size": 10032
+    },
+    {
+      "university": "NMIMS",
+      "status": "success",
+      "domain": "nmims.edu",
+      "size": 12882
+    },
+    {
+      "university": "Lovely Professional University",
+      "status": "success",
+      "domain": "lpu.in",
+      "size": 9270
+    },
+    {
+      "university": "Bennett University",
+      "status": "success",
+      "domain": "bennett.edu.in",
+      "size": 1413
+    },
+    {
+      "university": "Christ University",
+      "status": "success",
+      "domain": "christuniversity.in",
+      "size": 29343
+    },
+    {
+      "university": "Amity University",
+      "status": "success",
+      "domain": "amity.edu",
+      "size": 21224
+    },
+    {
+      "university": "Monash University",
+      "status": "exists",
+      "domain": "monash.edu"
+    },
+    {
+      "university": "University of Melbourne",
+      "status": "success",
+      "domain": "unimelb.edu.au",
+      "size": 18641
+    },
+    {
+      "university": "Australian National University",
+      "status": "success",
+      "domain": "anu.edu.au",
+      "size": 8523
+    },
+    {
+      "university": "University of New South Wales",
+      "status": "success",
+      "domain": "unsw.edu.au",
+      "size": 14095
+    },
+    {
+      "university": "University of Adelaide",
+      "status": "success",
+      "domain": "adelaide.edu.au",
+      "size": 14979
+    },
+    {
+      "university": "University of Western Australia",
+      "status": "success",
+      "domain": "uwa.edu.au",
+      "size": 15325
+    },
+    {
+      "university": "University of Sydney",
+      "status": "success",
+      "domain": "sydney.edu.au",
+      "size": 16621
+    },
+    {
+      "university": "University of Wollongong",
+      "status": "success",
+      "domain": "uow.edu.au",
+      "size": 3266
+    },
+    {
+      "university": "University of Technology Sydney",
+      "status": "success",
+      "domain": "uts.edu.au",
+      "size": 17319
+    },
+    {
+      "university": "University of Queensland",
+      "status": "success",
+      "domain": "uq.edu.au",
+      "size": 10243
+    },
+    {
+      "university": "Queensland University of Technology",
+      "status": "success",
+      "domain": "qut.edu.au",
+      "size": 6012
+    },
+    {
+      "university": "Curtin University",
+      "status": "success",
+      "domain": "curtin.edu.au",
+      "size": 15553
+    },
+    {
+      "university": "University of Newcastle",
+      "status": "success",
+      "domain": "newcastle.edu.au",
+      "size": 7298
+    },
+    {
+      "university": "Macquarie University",
+      "status": "success",
+      "domain": "mq.edu.au",
+      "size": 10403
+    },
+    {
+      "university": "Deakin University",
+      "status": "success",
+      "domain": "deakin.edu.au",
+      "size": 9776
+    },
+    {
+      "university": "Griffith University",
+      "status": "success",
+      "domain": "griffith.edu.au",
+      "size": 7277
+    },
+    {
+      "university": "University of South Australia",
+      "status": "success",
+      "domain": "unisa.edu.au",
+      "size": 9813
+    },
+    {
+      "university": "University of Tasmania",
+      "status": "success",
+      "domain": "utas.edu.au",
+      "size": 15780
+    },
+    {
+      "university": "Bond University",
+      "status": "success",
+      "domain": "bond.edu.au",
+      "size": 17049
+    },
+    {
+      "university": "La Trobe University",
+      "status": "success",
+      "domain": "latrobe.edu.au",
+      "size": 8979
+    },
+    {
+      "university": "Swinburne University",
+      "status": "success",
+      "domain": "swinburne.edu.au",
+      "size": 9633
+    },
+    {
+      "university": "Flinders University",
+      "status": "success",
+      "domain": "flinders.edu.au",
+      "size": 13725
+    },
+    {
+      "university": "Western Sydney University",
+      "status": "success",
+      "domain": "westernsydney.edu.au",
+      "size": 7756
+    },
+    {
+      "university": "James Cook University",
+      "status": "success",
+      "domain": "jcu.edu.au",
+      "size": 17262
+    },
+    {
+      "university": "Murdoch University",
+      "status": "success",
+      "domain": "murdoch.edu.au",
+      "size": 5696
+    },
+    {
+      "university": "Edith Cowan University",
+      "status": "success",
+      "domain": "ecu.edu.au",
+      "size": 15749
+    },
+    {
+      "university": "Charles Darwin University",
+      "status": "success",
+      "domain": "cdu.edu.au",
+      "size": 12042
+    },
+    {
+      "university": "Southern Cross University",
+      "status": "success",
+      "domain": "scu.edu.au",
+      "size": 20998
+    },
+    {
+      "university": "University of Canberra",
+      "status": "success",
+      "domain": "canberra.edu.au",
+      "size": 8192
+    },
+    {
+      "university": "RMIT University",
+      "status": "success",
+      "domain": "rmit.edu.au",
+      "size": 2734
+    },
+    {
+      "university": "University of New England",
+      "status": "success",
+      "domain": "une.edu.au",
+      "size": 729
+    },
+    {
+      "university": "Victoria University",
+      "status": "success",
+      "domain": "vu.edu.au",
+      "size": 14610
+    },
+    {
+      "university": "Charles Sturt University",
+      "status": "success",
+      "domain": "csu.edu.au",
+      "size": 12487
+    },
+    {
+      "university": "Central Queensland University",
+      "status": "success",
+      "domain": "cqu.edu.au",
+      "size": 9581
+    },
+    {
+      "university": "Federation University",
+      "status": "success",
+      "domain": "federation.edu.au",
+      "size": 16389
+    },
+    {
+      "university": "University of the Sunshine Coast",
+      "status": "success",
+      "domain": "usc.edu.au",
+      "size": 8344
+    },
+    {
+      "university": "Australian Catholic University",
+      "status": "success",
+      "domain": "acu.edu.au",
+      "size": 8401
+    },
+    {
+      "university": "Carnegie Mellon Australia",
+      "status": "success",
+      "domain": "australia.cmu.edu",
+      "size": 12110
+    },
+    {
+      "university": "University College London Australia",
+      "status": "success",
+      "domain": "ucl.ac.uk",
+      "size": 5952
+    },
+    {
+      "university": "University of Divinity",
+      "status": "success",
+      "domain": "divinity.edu.au",
+      "size": 15957
+    },
+    {
+      "university": "Torrens University",
+      "status": "success",
+      "domain": "torrens.edu.au",
+      "size": 21175
+    },
+    {
+      "university": "Curtin University Singapore",
+      "status": "success",
+      "domain": "curtin.edu.sg",
+      "size": 9534
+    },
+    {
+      "university": "University of Newcastle Singapore",
+      "status": "failed",
+      "domain": "newcastle.edu.sg"
+    },
+    {
+      "university": "Monash University Malaysia",
+      "status": "success",
+      "domain": "monash.edu.my",
+      "size": 6752
+    },
+    {
+      "university": "James Cook Singapore",
+      "status": "success",
+      "domain": "jcu.edu.sg",
+      "size": 10491
+    },
+    {
+      "university": "University of Wollongong Dubai",
+      "status": "success",
+      "domain": "uowdubai.ac.ae",
+      "size": 3874
+    },
+    {
+      "university": "RMIT Vietnam",
+      "status": "success",
+      "domain": "rmit.edu.vn",
+      "size": 8740
+    },
+    {
+      "university": "University of Notre Dame Australia",
+      "status": "success",
+      "domain": "nd.edu.au",
+      "size": 2990
+    },
+    {
+      "university": "Murdoch University Dubai",
+      "status": "success",
+      "domain": "murdochuniversitydubai.com",
+      "size": 4944
+    },
+    {
+      "university": "University of Southern Queensland",
+      "status": "success",
+      "domain": "usq.edu.au",
+      "size": 4260
+    },
+    {
+      "university": "University of Hong Kong",
+      "status": "success",
+      "domain": "hku.hk",
+      "size": 20408
+    },
+    {
+      "university": "National University of Singapore",
+      "status": "success",
+      "domain": "nus.edu.sg",
+      "size": 5311
+    },
+    {
+      "university": "Nanyang Technological University",
+      "status": "success",
+      "domain": "ntu.edu.sg",
+      "size": 17701
+    },
+    {
+      "university": "Chinese University of Hong Kong",
+      "status": "success",
+      "domain": "cuhk.edu.hk",
+      "size": 10764
+    },
+    {
+      "university": "Hong Kong University of Science and Technology",
+      "status": "success",
+      "domain": "ust.hk",
+      "size": 10049
+    },
+    {
+      "university": "Tokyo Institute of Technology",
+      "status": "success",
+      "domain": "titech.ac.jp",
+      "size": 4481
+    },
+    {
+      "university": "Kyoto University",
+      "status": "success",
+      "domain": "kyoto-u.ac.jp",
+      "size": 28739
+    },
+    {
+      "university": "University of Tokyo",
+      "status": "success",
+      "domain": "u-tokyo.ac.jp",
+      "size": 14343
+    },
+    {
+      "university": "Osaka University",
+      "status": "success",
+      "domain": "osaka-u.ac.jp",
+      "size": 2089
+    },
+    {
+      "university": "Tohoku University",
+      "status": "success",
+      "domain": "tohoku.ac.jp",
+      "size": 2986
+    },
+    {
+      "university": "Nagoya University",
+      "status": "success",
+      "domain": "nagoya-u.ac.jp",
+      "size": 18207
+    },
+    {
+      "university": "Hokkaido University",
+      "status": "success",
+      "domain": "hokudai.ac.jp",
+      "size": 25785
+    },
+    {
+      "university": "Keio University",
+      "status": "success",
+      "domain": "keio.ac.jp",
+      "size": 14452
+    },
+    {
+      "university": "Kyushu University",
+      "status": "success",
+      "domain": "kyushu-u.ac.jp",
+      "size": 19219
+    },
+    {
+      "university": "KAIST",
+      "status": "success",
+      "domain": "kaist.ac.kr",
+      "size": 7250
+    },
+    {
+      "university": "Seoul National University",
+      "status": "success",
+      "domain": "snu.ac.kr",
+      "size": 32861
+    },
+    {
+      "university": "Yonsei University",
+      "status": "success",
+      "domain": "yonsei.ac.kr",
+      "size": 28565
+    },
+    {
+      "university": "POSTECH",
+      "status": "success",
+      "domain": "postech.ac.kr",
+      "size": 4661
+    },
+    {
+      "university": "Waseda University",
+      "status": "success",
+      "domain": "waseda.jp",
+      "size": 14508
+    },
+    {
+      "university": "Sungkyunkwan University",
+      "status": "success",
+      "domain": "skku.edu",
+      "size": 23952
+    },
+    {
+      "university": "Korea University",
+      "status": "success",
+      "domain": "korea.ac.kr",
+      "size": 22740
+    },
+    {
+      "university": "Fudan University",
+      "status": "success",
+      "domain": "fudan.edu.cn",
+      "size": 20670
+    },
+    {
+      "university": "Peking University",
+      "status": "success",
+      "domain": "pku.edu.cn",
+      "size": 28514
+    },
+    {
+      "university": "Tsinghua University",
+      "status": "success",
+      "domain": "tsinghua.edu.cn",
+      "size": 37377
+    },
+    {
+      "university": "Shanghai Jiao Tong University",
+      "status": "success",
+      "domain": "sjtu.edu.cn",
+      "size": 21038
+    },
+    {
+      "university": "Zhejiang University",
+      "status": "success",
+      "domain": "zju.edu.cn",
+      "size": 24288
+    },
+    {
+      "university": "Nanjing University",
+      "status": "success",
+      "domain": "nju.edu.cn",
+      "size": 26063
+    },
+    {
+      "university": "University of Science and Technology of China",
+      "status": "success",
+      "domain": "ustc.edu.cn",
+      "size": 172
+    },
+    {
+      "university": "Wuhan University",
+      "status": "success",
+      "domain": "whu.edu.cn",
+      "size": 32015
+    },
+    {
+      "university": "Harbin Institute of Technology",
+      "status": "success",
+      "domain": "hit.edu.cn",
+      "size": 11504
+    },
+    {
+      "university": "Sun Yat-sen University",
+      "status": "success",
+      "domain": "sysu.edu.cn",
+      "size": 28600
+    },
+    {
+      "university": "National Tsing Hua University",
+      "status": "success",
+      "domain": "nthu.edu.tw",
+      "size": 37006
+    },
+    {
+      "university": "National Cheng Kung University",
+      "status": "success",
+      "domain": "ncku.edu.tw",
+      "size": 11433
+    },
+    {
+      "university": "National Taiwan University",
+      "status": "success",
+      "domain": "ntu.edu.tw",
+      "size": 37008
+    },
+    {
+      "university": "Hanyang University",
+      "status": "success",
+      "domain": "hanyang.ac.kr",
+      "size": 19097
+    },
+    {
+      "university": "King Saud University",
+      "status": "success",
+      "domain": "ksu.edu.sa",
+      "size": 13963
+    },
+    {
+      "university": "King Abdullah University",
+      "status": "success",
+      "domain": "kaust.edu.sa",
+      "size": 20698
+    },
+    {
+      "university": "King Abdulaziz University",
+      "status": "success",
+      "domain": "kau.edu.sa",
+      "size": 20990
+    },
+    {
+      "university": "Tel Aviv University",
+      "status": "success",
+      "domain": "tau.ac.il",
+      "size": 9676
+    },
+    {
+      "university": "American University of Beirut",
+      "status": "success",
+      "domain": "aub.edu.lb",
+      "size": 4816
+    },
+    {
+      "university": "Hebrew University of Jerusalem",
+      "status": "success",
+      "domain": "huji.ac.il",
+      "size": 6571
+    },
+    {
+      "university": "Technion",
+      "status": "success",
+      "domain": "technion.ac.il",
+      "size": 10325
+    },
+    {
+      "university": "University of Cape Town",
+      "status": "success",
+      "domain": "uct.ac.za",
+      "size": 16300
+    },
+    {
+      "university": "American University in Cairo",
+      "status": "success",
+      "domain": "aucegypt.edu",
+      "size": 8884
+    },
+    {
+      "university": "Weizmann Institute",
+      "status": "success",
+      "domain": "weizmann.ac.il",
+      "size": 12229
+    },
+    {
+      "university": "Stellenbosch University",
+      "status": "success",
+      "domain": "sun.ac.za",
+      "size": 9322
+    },
+    {
+      "university": "University of Witwatersrand",
+      "status": "success",
+      "domain": "wits.ac.za",
+      "size": 25744
+    },
+    {
+      "university": "University of S\u00e3o Paulo",
+      "status": "success",
+      "domain": "usp.br",
+      "size": 3853
+    },
+    {
+      "university": "University of Campinas",
+      "status": "success",
+      "domain": "unicamp.br",
+      "size": 6366
+    },
+    {
+      "university": "Federal University of Rio de Janeiro",
+      "status": "success",
+      "domain": "ufrj.br",
+      "size": 30077
+    },
+    {
+      "university": "Tecnol\u00f3gico de Monterrey",
+      "status": "success",
+      "domain": "tec.mx",
+      "size": 12342
+    },
+    {
+      "university": "Universidad Nacional Aut\u00f3noma de M\u00e9xico",
+      "status": "success",
+      "domain": "unam.mx",
+      "size": 25972
+    },
+    {
+      "university": "Universidad de Chile",
+      "status": "success",
+      "domain": "uchile.cl",
+      "size": 9551
+    },
+    {
+      "university": "Pontificia Universidad Cat\u00f3lica de Chile",
+      "status": "success",
+      "domain": "uc.cl",
+      "size": 22999
+    },
+    {
+      "university": "Universidad de Buenos Aires",
+      "status": "success",
+      "domain": "uba.ar",
+      "size": 5022
+    },
+    {
+      "university": "Moscow State University",
+      "status": "success",
+      "domain": "msu.ru",
+      "size": 16495
+    },
+    {
+      "university": "Universidad de los Andes",
+      "status": "success",
+      "domain": "uniandes.edu.co",
+      "size": 7729
+    },
+    {
+      "university": "Moscow Institute of Physics and Technology",
+      "status": "success",
+      "domain": "mipt.ru",
+      "size": 4733
+    },
+    {
+      "university": "St. Petersburg State University",
+      "status": "success",
+      "domain": "spbu.ru",
+      "size": 9106
+    },
+    {
+      "university": "Higher School of Economics",
+      "status": "success",
+      "domain": "hse.ru",
+      "size": 11377
+    },
+    {
+      "university": "Novosibirsk State University",
+      "status": "success",
+      "domain": "nsu.ru",
+      "size": 9179
+    },
+    {
+      "university": "Charles University",
+      "status": "success",
+      "domain": "cuni.cz",
+      "size": 26501
+    },
+    {
+      "university": "Jagiellonian University",
+      "status": "success",
+      "domain": "uj.edu.pl",
+      "size": 16250
+    },
+    {
+      "university": "University of Warsaw",
+      "status": "success",
+      "domain": "uw.edu.pl",
+      "size": 11045
+    },
+    {
+      "university": "University of Zagreb",
+      "status": "success",
+      "domain": "unizg.hr",
+      "size": 21335
+    },
+    {
+      "university": "University of Ljubljana",
+      "status": "success",
+      "domain": "uni-lj.si",
+      "size": 5464
+    },
+    {
+      "university": "University of Otago",
+      "status": "success",
+      "domain": "otago.ac.nz",
+      "size": 12944
+    },
+    {
+      "university": "University of Belgrade",
+      "status": "success",
+      "domain": "bg.ac.rs",
+      "size": 32879
+    },
+    {
+      "university": "University of Auckland",
+      "status": "success",
+      "domain": "auckland.ac.nz",
+      "size": 16974
+    },
+    {
+      "university": "University of Bucharest",
+      "status": "success",
+      "domain": "unibuc.ro",
+      "size": 24427
+    },
+    {
+      "university": "Victoria University of Wellington",
+      "status": "success",
+      "domain": "wgtn.ac.nz",
+      "size": 7477
+    },
+    {
+      "university": "University of Canterbury",
+      "status": "success",
+      "domain": "canterbury.ac.nz",
+      "size": 12117
+    },
+    {
+      "university": "Auckland University of Technology",
+      "status": "success",
+      "domain": "aut.ac.nz",
+      "size": 12572
+    },
+    {
+      "university": "University of Waikato",
+      "status": "success",
+      "domain": "waikato.ac.nz",
+      "size": 21193
+    },
+    {
+      "university": "Trinity College Dublin",
+      "status": "success",
+      "domain": "tcd.ie",
+      "size": 13757
+    },
+    {
+      "university": "Massey University",
+      "status": "success",
+      "domain": "massey.ac.nz",
+      "size": 10907
+    },
+    {
+      "university": "University of Iceland",
+      "status": "success",
+      "domain": "hi.is",
+      "size": 19509
+    },
+    {
+      "university": "University of Luxembourg",
+      "status": "success",
+      "domain": "uni.lu",
+      "size": 8898
+    },
+    {
+      "university": "University College Dublin",
+      "status": "success",
+      "domain": "ucd.ie",
+      "size": 10809
+    },
+    {
+      "university": "Lincoln University",
+      "status": "success",
+      "domain": "lincoln.ac.nz",
+      "size": 17909
+    },
+    {
+      "university": "University of Malta",
+      "status": "success",
+      "domain": "um.edu.mt",
+      "size": 8804
+    },
+    {
+      "university": "University of Cyprus",
+      "status": "success",
+      "domain": "ucy.ac.cy",
+      "size": 7964
+    },
+    {
+      "university": "Qatar University",
+      "status": "success",
+      "domain": "qu.edu.qa",
+      "size": 15448
+    },
+    {
+      "university": "United Arab Emirates University",
+      "status": "success",
+      "domain": "uaeu.ac.ae",
+      "size": 5621
+    },
+    {
+      "university": "Kuwait University",
+      "status": "success",
+      "domain": "ku.edu.kw",
+      "size": 24360
+    },
+    {
+      "university": "University of Jordan",
+      "status": "success",
+      "domain": "ju.edu.jo",
+      "size": 12735
+    },
+    {
+      "university": "Alexandria University",
+      "status": "success",
+      "domain": "alexu.edu.eg",
+      "size": 11092
+    },
+    {
+      "university": "Cairo University",
+      "status": "success",
+      "domain": "cu.edu.eg",
+      "size": 24170
+    },
+    {
+      "university": "University of Nairobi",
+      "status": "success",
+      "domain": "uonbi.ac.ke",
+      "size": 25346
+    },
+    {
+      "university": "Makerere University",
+      "status": "success",
+      "domain": "mak.ac.ug",
+      "size": 15236
+    },
+    {
+      "university": "University of Ghana",
+      "status": "success",
+      "domain": "ug.edu.gh",
+      "size": 10571
+    },
+    {
+      "university": "University of Dar es Salaam",
+      "status": "success",
+      "domain": "udsm.ac.tz",
+      "size": 20680
+    },
+    {
+      "university": "University of Lagos",
+      "status": "success",
+      "domain": "unilag.edu.ng",
+      "size": 27946
+    },
+    {
+      "university": "University of Ibadan",
+      "status": "success",
+      "domain": "ui.edu.ng",
+      "size": 36747
+    },
+    {
+      "university": "American University of Sharjah",
+      "status": "success",
+      "domain": "aus.edu",
+      "size": 21142
+    },
+    {
+      "university": "University of Pretoria",
+      "status": "success",
+      "domain": "up.ac.za",
+      "size": 17324
+    },
+    {
+      "university": "University of KwaZulu-Natal",
+      "status": "success",
+      "domain": "ukzn.ac.za",
+      "size": 16357
+    },
+    {
+      "university": "Rhodes University",
+      "status": "success",
+      "domain": "ru.ac.za",
+      "size": 12625
+    },
+    {
+      "university": "University of the Western Cape",
+      "status": "success",
+      "domain": "uwc.ac.za",
+      "size": 12269
+    },
+    {
+      "university": "Sultan Qaboos University",
+      "status": "success",
+      "domain": "squ.edu.om",
+      "size": 28746
+    },
+    {
+      "university": "North-West University",
+      "status": "success",
+      "domain": "nwu.ac.za",
+      "size": 9056
+    },
+    {
+      "university": "University of the Free State",
+      "status": "success",
+      "domain": "ufs.ac.za",
+      "size": 15171
+    },
+    {
+      "university": "University of Johannesburg",
+      "status": "success",
+      "domain": "uj.ac.za",
+      "size": 10303
+    }
+  ]
+}

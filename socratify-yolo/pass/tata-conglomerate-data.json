@@ -1,0 +1,163 @@
+{
+  "exerciseUuid": "35140dd7-faa2-40cc-ac83-8a95ddf9509d",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "Trends",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding how evolving market infrastructure impacts a conglomerate's strategy requires familiarity with concepts like institutional voids, competitive advantage, and strategic trade-offs that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the impact of India's improving market infrastructure on Tata's conglomerate model requires following economic development trends and understanding how competitive dynamics shift as markets mature.",
+    "secondaryDomainName": "Economics",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because assessing the efficiency of India's market infrastructure, such as banking reliability and logistics speed, requires understanding relevant economic indicators and market dynamics.",
+    "fileName": "tata-conglomerate-data.xml",
+    "backgroundNeeded": "Remember that Tata is a large Indian conglomerate that historically provided its own services due to market gaps, understand how developing market infrastructure (like banking or logistics) can reduce the need for internal services, and apply this knowledge to identify what data would show if Tata's advantage has eroded.",
+    "happyPath": "Not available",
+    "faviconUrl": "https://www.tata.com/content/dam/tata/images/favicons/apple-touch-icon.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A large, round silver metal plate, like a serving tray, sits on a dark brown wooden surface. The plate is intricately etched with a complex geometric pattern. Light reflects softly off the metallic surface.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/tata-conglomerate-data-367cb8d0-c2d2-4eea-b149-06749ebea6e1.png",
+    "coverPlainTitle": "Data Reveals Tata's India Advantage",
+    "coverWittyTitle": "Tata: Still Needed After All?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Does India still need Tata's old business model?",
+    "coverParagraph": "Tata once thrived filling India's market gaps. Now, **Tata** needs to **measure India's infrastructure**. Is their \"Swiss Army knife\" approach still the right move?",
+    "tags": "Strategy,Economics,India,Diversification",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Diversification Test",
+      "text": "India's market infrastructure is rapidly improving. The **$128 billion Indian conglomerate** built internal services like banking and logistics due to market gaps. Now, Tata must decide if its diversified model is still needed or if **specialized competitors** are better.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Tata Sons Consolidated Revenue",
+        "subtitle": "INR crore, FY2024 vs FY2023",
+        "color": "#004d99",
+        "source": "[Tata Sons Annual Report FY24, 2024. Socratify Analysis]",
+        "features": [
+          "trend",
+          "change"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "INR"
+        },
+        "data": {
+          "value": 47692767.0,
+          "change": 14.7,
+          "changeValue": 6119326.0,
+          "trend": "up",
+          "insight": "Revenue growth driven by TCS and associates"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Empire vs India",
+      "text": "**Tata's 155-year empire** faces break up as **India's specialists** dominate banking, cars, and tech.",
+      "zoomOutTextQuote": {
+        "text": "The proposed demerger will bring greater strategic clarity and agility, enabling a more focused approach to execution and value creation, delivering superior experiences for customers and long-term returns for shareholders",
+        "source": "N. Chandrasekaran, Chairman, Tata Sons, Business Standard, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Tata is a huge toy store that sells everything. Now, smaller stores are opening that only sell toy cars, but they're really good at it. Should Tata keep selling everything, or focus on just a few toys?",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Tata's empire is challenged; specialists are winning in India.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's Tata's strategic dilemma?",
+        "answer": "Tata must decide if its conglomerate structure still creates value, or if breaking up allows individual businesses to better compete with focused rivals. The risk is losing the benefits of diversification while not gaining enough focus.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Why is this breakup hard to execute?",
+        "answer": "Tata's internal services like banking and logistics are deeply embedded across its companies. Separating these shared resources and managing relationships with newly independent entities poses significant challenges.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Tata Group's Head of Market Intelligence",
+    "keyQuestionText": "Tata Group's diversified model relied on filling India's market gaps. They want to know if India's infrastructure is now so efficient their old advantage is gone. What data do you think they need about India's market infrastructure?",
+    "hintText": "Explore what information about India's growing market efficiency would show if Tata's \"Swiss Army knife\" model is still needed.",
+    "shortKeyQuestionText": "What data do they need about India's market infrastructure?",
+    "choices": [
+      {
+        "title": "Banking system reliability",
+        "text": "How reliably external banking services can fund large projects",
+        "followUpQuestion": "Banking seems crucial. Why would its reliability impact Tata's internal funding value?"
+      },
+      {
+        "title": "Logistics network speed",
+        "text": "How fast and efficiently goods move through India's external logistics networks",
+        "followUpQuestion": "Logistics speed is important. How would this reveal if Tata's internal systems are still needed?"
+      },
+      {
+        "title": "Talent pool availability",
+        "text": "How easily specialized talent can be hired from India's external labor market",
+        "followUpQuestion": "Talent availability matters. Why would this show if Tata's internal talent mobility is still an advantage?"
+      },
+      {
+        "title": "Government policy stability",
+        "text": "How consistent India's government policies are regarding large-scale business operations",
+        "followUpQuestion": "Policy stability sounds key. How would knowing this help Tata decide about its future structure?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "core_rigidity",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/core_rigidity.png",
+    "mentalModelImageDescription": "Imagine a gymnast who's incredibly strong in one routine but unable to adapt to a new one. Their strength has become a rigidity. Tata's diversified model, once a strength, could become a rigidity if it prevents them from adapting to a specialized market.",
+    "mentalModelLinkText": "Core rigidity shows how a past strength becomes a weakness—like Tata's diversified model, once vital for filling India's market gaps, now preventing it from leveraging efficient specialized competitors.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're really good at one video game, but a new game comes out that's totally different. If you can't learn the new game because you're so used to the old one, your skill in the old game has become a problem.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Core rigidity is when a company's past strengths become weaknesses, preventing them from adapting to change.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Tata's situation?",
+        "answer": "If Tata's reliance on internal services is preventing it from adopting more efficient and innovative external solutions, then those services have become a core rigidity. Tata needs to assess if its internal focus is hindering its ability to compete.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model warns that Tata's diversified model, while historically successful, could now be a liability. To remain competitive, Tata must be willing to shed its reliance on internal services and embrace external specialization where appropriate, even if it means disrupting its established practices.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes, success sows the seeds of future failure. That's **organizational inertia**: when a company's past achievements blind it to new threats. For **Tata**, its diversified structure—once a strength in a developing India—might now be a liability as specialized firms thrive. The challenge is **unlearning advantages**. _What's truly tricky is that the very capabilities that made Tata dominant could be the chains holding it back._ It’s like a champion weightlifter who refuses to learn how to run."
+}

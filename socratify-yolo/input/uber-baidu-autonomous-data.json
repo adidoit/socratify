@@ -1,0 +1,172 @@
+{
+  "exerciseUuid": "6f799fbe-6809-4684-9a01-7e5f45340fbb",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because securing operating permits for autonomous vehicles requires understanding standard business concepts like regulatory environments, stakeholder priorities, and the implications of technological adoption, which are typically covered in first-year business studies.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because understanding what data is needed to secure permits from city authorities requires knowledge of how municipal governments operate and their priorities, which is typical of individuals who follow industry news and regulatory trends.",
+    "secondaryDomainName": "Operations",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding how existing road and traffic systems operate (Infrastructure Data) is crucial for planning the deployment of AVs and requires a grasp of operational logistics and infrastructure management concepts.",
+    "fileName": "uber-baidu-autonomous-data.xml",
+    "backgroundNeeded": "Remember that Uber is a ride-hailing platform and Baidu's Apollo Go is an autonomous vehicle service, understand that securing operating permits involves addressing city concerns about safety, traffic, and technology adoption, and apply this knowledge to identify what specific data about city authorities would be most persuasive.",
+    "happyPath": "The strategic alliance between Uber and Baidu to deploy autonomous vehicles globally marks a pivotal moment in the evolution of urban mobility. This partnership exemplifies a trend where established platforms like Uber, with their vast user bases and operational expertise, collaborate with cutting-edge technology developers like Baidu to accelerate the adoption of transformative technologies. The core challenge for this venture lies in translating advanced AV technology into a universally accepted, safe, and economically viable service across diverse international markets. One critical strategic lens through which to view this partnership is the platform play versus vertical integration debate. Uber's decision to partner with numerous AV companies, rather than developing its own technology in-house (a costly past endeavor), is a clear platform strategy. This allows Uber to scale rapidly and efficiently, leveraging others' R&D investments while focusing on its strengths: demand aggregation, logistics, and user experience. The strategic challenge here is managing a diverse ecosystem of AV partners, ensuring seamless integration, maintaining consistent service quality, and navigating potential future competition from these very partners. Data related to integration efficiency, partner-specific performance metrics, and the long-term cost-benefit analysis of this distributed R&D model would be crucial. Another vital perspective is global market entry and localization. Deploying \"thousands of AVs\" in \"multiple global markets\" outside the US and China is an undertaking fraught with complexity. Each target market presents a unique blend of regulatory landscapes, cultural norms around technology adoption, existing transportation infrastructure, and competitive dynamics. Success won't come from a one-size-fits-all approach. Uber and Baidu must gather granular data on local government priorities (e.g., congestion reduction, public safety, job displacement concerns), public perception of driverless technology, and even the \"unwritten rules\" of how new tech is introduced. This requires sophisticated qualitative and quantitative data collection to inform localized deployment strategies, regulatory lobbying, and public education campaigns. Finally, the partnership highlights the complexities of co-opetition within the autonomous vehicle industry. While Uber is partnering with Baidu and others to expand its reach, it simultaneously faces competition from AV companies like Waymo that operate their own ride-hailing services and are capturing market share. Uber's goal to be the \"ultimate robotaxi clearinghouse\" means it must constantly monitor the competitive landscape, understanding rival pricing models, user retention strategies, and technological advancements (e.g., Tesla's camera-only approach). The data needed here extends beyond simple market share; it involves understanding the long-term strategic intentions of partners and competitors, their capital deployment strategies, and their capacity to independently scale their own platforms. In conclusion, the Uber-Baidu partnership is a masterclass in strategic maneuvering within a nascent but rapidly evolving industry. Its success hinges not just on technological capability, but on Uber's acumen in orchestrating a complex network of partners, adeptly navigating a patchwork of global regulations, and shrewdly managing competitive tensions. The ability to collect, analyze, and strategically act upon diverse data points—from rider trust indicators to nuanced political considerations—will ultimately determine whether this alliance redefines global mobility or merely adds another chapter to the AV industry's ongoing saga.",
+    "faviconUrl": "https://cdn.socratify.com/favico/uber.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A shiny silver metal license plate with dark blue stylized text, slightly curved and reflecting light. It is mounted on a dark, matte surface.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/uber-baidu-autonomous-data-dd7f3b3b-6cf7-455f-9ef2-eef8d5ac2ae2.png",
+    "coverPlainTitle": "Uber & Baidu's Robotaxi Data Demands",
+    "coverWittyTitle": "Robotaxi Data: Permit to Zoom?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "What data do robotaxis need to launch?",
+    "coverParagraph": "**Uber** and **Baidu** are teaming up to launch robotaxis worldwide. **Explore** what data they need from city authorities to secure operating permits.",
+    "tags": "Strategy,Operations,Tech,Transportation",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Global Permits",
+      "text": "Uber and Baidu are launching thousands of **robotaxis globally**. These companies must get operating permits from hundreds of city authorities. Each city has **unique safety and traffic concerns**.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Apollo Go Cumulative Rides",
+        "subtitle": "Count, 2023-2025",
+        "color": "#0052cc",
+        "source": "[Baidu Press Release, 2025. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2023-01-01",
+              "value": 2000000.0
+            },
+            {
+              "date": "2024-01-01",
+              "value": 8000000.0
+            },
+            {
+              "date": "2025-05-01",
+              "value": 11000000.0
+            }
+          ],
+          "currentValue": 11000000.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Apollo Gamble",
+      "text": "Uber** torched $2B AV dreams**. Now betting **Chinese robotaxis** will win over riders who still distrust foreign tech.",
+      "zoomOutTextQuote": {
+        "text": "“We want to work with all the software providers, make sure they’re safe and affordable, and bring them to market.”",
+        "source": "Dara Khosrowshahi, CEO of Uber, in a Decoder interview (May)"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you want to open a lemonade stand in every city, but each city has different rules about where you can set up and how much sugar you can use. Uber wants to use robotaxis everywhere, but each city needs to approve it first.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Uber partners with Baidu on robotaxis, navigating diverse city regulations after its own AV failure.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for Uber?",
+        "answer": "Uber risks becoming overly reliant on a Chinese partner, potentially limiting its control over the technology and user experience. However, this partnership allows Uber to quickly re-enter the autonomous vehicle market without massive upfront investment.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are the biggest business hurdles?",
+        "answer": "Gaining approval from many cities requires tailoring robotaxi operations to each city's unique regulations and safety concerns. Public trust in autonomous vehicles remains low. Uber needs to demonstrate safety and reliability to win riders.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Baidu's Head of Global Policy Strategy",
+    "keyQuestionText": "Uber and Baidu are deploying robotaxis globally. They want to secure local operating permits. What data do you think they need about city authorities?",
+    "hintText": "Consider what information about local government priorities and concerns would help secure necessary operating permits.",
+    "shortKeyQuestionText": "What data do you think they need about city authorities?",
+    "choices": [
+      {
+        "title": "Transport Priorities",
+        "text": "Local transport issues prioritized by cities.",
+        "followUpQuestion": "Transport priorities are key. Why would local transport issues influence operating permits?"
+      },
+      {
+        "title": "Safety Concerns",
+        "text": "City governments' specific AV safety fears.",
+        "followUpQuestion": "Safety concerns are critical. How would specific city fears affect permit approval processes?"
+      },
+      {
+        "title": "Infrastructure Data",
+        "text": "How current road and traffic systems operate.",
+        "followUpQuestion": "Infrastructure data is relevant. What might this reveal about AV integration into city systems?"
+      },
+      {
+        "title": "Past Tech Adoption",
+        "text": "How cities adopted other new tech previously.",
+        "followUpQuestion": "Past tech adoption is insightful. Why would prior tech adoption rates predict AV regulatory acceptance?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "principal-agent_problem",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/principal-agent_problem.png",
+    "mentalModelImageDescription": "A puppet show where the puppeteer (the principal - Baidu/Uber) tries to control the puppets (local city authorities), but the puppets have their own ideas and agendas, leading to conflict. The puppeteer's strings are tangled, showing the difficulty in aligning incentives.",
+    "mentalModelLinkText": "Principal-agent problem shows how a company (principal) wanting permits and city authorities (agents) protecting safety can have misaligned goals—like Uber and Baidu needing permits, while city authorities prioritize unique local safety and traffic concerns.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your mom asks you to clean your room, but you'd rather play video games. She's the principal (wants the room clean), and you're the agent (have to do it). Your goals don't match, so the room might not get cleaned the way she wants. That's the principal-agent problem.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The principal-agent problem arises when one person (agent) acts on behalf of another (principal), but the agent's interests don't perfectly align with the principal's.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Baidu's situation?",
+        "answer": "Baidu and Uber need city authorities to act in their best interest by granting permits. However, city authorities are accountable to their citizens and must prioritize public safety. Aligning these incentives requires Baidu to demonstrate a strong commitment to safety and address local concerns.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model highlights the need for Baidu and Uber to understand and address the specific concerns of each city. By proactively demonstrating safety measures and tailoring their approach to each locality, they can better align incentives and increase the likelihood of securing operating permits.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "A company wanting permits from city authorities highlights the **principal-agent problem**. The core challenge is that Uber and Baidu (the principal) might have different goals than city authorities (the agent). While Uber and Baidu want permits to deploy robotaxis, each city prioritizes the unique safety and traffic concerns of its residents. This misalignment is tricky because **information asymmetry** impacts trust. *What nobody talks about is how easily \"data\" can become another word for \"mistrust.\"*"
+}

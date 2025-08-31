@@ -1,0 +1,174 @@
+{
+  "exerciseUuid": "2ab9407e-1cd4-4edf-ab8e-4f2b253ec43e",
+  "exerciseVersion": 4,
+  "exerciseType": "define_success",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding how to justify a large upfront payment for a payment network deal requires familiarity with concepts like transaction volume, return on investment, market share, and competitive advantage, which are standard first-year business concepts.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the strategic value of securing a major partner like Apple requires understanding competitive dynamics in the payment network industry and the long-term implications of ecosystem access, typical of regular industry observers.",
+    "secondaryDomainName": "Finance",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because justifying a $100 million upfront payment necessitates understanding financial metrics like ROI and recoupment periods, which requires a level of financial literacy typically held by those who follow financial news and analysis.",
+    "fileName": "visa-apple-card-define_success",
+    "backgroundNeeded": "Remember that Visa is a payment network and Apple Card is a credit card product, understand the concepts of transaction volume, return on investment, market share, and competitive exclusion in the context of business deals, and apply strategic thinking to evaluate the justification for a significant upfront payment.",
+    "happyPath": "The Apple Card network deal represents more than just processing transactions; it's a strategic play for future dominance in Apple's expanding financial ecosystem. Visa's $100 million bid should be justified by defining success not just on immediate payment volume increase, but on securing a foundational role in Apple's future financial services, leading to substantial long-term market share gains and effectively excluding competitors like Mastercard from a critical platform. Success means achieving early ROI within three years through increased transaction fees and potential data insights, while fundamentally shifting the competitive landscape in co-branded credit cards and ensuring Mastercard cannot easily re-enter Apple's orbit.",
+    "faviconUrl": "https://www.visa.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Sleek, rectangular credit card with a shiny, deep indigo finish reminiscent of a twilight sky, accented by a crisp, minimalist rendition of sliced green apple.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/visa-apple-card-options-48b57176-dad2-47dc-ab01-cf0b9d980c0e.png",
+    "coverPlainTitle": "Visa Justifies Apple Card Gamble",
+    "coverWittyTitle": "Bite the Hand That Swipes?",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can Visa profit from Apple Card?",
+    "coverParagraph": "**Visa** bet $100M on the **Apple Card**. See how to measure if this expensive deal is worth it.",
+    "tags": "Strategy,Finance,Tech,Payments",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Apple Card Battle",
+      "text": "Goldman Sachs ended its **$20 billion Apple Card** credit card business. Visa, a payment network, now competes for the deal, offering **$100 million upfront** to secure its role in Apple's growing payments ecosystem.",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "Visa Payment Volume Growth by Region",
+        "subtitle": "YoY %, Q3 2024",
+        "color": "#1A73E8",
+        "source": "[Visa Fiscal Q3 2024 Form 10-Q, 2024. Socratify Analysis]",
+        "features": [
+          "vertical-bars"
+        ],
+        "metadata": {
+          "valueType": "percentage"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "US",
+              "value": 5.1
+            },
+            {
+              "label": "EU",
+              "value": 9.4
+            },
+            {
+              "label": "LatAm",
+              "value": 16.0
+            },
+            {
+              "label": "APAC",
+              "value": -4.9
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "We have decided to reduce our consumer banking ambitions... exploring strategic alternatives for our partnerships, including our relationship with Apple. Our goal is to focus on our core strengths",
+        "source": "David Solomon, CEO Goldman Sachs, Q3 2023 Earnings Call, 2023"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Apple wants to make its own money, like a store credit card. Goldman Sachs helped them, but now they don't want to anymore. Visa, like your mom's credit card, wants to help Apple instead and is offering them a lot of candy (money) to do so.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Goldman Sachs dumps Apple Card. Visa offers Apple $100M for the deal.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic implication for Visa here?",
+        "answer": "Winning the Apple Card deal provides Visa access to Apple's affluent customer base and strengthens its position in digital payments. The upfront payment is small compared to the potential long-term revenue from transaction fees and data insights.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Why is Goldman Sachs retreating from consumer credit?",
+        "answer": "Goldman Sachs likely found the Apple Card partnership unprofitable due to high customer acquisition costs and credit losses. Shifting focus to its core strengths allows Goldman Sachs to cut costs and improve overall profitability.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Visa's Head of Business Operations",
+    "keyQuestionText": "Visa offered Apple $100 million to win the Apple Card network deal. They want to justify this massive upfront payment. How would you define success for Visa's bid?",
+    "hintText": "Consider what financial returns and competitive advantages would prove this large investment worthwhile.",
+    "shortKeyQuestionText": "How would you define success for Visa's bid?",
+    "choices": [
+      {
+        "title": "Payment Volume Increase",
+        "text": "Transaction volume on Apple Card shifts from Mastercard to Visa",
+        "followUpQuestion": "Payment volume looks critical. Why is this the right metric to measure success for Visa's $100 million bid?"
+      },
+      {
+        "title": "Early ROI on Payment",
+        "text": "Visa recoups its $100 million payment within the first 3 years",
+        "followUpQuestion": "Early ROI seems important. Why is this the right metric to measure success for Visa's expensive Apple Card deal?"
+      },
+      {
+        "title": "Market Share Shift",
+        "text": "Visa gains overall market share in co-branded credit card networks",
+        "followUpQuestion": "Market share shift matters. Why is this the right metric to measure success for Visa's play for the Apple Card?"
+      },
+      {
+        "title": "Competitive Exclusion",
+        "text": "Mastercard is fully unseated and unable to re-enter Apple Card program",
+        "followUpQuestion": "Competitive exclusion looks valuable. Why is this the right metric to measure success for Visa's Apple Card bid?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "campbell's_law",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/campbell's_law.png",
+    "mentalModelImageDescription": "A classroom of students meticulously practicing test-taking strategies rather than engaging in creative problem-solving, because the school's funding is tied to standardized test scores. This shows how easily performance metrics can corrupt the underlying goals.",
+    "mentalModelLinkText": "Campbell's Law shows how focusing solely on metrics can distort goals—like if Visa only tracks transaction volume to justify its $100M payment, potentially degrading Apple Card user experience or the Apple brand.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a bakery is judged only on how many cookies they bake, not how tasty they are. They might start baking lots of gross cookies to get a good score. Campbell's Law means that when you only measure one thing, people will focus on that, even if it makes things worse!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Campbell's Law states that the more any quantitative social indicator is used for social decision-making, the more subject it will be to corruption pressures and the more apt it will be to distort and corrupt the social processes it is intended to monitor.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Visa's situation?",
+        "answer": "If the main metric for the Apple Card's success becomes only increasing transaction volume to recoup the $100 million investment, Visa might degrade user experience to push for higher spending. For example, they could pressure users with more promotions or change reward structures, potentially damaging Apple's brand.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model underscores the importance of holistic evaluation. Visa and Apple must look beyond transaction volume and carefully track user satisfaction, brand sentiment, and long-term customer loyalty to avoid unintended negative consequences and create lasting success.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Companies often face the **incumbent's curse**: past success makes it hard to adapt. Visa, the established payment network, wants to win Apple Card from Goldman Sachs. But Visa's existing infrastructure and relationships might hinder true innovation for Apple Card. The hidden dynamic is that Visa must outperform its own legacy, not just Goldman Sachs. *The real challenge isn't the $100M payment, it's overcoming Visa's past success to build Apple's future.*"
+}

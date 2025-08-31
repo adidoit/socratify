@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "5afcee7a-b5d4-45db-811a-a74e467ffefd",
+  "exerciseVersion": 4,
+  "exerciseType": "trade_off",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic trade-off between host fees and guest pricing requires familiarity with concepts like platform economics, supplier power, and competitive positioning that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Airbnb's decision requires understanding the dynamics of multi-sided platforms and how supplier leverage can influence strategic choices, which is typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic concepts of price competitiveness and how pricing structures can affect demand and brand perception, which can be understood from following general market news.",
+    "fileName": "airbnb-fee-trade_off.xml",
+    "backgroundNeeded": "Remember that Airbnb connects guests and hosts for rentals and makes money via fees, understand how powerful hosts can leverage alternative platforms, and apply strategic thinking to analyze the trade-offs between retaining supply and maintaining guest price appeal.",
+    "happyPath": "Professional hosts are demanding lower fees from Airbnb, a situation that poses a significant threat to the platform's available inventory. This highlights a delicate balancing act inherent to marketplace businesses, especially when key suppliers, like powerful property managers in this instance, gain considerable leverage. With millions of hosts and billions of guest arrivals globally, Airbnb has built its expansive empire on the fundamental principle of balancing these two vital groups. The platform's ongoing success is directly tied to keeping both hosts and guests engaged, while Airbnb secures its revenue by taking a percentage cut from every booking facilitated. This scenario raises a key question: Should Airbnb consider shifting its fee burden more significantly from hosts towards guests? Traditionally, Airbnb's fee structure involved taking a split from both parties, typically around 3% from hosts and approximately 14% from guests. However, powerful professional property managers now control a substantial volume of listings on the platform. These managers possess significant leverage because they can easily list their properties on alternative platforms, such as Vrbo. Recognizing this, Airbnb has experimented with alternative fee models, specifically testing an approach where hosts pay a 0% fee, shifting the entire financial burden (around 18-20%) onto guests. While intended to keep powerful professional hosts satisfied and prevent them from leaving, Airbnb's strategic dilemma regarding its fee structure is a classic example of the delicate balancing act inherent to multi-sided platforms. The company's proposed shift to a 0% host fee, moving the entire burden to guests, highlights a significant trade-off: prioritizing supply-side retention (powerful professional hosts) over demand-side price competitiveness (guests). This move, while seemingly drastic, underscores the company's assessment of where leverage lies and what constitutes the most critical factor for platform health at this juncture. One strategic lens to evaluate this situation is the concept of network effects and liquidity. For a marketplace like Airbnb, having a diverse, high-quality inventory of listings is paramount. If powerful professional property managers, who control a \"substantial volume\" of listings, defect to competitors like Vrbo due to fee dissatisfaction, Airbnb's supply side would suffer. A diminished supply directly impacts the platform's ability to attract guests, as the primary value proposition (choice and availability) would erode. In this view, retaining key suppliers, even at the cost of higher apparent prices for guests, might be seen as a necessary evil to maintain the platform's foundational liquidity and prevent a \"death spiral\" where fewer listings lead to fewer guests, and vice-versa. The trade-off here implies that maintaining supply stability is a prerequisite for demand generation. Another perspective involves pricing strategy and competitive dynamics. By shifting the entire 18-20% fee onto guests, Airbnb risks appearing significantly more expensive in price comparison tools. Guests are increasingly price-sensitive and savvy, and a higher total cost could drive them to alternative platforms or direct bookings. This highlights the psychological impact of pricing and the challenges of pricing transparency. While the intent is to appease hosts, the sacrifice is potentially significant guest churn or a reduction in new guest acquisition. The trade-off indicates that Airbnb might be betting on the inelasticity of its guest demand or the strength of its brand and unique offerings to overcome this price hurdle, assuming guests will pay a premium for the Airbnb experience, regardless of the fee structure. Finally, consider the supplier power dynamics at play. Professional property managers possess significant leverage due to their ability to multi-home across platforms. Airbnb's move acknowledges this supplier power and aims to disincentivize their departure. This trade-off suggests that Airbnb views these large-scale hosts as a concentrated, high-impact segment that, if alienated, could cause immediate and substantial damage to the business. In contrast, individual guests, while numerous, may be perceived as a more fragmented and less organized group, making their collective price sensitivity a less immediate threat compared to the organized departure of major suppliers. In conclusion, Airbnb's fee strategy trade-off is a complex response to market leverage and platform economics. It reflects a strategic prioritization of supply-side stability and retention of key professional hosts, accepting the inherent risk of alienating a segment of its guest base due to higher perceived prices. This decision underscores that in platform businesses, maintaining a robust supply can sometimes be deemed more critical than optimizing demand-side pricing, especially when key suppliers have strong multi-homing options. The long-term success will hinge on whether the value of retaining these hosts outweighs the potential erosion of guest trust and competitive standing.",
+    "faviconUrl": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-76x76-3b313d93b1b5823293524b9764352ac9.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A small, rectangular blue and white sign with a simple house icon hangs on a dark brown wooden door. The door has a brushed silver handle.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/airbnb-fee-questions-5ace354d-ee9c-494c-9e32-9877a30e4d32.png",
+    "coverPlainTitle": "Airbnb Weighs Host Loyalty Versus Guest Fees",
+    "coverWittyTitle": "Airbnb: Host Happy, Guests Mad?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Should Airbnb charge guests or hosts more fees?",
+    "coverParagraph": "**Airbnb**'s dropping fees for hosts. **Figure out** when that tradeoff actually makes sense.",
+    "tags": "Strategy,Product,Pricing,Tech",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Fee Tradeoff",
+      "text": "Hosts who manage millions of Airbnb listings demand **lower fees**. To keep these valuable hosts, Airbnb, the short-term rental platform, now shifts all fees onto guests, risking its **guest price appeal**.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Airbnb Price Premium",
+        "subtitle": "% price premium, 2024",
+        "color": "#FF5A5F",
+        "source": "NerdWallet Pricing Comparison, 2024. Socratify Analysis",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "percentage",
+          "currencyCode": null
+        },
+        "data": {
+          "value": 40.4,
+          "change": 0.0,
+          "changeValue": 0.0,
+          "trend": "flat",
+          "insight": "Airbnb prices remain consistently higher"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Hidden Costs",
+      "text": "Airbnb hides **host fees** to keep **property managers loyal**, making listings 15% pricier than competitors on Google.",
+      "zoomOutTextQuote": {
+        "text": "We've had to step up our game as Booking.com's aggressive discounting and price parity rules put real pressure on everyone in this industry. We're responding by doubling down on global price transparency and rolling out tools so hosts can see how they stack up against others, ensuring they're always competitively priced for guests.",
+        "source": "Brian Chesky, CEO Airbnb, Interview with Hospitality Today, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Airbnb is a store. To keep the store owners happy, Airbnb hides the store fees and charges shoppers more. Is it smart to hide costs from shoppers?",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Airbnb hides host fees, making it pricier for guests. Hosts stay happy. Guests may not.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk here?",
+        "answer": "Airbnb risks losing price-sensitive travelers to competitors like Booking.com. However, satisfying large property managers ensures a steady supply of listings, strengthening its market position for travelers less focused on costs.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How might guests react?",
+        "answer": "Guests could comparison shop more aggressively, reducing booking conversion rates on Airbnb. Alternatively, if guests don't notice the higher fees, Airbnb could capture extra profit without losing market share.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Airbnb's Chief Strategy Officer",
+    "keyQuestionText": "Airbnb reduces host fees to zero. They're sacrificing guest price appeal for host loyalty. When do you think this tradeoff makes sense?",
+    "hintText": "Consider what guest demand, competitive positioning, or platform reputation Airbnb sacrifices by shifting its fee structure.",
+    "shortKeyQuestionText": "When do you think this tradeoff makes sense?",
+    "choices": [
+      {
+        "title": "Guest price competitiveness",
+        "text": "Appearing more expensive in comparison tools due to higher guest fees",
+        "followUpQuestion": "That's pricing impact. When would prioritizing host retention over guest price competitiveness make sense?"
+      },
+      {
+        "title": "Demand elasticity",
+        "text": "Risking a drop in guest bookings because of higher total prices",
+        "followUpQuestion": "I see demand risk. When would sacrificing guest booking volume for host satisfaction be justified?"
+      },
+      {
+        "title": "Future market share",
+        "text": "Potentially losing long-term market share to competitors with clearer pricing",
+        "followUpQuestion": "Market share looks important. When would risking future market share for host loyalty be worthwhile?"
+      },
+      {
+        "title": "Trust and transparency",
+        "text": "Eroding guest trust by shifting fees unexpectedly or making prices less clear",
+        "followUpQuestion": "Trust and transparency matter. When would risking guest trust for host satisfaction make sense?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "two-sided-marketplace",
+    "mentalModelImageUrl": "https://cdn.socratify.com/business-models/images/two-sided-marketplace_0.png",
+    "mentalModelImageDescription": "Imagine a town square connecting merchants and shoppers. The marketplace operator provides the space, sets the rules, and benefits from the transactions. A successful marketplace balances the needs of both sides, creating a thriving ecosystem.",
+    "mentalModelLinkText": "Airbnb functions as a two-sided marketplace connecting hosts and guests. By reducing host fees and shifting them to guests, Airbnb is essentially subsidizing one side of the market (hosts) at the expense of the other (guests). The success of this depends on the relative elasticity of demand and supply on each side.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "It's like a playground where kids (guests) and parents (hosts) come to play. The playground owner (Airbnb) needs to keep both happy, so kids have fun and parents keep bringing them back.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "A two-sided marketplace connects two distinct groups, providing value to both and capturing value through transaction fees or other means.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How could Airbnb use this model?",
+        "answer": "Airbnb is adjusting its marketplace dynamics. The question is whether increased guest fees will drive away customers, or whether the increased host satisfaction and listing volume will compensate for any loss in guest demand.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What opportunity does this model create?",
+        "answer": "The model presents an opportunity to rebalance the marketplace. If Airbnb can attract more valuable hosts and maintain strong guest demand, this shift could create a more sustainable and profitable platform in the long run.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "The **price elasticity of demand** measures how much demand changes when the price changes. Airbnb's move shifts costs to guests, potentially making them more price-sensitive. What's sneaky is that Airbnb is betting host loyalty is less elastic than guest price sensitivity. If hosts flee over fees, Airbnb loses inventory. *The gamble is that guests will grudgingly accept higher prices if the unique Airbnb experience outweighs the cost.* It's like a tollbooth on a scenic highway – people will pay if the view is worth it."
+}

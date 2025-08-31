@@ -1,0 +1,168 @@
+{
+  "exerciseUuid": "49020bcd-70c8-416a-8232-ef6470d169b8",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding McDonald's challenge requires familiarity with concepts like competitive advantage, market segmentation, and strategic trade-offs between corporate goals and franchisee interests, which first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing McDonald's response to its value crisis requires understanding fast-food industry trends and competitive dynamics, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding what \"value\" means to different customer groups and how to redefine it requires knowledge of marketing concepts and customer behavior trends.",
+    "fileName": "mcdonalds-value-data.xml",
+    "backgroundNeeded": "Remember that McDonald's traditionally offered affordable fast food but has seen prices rise, understand how price increases affect lower- and middle-income customers and the challenges of balancing corporate strategy with franchisee profitability, and apply customer segmentation and competitive analysis principles to determine what data is needed to restore value perception.",
+    "happyPath": "McDonald's finds itself at a pivotal strategic juncture, needing to revitalize its core value proposition in an inflationary environment while navigating the complex dynamics of its franchisee-owned model. The challenge isn't merely about setting lower prices, but understanding what \"value\" truly means to different customer segments, and how to deliver it profitably and sustainably across a vast, largely franchised network. To craft a winning value strategy, McDonald's needs to dig deep into diverse data sources. Firstly, understanding customer behavior extends beyond mere transaction volume. It requires granular insights into affordability thresholds across various demographics and regions, including what specific features (e.g., portion size, ingredient quality, speed of service) customers weigh against price when assessing \"value.\" For example, are customers choosing a competitor because of a slightly lower price, or because they perceive better quality for the price? Understanding these nuanced trade-offs through surveys, focus groups, and even A/B testing of different value offerings can help McDonald's tailor deals that resonate deeply. This also involves tracking the stickiness of deals – do customers return after a promotion, or are they simply deal-hopping? Secondly, the internal stakeholder dynamic with franchisees is critical. Data here is not just about aggregate profitability but granular unit economics. Corporate needs transparent data on individual franchisee's cost structures for specific menu items – actual costs of ingredients, labor, and overhead in different markets. This would reveal precisely how proposed national deals impact local profit margins, enabling corporate to design deals that are truly profitable for operators or to offer targeted subsidies that sweeten the deal. Data on franchisee sentiment, historical participation in promotions, and their capacity for operational changes (e.g., handling increased volume from deals) is also vital for fostering buy-in rather than resistance. Finally, McDonald's must maintain a keen eye on the evolving competitive landscape. Beyond simply monitoring competitor pricing, they need data on rival value propositions – what are competitors emphasizing, how are they acquiring value-seeking customers, and what are the perceived strengths and weaknesses of their bundled offers? Understanding market share shifts, customer migration patterns between fast food and fast casual, and the impact of non-traditional meal solutions (e.g., home cooking, grocery deals) will help McDonald's pinpoint unmet needs and differentiate its value. This data would inform how McDonald's positions its deals to be truly compelling and sustainable, rather than just reacting to competitor moves. Ultimately, integrating these multi-dimensional data streams – customer perception, franchisee economics, and competitive dynamics – is essential for McDonald's to make informed strategic decisions. It’s about building a robust, data-driven framework that allows for the creation of value propositions that are not only appealing to consumers but also financially viable for franchisees and competitively differentiated in the market. This holistic approach, rather than a narrow focus on any single data point, will be key to re-establishing McDonald's as the undisputed leader in affordable, convenient dining.",
+    "faviconUrl": "https://www.mcdonalds.com/content/dam/sites/ca/nfl/icons/favicon-ca.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A shiny, partly crumpled yellow paper bag, with dark red and white curved lines on it, lies on a flat surface.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/mcdonalds-value-data-e11912f4-3492-45aa-9b6a-64af79fbc624.png",
+    "coverPlainTitle": "Data Reveals McDonald's Value Customer Needs",
+    "coverWittyTitle": "Is McDonald's Too McExpensive?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "What do lower-income customers want from McDonald's?",
+    "coverParagraph": "**McDonald's** is losing budget-focused customers as prices rise. **Explore** what data can win them back.",
+    "tags": "Marketing,Product,Food,Consumer Behavior",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Value Crisis",
+      "text": "McDonald's meals became too expensive, pushing away **lower- and middle-income customers**. The company wants aggressive deals to win them back, but local franchisees resist such deals, fearing **even thinner profit margins**.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "McDonald's U.S. Comparable Sales Change",
+        "subtitle": "%, 2023-2024",
+        "color": "#FFC72C",
+        "source": "[McDonald’s Full Year 2024 Earnings Release, 2024. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "percentage"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2023-01-01",
+              "value": 8.7
+            },
+            {
+              "date": "2024-01-01",
+              "value": -1.4
+            }
+          ],
+          "currentValue": -1.4
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "“Our relative superiority on affordability has declined.”",
+        "source": "Chris Kempczinski, McDonald’s CEO, Earnings Call, April 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine McDonald's is getting too pricey for some families. Now, the people who own each McDonald's want to keep their profits high, but the big boss wants to offer cheaper deals to bring customers back. It's like a tug-of-war over how to make money.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "McDonald's prices rose too high. Franchisees resist cheaper deals.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How might this affect McDonald's long-term brand?",
+        "answer": "McDonald's risks losing its value image if it can't offer affordable options, potentially driving customers to cheaper fast-food chains. However, focusing on premium items could boost revenue if they retain enough budget-conscious customers with deals.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Why are franchisees pushing back on lower prices?",
+        "answer": "Local owners worry that cheaper menu items squeeze their already tight profit margins, as they pay rent, wages, and food costs. Disagreements between corporate and franchisees can slow down decision-making and create inconsistency in customer experience.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are McDonald's Chief Customer Officer",
+    "keyQuestionText": "McDonald's lost its value edge with customers. They want to bring back lower- and middle-income households. What data do you think they need about these customers?",
+    "hintText": "Explore what \"value\" means to different customer groups and how that influences their choices.",
+    "shortKeyQuestionText": "What data do you think they need about lower-income customers?",
+    "choices": [
+      {
+        "title": "Affordability thresholds",
+        "text": "The precise price points customers consider \"affordable\" for specific meals",
+        "followUpQuestion": "Affordability is vital. Why would knowing these thresholds help shape menu prices?"
+      },
+      {
+        "title": "Competitive choices",
+        "text": "Which other fast-food or at-home options customers choose for value",
+        "followUpQuestion": "Competitive choices matter. How would this reveal where McDonald's loses customers?"
+      },
+      {
+        "title": "Perceived quality factors",
+        "text": "What specific qualities customers value most about ingredients or portion sizes",
+        "followUpQuestion": "Quality seems important. Why would understanding this help redefine their value offer?"
+      },
+      {
+        "title": "Mealtime habits",
+        "text": "The specific times of day customers seek out value deals for their meals",
+        "followUpQuestion": "Mealtime habits are interesting. How would this data help them design better deals?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "elasticity_of_demand",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/elasticity_of_demand.png",
+    "mentalModelImageDescription": "Imagine stretching a rubber band. If a small pull (price change) causes a HUGE stretch (demand change), that's elastic demand. If you pull really hard and it barely stretches, that's inelastic. Price-sensitive customers are like a very stretchy rubber band - they react strongly to changes in price.",
+    "mentalModelLinkText": "Elasticity of demand shows how much customer demand changes with price. McDonald's lower-income customers react strongly to price increases, making their demand elastic. This explains why small price hikes led to significant sales drops.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you LOVE candy, but it gets too expensive. If you stop buying it, your candy demand is elastic. If you MUST have it no matter the price, it's inelastic. Elasticity means how much your buying changes with the price.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Elasticity of demand measures how much the quantity demanded of a good changes in response to a change in its price.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to McDonald's situation?",
+        "answer": "McDonald's recent price increases have caused a drop in sales among lower-income customers. This suggests a high price elasticity of demand for McDonald's products within this demographic. Aggressive deals may be necessary to regain their business.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model indicates that McDonald's pricing strategy must be carefully calibrated, especially for value-conscious customers. Overly aggressive price hikes can be counterproductive, leading to decreased overall revenue despite higher per-item profits.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "When **switching costs** are low, customers can easily jump ship to competitors. McDonald's faces exactly this threat as customers, squeezed by inflation, can opt for cheaper alternatives. The nuance here is that McDonald's isn't just fighting other burger chains; they're battling grocery stores, home cooking, and any budget-friendly option. To win back customers, McDonald's needs data beyond demographics. *What's counterintuitive is they should focus on understanding where else their customers are eating—and why.* It's about knowing the entire competitive landscape beyond fast food."
+}

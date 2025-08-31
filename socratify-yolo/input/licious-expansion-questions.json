@@ -1,0 +1,177 @@
+{
+  "exerciseUuid": "86f98834-9878-4d26-8485-e83e4bdc69c0",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Licious's strategic dilemma requires familiarity with concepts like sales decline, channel expansion, profitability pressure, and brand promise that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the core sales drop and the suitability of expansion channels requires understanding D2C business models, market dynamics, and competitive pressures, typical of regular industry observers.",
+    "secondaryDomainName": "Operations",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the expansion into quick commerce and offline retail necessitates understanding operational challenges like maintaining quality and cold chain integrity, which requires more than basic awareness.",
+    "fileName": "licious-expansion-questions.xml",
+    "backgroundNeeded": "Remember that Licious is a D2C meat unicorn known for quality and direct delivery but facing sales decline, understand how expansion into new channels like quick commerce and offline retail presents challenges to maintaining brand promise and profitability, and apply strategic thinking to diagnose the root cause of sales drops before committing to expensive new ventures.",
+    "happyPath": "Licious, India's leading D2C meat unicorn, is facing a critical strategic dilemma as its sales decline for the first time since launch. Despite its strong foundation built on vertical integration and stringent quality control, the company is aggressively pursuing costly expansion into quick commerce and offline retail. This places Licious at a crossroads, where it must decide how to balance rapid growth and profitability pressures with the imperative to preserve its core brand promise of premium quality and hygiene. First, understanding the root cause of the sales decline is paramount. Is it a shift in consumer preferences, perhaps a growing demand for even faster delivery over the D2C experience, or a change in consumption habits? Has increased competition from local players or emerging online services eaten into their market share? Or could internal operational inefficiencies, such as inconsistent delivery times or perceived quality issues, be alienating existing customers? Without a precise diagnosis, Licious risks misallocating significant capital to new channels that may not address the fundamental problem, potentially accelerating financial strain rather than alleviating it. This initial diagnostic step is critical before committing further to expensive growth initiatives. Second, the strategic tension between speed and quality demands rigorous examination of operational feasibility. Licious's brand identity is intrinsically linked to its stringent quality control and hygiene standards, enabled by its vertically integrated supply chain and six processing centers. Scaling into quick commerce, with its \"Meat Me in 30 Minutes\" promise, and into diverse offline retail environments, presents immense operational challenges. Can Licious maintain its premium standards, cold chain integrity, and consistent product experience at ultra-fast speeds and across numerous new physical locations without prohibitive costs or operational breakdowns? Diluting their unique quality promise for the sake of speed or broader reach could severely damage the trust and differentiation that built their brand. Finally, the financial viability and strategic coherence of these new channels must be thoroughly assessed. New delivery centers and brick-and-mortar stores represent substantial capital outlays for a company already under profitability pressure. Licious must meticulously analyze the unit economics of quick commerce and retail for premium meat. Are these channels inherently profitable, or will they act as a drain on resources, cannibalizing existing D2C sales rather than generating incremental, healthy growth? From a board perspective, the question becomes: is this aggressive, multi-channel expansion the most efficient and effective use of limited resources to achieve sustainable growth and reinforce the company's core strengths, or does it represent a risky \"spread-thin\" strategy that could jeopardize their path to profitability and a successful IPO? Licious's situation exemplifies how strategic decision-making requires reconciling ambitious growth with the preservation of core strengths. Leaders must integrate insights from market dynamics, operational realities, and financial projections. Success will hinge on accurately diagnosing the sales decline, ensuring new channels can uphold the brand's quality promise without diluting it, and rigorously evaluating the long-term profitability and strategic fit of its expansion, thereby protecting the foundation of its unicorn status while pursuing future growth.",
+    "faviconUrl": "https://www.licious.in/image/licious_favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A close-up of raw chicken pieces in a neat stack, colored pale pink. The meat sits on a dark blue plastic tray. The tray has rounded corners and a smooth, shiny surface.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/licious-expansion-questions-33c0e6d9-8abe-43f1-8970-118dbd44eb95.png",
+    "coverPlainTitle": "Licious CEO Questions Declining Meat Sales",
+    "coverWittyTitle": "Where's the beef going?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Why are Licious's meat sales dropping?",
+    "coverParagraph": "Premium meat seller **Licious** faces declining sales despite earlier success. **Decide** what critical question the CEO should ask before expanding.",
+    "tags": "Strategy,Marketing,Operations,Food",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Sales Decline",
+      "text": "India's meat delivery company, Licious, faces its first sales decline. Licious, which delivers **premium meat** directly, is investing in costly quick commerce and offline stores to revive growth. Yet, the **reason for the drop** in core sales remains unknown.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Licious Revenue, FY2021-FY2024",
+        "subtitle": "INR crore, fiscal years",
+        "color": "#FF5733",
+        "source": "[Licious Financial Reports, 2024. Socratify Analysis]",
+        "features": [
+          "line-chart",
+          "zero-baseline"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "INR"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2021-03-31",
+              "value": 750.0
+            },
+            {
+              "date": "2022-03-31",
+              "value": 740.0
+            },
+            {
+              "date": "2023-03-31",
+              "value": 748.0
+            },
+            {
+              "date": "2024-03-31",
+              "value": 685.0
+            }
+          ],
+          "currentValue": 685.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "The revenue drop was driven by the closure of distribution channels, especially Dunzo... as the company started focusing more on owned channels.",
+        "source": "Licious Management Statement, Economic Times Analyst Report, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Licious is like a pizza shop that used to deliver with DoorDash but now only delivers itself. Fewer deliveries means fewer sales, even if the pizza is really good.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Licious lost sales because it stopped using delivery partners.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What is the strategic risk of cutting distribution?",
+        "answer": "Licious reduces its reach by relying solely on its own channels, potentially limiting customer access. Building their own channels like offline stores requires significant investment, and may not make up for lost partnership revenue.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Why didn't Licious' own channels compensate for the loss?",
+        "answer": "Licious likely overestimated its ability to quickly scale its own delivery and retail network. Transitioning customers from established delivery platforms requires a superior experience and effective marketing to overcome inertia.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Licious's CEO",
+    "keyQuestionText": "Licious faces declining sales. They're considering costly channel expansion. As CEO, what question would you ask about the core sales drop?",
+    "hintText": "Consider what insights into customer behavior or market shifts would be most critical.",
+    "shortKeyQuestionText": "What question would you ask about the core sales drop?",
+    "choices": [
+      {
+        "title": "Core demand shifts",
+        "text": "How has customer demand for premium D2C meat changed recently?",
+        "followUpQuestion": "Customer demand changes matter. Why is this the most critical question for Licious's expansion plan?"
+      },
+      {
+        "title": "Customer retention causes",
+        "text": "Why are existing D2C customers buying less or leaving Licious?",
+        "followUpQuestion": "Customer retention is key. Why is this the most critical question for Licious's expansion plan?"
+      },
+      {
+        "title": "Competitor impact",
+        "text": "How are other meat delivery services affecting our sales?",
+        "followUpQuestion": "Competitor impact seems obvious. Why is this the most critical question for Licious's expansion plan?"
+      },
+      {
+        "title": "Operational bottlenecks",
+        "text": "Are internal processing or delivery issues hurting sales?",
+        "followUpQuestion": "Operational bottlenecks matter. Why is this the most critical question for Licious's expansion plan?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "mere_exposure_effect",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/mere_exposure_effect.png",
+    "mentalModelImageDescription": "A series of images of a product, each viewed more frequently than the last. The final image has a heart icon on it, representing the increased liking due to repeated exposure. This illustrates how familiarity breeds fondness, even without conscious evaluation.",
+    "mentalModelLinkText": "Mere exposure effect shows how less frequent brand visibility leads to weaker preference—like Licious closing Dunzo channels, reducing customer exposure, and making them less likely to choose Licious over competitors.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine hearing a new song on the radio. At first, you don't like it much. But after hearing it a lot, you start to enjoy it. That's because things we see and hear often become more familiar and likable over time, even if we didn't like them at first.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The mere-exposure effect is a psychological phenomenon where people develop a preference for things simply because they are familiar with them.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Licious's situation?",
+        "answer": "If Licious decreases its marketing efforts, reduces its presence on delivery platforms (like the closure of Dunzo), or customers simply order less often, customers will become less familiar with the brand. This can make them more likely to choose a competitor they see more frequently.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Licious needs to maintain a consistent brand presence and customer touchpoints to keep the brand top-of-mind. Increasing marketing efforts, optimizing owned channels for repeat purchases, and exploring partnerships to expand reach can counteract the negative impact of reduced exposure.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Companies often chase new markets, but that’s when they can fall victim to **cannibalization**. This occurs when a new product or service eats into the sales of existing ones. For Licious, expanding into quick commerce and offline stores may steal customers from their core online delivery service, without actually growing the overall customer base. *What nobody talks about is how channel expansion can dilute focus and divide resources.* It’s like trying to win two races at once—you might just end up losing both."
+}

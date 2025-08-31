@@ -1,0 +1,170 @@
+{
+  "exerciseUuid": "9fb1832c-7cb0-4535-9e5f-3112549997c6",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the data needed to revive a struggling esports league requires familiarity with concepts like audience analysis, competitive strategy, and market viability that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the data required to reverse viewership decline and build a sustainable ecosystem necessitates following esports industry trends and understanding competitive dynamics, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding how to win back lapsed fans and attract new ones requires knowledge of marketing principles related to customer engagement, brand perception, and audience segmentation.",
+    "fileName": "overwatch-league-decline-data.xml",
+    "backgroundNeeded": "Remember that Overwatch esports experienced declining viewership and the collapse of its league, understand how different types of data (viewership, competitive, audience demographics) can inform strategic decisions, and apply this knowledge to identify what information is most crucial for revitalizing the scene.",
+    "happyPath": "Overwatch esports is at a critical juncture, facing a significant decline in viewership and the recent collapse of its flagship Overwatch League. Blizzard is attempting to rebuild trust and re-engage its fanbase with the new Overwatch Champions Series (OWCS) amidst a competitive landscape and shifting player expectations. This situation demands a deep dive into what precise data is needed to reverse the decline, build a sustainable ecosystem, and fend off rivals, rather than merely relying on past assumptions. To successfully revitalize the Overwatch esports scene, Blizzard must go beyond surface-level viewership statistics to uncover nuanced insights across several strategic dimensions. Firstly, understanding the lapsed and current audience is paramount. While the article highlights declining viewership (e.g., OWL viewership in 2023 was nearly half of 2022, and 2024 OWCS Finals peaked at only half of the 2023 World Cup), Blizzard needs to know the \"why\" behind this. This involves gathering qualitative data through surveys and focus groups with former viewers to understand their specific reasons for attrition (e.g., \"fading Covid effect,\" \"Blizzard’s mismanagement,\" \"streams to YouTube,\" \"5v5 change,\" \"dry spell for updates\"). Simultaneously, analyzing the viewing habits of current fans—their preferred platforms, engagement with specific game features like the new \"Perks\" system, and types of content consumed—can inform targeted content strategies and platform distribution. Secondly, the health of the competitive ecosystem itself demands detailed data on player and team viability. The OWL's failure was partly attributed to \"teams not earning what they were promised\" and \"criticism from pro gamers.\" For esports organizations, Blizzard needs data on their diversified revenue streams, the effectiveness of their sponsorship deals, and detailed cost structures beyond just the $20 million entry fees, especially concerning \"extremely expensive\" travel costs associated with the prior global model. Understanding what truly drives sponsor value and investor confidence would be crucial for attracting long-term partners for the OWCS. For players, beyond standard performance metrics, qualitative data on their satisfaction with game balance (e.g., \"hero bans,\" \"slow to respond to player feedback\"), competitive format (\"stress on players having to cross time zones\"), and overall well-being would ensure the game remains appealing for top talent. Finally, Blizzard must gather comprehensive competitive intelligence. The rise of \"Marvel Rivals\" stealing fanbase and the contrasting success of the Call of Duty League (CDL) provide critical lessons. Blizzard needs data on what makes rival esports successful, including their viewer acquisition tactics, content engagement strategies, and monetization models. For the CDL, specifically, understanding its \"less ambitious and North America-focused\" approach and partnerships with \"sports clubs\" could reveal actionable strategies. Furthermore, with the \"Olympic Committee entering the esports space\" and Overwatch 2 joining the \"Esports World Cup 2025,\" data on these evolving broader market dynamics—including new audience segments attracted by such collaborations—would inform strategic partnerships and marketing efforts. Addressing the decline of Overwatch esports requires a multi-dimensional data strategy. Moving beyond basic viewership numbers to understand the \"why\" from lapsed fans, ensuring the financial and emotional health of the competitive core (players and teams), and critically analyzing competitor successes offers a robust framework. This comprehensive data-driven approach is essential for Blizzard to navigate the complexities of the esports market and build a sustainable, engaging future for Overwatch.",
+    "faviconUrl": "https://d3ukkjpihy42k4.cloudfront.net/images/favicon.b50a2b7ffcd4631c52d2b61e5d6fec8757e5b81a.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A curved headset with glowing orange accents on a black matte finish sits on a dark surface. The earcups are large and round. The headband has a slight indentation at the top.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/sales_rep’s_noise-canceling_earbuds-00e6b871-ea7d-46f6-8fff-2c397a227bb5.png",
+    "coverPlainTitle": "Data Reveals How to Win Fans",
+    "coverWittyTitle": "Overwatch: Can't get no respect?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "What data can win back esports fans?",
+    "coverParagraph": "The **Overwatch** esports league is struggling to keep viewers. **Figure out** what data Blizzard needs to understand why fans left and how to win them back.",
+    "tags": "Strategy,Product,Tech,Gaming",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Fan Exodus",
+      "text": "Overwatch esports viewership plummeted after its flagship Overwatch League collapsed. Blizzard launched a new Champions Series to win back **millions of lapsed fans**, facing tough competition from **new rival titles**.",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "OWCS vs OWL Peak Viewership",
+        "subtitle": "Viewers (thousands), 2023-2025",
+        "color": "#007ACC",
+        "source": "[Overwatch Esports Report, 2025. Socratify Analysis]",
+        "features": [
+          "vertical-bars"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "OWL 2023",
+              "value": 300.0
+            },
+            {
+              "label": "OWCS 2024",
+              "value": 150.0
+            },
+            {
+              "label": "OWCS 2025",
+              "value": 70.0
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Betting Blind",
+      "text": "**Blizard gambles big** on Champions Series reviving OW2 after 35% viewership crash, betting exclusive rewards rehook fleeing players but they're **gambling blind** without data on which features actually engage fans.",
+      "zoomOutTextQuote": {
+        "text": "Our Overwatch 2 viewership has seen notable pressure since late 2024... updates not meeting player expectations, along with external market competition, have impacted both our live viewership and player engagement metrics.",
+        "source": "Mike Ybarra, President of Blizzard Entertainment, Q4 2024 Earnings Call, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your favorite TV show gets cancelled, and the new one isn't as good. Blizzard made a new Overwatch league, but fewer people are watching. They're hoping special prizes will get people excited again, like free candy at the new show.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Overwatch League failed. New league struggling. Blizzard hopes prizes will lure back fans.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "Why is Blizzard betting on rewards without more data?",
+        "answer": "Blizzard may be prioritizing speed to market over data-driven decisions, or believe that the fundamental problem is lack of tangible rewards. However, blindly implementing rewards programs without understanding user motivations could lead to wasted investment if the core gameplay or viewing experience isn't appealing.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What challenges does Blizzard face in winning back fans?",
+        "answer": "Blizzard must overcome negative perceptions from the Overwatch League's collapse and compete with new, popular esports titles. They also need to identify and address the specific reasons why viewership declined, which might include game updates, player fatigue, or lack of compelling content.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Blizzard's Chief Data Officer",
+    "keyQuestionText": "Overwatch esports is struggling with declining viewership. They want to win back lapsed fans. What data do you think they need about former viewers?",
+    "hintText": "Explore what information about past viewing habits and current preferences could help bring fans back.",
+    "shortKeyQuestionText": "What data do you think they need about former viewers?",
+    "choices": [
+      {
+        "title": "Reasons for leaving",
+        "text": "Specific reasons why they stopped watching Overwatch esports",
+        "followUpQuestion": "Reasons for leaving seem critical. Why would this information help win back lapsed fans?"
+      },
+      {
+        "title": "Current entertainment choices",
+        "text": "Other games or forms of entertainment they watch now",
+        "followUpQuestion": "Current interests are important. How would this data help Blizzard attract former viewers?"
+      },
+      {
+        "title": "Demographic profiles",
+        "text": "Age, location, and general media consumption habits of former viewers",
+        "followUpQuestion": "Demographic profiles are common. Why would this help bring back lapsed fans?"
+      },
+      {
+        "title": "Nostalgia for past leagues",
+        "text": "Sentimental attachment to the Overwatch League's original format",
+        "followUpQuestion": "Nostalgia seems interesting. Why would understanding past league sentiment help win back viewers now?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "silent_defection",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/silent_defection.png",
+    "mentalModelImageDescription": "A frog slowly backing away from a lily pad while pretending to look in another direction, showing how customers might gradually disengage from a product or service without explicitly voicing their dissatisfaction.",
+    "mentalModelLinkText": "Overwatch fans might silently stop watching without complaining. They might still follow social media but not tune in. This \"silent defection\" makes it difficult for Blizzard to realize the extent of the problem until viewership numbers plummet further.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you stop playing with your toys, but you don't tell your mom. You just slowly stop caring about them. That's silent defection - quietly losing interest without saying anything.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Silent defection is when customers gradually disengage from a product or service without explicitly voicing their dissatisfaction.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Overwatch's situation?",
+        "answer": "Many Overwatch fans may have stopped watching esports but still follow Overwatch news. Blizzard could misinterpret this lingering interest as loyalty, failing to recognize that these fans have silently defected and are unlikely to return without significant changes.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Blizzard needs to actively seek out and address the underlying reasons for silent defection. Analyzing viewership data, surveying lapsed fans, and monitoring social media sentiment can provide valuable insights into the factors driving disengagement.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "When facing heavy losses, companies can fall into the **sunk cost fallacy**. This is the trap of throwing good money after bad, continuing to invest in a failing venture simply because you've already invested so much. For **Blizzard**, this could mean doubling down on the Champions Series even if data shows it's not working to regain viewership. They risk overinvesting in a flawed strategy simply to justify past decisions. *The nuance here is that cutting losses can feel like admitting defeat, even when it's the smartest move.* It's like staying in a bad poker hand because you've already put money in the pot."
+}

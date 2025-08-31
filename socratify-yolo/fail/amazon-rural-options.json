@@ -1,0 +1,176 @@
+{
+  "exerciseUuid": "cf3edd73-9e45-44db-845f-d9535cf60fdd",
+  "exerciseVersion": 4,
+  "exerciseType": "options",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Amazon's strategic options for rural delivery requires familiarity with concepts like market expansion, cost-to-serve, partnerships, and strategic trade-offs that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Amazon's strategic decisions for rural expansion requires following e-commerce logistics trends and understanding competitive dynamics in serving dispersed markets, typical of regular industry observers.",
+    "secondaryDomainName": "Operations",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because exploring different delivery network models (partnerships, tech, hubs) requires understanding operational concepts like last-mile logistics, cost structures, and network efficiency.",
+    "fileName": "amazon-rural-options.xml",
+    "backgroundNeeded": "Remember that Amazon's core business relies on fast delivery, understand the challenges of high \"cost to serve\" in rural areas, and apply strategic thinking to evaluate alternative approaches for delivery networks that balance speed, cost, and job creation.",
+    "happyPath": "Amazon’s investing $4B in rural America to expand our delivery network, offer even faster delivery, and create more than 100,000 new jobs Investment is creating local jobs in small towns across the U.S. and providing customers in those areas with even faster delivery across a wide selection of products. April 30, 2025 5 min read One of the Prime benefits that members love most is unlimited fast, free delivery. Over the past couple of years, we’ve innovated to deliver record-breaking delivery speeds to Prime members across a wide selection of products, and we now offer more than 300 million items with free Prime shipping (up from one million when the program launched in 2005). Our logistics network is at the center of making this incredible convenience available to customers. One area where we’ve continued to innovate to provide the best customer experience possible is in our “last mile” network, which coordinates final deliveries to customers. This network is made up of delivery stations located close to customers, where packages are prepared for delivery, and programs that partner with individuals and small businesses who deliver packages on behalf of Amazon. This includes the Delivery Service Partner (DSP) program, which empowers small business entrepreneurs to grow thriving delivery companies; Amazon Flex, which offers individuals the opportunity to earn extra money delivering Amazon packages in their own vehicles; and Hub Delivery, which partners with sm",
+    "faviconUrl": "https://www.amazon.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Small delivery truck with a boxy body in sunset orange and ocean blue, the back door open to reveal packages inside.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/coupang-dawn-delivery-industry_trend-0844e16d-b8bb-4e96-b8af-81b213632f69.png",
+    "coverPlainTitle": "Amazon Tests Rural Delivery Options",
+    "coverWittyTitle": "Nowhere to Prime Time?",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can Amazon deliver to rural America?",
+    "coverParagraph": "**Amazon** is spending billions to **reach rural areas**. Explore how they should balance fast delivery with rural job creation.",
+    "tags": "Strategy,Operations,Retail,Delivery",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Rural Delivery",
+      "text": "Rural package delivery is often **slow and expensive**. To improve this, Amazon spends $4 billion building its own network. This aims to speed up service and create local jobs in **hard-to-reach rural areas**.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Amazon Rural Delivery Network Size Growth",
+        "subtitle": "Delivery stations count, 2020 vs 2026",
+        "color": "#FF9900",
+        "source": "[aboutamazon.com, 2025. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "2020",
+              "value": 1.0,
+              "color": "#CCCCCC"
+            },
+            {
+              "label": "2026",
+              "value": 200.0,
+              "color": "#FF9900"
+            }
+          ],
+          "changePercent": 19900.0,
+          "changeValue": 199.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Rural Values",
+      "text": "Amazon is investing **$4 billion** to bring fast delivery to rural areas. However, customers there also value their **dignity and independence**.",
+      "zoomOutTextQuote": {
+        "text": "As some other companies are abandoning small-town customers due to cost to serve, we’re going the other way—we’re investing to serve our rural customers even better.",
+        "source": "Andy Jassy, CEO of Amazon, Letter to Shareholders, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine it takes a long time to get mail if you live far from town. Amazon is building its own post offices in the countryside to deliver packages faster, but they need to be careful not to make people feel like they can't handle things themselves.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Amazon spends billions to speed up rural delivery, but risks upsetting independent-minded customers.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "Why is Amazon investing so much in rural delivery?",
+        "answer": "Amazon aims to lock in rural customers who might otherwise shop at local stores or with competitors. By improving delivery speed and reliability, Amazon hopes to become essential even in areas with strong community ties.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How might Amazon's expansion face local resistance?",
+        "answer": "Small-town residents may prefer supporting local businesses over a large corporation. Amazon needs to integrate into these communities without appearing to replace existing services or undermine local values to succeed.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Amazon's Chief Strategy Officer",
+    "keyQuestionText": "Amazon wants faster rural delivery. They are spending $4B on their own network. What other options should they explore?",
+    "hintText": "Think beyond building new stations. What other approaches could get products to rural customers and create jobs?",
+    "shortKeyQuestionText": "What other options should they explore?",
+    "choices": [
+      {
+        "title": "Partner with carriers",
+        "text": "Rely more on USPS or FedEx for last-mile delivery",
+        "followUpQuestion": "That's carrier partnership. How would this alternative help Amazon achieve faster rural delivery and job creation?"
+      },
+      {
+        "title": "Use future tech",
+        "text": "Prioritize drone and autonomous vehicle last-mile",
+        "followUpQuestion": "Future tech is interesting. How would this alternative help Amazon achieve faster rural delivery and job creation?"
+      },
+      {
+        "title": "Build small hubs",
+        "text": "Set up small fulfillment centers in rural towns",
+        "followUpQuestion": "Micro-hubs make sense. How would this alternative help Amazon achieve faster rural delivery and job creation?"
+      },
+      {
+        "title": "Community-owned hubs",
+        "text": "Let local businesses run Amazon delivery hubs",
+        "followUpQuestion": "Community-owned hubs are an option. How would this alternative help Amazon achieve faster rural delivery and job creation?"
+      },
+      {
+        "title": "Tiered rural service",
+        "text": "Offer different rural service tiers for speed/cost",
+        "followUpQuestion": "Tiered service looks promising. How would this alternative help Amazon achieve faster rural delivery and job creation?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "alonso's_model",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/alonso's_model.png",
+    "mentalModelImageDescription": "A series of concentric circles radiating outwards from a city center, with housing density decreasing as distance increases, showing how land value influences location choices.",
+    "mentalModelLinkText": "Alonso's Model shows how high transport costs in sparsely populated areas make centralized hubs inefficient. This suggests Amazon should explore decentralized rural delivery, like using micro-hubs or local community partners to minimize costs.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a pizza shop.  It's best to live close so the delivery is fast and cheap.  The farther you are, the more the delivery costs.  Alonso's model says businesses and people locate based on what they can afford to spend on transport.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Alonso's Model explains land use patterns by showing how transportation costs and land values interact to determine the optimal location for businesses and residents.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Amazon's situation?",
+        "answer": "In rural areas, the cost of transporting each package over long distances is high.  Alonso's model suggests Amazon could reduce costs by locating delivery resources closer to customers.  This means looking beyond large centralized stations and exploring smaller, distributed hubs or partnerships.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model implies that Amazon's traditional hub-and-spoke model might be inefficient in rural settings. Decentralized solutions, like partnering with local businesses or establishing micro-fulfillment centers, may be more economically viable for last-mile delivery.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Amazon faces a classic **last mile problem**. This is when the final step of delivery accounts for over 50% of total shipping costs. Amazon's $4 billion investment tackles this directly, but it overlooks a key nuance. The challenge is that high rural transport costs force Amazon to balance efficiency with customer expectations about delivery. *The hidden cost is that over-optimization can erode trust if it ignores community needs.* It's the paradox of trying to standardize service in areas that value uniqueness."
+}

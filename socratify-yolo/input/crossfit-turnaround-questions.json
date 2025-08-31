@@ -1,0 +1,171 @@
+{
+  "exerciseUuid": "99e4d17a-0506-4902-a973-563b1420489d",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding CrossFit's affiliate crisis requires familiarity with concepts like platform business models, value proposition erosion, and partner defection, which are standard first-year business school topics.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing why affiliates are leaving requires understanding the dynamics of licensing models and competitive value propositions within the fitness industry, typical of regular industry observers.",
+    "secondaryDomainName": "Operations",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding affiliate departures requires knowledge of operational support failures and the perceived value of licensing agreements, which are operational considerations within a franchisor-affiliate relationship.",
+    "fileName": "crossfit-turnaround-questions.xml",
+    "backgroundNeeded": "Remember that CrossFit licenses its brand and workout methods to independent gyms (affiliates) for a fee, understand how platform business models can become vulnerable if the core value proposition erodes or competitors offer similar \"software\" without the license cost, and apply strategic thinking to identify the root causes of affiliate defection and prioritize the most critical questions to ask.",
+    "happyPath": "CrossFit's platform model is crumbling because its affiliates, the core \"users,\" no longer see value in paying fees when they can easily replicate the workout \"software\" without the \"license.\" The key question to ask first is what specific pain points drove this departure, as this directly uncovers the erosion of value. Understanding competitor value propositions is secondary; the primary issue is CrossFit's own perceived failing. Asking about re-engagement is a later step, and while operational support failures are a component of pain points, identifying all specific frustrations is a more comprehensive first step to diagnose the core problem.",
+    "faviconUrl": "https://www.crossfit.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A thick black rubber mat sits on a wooden floor. A pair of bright blue athletic shoes rest on the mat. A coiled black jump rope lays nearby.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/crossfit_jump_rope-49dac85e-aa06-4bc6-be10-797edd36c97e.png",
+    "coverPlainTitle": "CrossFit Asks: How to Save Gyms?",
+    "coverWittyTitle": "No Reps: CrossFit's Failing Form?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Why are CrossFit gyms quitting after paying fees?",
+    "coverParagraph": "Many **CrossFit** gyms are closing, despite using their workouts. **Decide** what question to ask as Head of Affiliate Experience.",
+    "tags": "Strategy,Marketing,Fitness,Brand Management",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Copycat Crisis",
+      "text": "**Nine out of ten** CrossFit affiliates stop paying their $99 monthly fees, yet they continue using the workout plans. CrossFit charges 15,000 gyms for these plans, but affiliates can copy the exercises freely because **workouts can't be copyrighted**.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "CrossFit Affiliate Count 2023 vs 2024",
+        "subtitle": "Number of gyms, 2023 vs 2024",
+        "color": "#FF5722",
+        "source": "[CrossFit.com \"CrossFit's Next Chapter: An Update to Our Community\", 2024. Socratify Analysis]",
+        "features": [
+          "simple comparison",
+          "two values"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "2023 Affiliates",
+              "value": 15000.0,
+              "color": "#1976D2"
+            },
+            {
+              "label": "2024 Affiliates",
+              "value": 11000.0,
+              "color": "#FFC107"
+            }
+          ],
+          "changePercent": -26.67,
+          "changeValue": -4000.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Moelis **Audit Reveal**",
+      "text": "Moelis **audit uncovers** 4,000 gyms **owe** $18M in unpaid fees ripped CrossFit identity.",
+      "zoomOutTextQuote": {
+        "text": "We are working with Moelis [& Company]... to help them understand our business, to help them understand CrossFit, to help them understand what makes CrossFit special.",
+        "source": "Don Faul, CEO of CrossFit, BarBend, March 13, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a magazine lets gyms use its workout plans for a small fee. Many gyms stop paying, but keep using the plans because they can't be copyrighted, like recipes.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "CrossFit loses gyms but exercises are copied.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for CrossFit?",
+        "answer": "CrossFit's brand could weaken as gyms freely use the workout plans without contributing to the community or quality control. This hurts future licensing revenue and the overall perceived value of the CrossFit brand.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Why can't CrossFit just sue the gyms?",
+        "answer": "Workout routines can't be copyrighted, so CrossFit must prove that the gyms are using their brand name or logo illegally. Proving this for thousands of gyms is costly and time-consuming, with uncertain results.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are CrossFit's Head of Affiliate Experience",
+    "keyQuestionText": "CrossFit lost over 4,000 gyms, many citing poor value for fees. They're trying to understand why affiliates are leaving. As Head of Affiliate Experience, what question would you ask first?",
+    "hintText": "Focus on uncovering the specific reasons for affiliate departure beyond general dissatisfaction.",
+    "shortKeyQuestionText": "As Head of Affiliate Experience, what question would you ask first?",
+    "choices": [
+      {
+        "title": "Specific pain points",
+        "text": "What specific frustrations led gyms to stop paying annual fees?",
+        "followUpQuestion": "Specific pain points are critical. Why is this the right question for understanding affiliate departures?"
+      },
+      {
+        "title": "Competitor value prop",
+        "text": "What unique value do competitor brands offer our departing gyms?",
+        "followUpQuestion": "Competitor value matters. Why is this the right question for understanding affiliate departures?"
+      },
+      {
+        "title": "Future re-engagement",
+        "text": "What would it take to convince a recently departed gym to rejoin?",
+        "followUpQuestion": "Re-engagement is important. Why is this the right question for understanding affiliate departures?"
+      },
+      {
+        "title": "Operational support failures",
+        "text": "Were there specific HQ support failures that caused gyms to leave?",
+        "followUpQuestion": "Operational failures seem important. Why is this the right question for understanding affiliate departures?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "public_good_problem",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/public_good_problem.png",
+    "mentalModelImageDescription": "A lighthouse shining its light across the sea, benefiting all ships passing by, regardless of whether they contributed to its construction or maintenance. This illustrates how a public good can be enjoyed by everyone, even those who don't pay for it, leading to under-provision.",
+    "mentalModelLinkText": "Public Good Problem shows how a resource, like CrossFit's uncopyrightable workouts, is available to all even if they don't pay. This encourages free-riding, leading to less investment in future programming and reduced value for paying affiliates.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a park that everyone can play in, even if they didn't help build it. If no one donates to keep it clean and fix the swings, the park will get yucky, and no one will want to play there anymore! CrossFit is like that park.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The public good problem arises when a resource is non-excludable and non-rivalrous, leading to under-provision because individuals can benefit without contributing.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to CrossFit's situation?",
+        "answer": "CrossFit's workouts are essentially a public good. Because it's difficult to prevent non-paying gyms from accessing the workouts, they free-ride, leading to less revenue for CrossFit to invest in developing new, better workouts, undermining its value.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "CrossFit needs to create mechanisms to make its core offering more excludable or to increase the perceived value of affiliation, driving more gyms to pay for the benefits they receive. This could involve offering more exclusive content, community features, or enhanced support for paying affiliates.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "The **tragedy of the commons** explains how shared resources get depleted. Everyone benefits from the resource, but no one bears the full cost of its overuse. For CrossFit, its workout plans are the shared resource. Since workouts are uncopyrightable, gyms freely use them without paying the $99 fee, creating a **free-rider problem**. _The irony is that by making its product so accessible, CrossFit inadvertently devalues its own offering._ It's like offering unlimited free samples that nobody ends up buying the full product."
+}

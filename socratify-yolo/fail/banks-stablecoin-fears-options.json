@@ -1,0 +1,163 @@
+{
+  "exerciseUuid": "b25cb33e-4bfa-4f9c-bb39-401b7ac4c218",
+  "exerciseVersion": 4,
+  "exerciseType": "options",
+  "status": "active",
+  "storyType": "Trends",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic responses to stablecoins requires familiarity with concepts like deposit disintermediation, competitive adaptation, and evolving financial ecosystems that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how banks should respond to stablecoins requires following trends in the financial services industry and understanding the competitive dynamics between traditional finance and digital assets.",
+    "secondaryDomainName": "Finance",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding the impact of stablecoins on bank deposits and lending operations requires knowledge of core banking functions and financial market dynamics.",
+    "fileName": "banks-stablecoin-fears-options.xml",
+    "backgroundNeeded": "Remember that banks rely on deposits for lending and stablecoins are digital currencies that could draw deposits away, understand how competition can arise from new technologies and the strategic need for banks to adapt, and apply knowledge of defensive and proactive strategies to maintain market relevance.",
+    "happyPath": "The emergence of stablecoins presents a multifaceted strategic challenge for traditional banks, demanding a response that goes beyond mere defense. Banks find themselves in a pivotal moment where they must protect their foundational business – deposit-funded lending – while simultaneously exploring opportunities in a rapidly digitizing financial landscape. Their current actions, such as lobbying for regulatory safeguards and contemplating a joint stablecoin consortium, are initial steps, but a more comprehensive strategy is essential. One critical analytical thread involves understanding the *defensive necessity* for banks. Their core concern is deposit disintermediation, which directly impacts their ability to lend. Lobbying efforts, exemplified by the Independent Community Bankers of America's letter, are a natural first line of defense. This approach seeks to level the playing field by imposing similar regulatory burdens and prohibitions (like interest payments) on stablecoin issuers. However, this strategy carries the risk of stifling innovation and may not be sustainable if the market inevitably shifts towards digital payments. Banks must balance short-term protection with the long-term imperative of adaptation, ensuring they don't become irrelevant by solely resisting change. A second strategic lens focuses on *proactive adaptation and competitive positioning*. Rather than just fearing stablecoins, some large banks see an opportunity. This could involve directly competing by launching their own stablecoins through consortia, leveraging their existing trust and regulatory compliance. Beyond direct competition, banks could also position themselves as crucial infrastructure providers for the stablecoin ecosystem. This means offering services like managing stablecoin reserves, providing treasury services to issuers, or acting as regulated on/off-ramps between stablecoins and traditional fiat currencies. This shifts their role from a threatened incumbent to an indispensable enabler, allowing them to capture new revenue streams and remain central to money flows. Finally, banks must consider a *transformative redefinition of their value proposition*. As the financial system integrates digital assets, the question becomes: how can banks leverage their unique strengths – trust, regulatory expertise, balance sheet strength, and customer relationships – to maintain relevance? This could involve developing tokenized versions of traditional bank deposits and assets, offering secure, bank-branded digital wallets, or providing compliance and auditing services to the broader digital asset market. By exploring these options, banks can move beyond simply protecting existing revenues and instead build new, digitally native business models that meet evolving customer needs and fend off new entrants like big tech companies. In conclusion, the stablecoin phenomenon forces banks to engage in multi-dimensional strategic thinking. A successful path forward requires not just defensive measures, but also proactive engagement through competitive product development, strategic infrastructure provision, and a fundamental reimagining of their role in a digital-first financial system. Strategic insight in this scenario comes from evaluating how banks can evolve from being mere holders of deposits to being trusted custodians, facilitators, and innovators in the broader digital economy, demonstrating adaptability and foresight.",
+    "faviconUrl": "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/683f238c7540ce089af2ff6f_Favicon32x32.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A stack of shiny metal coins, mostly silver with a few gold ones mixed in, sitting on a dark green surface.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/grouped_coins_by_feature-dfaa0309-c024-4f95-9722-b3c623201b87.png",
+    "coverPlainTitle": "Banks Weigh Options Against Stablecoin Threat",
+    "coverWittyTitle": "Coin-termeasures: Banking on a Solution",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How should banks fight stablecoins for deposits?",
+    "coverParagraph": "Stablecoins lure deposits with better rates, threatening banks' lending power. As **Major Banks'** CSO, **weigh your options** to protect your deposit base.",
+    "tags": "Strategy,Finance,Banking,Cryptocurrency",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Deposit Threat",
+      "text": "Stablecoins threaten to pull billions of dollars from traditional bank deposits. Banks rely on these deposits for lending. To protect this core business, they are **lobbying for strict rules** and exploring **their own digital currencies**.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "US Commercial Bank Total Deposits",
+        "subtitle": "Trillions USD, Q1 2024 vs Q1 2023",
+        "color": "#1f77b4",
+        "source": "[Federal Reserve Board H.8, 2024. Socratify Analysis]",
+        "features": [
+          "trend indicator",
+          "percentage change"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "value": 17140000000000.0,
+          "change": -0.52,
+          "changeValue": -90000000000.0,
+          "trend": "down",
+          "insight": "Modest decline amid stablecoin growth"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Digital War",
+      "text": "One regional bank fights stablecoin drain. **Stablecoin capture** $50B deposits** and must **transform** or collapse.",
+      "zoomOutTextQuote": {
+        "text": "As banks replace lost deposits with higher-cost alternatives and worse, are forced to curtail their credit supply, the potential harm to economic activity in Main Street could negate any benefits...",
+        "source": "Jeff Huther & Yikai Wang, ABA DataBank Analysis, American Bankers Association, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine banks are like lemonade stands, and stablecoins are like new stands offering fancier drinks. People take their money (deposits) to the fancy stands, so the old stands need to fight back or come up with their own fancy drinks.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Stablecoins steal bank deposits. Banks must innovate or shrink.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What is the strategic risk for banks?",
+        "answer": "Banks face losing a cheap funding source (deposits), forcing them to borrow at higher rates and lend less. This could create a credit crunch, harming businesses and slowing economic growth.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How can banks fight back?",
+        "answer": "Banks are lobbying for stricter stablecoin rules to limit their growth and developing their own digital currencies to compete. Success depends on regulatory approval and customer adoption of bank-backed digital options.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Major Banks' Chief Strategy Officer",
+    "keyQuestionText": "Stablecoins threaten bank deposits. Banks lobby for rules and eye their own coin. What other options should they explore to protect deposits?",
+    "hintText": "Think beyond regulation and direct competition; how else could banks engage with stablecoins?",
+    "shortKeyQuestionText": "What other options should they explore?",
+    "choices": [
+      {
+        "title": "Reserve management",
+        "text": "Manage reserves for other stablecoin issuers",
+        "followUpQuestion": "That's a service model. How would this alternative help banks protect deposits from stablecoins?"
+      },
+      {
+        "title": "Payment rail integration",
+        "text": "Integrate stablecoins for faster payments",
+        "followUpQuestion": "Payment integration makes sense. How would this alternative help banks protect deposits from stablecoins?"
+      },
+      {
+        "title": "Tokenized bank products",
+        "text": "Create tokenized bank deposits and assets",
+        "followUpQuestion": "Tokenized products seem smart. How would this alternative help banks protect deposits from stablecoins?"
+      },
+      {
+        "title": "Non-bank partnerships",
+        "text": "Form alliances with non-bank stablecoin issuers",
+        "followUpQuestion": "Partnerships are interesting. How would this alternative help banks protect deposits from stablecoins?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "float",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/float.png",
+    "mentalModelImageDescription": "A juggler keeps multiple balls in the air, representing the money a bank uses for investments while still being available for customer withdrawals. The constant motion symbolizes the continuous flow of funds, where the bank earns interest on deposits before they are claimed, creating a temporary \"float\".",
+    "mentalModelLinkText": "Float shows how banks make money using deposited funds before customers withdraw them. Stablecoins disrupt this by offering near-instant liquidity, reducing the time banks have to invest deposits, impacting their core profitability.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you borrow your friend's allowance, use it to buy candy, and pay them back before they need it. Banks do this with our deposits, using them to make money before we withdraw them. This is called \"float\".",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Float is the time gap between when a bank receives deposits and when it needs to pay them out, allowing the bank to use those funds for investment.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to banks' situation?",
+        "answer": "Stablecoins offer near-instant liquidity, reducing the time banks have to use deposits before they're withdrawn. This shrinking float could impact banks' profitability, requiring them to find alternative revenue streams to offset the loss.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model highlights the vulnerability of banks' traditional business model. Banks need to adapt to the changing liquidity landscape and explore new strategies for managing their assets and liabilities in the face of stablecoin competition. ",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Banks face a classic **innovator's dilemma**. They excel at a profitable business model – lending based on deposits. Stablecoins are a **disruptive innovation**, attacking the core. The nuance here is that banks are structured to optimize the old game, not invent the new one. Every dollar spent on digital currencies is a dollar not spent defending their traditional lending turf. _What’s counterintuitive is that protecting their core business may require cannibalizing it._ It's like a Blockbuster trying to launch Netflix."
+}

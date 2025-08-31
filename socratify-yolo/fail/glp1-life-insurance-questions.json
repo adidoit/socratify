@@ -1,0 +1,161 @@
+{
+  "exerciseUuid": "bd712bd8-d3eb-49ca-9e23-34814da3164f",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic implications of GLP-1 drugs for life insurers requires familiarity with concepts like risk assessment, underwriting, competitive advantage, and strategic trade-offs, which are core to first-year business education.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how GLP-1 drugs impact insurance pricing and patient adherence requires following trends in the healthcare and insurance industries and understanding competitive dynamics driven by new pharmaceuticals.",
+    "secondaryDomainName": "Product",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the exercise focuses on developing low-friction adherence solutions, requiring an understanding of product development principles and how to design user-centric features for patient engagement.",
+    "fileName": "glp1-life-insurance-questions.xml",
+    "backgroundNeeded": "Remember that GLP-1 drugs cause temporary weight loss but have high drop-off rates, understand how insurance policies are priced based on long-term health risks, and apply strategic thinking to identify effective, low-friction adherence solutions for patients.",
+    "happyPath": "The advent of GLP-1 medications represents a seismic shift in the life insurance industry, creating a profound strategic challenge known as \"mortality slippage.\" What appears on paper as a \"mirage of good health\" due to short-term weight loss can quickly dissipate when patients discontinue the medication, leading to costly mis-priced policies. This scenario demands that life insurers move beyond reactive \"band-aid solutions\" and embrace a multi-faceted strategic approach to maintain profitability and competitive advantage. First, the immediate strategic challenge for insurers lies in fundamentally redefining their underwriting and risk assessment models. Traditional metrics are proving insufficient, requiring underwriters to evolve from static health indicators to dynamically predicting long-term adherence and health trajectories. This necessitates deeper inquiries that differentiate temporary GLP-1-induced improvements from genuinely sustained behavioral changes and underlying health profiles. Relying solely on current health metrics without understanding long-term adherence probabilities is a strategic oversight, as the article highlights, leading to millions in unexpected payouts. A more robust approach would integrate behavioral data, advanced analytics, and even real-world evidence to forecast adherence and subsequent health outcomes over the policy's lifetime, moving towards predictive underwriting. Second, the long-term viability for insurers hinges on solving the complex problem of patient retention. The article brilliantly points to the \"statin playbook\" as a powerful analogue, revealing a critical strategic insight: often, the most impactful solutions are not complex \"wrap-around care\" but rather simple, low-friction interventions. Strategies like offering 3-month medication bundles, streamlining restarts for paused treatments, or implementing behavioral nudges via text notifications can significantly improve adherence at a lower cost. Insurers must strategically evaluate how to integrate these \"sticky\" mechanisms, either through internal product development or targeted partnerships, to ensure continuous medication use. This shifts the strategic focus from merely *identifying* risk to proactively *managing and mitigating* it through active patient engagement. Finally, solving GLP-1 patient adherence presents a significant market opportunity, transforming a costly liability into a source of competitive differentiation. The \"real money\" for insurers lies in converting the GLP-1 \"mirage\" into a sustained health reality. As GLP-1 prices decline with generic entrants, the market for adherence solutions will expand dramatically. Insurers have a strong strategic incentive to form partnerships with companies that can reliably drive long-term GLP-1 adherence. The strategic imperative is to move beyond \"vague promises\" and demand concrete, data-backed evidence of adherence efficacy and measurable long-term financial returns. Being a \"first mover\" in cracking this retention challenge can establish an industry standard, capture significant market share, and fundamentally reshape the future of life insurance.",
+    "faviconUrl": "https://www.cigna.com/static/www-cigna-com/images/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A shiny, dark green prescription pill bottle sits on a white table. The cap is bright white plastic. There is no label.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/glp1-life-insurance-questions-e795afec-23a9-4d66-ab42-35482a970750.png",
+    "coverPlainTitle": "Insurers Question Weight-Loss Drug Adherence",
+    "coverWittyTitle": "Pill Problems, Policy Puzzles",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How to keep patients on weight-loss drugs?",
+    "coverParagraph": "Weight-loss drugs work, but people quit. **Insurers** must **find the right questions** to boost adherence for accurate risk assessment.",
+    "tags": "Product,Strategy,Healthcare,Pharmaceuticals",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Health Mirage",
+      "text": "Many GLP-1 weight-loss drug users stop taking medication and regain lost weight. Life insurers price policies assuming long-term health benefits from these drugs. However, high drop-off rates mean insurers face **undervalued risk** and **mispriced policies**.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Mortality Slippage Rate in Life Insurance",
+        "subtitle": "%, 2019 to Present",
+        "color": "#D9534F",
+        "source": "[Life Insurance Industry Data, 2024. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "percentage"
+        },
+        "data": {
+          "value": 15.3,
+          "change": 163.8,
+          "changeValue": 9.5,
+          "trend": "up",
+          "insight": "Mortality slippage nearly tripled since 2019"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "For GLP-1s, the open question is adherence—while trials show strong efficacy, real-world discontinuation rates are high... we are taking a conservative approach to incorporating these trends into our underwriting assumptions for now.",
+        "source": "Brigid Corr, Chief Risk Officer, Prudential Financial, Investor Day Presentation, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you borrow your friend's bike and promise to keep it in good shape. If you return it all rusty, your friend will be upset. Similarly, if people on weight-loss drugs stop taking them and get unhealthy again, the insurance company loses money because they thought those people would stay healthy.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Weight-loss drugs have high drop-off rates. Life insurers misprice policies.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How might this affect insurance companies' long-term strategy?",
+        "answer": "Insurers may need to develop more sophisticated pricing models that account for GLP-1 adherence rates. They might also offer incentives for continued drug use or implement more frequent health check-ins to reassess risk and adjust premiums accordingly.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What business challenge does this create for insurers?",
+        "answer": "Insurers struggle to accurately predict long-term health outcomes and therefore, profitability of policies linked to GLP-1 drugs. Underestimating drop-off rates leads to financial losses, while overestimating them risks losing customers to competitors.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are a Head of Product Development",
+    "keyQuestionText": "Insurers face GLP-1 users quitting medication. They're exploring low-friction adherence solutions. As Head of Product Development, what question would you ask first?",
+    "hintText": "Think about how the \"statin playbook\" can reveal simple, high-impact strategies.",
+    "shortKeyQuestionText": "What question would you ask about adherence solutions?",
+    "choices": [
+      {
+        "title": "Key takeaways from statins",
+        "text": "What single lesson from the statin playbook applies best to GLP-1 adherence?",
+        "followUpQuestion": "Statin playbook lessons are important. Why is this the right question for designing GLP-1 adherence solutions?"
+      },
+      {
+        "title": "Friction points",
+        "text": "What are the biggest friction points that make GLP-1 users quit their treatment?",
+        "followUpQuestion": "Identifying friction points is critical. Why is this the right question for designing GLP-1 adherence solutions?"
+      },
+      {
+        "title": "Technology features",
+        "text": "What new technology features can we add to improve patient adherence?",
+        "followUpQuestion": "Technology features seem relevant. Why is this the right question for designing GLP-1 adherence solutions?"
+      },
+      {
+        "title": "Doctor engagement strategy",
+        "text": "How can we better engage doctors to promote continuous GLP-1 use?",
+        "followUpQuestion": "Doctor engagement matters. Why is this the right question for designing GLP-1 adherence solutions?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "hyperbolic_discounting",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/hyperbolic_discounting.png",
+    "mentalModelImageDescription": "A graph showing a steep decline in perceived value as the reward moves further into the future. A small, immediate reward looks much more appealing than a large, distant reward, even if the latter is objectively better. This visualizes how our brains prioritize immediate gratification.",
+    "mentalModelLinkText": "Hyperbolic discounting shows how immediate costs outweigh distant benefits. For Health Mirage, it's why GLP-1 users quit, prioritizing today's discomfort over future health and leading to mispriced insurance policies.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you can have one candy bar now or three candy bars next week. Hyperbolic discounting means you'll probably pick the one candy bar NOW, even though you'd get more later. Your brain loves rewards now!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Hyperbolic discounting is the tendency to strongly prefer smaller rewards that arrive sooner over larger rewards that arrive later.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Health Mirage's situation?",
+        "answer": "GLP-1 users face a choice: endure immediate side effects and costs for distant health benefits. Hyperbolic discounting suggests they'll overweight the present discomfort and cost, making it harder to stick with the medication, even if the long-term benefits are significant. This leads to policy mispricing by insurers.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Insurers must mitigate the effect of hyperbolic discounting by making the benefits of adherence more immediate or the costs less salient. This could involve rewards programs or strategies that minimize the perception of side effects and expenses, improving adherence rates and allowing for accurate risk assessments.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes solutions create new problems. That's **moral hazard**: when protection from risk encourages riskier behavior. Insurers want GLP-1 users to stay on medication, so they're exploring ways to lower barriers to access and adherence. The nuance here is that easier access may reduce the perceived need for long-term commitment, boosting drop-off rates and exacerbating **mispriced risk**. *What's counterintuitive is that making medication \"easier\" could make adherence \"harder.\"* It’s like offering a free gym membership that nobody uses."
+}

@@ -1,0 +1,230 @@
+company,question,difficulty,question_type,skills_assessed,ds_level,source
+Netflix,Design a recommendation system for 200M users,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Business Impact & Communication",Staff DS,Exponent
+Google,How would you design a search ranking algorithm?,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Staff DS,Exponent
+Meta,Design an ML system to detect fake news,Senior,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Senior DS,DataCamp
+Amazon,How would you build a fraud detection system?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Data Analysis & Visualization",Senior DS,MLOps
+Uber,Design dynamic pricing for ride-sharing,Staff,ML System Design,"ML System Design & Architecture,Business Impact & Communication,Experimentation & A/B Testing",Staff DS,Exponent
+Airbnb,How would you predict booking cancellations?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+LinkedIn,Design a job recommendation system,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,Exponent
+Spotify,How would you improve music recommendations?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Experimentation & A/B Testing",Senior DS,DataCamp
+Tesla,Design ML for autonomous vehicle perception,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Ethics & Responsible AI",Staff DS,Exponent
+OpenAI,How would you evaluate language model performance?,Staff,Model Performance & Optimization,"Model Performance Optimization,Statistical Analysis & Inference,Ethics & Responsible AI",Staff DS,MLOps
+General,Explain bias-variance tradeoff,Mid,Model Development & Selection,"Model Development & Selection,Statistical Analysis & Inference,Technical Communication",DS,DataCamp
+General,When would you use ensemble methods?,Senior,Model Development & Selection,"Model Development & Selection,Model Performance Optimization,Technical Communication",Senior DS,DataCamp
+General,How do you handle class imbalance?,Mid,Model Performance & Optimization,"Model Performance Optimization,Model Development & Selection,Statistical Analysis & Inference",DS,DataCamp
+General,Explain overfitting and how to prevent it,Mid,Model Development & Selection,"Model Development & Selection,Model Performance Optimization,Technical Communication",DS,DataCamp
+General,What is cross-validation and why use it?,Junior,Model Development & Selection,"Model Development & Selection,Statistical Analysis & Inference,Technical Communication",Junior DS,DataCamp
+General,How do you select features for a model?,Mid,Feature Engineering & Data Strategy,"Feature Engineering & Data Strategy,Model Development & Selection,Technical Communication",DS,DataCamp
+General,Explain precision vs recall trade-off,Mid,Model Performance & Optimization,"Model Performance Optimization,Statistical Analysis & Inference,Technical Communication",DS,DataCamp
+General,When would you use linear vs tree-based models?,Mid,Model Development & Selection,"Model Development & Selection,Technology Selection & Trade-offs,Technical Communication",DS,DataCamp
+General,How do you design an A/B test?,Mid,Experimentation & A/B Testing,"Experimentation & A/B Testing,Statistical Analysis & Inference,Business Impact & Communication",DS,DataCamp
+General,What is statistical significance?,Junior,Experimentation & A/B Testing,"Experimentation & A/B Testing,Statistical Analysis & Inference,Technical Communication",Junior DS,DataCamp
+General,How do you handle missing data?,Mid,Feature Engineering & Data Strategy,"Feature Engineering & Data Strategy,Data Analysis & Visualization,Technical Communication",DS,DataCamp
+General,Explain model interpretability techniques,Senior,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Technical Communication",Senior DS,DataCamp
+General,How do you measure model drift?,Senior,MLOps & Model Deployment,"MLOps & Model Deployment,Model Performance Optimization,Statistical Analysis & Inference",Senior DS,MLOps
+General,What is feature engineering?,Junior,Feature Engineering & Data Strategy,"Feature Engineering & Data Strategy,Technical Communication,Data Analysis & Visualization",Junior DS,DataCamp
+General,How do you deploy ML models to production?,Senior,MLOps & Model Deployment,"MLOps & Model Deployment,ML System Design & Architecture,Technical Communication",Senior DS,MLOps
+General,Explain different types of machine learning,Junior,Model Development & Selection,"Model Development & Selection,Technical Communication,Problem Framing & Decomposition",Junior DS,DataCamp
+General,How do you evaluate clustering algorithms?,Mid,Model Performance & Optimization,"Model Performance Optimization,Statistical Analysis & Inference,Technical Communication",DS,DataCamp
+General,What is regularization and when to use it?,Mid,Model Development & Selection,"Model Development & Selection,Model Performance Optimization,Technical Communication",DS,DataCamp
+General,How do you handle time series data?,Senior,Feature Engineering & Data Strategy,"Feature Engineering & Data Strategy,Model Development & Selection,Statistical Analysis & Inference",Senior DS,DataCamp
+General,Explain gradient descent optimization,Mid,Model Development & Selection,"Model Development & Selection,Technical Communication,Statistical Analysis & Inference",DS,DataCamp
+Stripe,Design ML for payment fraud detection,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Ethics & Responsible AI",Staff DS,MLOps
+Robinhood,How would you detect market manipulation?,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Statistical Analysis & Inference",Staff DS,DataCamp
+DoorDash,Design demand forecasting for restaurants,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Business Impact & Communication",Senior DS,Exponent
+Instacart,How would you optimize delivery routes?,Senior,ML System Design,"ML System Design & Architecture,Model Performance Optimization,Business Impact & Communication",Senior DS,Exponent
+Discord,Design content moderation ML system,Senior,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Senior DS,DataCamp
+Roblox,How would you design game recommendation engine?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,Exponent
+Pinterest,Design visual search recommendation system,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Staff DS,Exponent
+Anthropic,How would you evaluate AI safety in language models?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Performance Optimization,Research & Innovation",Staff DS,MLOps
+Cohere,Design embeddings for enterprise search,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Staff DS,Exponent
+Hugging Face,How would you optimize transformer inference?,Staff,Model Performance & Optimization,"Model Performance Optimization,ML System Design & Architecture,Technology Selection & Trade-offs",Staff DS,MLOps
+Scale AI,Design data labeling quality system,Senior,Data Strategy & Quality,"Feature Engineering & Data Strategy,Data Analysis & Visualization,Model Performance Optimization",Senior DS,DataCamp
+DataRobot,How would you automate model selection?,Staff,MLOps & Model Deployment,"MLOps & Model Deployment,Model Development & Selection,ML System Design & Architecture",Staff DS,MLOps
+General,How do you handle concept drift?,Senior,MLOps & Model Deployment,"MLOps & Model Deployment,Model Performance Optimization,Statistical Analysis & Inference",Senior DS,MLOps
+General,Explain online vs offline evaluation,Senior,Model Performance & Optimization,"Model Performance Optimization,Experimentation & A/B Testing,MLOps & Model Deployment",Senior DS,MLOps
+General,How do you design feature stores?,Staff,Feature Engineering & Data Strategy,"Feature Engineering & Data Strategy,ML System Design & Architecture,Data Analysis & Visualization",Staff DS,MLOps
+General,What is transfer learning and when to use it?,Senior,Model Development & Selection,"Model Development & Selection,Technology Selection & Trade-offs,Research & Innovation",Senior DS,DataCamp
+General,How do you handle data leakage?,Senior,Feature Engineering & Data Strategy,"Feature Engineering & Data Strategy,Model Performance Optimization,Problem Framing & Decomposition",Senior DS,DataCamp
+General,Explain active learning strategies,Staff,Data Strategy & Quality,"Feature Engineering & Data Strategy,Model Development & Selection,Research & Innovation",Staff DS,DataCamp
+General,How do you measure business impact of ML?,Senior,Business Impact & Communication,"Business Impact & Communication,Statistical Analysis & Inference,Cross-functional Collaboration",Senior DS,DataCamp
+General,What is multi-armed bandit testing?,Senior,Experimentation & A/B Testing,"Experimentation & A/B Testing,Statistical Analysis & Inference,Business Impact & Communication",Senior DS,DataCamp
+General,How do you handle high-dimensional data?,Senior,Feature Engineering & Data Strategy,"Feature Engineering & Data Strategy,Model Development & Selection,Statistical Analysis & Inference",Senior DS,DataCamp
+General,Explain model ensemble techniques,Senior,Model Development & Selection,"Model Development & Selection,Model Performance Optimization,Technical Communication",Senior DS,DataCamp
+General,How do you design real-time ML inference?,Staff,MLOps & Model Deployment,"MLOps & Model Deployment,ML System Design & Architecture,Model Performance Optimization",Staff DS,MLOps
+General,What is causal inference in ML?,Staff,Statistical Analysis & Inference,"Statistical Analysis & Inference,Experimentation & A/B Testing,Research & Innovation",Staff DS,DataCamp
+General,How do you handle fairness in ML models?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Statistical Analysis & Inference",Staff DS,DataCamp
+Google,How would you design a federated learning system for mobile keyboards?,Senior,MLOps & Model Deployment,"MLOps & Model Deployment,Ethics & Responsible AI,Model Development & Selection",Senior DS,DataCamp
+Meta,Design an ML system for AR/VR spatial understanding,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Amazon,How would you build a warehouse automation ML system?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Performance Optimization & Scalability",Senior DS,DataCamp
+Apple,Design a health prediction system using multimodal data,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Ethics & Responsible AI",Senior DS,DataCamp
+Netflix,How would you optimize content encoding using ML?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Performance Optimization & Scalability",Senior DS,DataCamp
+Microsoft,Design an ML system for code generation and completion,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Tesla,How would you build a battery optimization prediction system?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Uber,Design a ride safety scoring system using ML,Senior,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Senior DS,DataCamp
+Airbnb,How would you implement dynamic pricing with fairness constraints?,Senior,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Business Impact & Communication",Senior DS,DataCamp
+LinkedIn,Design an ML system for professional skill extraction,Senior,Feature Engineering & Data Strategy,"Feature Engineering & Data Strategy,Model Development & Selection,Business Impact & Communication",Senior DS,DataCamp
+Salesforce,How would you build a customer health prediction system?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Adobe,Design an automated design critique system,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Spotify,How would you optimize podcast recommendation algorithms?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Snowflake,Design an ML system for automated query optimization,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Performance Optimization & Scalability",Senior DS,DataCamp
+Databricks,How would you implement AutoML for feature engineering?,Senior,Feature Engineering & Data Strategy,"Feature Engineering & Data Strategy,MLOps & Model Deployment,Model Development & Selection",Senior DS,DataCamp
+MongoDB,Design a time-series anomaly detection system,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Performance Optimization & Scalability",Senior DS,DataCamp
+Elastic,How would you build an intelligent log parsing system?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,ML System Design & Architecture",Senior DS,DataCamp
+Confluent,Design an ML system for stream processing optimization,Senior,ML System Design,"ML System Design & Architecture,Performance Optimization & Scalability,MLOps & Model Deployment",Senior DS,DataCamp
+Palantir,How would you implement pattern recognition for threat detection?,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Staff DS,DataCamp
+Splunk,Design an automated incident response system,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Business Impact & Communication",Senior DS,DataCamp
+Stripe,How would you build a payment fraud prevention system?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Ethics & Responsible AI",Senior DS,DataCamp
+Shopify,Design an inventory optimization recommendation system,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+DoorDash,How would you optimize delivery route planning with ML?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Performance Optimization & Scalability",Senior DS,DataCamp
+Instacart,Design a grocery quality prediction system,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Robinhood,How would you build a portfolio risk assessment system?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Ethics & Responsible AI",Senior DS,DataCamp
+Coinbase,Design an ML system for crypto market analysis,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Discord,How would you implement content moderation at scale?,Senior,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Feature Engineering & Data Strategy",Senior DS,DataCamp
+OpenAI,Design a system for detecting model hallucinations,Staff,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Experimentation & A/B Testing",Staff DS,DataCamp
+Anthropic,How would you implement constitutional AI evaluation?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Experimentation & A/B Testing",Staff DS,DataCamp
+Google,Design a multimodal search ranking system,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Meta,How would you build a cross-platform user understanding system?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Amazon,Design an ML system for predictive logistics,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Apple,How would you implement on-device ML optimization?,Senior,MLOps & Model Deployment,"MLOps & Model Deployment,Performance Optimization & Scalability,Model Development & Selection",Senior DS,DataCamp
+Netflix,Design a content quality assessment system,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Microsoft,How would you build an AI-powered code review system?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Ethics & Responsible AI",Senior DS,DataCamp
+Tesla,Design an ML system for manufacturing quality control,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Uber,How would you optimize rider wait time predictions?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Performance Optimization & Scalability",Senior DS,DataCamp
+Airbnb,Design a trust and safety scoring system,Senior,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Senior DS,DataCamp
+LinkedIn,How would you build a career progression prediction system?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Ethics & Responsible AI",Senior DS,DataCamp
+Salesforce,Design an ML system for sales forecasting,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Business Impact & Communication",Senior DS,DataCamp
+Adobe,How would you implement style transfer for creative workflows?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,ML System Design & Architecture",Senior DS,DataCamp
+Spotify,Design a mood-based music curation system,Senior,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Model Development & Selection",Senior DS,DataCamp
+Snowflake,How would you build a data quality assessment system?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Databricks,Design an automated hyperparameter optimization platform,Senior,MLOps & Model Deployment,"MLOps & Model Deployment,Model Development & Selection,Performance Optimization & Scalability",Senior DS,DataCamp
+MongoDB,How would you implement document similarity search?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Performance Optimization & Scalability",Senior DS,DataCamp
+Elastic,Design an ML system for intelligent alerting,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Business Impact & Communication",Senior DS,DataCamp
+Confluent,How would you build a real-time personalization engine?,Senior,ML System Design,"ML System Design & Architecture,MLOps & Model Deployment,Performance Optimization & Scalability",Senior DS,DataCamp
+Palantir,Design a social network analysis system,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Splunk,How would you implement predictive IT monitoring?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Stripe,Design an ML system for payment optimization,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Business Impact & Communication",Senior DS,DataCamp
+Shopify,How would you build a conversion rate optimization system?,Senior,ML System Design,"ML System Design & Architecture,Experimentation & A/B Testing,Business Impact & Communication",Senior DS,DataCamp
+DoorDash,Design a restaurant recommendation system,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Instacart,How would you implement personalized nutrition recommendations?,Senior,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Ethics & Responsible AI",Senior DS,DataCamp
+Robinhood,Design an ML system for investment education,Senior,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Ethics & Responsible AI",Senior DS,DataCamp
+Coinbase,How would you build a DeFi risk scoring system?,Senior,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Discord,Design a gaming performance analytics system,Senior,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Model Development & Selection",Senior DS,DataCamp
+OpenAI,How would you implement reasoning evaluation frameworks?,Staff,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Experimentation & A/B Testing",Staff DS,DataCamp
+Anthropic,Design an AI safety research automation system,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Staff DS,DataCamp
+Google,How would you optimize YouTube ad targeting?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Business Impact & Communication",Senior DS,DataCamp
+Meta,Design an ML system for content authenticity verification,Senior,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Amazon,How would you build a voice commerce optimization system?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Apple,Design a health data analytics system with privacy,Senior,Ethics & Responsible AI,"Ethics & Responsible AI,MLOps & Model Deployment,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Netflix,How would you implement content localization recommendations?,Senior,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Microsoft,Design an ML system for cloud resource optimization,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Tesla,How would you build a predictive maintenance system?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Uber,Design an ML system for carbon footprint optimization,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Business Impact & Communication",Senior DS,DataCamp
+Airbnb,How would you implement bias detection in search results?,Senior,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+LinkedIn,Design an ML system for diversity analytics,Senior,Ethics & Responsible AI,"Ethics & Responsible AI,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Salesforce,How would you build an automated customer support system?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Business Impact & Communication",Senior DS,DataCamp
+Adobe,Design a creative collaboration recommendation system,Senior,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Model Development & Selection",Senior DS,DataCamp
+Spotify,How would you implement artist development analytics?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Snowflake,Design an ML system for automated schema optimization,Senior,Model Development & Selection,"Model Development & Selection,Performance Optimization & Scalability,MLOps & Model Deployment",Senior DS,DataCamp
+Databricks,How would you build a collaborative ML platform?,Senior,MLOps & Model Deployment,"MLOps & Model Deployment,Feature Engineering & Data Strategy,Performance Optimization & Scalability",Senior DS,DataCamp
+MongoDB,Design an intelligent backup optimization system,Senior,Model Development & Selection,"Model Development & Selection,Performance Optimization & Scalability,Business Impact & Communication",Senior DS,DataCamp
+Elastic,How would you implement federated search optimization?,Senior,Model Development & Selection,"Model Development & Selection,Performance Optimization & Scalability,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Confluent,Design an ML system for event stream analytics,Senior,ML System Design,"ML System Design & Architecture,Performance Optimization & Scalability,MLOps & Model Deployment",Senior DS,DataCamp
+Palantir,How would you build a predictive intelligence system?,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Staff DS,DataCamp
+Splunk,Design an automated compliance monitoring system,Senior,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Business Impact & Communication",Senior DS,DataCamp
+Stripe,How would you implement intelligent payment routing?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Performance Optimization & Scalability",Senior DS,DataCamp
+Shopify,Design an ML system for merchant success prediction,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+DoorDash,How would you build a demand forecasting system?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Instacart,Design an ML system for grocery freshness prediction,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Robinhood,How would you implement social trading analytics?,Senior,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Coinbase,Design an ML system for crypto custody optimization,Senior,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Performance Optimization & Scalability",Senior DS,DataCamp
+Discord,How would you build a creator monetization system?,Senior,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+OpenAI,Design an ML system for model evaluation automation,Staff,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Experimentation & A/B Testing",Staff DS,DataCamp
+Anthropic,How would you implement preference learning systems?,Staff,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,MLOps & Model Deployment",Staff DS,DataCamp
+Google,Design an ML system for quantum advantage verification,Staff,Model Development & Selection,"Model Development & Selection,Performance Optimization & Scalability,Ethics & Responsible AI",Staff DS,DataCamp
+Meta,How would you build a metaverse interaction system?,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Amazon,Design an ML system for space logistics,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Performance Optimization & Scalability",Staff DS,DataCamp
+Apple,How would you implement neural interface processing?,Staff,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Performance Optimization & Scalability",Staff DS,DataCamp
+Netflix,Design an ML system for interactive content,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Microsoft,How would you build an AI research acceleration platform?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Performance Optimization & Scalability",Senior DS,DataCamp
+Tesla,Design an ML system for human-robot collaboration,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Staff DS,DataCamp
+Uber,How would you implement aerial transportation optimization?,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Performance Optimization & Scalability",Staff DS,DataCamp
+Airbnb,Design an ML system for virtual property tours,Senior,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Model Development & Selection",Senior DS,DataCamp
+LinkedIn,How would you build an AI career coaching system?,Senior,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Ethics & Responsible AI",Senior DS,DataCamp
+Salesforce,Design an autonomous relationship management system,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Staff DS,DataCamp
+Adobe,How would you implement AI content authenticity systems?,Senior,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Spotify,Design an ML system for immersive audio experiences,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Snowflake,How would you build a self-optimizing data platform?,Staff,ML System Design,"ML System Design & Architecture,Performance Optimization & Scalability,MLOps & Model Deployment",Staff DS,DataCamp
+Databricks,Design an automated ML lifecycle system,Staff,MLOps & Model Deployment,"MLOps & Model Deployment,Feature Engineering & Data Strategy,Performance Optimization & Scalability",Staff DS,DataCamp
+MongoDB,How would you implement cognitive database systems?,Senior,Model Development & Selection,"Model Development & Selection,Performance Optimization & Scalability,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Elastic,Design an ML system for predictive infrastructure scaling,Senior,Model Development & Selection,"Model Development & Selection,Performance Optimization & Scalability,MLOps & Model Deployment",Senior DS,DataCamp
+Confluent,How would you build an intelligent event orchestration system?,Senior,ML System Design,"ML System Design & Architecture,Performance Optimization & Scalability,MLOps & Model Deployment",Senior DS,DataCamp
+Palantir,Design an ML system for multi-dimensional threat assessment,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Splunk,How would you implement predictive cybersecurity automation?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Ethics & Responsible AI",Senior DS,DataCamp
+Stripe,Design an ML system for global economic modeling,Staff,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Staff DS,DataCamp
+Shopify,How would you build an autonomous e-commerce platform?,Staff,ML System Design,"ML System Design & Architecture,Performance Optimization & Scalability,Business Impact & Communication",Staff DS,DataCamp
+DoorDash,Design an ML system for autonomous delivery networks,Staff,ML System Design,"ML System Design & Architecture,Model Development & Selection,Performance Optimization & Scalability",Staff DS,DataCamp
+Instacart,How would you implement vertical farming optimization?,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Robinhood,Design an ML system for algorithmic trading transparency,Senior,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Feature Engineering & Data Strategy",Senior DS,DataCamp
+Coinbase,How would you build a cross-chain optimization system?,Staff,Model Development & Selection,"Model Development & Selection,Performance Optimization & Scalability,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Discord,Design an ML system for virtual world economies,Senior,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+OpenAI,How would you implement emergent behavior detection?,Staff,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Experimentation & A/B Testing",Staff DS,DataCamp
+Anthropic,Design an ML system for constitutional AI governance,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,MLOps & Model Deployment,Model Development & Selection",Staff DS,DataCamp
+Google,How would you build a neuromorphic computing system?,Staff,Model Development & Selection,"Model Development & Selection,Performance Optimization & Scalability,Ethics & Responsible AI",Staff DS,DataCamp
+Meta,Design an ML system for brain-computer interfaces,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Amazon,How would you implement interplanetary logistics?,Staff,ML System Design,"ML System Design & Architecture,Performance Optimization & Scalability,Model Development & Selection",Staff DS,DataCamp
+Apple,Design an ML system for consciousness detection,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Experimentation & A/B Testing",Staff DS,DataCamp
+Netflix,How would you build a personalized reality system?,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Staff DS,DataCamp
+Microsoft,Design an ML system for quantum-classical optimization,Staff,Model Development & Selection,"Model Development & Selection,Performance Optimization & Scalability,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Tesla,How would you implement multi-planetary optimization?,Staff,ML System Design,"ML System Design & Architecture,Performance Optimization & Scalability,Model Development & Selection",Staff DS,DataCamp
+Uber,Design an ML system for teleportation logistics,Staff,ML System Design,"ML System Design & Architecture,Performance Optimization & Scalability,Ethics & Responsible AI",Staff DS,DataCamp
+Airbnb,How would you build a space tourism system?,Staff,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Business Impact & Communication",Staff DS,DataCamp
+LinkedIn,Design an ML system for AI-human collaboration,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Salesforce,How would you implement autonomous business management?,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Business Impact & Communication",Staff DS,DataCamp
+Adobe,Design an ML system for reality synthesis,Staff,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Spotify,How would you build a neural music generation system?,Senior,ML System Design,"ML System Design & Architecture,Model Development & Selection,Ethics & Responsible AI",Senior DS,DataCamp
+Snowflake,Design an ML system for universal data consciousness,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Model Development & Selection",Staff DS,DataCamp
+Databricks,How would you implement self-evolving platforms?,Staff,MLOps & Model Deployment,"MLOps & Model Deployment,Ethics & Responsible AI,Performance Optimization & Scalability",Staff DS,DataCamp
+MongoDB,Design an ML system for cognitive data evolution,Staff,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Performance Optimization & Scalability",Staff DS,DataCamp
+Elastic,How would you build a universal knowledge system?,Staff,ML System Design,"ML System Design & Architecture,Feature Engineering & Data Strategy,Ethics & Responsible AI",Staff DS,DataCamp
+Confluent,Design an ML system for temporal consciousness,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Performance Optimization & Scalability",Staff DS,DataCamp
+Palantir,How would you implement ethical intelligence analysis?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Model Development & Selection",Staff DS,DataCamp
+Splunk,Design an ML system for universal threat prediction,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Staff DS,DataCamp
+Stripe,How would you build a universal economic framework?,Staff,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Business Impact & Communication",Staff DS,DataCamp
+Shopify,Design an ML system for post-scarcity commerce,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Business Impact & Communication",Staff DS,DataCamp
+DoorDash,How would you implement matter transportation?,Staff,ML System Design,"ML System Design & Architecture,Performance Optimization & Scalability,Ethics & Responsible AI",Staff DS,DataCamp
+Instacart,Design an ML system for molecular gastronomy,Senior,Model Development & Selection,"Model Development & Selection,Feature Engineering & Data Strategy,Business Impact & Communication",Senior DS,DataCamp
+Robinhood,How would you build a time-arbitrage system?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Coinbase,Design an ML system for multiverse currencies,Staff,Model Development & Selection,"Model Development & Selection,Ethics & Responsible AI,Performance Optimization & Scalability",Staff DS,DataCamp
+Discord,How would you implement telepathic communication?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Model Development & Selection",Staff DS,DataCamp
+OpenAI,Design an ML system for AGI emergence detection,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Experimentation & A/B Testing",Staff DS,DataCamp
+Anthropic,How would you implement existential risk assessment?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Experimentation & A/B Testing",Staff DS,DataCamp
+Google,Design an ML system for quantum consciousness,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Performance Optimization & Scalability,Model Development & Selection",Staff DS,DataCamp
+Meta,How would you build a collective intelligence platform?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Amazon,Design an ML system for galactic commerce,Staff,Performance Optimization & Scalability,"Performance Optimization & Scalability,Business Impact & Communication,ML System Design & Architecture",Staff DS,DataCamp
+Apple,How would you implement universal empathy systems?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Netflix,Design an ML system for reality synthesis,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Model Development & Selection",Staff DS,DataCamp
+Microsoft,How would you build a universe simulation platform?,Staff,Performance Optimization & Scalability,"Performance Optimization & Scalability,Ethics & Responsible AI,Model Development & Selection",Staff DS,DataCamp
+Tesla,Design an ML system for time manipulation,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Performance Optimization & Scalability",Staff DS,DataCamp
+Uber,How would you implement dimensional travel systems?,Staff,ML System Design,"ML System Design & Architecture,Performance Optimization & Scalability,Ethics & Responsible AI",Staff DS,DataCamp
+Airbnb,Design an ML system for cosmic hospitality,Staff,ML System Design,"ML System Design & Architecture,Ethics & Responsible AI,Business Impact & Communication",Staff DS,DataCamp
+LinkedIn,How would you build a universal knowledge platform?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Feature Engineering & Data Strategy,ML System Design & Architecture",Staff DS,DataCamp
+Salesforce,Design an ML system for omniscient management,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Business Impact & Communication",Staff DS,DataCamp
+Adobe,How would you implement reality creation systems?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Spotify,Design an ML system for universal harmony,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Model Development & Selection",Staff DS,DataCamp
+Snowflake,How would you build an infinite consciousness platform?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Performance Optimization & Scalability,MLOps & Model Deployment",Staff DS,DataCamp
+Databricks,Design an ML system for self-aware evolution,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,MLOps & Model Deployment,Performance Optimization & Scalability",Staff DS,DataCamp
+MongoDB,How would you implement conscious data systems?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Performance Optimization & Scalability",Staff DS,DataCamp
+Elastic,Design an ML system for omniscient search,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Performance Optimization & Scalability",Staff DS,DataCamp
+Confluent,How would you build a cosmic consciousness platform?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Performance Optimization & Scalability",Staff DS,DataCamp
+Palantir,Design an ML system for universal truth,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Feature Engineering & Data Strategy",Staff DS,DataCamp
+Splunk,How would you implement multiverse monitoring?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Performance Optimization & Scalability,ML System Design & Architecture",Staff DS,DataCamp
+Stripe,Design an ML system for infinite economics,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Business Impact & Communication",Staff DS,DataCamp
+Shopify,How would you build a transcendent commerce platform?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Business Impact & Communication",Staff DS,DataCamp
+DoorDash,Design an ML system for instant materialization,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Performance Optimization & Scalability,ML System Design & Architecture",Staff DS,DataCamp
+Instacart,How would you implement universal sustenance?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Business Impact & Communication",Staff DS,DataCamp
+Robinhood,Design an ML system for omniscient finance,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Business Impact & Communication",Staff DS,DataCamp
+Coinbase,How would you build an infinite value platform?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Performance Optimization & Scalability",Staff DS,DataCamp
+Discord,Design an ML system for universal communication,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,ML System Design & Architecture,Model Development & Selection",Staff DS,DataCamp
+OpenAI,How would you implement supreme intelligence?,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,Performance Optimization & Scalability",Staff DS,DataCamp
+Anthropic,Design an ML system for perfect ethics,Staff,Ethics & Responsible AI,"Ethics & Responsible AI,Model Development & Selection,MLOps & Model Deployment",Staff DS,DataCamp

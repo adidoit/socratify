@@ -1,0 +1,171 @@
+{
+  "exerciseUuid": "9d800f16-2a0a-4bd2-be5b-179565e10a2d",
+  "exerciseVersion": 4,
+  "exerciseType": "hypothesis",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic rationale behind large-scale development finance decisions requires familiarity with concepts like strategic trade-offs, market dynamics, and the challenges of infrastructure development that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the World Bank's prioritization of mini-grids requires understanding trends in energy access, development finance, and the comparative economics of different infrastructure approaches, typical of regular industry observers.",
+    "secondaryDomainName": "Economics",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because evaluating the economic implications and trade-offs of mini-grids versus national grids requires an understanding of cost-benefit analysis, development economics, and infrastructure financing challenges.",
+    "fileName": "africa-mini-grid-hypothesis.xml",
+    "backgroundNeeded": "Remember that 500 million Africans lack electricity and traditional grids are slow to expand, understand the economic and logistical challenges of national grid expansion versus the potential benefits and drawbacks of decentralized mini-grids, and apply strategic thinking to hypothesize why a large financial institution would prioritize one approach over the other.",
+    "happyPath": "The World Bank's Mission 300 represents a monumental strategic decision: to invest $85 billion in decentralized solar mini-grids to electrify 300 million Africans by 2030, despite inherent concerns about their long-term economic viability compared to traditional grid expansion. This is a classic example of a complex, high-stakes strategic choice made under conditions of urgency, technological change, and systemic constraints, inviting us to hypothesize the underlying rationale for this \"major bet.\" Several factors likely explain why decision-makers are prioritizing solar mini-grids over the conventional power grid playbook: Firstly, the imperative of immediate impact and pragmatic necessity cannot be overstated. With over 500 million people currently lacking basic electricity, waiting \"decades\" for national grid expansion is not a politically or socially tenable option. Mini-grids offer \"quick deployment\" and a \"faster path to electrification,\" providing immediate access to power for basic needs like lighting, mobile charging, and small businesses, which are foundational for even rudimentary economic activity. The philosophy here is that \"any power is better than no power\" to unlock immediate human and economic potential. Secondly, evolving technological and economic realities play a crucial role. The \"falling costs of solar panels and battery storage\" have fundamentally altered the economics of decentralized power. While individual mini-grids might not have the scale efficiencies of a large national grid for high industrial loads, their lower upfront capital requirements per connection point in remote areas, coupled with modular scalability, make them financially attractive for dispersed populations. This allows for incremental investment and a more diversified, resilient energy infrastructure, reducing the risk of a single point of failure inherent in vast, centralized grids. Thirdly, the strategy reflects a deeper embrace of \"leapfrogging\" traditional infrastructure development. This mirrors how many African nations bypassed landlines straight to mobile phones. Traditional large-scale grid projects are often fraught with complex governance issues, large-scale financing challenges, and political hurdles that can lead to significant delays and inefficiencies. Mini-grids, by contrast, can be developed and managed at a local or regional level, potentially circumventing some of these systemic blockages and fostering local ownership and entrepreneurship, which can be critical for sustainable development. Conclusion: The World Bank's significant investment in solar mini-grids is not a simple choice but a multi-faceted strategic response to an urgent and complex development challenge. It reflects a hypothesis that the immediate societal and economic benefits of rapid electrification, enabled by cost-effective decentralized technologies and a \"leapfrogging\" development paradigm, outweigh the long-term uncertainties associated with these systems. This strategic decision highlights that in complex real-world scenarios, the 'best' solution often involves navigating trade-offs, accepting calculated risks, and prioritizing immediate, impactful progress over a distant, potentially unattainable ideal.",
+    "faviconUrl": "https://www.worldbank.org/content/dam/wbr-redesign/logos/wbg-favicon.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A small, rectangular solar panel with a dark blue, slightly reflective surface. It sits on a simple metal frame, angled towards the sky. Thin electrical wires run from the back.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/panasonic_solar_module-f7c99647-5792-4d91-b6a1-141f7f970efb.png",
+    "coverPlainTitle": "Mini-Grids or National Grid Expansion?",
+    "coverWittyTitle": "Africa: Watts Up With Solar?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Why prioritize solar mini-grids over national grids?",
+    "coverParagraph": "The World Bank's Mission 300 plans to electrify Africa with mini-grids, not big grids. **See how** you would **explain this choice**.",
+    "tags": "Strategy,Economics,Energy,Africa",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Energy Gamble",
+      "text": "500 million Africans lack electricity, hindering economic progress. The World Bank now invests **$85 billion in solar mini-grids**. This approach aims to power 300 million people using small-scale grids instead of **traditional national grids**.",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "World Bank Energy Investments in Africa",
+        "subtitle": "USD billions, 2024",
+        "color": "#1f77b4",
+        "source": "[World Bank, 2024. Socratify Analysis]",
+        "features": [
+          "vertical-bars"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "Solar",
+              "value": 85.0
+            },
+            {
+              "label": "Grid",
+              "value": 30.0
+            },
+            {
+              "label": "Grants",
+              "value": 0.3
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "Off-grid solar is the most cost-effective way to power 41% of people globally by 2030 who are still living without energy access... 55% of the new connections in sub-Saharan Africa between 2020 to 2022",
+        "source": "Qimiao Fan, World Bank’s Country Director, World Bank Press Release, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a village needs electricity. Instead of building a giant power plant far away, they put solar panels on many roofs in the village. The World Bank is betting that this small, local approach will help more people get power faster and cheaper.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "World Bank invests big in African solar mini-grids to bypass slow, expensive national grid expansions.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What are the strategic risks of this approach?",
+        "answer": "While solar mini-grids are cheaper upfront, they may limit long-term industrial growth requiring large, centralized power. Relying solely on distributed solar could create energy \"islands\" and hinder development of a unified African power market.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What business dynamics might hinder execution?",
+        "answer": "Securing land rights for mini-grid infrastructure, coordinating with local communities, and attracting skilled technicians pose significant challenges. Additionally, the lack of clear regulatory frameworks for pricing and grid interconnection may deter private investment.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are a clean energy consultant",
+    "keyQuestionText": "Mission 300 favors solar mini-grids in Africa. This contradicts robust grid expansion. What are some hypotheses for why this approach was chosen?",
+    "hintText": "Consider the challenges of national grid expansion and the immediate benefits of decentralized power.",
+    "shortKeyQuestionText": "What explains mini-grid prioritization?",
+    "choices": [
+      {
+        "title": "Rapid deployment",
+        "text": "Mini-grids offer faster electrification than national grids",
+        "followUpQuestion": "Rapid deployment. Why is this the right explanation for favoring this faster approach?"
+      },
+      {
+        "title": "Initial cost savings",
+        "text": "Lower upfront costs than large-scale national grid projects",
+        "followUpQuestion": "Lower initial cost. Why is this the right explanation for prioritizing this massive bet?"
+      },
+      {
+        "title": "Grid expansion hurdles",
+        "text": "National grid expansion faces governance and funding issues",
+        "followUpQuestion": "Grid hurdles are real. Why is this the right explanation for this decentralized plan?"
+      },
+      {
+        "title": "Local economy boost",
+        "text": "Mini-grids empower local communities and create jobs quickly",
+        "followUpQuestion": "Local economy focus. Why is this the right explanation for prioritizing smaller-scale power?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "path_dependence",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/path_dependence.png",
+    "mentalModelImageDescription": "A winding road with deep ruts, illustrating how initial decisions create a path that is difficult to deviate from, even if better options exist later. The ruts represent the increasing costs and difficulties of changing course as investments and infrastructure are built along the existing path.",
+    "mentalModelLinkText": "Path dependence shows how early decisions create a path hard to leave, even if better options arise. Like the World Bank's long investment in large national grids for Africa, which makes pivoting to decentralized solar mini-grids a significant challenge.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you always take the same path to school. Even if someone builds a faster road, you might still use the old path because you know it well and it's already paved. Path dependence means sticking to the familiar route even if it's not the best.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Path dependence means that past decisions limit future choices, making it hard to switch to a better option due to existing investments and habits.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to World Bank's situation?",
+        "answer": "The World Bank has traditionally invested in large-scale national grid projects. Mission 300 attempts to overcome this path dependence by explicitly favoring solar mini-grids. This is a deliberate strategy to create a new path, despite the established infrastructure and expertise in centralized power systems.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model highlights the challenges of shifting from established national grid systems to decentralized solar mini-grids. It suggests that overcoming existing infrastructure and regulatory frameworks will be crucial for the success of Mission 300. Without addressing path dependence, the project might face significant resistance.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes momentum blinds you. That's **escalation of commitment**: sticking to a failing plan just because you've already invested so much. The World Bank has spent decades building large national grids. The nuance here is that \"Mission 300\" challenges that entire legacy. *What nobody talks about is* how hard it is to admit past strategies weren't ideal. It's like still building typewriters when everyone wants laptops."
+}

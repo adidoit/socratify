@@ -1,0 +1,252 @@
+import json
+
+# Comprehensive list of top business schools by region
+
+business_schools = {
+    "us_top_100": [
+        # Top 10
+        "Harvard Business School",
+        "Stanford Graduate School of Business", 
+        "Wharton School - University of Pennsylvania",
+        "MIT Sloan School of Management",
+        "Chicago Booth School of Business",
+        "Northwestern Kellogg School of Management",
+        "Columbia Business School",
+        "Yale School of Management",
+        "UC Berkeley Haas School of Business",
+        "Dartmouth Tuck School of Business",
+        
+        # 11-20
+        "Duke Fuqua School of Business",
+        "Michigan Ross School of Business",
+        "NYU Stern School of Business",
+        "Cornell Johnson Graduate School of Management",
+        "UCLA Anderson School of Management",
+        "Carnegie Mellon Tepper School of Business",
+        "UNC Kenan-Flagler Business School",
+        "UT Austin McCombs School of Business",
+        "USC Marshall School of Business",
+        "Georgetown McDonough School of Business",
+        
+        # 21-30
+        "Indiana Kelley School of Business",
+        "UVA Darden School of Business",
+        "Emory Goizueta Business School",
+        "Rice Jones Graduate School of Business",
+        "Notre Dame Mendoza College of Business",
+        "Washington University Olin Business School",
+        "Georgia Tech Scheller College of Business",
+        "Vanderbilt Owen Graduate School of Management",
+        "Ohio State Fisher College of Business",
+        "Penn State Smeal College of Business",
+        
+        # 31-40
+        "Minnesota Carlson School of Management",
+        "Wisconsin School of Business",
+        "Boston College Carroll School of Management",
+        "Michigan State Broad College of Business",
+        "Arizona State W.P. Carey School of Business",
+        "Florida Warrington College of Business",
+        "Georgia Terry College of Business",
+        "Illinois Gies College of Business",
+        "Maryland Smith School of Business",
+        "Rochester Simon Business School",
+        
+        # 41-50
+        "BYU Marriott School of Business",
+        "Boston University Questrom School of Business",
+        "SMU Cox School of Business",
+        "Pittsburgh Katz Graduate School of Business",
+        "Iowa Tippie College of Business",
+        "Purdue Krannert School of Management",
+        "UC Davis Graduate School of Management",
+        "UC Irvine Paul Merage School of Business",
+        "UC San Diego Rady School of Management",
+        "Alabama Manderson Graduate School of Business",
+        
+        # 51-60
+        "Babson F.W. Olin Graduate School of Business",
+        "Colorado Leeds School of Business",
+        "Connecticut School of Business",
+        "Fordham Gabelli School of Business",
+        "George Washington School of Business",
+        "Miami Business School",
+        "Missouri Trulaske College of Business",
+        "Northeastern D'Amore-McKim School of Business",
+        "Rutgers Business School",
+        "Temple Fox School of Business",
+        
+        # 61-70
+        "Tennessee Haslam College of Business",
+        "Texas A&M Mays Business School",
+        "Tulane Freeman School of Business",
+        "Arkansas Walton College of Business",
+        "Auburn Harbert College of Business",
+        "Baylor Hankamer School of Business",
+        "Case Western Weatherhead School of Management",
+        "Cincinnati Lindner College of Business",
+        "Clemson College of Business",
+        "Delaware Lerner College of Business",
+        
+        # 71-80
+        "DePaul Driehaus College of Business",
+        "Drexel LeBow College of Business",
+        "George Mason School of Business",
+        "Houston Bauer College of Business",
+        "Howard School of Business",
+        "Kansas School of Business",
+        "Kentucky Gatton College of Business",
+        "LSU Ourso College of Business",
+        "Louisville College of Business",
+        "Loyola Chicago Quinlan School of Business",
+        
+        # 81-90
+        "NC State Jenkins Graduate School of Management",
+        "Oklahoma Price College of Business",
+        "Oregon Lundquist College of Business",
+        "Pepperdine Graziadio Business School",
+        "San Diego State Fowler College of Business",
+        "South Carolina Darla Moore School of Business",
+        "Syracuse Whitman School of Management",
+        "TCU Neeley School of Business",
+        "Texas Tech Rawls College of Business",
+        "Thunderbird School of Global Management",
+        
+        # 91-100
+        "Tulsa Collins College of Business",
+        "Utah Eccles School of Business",
+        "Villanova School of Business",
+        "Virginia Tech Pamplin College of Business",
+        "Wake Forest School of Business",
+        "William & Mary Mason School of Business",
+        "American Kogod School of Business",
+        "Baruch Zicklin School of Business",
+        "Clark University Graduate School of Management",
+        "Stevens School of Business"
+    ],
+    
+    "canada_top_25": [
+        "Rotman School of Management - University of Toronto",
+        "Ivey Business School - Western University",
+        "Desautels Faculty of Management - McGill University",
+        "Sauder School of Business - University of British Columbia",
+        "Smith School of Business - Queen's University",
+        "Schulich School of Business - York University",
+        "DeGroote School of Business - McMaster University",
+        "Alberta School of Business - University of Alberta",
+        "HEC Montreal",
+        "Haskayne School of Business - University of Calgary",
+        "Telfer School of Management - University of Ottawa",
+        "Beedie School of Business - Simon Fraser University",
+        "John Molson School of Business - Concordia University",
+        "Lazaridis School of Business - Wilfrid Laurier University",
+        "Edwards School of Business - University of Saskatchewan",
+        "Gustavson School of Business - University of Victoria",
+        "Sobey School of Business - Saint Mary's University",
+        "Rowe School of Business - Dalhousie University",
+        "Sprott School of Business - Carleton University",
+        "Goodman School of Business - Brock University",
+        "Asper School of Business - University of Manitoba",
+        "Memorial University Faculty of Business Administration",
+        "Ted Rogers School of Management - Ryerson University",
+        "Odette School of Business - University of Windsor",
+        "Lang School of Business - University of Guelph"
+    ],
+    
+    "india_top_25": [
+        "IIM Ahmedabad",
+        "IIM Bangalore", 
+        "IIM Calcutta",
+        "IIM Lucknow",
+        "IIM Kozhikode",
+        "IIM Indore",
+        "ISB Hyderabad",
+        "IIM Shillong",
+        "IIM Udaipur",
+        "IIM Trichy",
+        "IIM Raipur",
+        "IIM Ranchi",
+        "IIM Kashipur",
+        "IIM Rohtak",
+        "IIM Visakhapatnam",
+        "IIM Amritsar",
+        "IIM Bodh Gaya",
+        "IIM Sambalpur",
+        "IIM Sirmaur",
+        "IIM Nagpur",
+        "IIM Jammu",
+        "FMS Delhi",
+        "XLRI Jamshedpur",
+        "MDI Gurgaon",
+        "SPJIMR Mumbai",
+        "JBIMS Mumbai",
+        "IIFT Delhi",
+        "NMIMS Mumbai",
+        "SIBM Pune",
+        "SCMHRD Pune",
+        "XIM Bhubaneswar",
+        "IMT Ghaziabad",
+        "IMI New Delhi",
+        "TAPMI Manipal",
+        "Great Lakes Chennai"
+    ],
+    
+    "europe_top_25": [
+        "INSEAD",
+        "London Business School",
+        "HEC Paris",
+        "IESE Business School",
+        "IMD Business School",
+        "IE Business School",
+        "SDA Bocconi School of Management",
+        "ESADE Business School",
+        "Cambridge Judge Business School",
+        "Oxford Said Business School",
+        "Imperial College Business School",
+        "Warwick Business School",
+        "Manchester Alliance Business School",
+        "ESSEC Business School",
+        "ESCP Business School",
+        "Rotterdam School of Management",
+        "St. Gallen Business School",
+        "WHU Otto Beisheim School of Management",
+        "Mannheim Business School",
+        "EDHEC Business School",
+        "emlyon business school",
+        "Grenoble Ecole de Management",
+        "Copenhagen Business School",
+        "Stockholm School of Economics",
+        "NHH Norwegian School of Economics"
+    ]
+}
+
+# Flatten all schools into a single list
+all_business_schools = []
+for region, schools in business_schools.items():
+    all_business_schools.extend(schools)
+
+# Remove duplicates while preserving order
+seen = set()
+unique_schools = []
+for school in all_business_schools:
+    if school not in seen:
+        seen.add(school)
+        unique_schools.append(school)
+
+print(f"Total unique business schools: {len(unique_schools)}")
+print(f"- US: {len(business_schools['us_top_100'])}")
+print(f"- Canada: {len(business_schools['canada_top_25'])}")
+print(f"- India: {len(business_schools['india_top_25'])}")
+print(f"- Europe: {len(business_schools['europe_top_25'])}")
+
+# Save the lists
+with open('logos/top_business_schools.json', 'w') as f:
+    json.dump(business_schools, f, indent=2)
+
+with open('logos/all_business_schools.txt', 'w') as f:
+    for school in unique_schools:
+        f.write(f"{school}\n")
+
+print("\nLists saved to:")
+print("- logos/top_business_schools.json (categorized)")
+print("- logos/all_business_schools.txt (flat list)")

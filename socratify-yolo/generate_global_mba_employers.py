@@ -1,0 +1,232 @@
+import json
+
+# Comprehensive list of global MBA employers by region and industry
+
+employers = {
+    "global_consulting": [
+        "McKinsey & Company", "Boston Consulting Group", "Bain & Company", 
+        "Deloitte", "PwC", "EY", "KPMG", "Accenture", "Oliver Wyman",
+        "Strategy&", "Roland Berger", "A.T. Kearney", "L.E.K. Consulting",
+        "Monitor Deloitte", "EY-Parthenon", "AlixPartners", "Alvarez & Marsal",
+        "FTI Consulting", "Navigant", "Huron Consulting", "Capgemini",
+        "Cognizant", "Infosys", "Wipro", "TCS", "HCL Technologies",
+        "Gartner", "Forrester", "IDC"
+    ],
+    
+    "global_finance": [
+        "Goldman Sachs", "Morgan Stanley", "JPMorgan Chase", "Bank of America",
+        "Citigroup", "Barclays", "Credit Suisse", "UBS", "Deutsche Bank",
+        "Wells Fargo", "HSBC", "BNP Paribas", "Societe Generale", 
+        "Lazard", "Evercore", "Centerview Partners", "Moelis & Company",
+        "Jefferies", "Piper Sandler", "William Blair", "Baird",
+        "RBC Capital Markets", "BMO Capital Markets", "TD Securities",
+        "American Express", "Capital One", "Discover", "Synchrony Financial",
+        "Charles Schwab", "Fidelity Investments", "Vanguard", "BlackRock",
+        "State Street", "Northern Trust", "BNY Mellon"
+    ],
+    
+    "global_tech": [
+        "Apple", "Microsoft", "Google", "Amazon", "Meta", "Netflix",
+        "Salesforce", "Oracle", "SAP", "Adobe", "IBM", "Intel",
+        "Nvidia", "AMD", "Qualcomm", "Broadcom", "Cisco", "Dell",
+        "HP", "Lenovo", "VMware", "ServiceNow", "Workday", "Splunk",
+        "Palantir", "Snowflake", "Databricks", "Stripe", "Square",
+        "PayPal", "Visa", "Mastercard", "Uber", "Lyft", "Airbnb",
+        "DoorDash", "Instacart", "Pinterest", "Snap", "Twitter",
+        "LinkedIn", "Indeed", "Glassdoor", "ZipRecruiter"
+    ],
+    
+    "global_consumer": [
+        "Procter & Gamble", "Unilever", "Nestle", "PepsiCo", "Coca-Cola",
+        "Mondelez", "General Mills", "Kellogg's", "Mars", "Ferrero",
+        "Kraft Heinz", "Danone", "L'Oreal", "Estee Lauder", "Coty",
+        "Revlon", "Shiseido", "Nike", "Adidas", "Under Armour",
+        "Lululemon", "Puma", "New Balance", "LVMH", "Kering",
+        "Hermes", "Richemont", "Tapestry", "Ralph Lauren", "VF Corporation",
+        "Gap", "H&M", "Zara", "Fast Retailing", "Target", "Walmart",
+        "Costco", "Home Depot", "Lowe's", "Best Buy", "CVS Health",
+        "Walgreens", "Rite Aid"
+    ],
+    
+    "global_healthcare": [
+        "Johnson & Johnson", "Pfizer", "Merck", "AbbVie", "Bristol Myers Squibb",
+        "Eli Lilly", "Amgen", "Gilead Sciences", "Biogen", "Regeneron",
+        "Vertex Pharmaceuticals", "Moderna", "BioNTech", "AstraZeneca",
+        "GSK", "Novartis", "Roche", "Sanofi", "Bayer", "Takeda",
+        "Abbott", "Medtronic", "Boston Scientific", "Stryker", "Zimmer Biomet",
+        "Becton Dickinson", "Thermo Fisher Scientific", "Danaher",
+        "UnitedHealth Group", "Anthem", "Cigna", "Humana", "Centene",
+        "CVS Health", "McKesson", "AmerisourceBergen", "Cardinal Health"
+    ],
+    
+    "global_industrial": [
+        "General Electric", "Siemens", "Honeywell", "3M", "Caterpillar",
+        "John Deere", "Boeing", "Airbus", "Lockheed Martin", "Raytheon",
+        "Northrop Grumman", "General Dynamics", "BAE Systems", "Rolls-Royce",
+        "Pratt & Whitney", "Emerson Electric", "Schneider Electric", "ABB",
+        "Eaton", "Parker Hannifin", "Illinois Tool Works", "Ingersoll Rand",
+        "Johnson Controls", "Carrier", "Otis", "BASF", "Dow", "DuPont",
+        "LyondellBasell", "Air Products", "Linde", "Air Liquide"
+    ],
+    
+    "global_energy": [
+        "ExxonMobil", "Chevron", "Shell", "BP", "TotalEnergies", "ConocoPhillips",
+        "Marathon Petroleum", "Valero", "Phillips 66", "Occidental Petroleum",
+        "EOG Resources", "Schlumberger", "Halliburton", "Baker Hughes",
+        "NextEra Energy", "Enel", "Iberdrola", "Orsted", "Vestas",
+        "Siemens Gamesa", "General Electric Renewable Energy", "First Solar",
+        "SunPower", "Enphase Energy", "Tesla", "Rivian", "Lucid Motors",
+        "ChargePoint", "EVgo"
+    ],
+    
+    "us_canada_specific": [
+        # US specific
+        "Bain Capital", "KKR", "Blackstone", "Carlyle", "Apollo",
+        "TPG", "Warburg Pincus", "Silver Lake", "Vista Equity Partners",
+        "Sequoia Capital", "Andreessen Horowitz", "Kleiner Perkins",
+        "Benchmark", "Greylock Partners", "Accel", "General Catalyst",
+        "AT&T", "Verizon", "T-Mobile", "Comcast", "Charter Communications",
+        "Disney", "Warner Bros Discovery", "Paramount", "NBCUniversal",
+        "Netflix", "Spotify", "Epic Games", "Electronic Arts", "Activision Blizzard",
+        "Take-Two Interactive", "Roblox", "Unity Technologies",
+        # Canada specific
+        "Shopify", "Thomson Reuters", "Brookfield Asset Management",
+        "Royal Bank of Canada", "Toronto-Dominion Bank", "Bank of Nova Scotia",
+        "Bank of Montreal", "Canadian Imperial Bank of Commerce",
+        "Manulife", "Sun Life Financial", "Power Corporation", "CGI",
+        "Open Text", "Constellation Software", "Blackberry", "Bombardier",
+        "Canadian National Railway", "Canadian Pacific Railway",
+        "Rogers Communications", "Bell Canada", "Telus", "Shaw Communications",
+        "Loblaws", "Metro", "Empire Company", "Canadian Tire"
+    ],
+    
+    "europe_uk_specific": [
+        # UK
+        "Barclays", "HSBC", "Standard Chartered", "Lloyds Banking Group",
+        "NatWest Group", "Prudential", "Aviva", "Legal & General",
+        "London Stock Exchange", "Schroders", "Man Group", "3i Group",
+        "BP", "Shell", "Unilever", "Diageo", "British American Tobacco",
+        "GSK", "AstraZeneca", "Reckitt", "Associated British Foods",
+        "Tesco", "Sainsbury's", "Marks & Spencer", "Next", "Burberry",
+        "Rolls-Royce", "BAE Systems", "BT Group", "Vodafone", "Sky",
+        # Germany
+        "SAP", "Siemens", "Volkswagen", "BMW", "Mercedes-Benz", "Porsche",
+        "BASF", "Bayer", "Henkel", "Continental", "Bosch", "ThyssenKrupp",
+        "Deutsche Bank", "Commerzbank", "Allianz", "Munich Re",
+        "E.ON", "RWE", "Lufthansa", "Deutsche Post DHL", "Deutsche Telekom",
+        # France
+        "TotalEnergies", "Sanofi", "L'Oreal", "LVMH", "Kering", "Hermes",
+        "Danone", "Pernod Ricard", "Carrefour", "BNP Paribas",
+        "Societe Generale", "Credit Agricole", "AXA", "Orange", "Engie",
+        "Airbus", "Safran", "Thales", "Dassault", "Saint-Gobain",
+        # Netherlands
+        "ASML", "Philips", "Unilever", "Heineken", "ING", "ABN AMRO",
+        "Rabobank", "Aegon", "Randstad", "Wolters Kluwer",
+        # Switzerland
+        "Nestle", "Novartis", "Roche", "ABB", "UBS", "Credit Suisse",
+        "Zurich Insurance", "Swiss Re", "Glencore", "Richemont",
+        # Sweden
+        "Ericsson", "Volvo", "H&M", "Spotify", "Klarna", "Atlas Copco",
+        "Sandvik", "SKF", "Electrolux", "Essity",
+        # Spain
+        "Santander", "BBVA", "Telefonica", "Iberdrola", "Repsol",
+        "Inditex", "Amadeus", "Ferrovial", "ACS", "Mapfre"
+    ],
+    
+    "india_specific": [
+        "Tata Consultancy Services", "Infosys", "Wipro", "HCL Technologies",
+        "Tech Mahindra", "Larsen & Toubro Infotech", "Mindtree", "Mphasis",
+        "Reliance Industries", "Tata Group", "Adani Group", "Mahindra Group",
+        "Birla Group", "Godrej Group", "Bajaj Group", "Hero Group",
+        "HDFC Bank", "ICICI Bank", "State Bank of India", "Axis Bank",
+        "Kotak Mahindra Bank", "Yes Bank", "IDFC First Bank",
+        "Hindustan Unilever", "ITC", "Nestle India", "Britannia",
+        "Dabur", "Marico", "Emami", "Patanjali",
+        "Maruti Suzuki", "Tata Motors", "Mahindra & Mahindra", "Bajaj Auto",
+        "Hero MotoCorp", "TVS Motor", "Ashok Leyland",
+        "Bharti Airtel", "Vodafone Idea", "Jio", "Paytm", "PhonePe",
+        "Flipkart", "Amazon India", "Ola", "Swiggy", "Zomato",
+        "BYJU'S", "Unacademy", "Vedantu", "upGrad",
+        "Dr. Reddy's", "Sun Pharma", "Cipla", "Lupin", "Aurobindo Pharma",
+        "Asian Paints", "Berger Paints", "Pidilite", "UltraTech Cement",
+        "Ambuja Cements", "ACC", "Shree Cement",
+        "NTPC", "Power Grid", "Coal India", "ONGC", "Indian Oil",
+        "Bharat Petroleum", "Hindustan Petroleum", "GAIL"
+    ],
+    
+    "asia_pacific_specific": [
+        # China
+        "Alibaba", "Tencent", "ByteDance", "Baidu", "JD.com", "Meituan",
+        "Pinduoduo", "Xiaomi", "Huawei", "Lenovo", "Haier", "TCL",
+        "BYD", "Nio", "Xpeng", "Li Auto", "Geely", "Great Wall Motors",
+        "Industrial and Commercial Bank of China", "China Construction Bank",
+        "Agricultural Bank of China", "Bank of China", "Ping An Insurance",
+        "China Life Insurance", "PetroChina", "Sinopec", "CNOOC",
+        # Japan
+        "Toyota", "Honda", "Nissan", "Sony", "Panasonic", "Nintendo",
+        "SoftBank", "Rakuten", "Fast Retailing", "Seven & i Holdings",
+        "Mitsubishi", "Mitsui", "Sumitomo", "Marubeni", "Itochu",
+        "Nomura", "Daiwa Securities", "MUFG", "Mizuho", "SMBC",
+        "Takeda", "Astellas", "Eisai", "Daiichi Sankyo", "Otsuka",
+        # South Korea
+        "Samsung", "LG", "SK Group", "Hyundai", "Kia", "Lotte",
+        "POSCO", "Hanwha", "GS Group", "Doosan", "CJ Group",
+        "KB Financial", "Shinhan Financial", "Hana Financial", "Woori Financial",
+        "Naver", "Kakao", "NCSoft", "Nexon", "Coupang",
+        # Singapore
+        "DBS Bank", "OCBC Bank", "UOB", "Singapore Airlines", "SingTel",
+        "Keppel Corporation", "CapitaLand", "City Developments", "Jardine Matheson",
+        "Wilmar International", "Olam International", "Sea Limited", "Grab",
+        # Hong Kong
+        "HSBC", "Bank of China Hong Kong", "Standard Chartered Hong Kong",
+        "AIA Group", "Prudential", "Hong Kong Exchanges", "CK Hutchison",
+        "Swire Pacific", "Sun Hung Kai Properties", "Henderson Land",
+        # Australia
+        "Commonwealth Bank", "Westpac", "ANZ", "National Australia Bank",
+        "Macquarie Group", "BHP", "Rio Tinto", "Fortescue", "Woodside",
+        "Woolworths", "Coles", "Wesfarmers", "Telstra", "CSL",
+        "Atlassian", "Canva", "Afterpay"
+    ],
+    
+    "private_equity_venture": [
+        "Blackstone", "KKR", "Carlyle", "Apollo", "TPG", "Warburg Pincus",
+        "CVC Capital", "EQT", "Permira", "Advent International",
+        "Bain Capital", "Silver Lake", "Vista Equity", "Thoma Bravo",
+        "Francisco Partners", "Hellman & Friedman", "Leonard Green",
+        "Providence Equity", "General Atlantic", "Insight Partners",
+        "Sequoia Capital", "Andreessen Horowitz", "Benchmark", "Accel",
+        "Kleiner Perkins", "Greylock", "NEA", "Bessemer Venture Partners",
+        "Index Ventures", "Balderton Capital", "Atomico", "Northzone",
+        "Tiger Global", "SoftBank Vision Fund", "GIC", "Temasek",
+        "Khosla Ventures", "Founders Fund", "First Round Capital",
+        "Union Square Ventures", "Battery Ventures", "Lightspeed Venture Partners"
+    ]
+}
+
+# Flatten all employers into a single list and remove duplicates
+all_employers = []
+seen = set()
+
+for category, companies in employers.items():
+    for company in companies:
+        company_clean = company.strip()
+        if company_clean and company_clean not in seen:
+            seen.add(company_clean)
+            all_employers.append(company_clean)
+
+# Sort alphabetically
+all_employers.sort()
+
+print(f"Total unique employers: {len(all_employers)}")
+
+# Save to file
+with open('logos/global_mba_employers.txt', 'w') as f:
+    for employer in all_employers:
+        f.write(f"{employer}\n")
+
+# Also save as JSON with categories
+with open('logos/global_mba_employers_categorized.json', 'w') as f:
+    json.dump(employers, f, indent=2)
+
+print(f"Saved {len(all_employers)} employers to logos/global_mba_employers.txt")
+print("Saved categorized list to logos/global_mba_employers_categorized.json")

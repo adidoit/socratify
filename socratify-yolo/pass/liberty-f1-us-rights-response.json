@@ -1,0 +1,172 @@
+{
+  "exerciseUuid": "199d4a3a-2b2c-4da4-8b58-a94a5c838bc5",
+  "exerciseVersion": 4,
+  "exerciseType": "response",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the negotiation between Formula 1 and FOX Sports requires familiarity with concepts like broadcast rights, audience reach vs. revenue, and strategic trade-offs, which are standard in first-year business education.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the US broadcast rights negotiation requires understanding Formula 1's growth in the US market, the dynamics of sports media rights, and competitive positioning, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding how FOX Sports might counter F1's demand involves recognizing basic marketing concepts like promotions and content creation that attract viewers, which can be grasped from following general sports media news.",
+    "fileName": "liberty-f1-us-rights-response.xml",
+    "backgroundNeeded": "Remember that Formula 1's popularity in the US is growing, but live races often air at inconvenient times, understand the concept of broadcast rights and the trade-off between immediate revenue and audience reach, and apply strategic thinking to evaluate how a media company like FOX Sports can offer value beyond just a high price to secure these rights.",
+    "happyPath": "Formula 1 has undergone a remarkable transformation in the United States, evolving from a niche motorsport into what is described as a US cultural obsession. This surge in popularity is largely attributed to factors like the successful Netflix docuseries 'Drive to Survive' and increasing celebrity engagement, which have generated significant buzz and attracted large crowds. Owned by Liberty Media, F1 aims to leverage this newfound American popularity, hosting high-speed races in glamorous global locations, with the ultimate goal of translating the enthusiasm into substantial broadcast revenue through a major TV rights deal. Despite this rocketing growth driven by 'Drive to Survive,' turning the excitement into a blockbuster TV deal is proving challenging. Media companies are reportedly balking at Liberty Media's asking price, which is said to exceed $150 million annually for the next US broadcast rights package. This situation forces Formula 1 into a difficult negotiation, requiring them to weigh the trade-offs between maximizing immediate cash flow from a high-value deal and ensuring long-term audience growth, essentially debating whether to prioritize revenue over reach in the US market. Securing billion-dollar TV deals is standard practice for established US sports giants like the NFL or NBA, which offer broadcasters huge, consistent live audiences highly attractive to advertisers. Formula 1, however, faces a different track.",
+    "faviconUrl": "https://www.formula1.com/assets/home/_next/static/media/f1-logo.43a01c6b.svg"
+  },
+  "coverElements": {
+    "coverImageDescription": "A sleek racing helmet with a dark visor. The helmet's body is a mix of bright red and white, with curved lines suggesting speed.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/liberty-f1-us-rights-response-8db2a696-263e-414a-b41f-a15ef49c8f5f.png",
+    "coverPlainTitle": "FOX Sports Counters F1 Rights Price",
+    "coverWittyTitle": "F1 Rights: FOX's Risky Race?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How can FOX win without overpaying?",
+    "coverParagraph": "Formula 1's US popularity is surging, but rights are costly. See how **FOX Sports** could **counter F1's price demand** and still grow the sport.",
+    "tags": "Strategy,Marketing,Media,Sports",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Broadcast Battle",
+      "text": "Formula 1 gained millions of US fans, but its **races often air before dawn.** Liberty Media, F1's owner, demands over **$150 million for US broadcast rights**. This prioritizes immediate profit over long-term audience growth.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "ESPN F1 Broadcast Rights Value",
+        "subtitle": "USD millions, 2020-2022 vs 2023-2025",
+        "color": "#1F77B4",
+        "source": "[SportsPro, citing Ampere Analysis, 2025. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "2020-2022 Deal",
+              "value": 5.0,
+              "color": "#FF7F0E"
+            },
+            {
+              "label": "2023-2025 Deal",
+              "value": 85.0,
+              "color": "#1F77B4"
+            }
+          ],
+          "changePercent": 1600.0,
+          "changeValue": 80.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "We are, I believe, in the US still pretty early on... Which means there's a lot of headroom, and it's up to us to go out and capitalise on it.",
+        "source": "Derek Chang, CEO, Liberty Media/F1, JPMorgan Global Technology, Media and Communications Conference, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your favorite cartoon only airs at 4 AM. Formula 1 wants lots of money now, but that might mean fewer people watch the race later.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "F1 chooses big broadcast payday. US growth chances fade.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic trade-off here?",
+        "answer": "Liberty Media is choosing short-term revenue over long-term audience development in the US. A smaller, but higher-paying broadcast deal risks limiting exposure to potential new fans who can't watch early morning races.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are the business execution challenges?",
+        "answer": "F1 must balance broadcast revenue with accessibility to grow its fanbase in the US. A cheaper, more accessible broadcast partner might attract more viewers, create broader appeal, and grow the sport over time.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are FOX Sports' Head of Acquisitions",
+    "keyQuestionText": "Formula 1 seeks over $150M for US broadcast rights. This risks F1 prioritizing revenue over US audience reach. How do you think FOX Sports could counter this?",
+    "hintText": "Consider what FOX Sports could offer that helps F1 expand its audience in the US, rather than just focusing on the highest immediate payout.",
+    "shortKeyQuestionText": "How do you think FOX Sports could counter this?",
+    "choices": [
+      {
+        "title": "Emphasize broadcast promotions",
+        "text": "Commit to extensive cross-promotion on other popular FOX Sports programming",
+        "followUpQuestion": "Broadcast promotions are a clear offer. Why would F1 prioritize marketing over the current high price?"
+      },
+      {
+        "title": "Offer linear TV slots",
+        "text": "Provide guaranteed prime time slots for replays and highlight shows",
+        "followUpQuestion": "Prime time slots seem valuable. Why would F1 accept less money for more convenient replay times?"
+      },
+      {
+        "title": "Invest in US content",
+        "text": "Propose creating more US-centric F1 shows and documentaries",
+        "followUpQuestion": "US-centric content is a unique pitch. Why would F1 see this as a better path than a higher cash offer?"
+      },
+      {
+        "title": "Partner on marketing",
+        "text": "Offer to jointly fund US fan engagement events and marketing campaigns",
+        "followUpQuestion": "Joint marketing is interesting. Why would F1 share control and cost for audience growth?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "principal-agent_problem",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/principal-agent_problem.png",
+    "mentalModelImageDescription": "A person wearing a suit (the principal) attempts to steer a wild horse (the agent) with a rope and bridle. The horse, however, is bucking and heading in a different direction, symbolizing the conflicting interests and potential misalignment between the two parties.",
+    "mentalModelLinkText": "The Principal-Agent Problem shows how one party's incentives can clash with another's goals—like Liberty Media seeking maximum broadcast revenue for F1, while FOX Sports wants to grow US viewership, potentially leading to suboptimal long-term audience growth.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your parents (principal) hire you (agent) to clean your room. They want a clean room fast, but you might want to play video games instead. If they only pay you for speed, you might just shove everything in the closet! That's the principal-agent problem.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The principal-agent problem occurs when the agent's incentives don't align with the principal's goals, leading to potential conflicts of interest and suboptimal outcomes.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to F1's situation?",
+        "answer": "Liberty Media (F1's owners) act as the principal, and FOX Sports would be the agent. If F1's sole objective is the highest bid, FOX might prioritize short-term profit over investments in growing F1's US fanbase through strategic scheduling, promotions, and content creation.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model highlights the risk of F1 prioritizing immediate revenue over long-term growth in the US market. FOX Sports needs to demonstrate how their proposal aligns F1's interests with audience development, even if it means a slightly lower upfront payment.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes you have to give away value to create more later. That's **customer lifetime value (CLTV)**—predicting the total revenue a single customer will generate. For F1, short-term broadcast rights revenue might outweigh the long-term gains of growing its US fanbase. The nuance here is that higher fees could suppress viewership, shrinking potential CLTV from new American fans. _Prioritizing quick cash over audience development risks sacrificing future growth._ It's like selling the seed corn instead of planting it."
+}

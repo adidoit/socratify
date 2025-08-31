@@ -1,0 +1,176 @@
+{
+  "exerciseUuid": "1900c9a4-9dcc-4f54-85c2-7429a86c0496",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic implications of Netflix's pivot to linear TV requires familiarity with concepts like revenue diversification, strategic pilots, market segmentation, and competitive positioning that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the success of this strategic pilot and its global expansion potential requires following streaming industry trends and understanding competitive dynamics, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding how linear channels might appeal to users and fit into a broader ad business requires recognizing basic marketing concepts like user engagement and brand perception.",
+    "fileName": "netflix-tv-questions",
+    "backgroundNeeded": "Remember that Netflix is a streaming service known for creating original shows, but it is now experimenting with adding traditional linear TV channels like TF1 in France to grow its ad business, understand how pilot programs inform broader strategies and how past initiatives can be learned from, and apply strategic thinking to evaluate user behavior and content fit for global expansion.",
+    "happyPath": "Netflix's decision to integrate linear TV channels, starting with the TF1 deal in France, is a significant strategic pivot aimed at diversifying revenue streams and growing its advertising business. This move, while seemingly a step back to \"old-school\" cable TV, is a calculated pilot program designed to inform a potential global rollout. For executives, the critical challenge is not just to see if the TF1 deal 'succeeds' in isolation, but to understand what defines success for this new business model and what conditions must be met before committing to a much larger, global investment. A key analytical thread involves approaching this as a strategic pilot program. The TF1 deal should be viewed as an experiment designed to answer critical questions before widespread deployment. Therefore, a Co-CEO wouldn't just ask about immediate revenue, but rather, \"What specific, measurable insights from the TF1 pilot will tell us if a broader linear TV strategy is viable and valuable, both for our ad business and our overall subscriber base?\" This encourages thinking beyond simple financial metrics to consider user engagement with the linear format, operational challenges in content delivery, and the true incremental value it adds to the Netflix platform. Another crucial perspective is learning from past initiatives. The article explicitly mentions the 2020 \"Netflix Direct\" experiment in France, which had a similar \"lean-back\" appeal. Executives must ask, \"What fundamental market changes, technological advancements, or strategic shifts differentiate this TF1 partnership from the previous 'Netflix Direct' experiment, ensuring we avoid past limitations and truly capture new opportunities?\" This prompts an examination of underlying assumptions, whether consumer habits have genuinely evolved to embrace linear content on a streaming platform, or if the current approach offers distinct value propositions (e.g., external broadcaster content vs. curated Netflix content). Finally, a holistic strategic analysis must consider the impact on the core business and competitive landscape. Netflix built its empire on ad-free, on-demand content. Introducing linear, ad-supported channels risks confusing the brand or cannibalizing its existing premium subscriber base. A vital question would be, \"How will integrating linear TV channels affect our existing ad-free and ad-supported subscriber tiers, and what safeguards are in place to prevent negative impacts on churn or brand perception?\" Additionally, considering the competitive environment, where players like Disney+ and Pluto TV already offer similar FAST (Free Ad-supported Streaming TV) channels, Netflix needs to understand its unique value proposition. In essence, navigating this strategic shift requires multi-dimensional questioning that moves beyond surface-level observations. It demands a rigorous evaluation of the pilot's purpose, a deep dive into lessons from past failures, and a proactive assessment of how this new model interacts with Netflix's core business and the broader competitive ecosystem. By asking incisive questions across these domains, Netflix can make an informed decision about expanding its linear TV ambitions, ensuring it evolves strategically rather than simply mimicking its past competitors.",
+    "faviconUrl": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Standard black remote control with raised rectangular buttons of varying sizes. A central circular pad sits at the remote's midpoint.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/netflix-tv-assumption-0eceaba7-4cb4-44a3-be6c-6108a9bf4db1.png",
+    "coverPlainTitle": "Netflix Questions Linear TV Metrics",
+    "coverWittyTitle": "Channel Surfing on Netflix?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Why would Netflix bring back TV channels?",
+    "coverParagraph": "**Netflix** is **testing traditional TV channels**. As Head of Product, decide what question to ask before expanding.",
+    "tags": "Strategy,Product,Media,Advertising",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Linear Gamble",
+      "text": "Netflix built its business on on-demand shows, free of ads. Now, it is testing linear TV with TF1 in France to **grow its ad business**. This departure from its core model demands a critical choice before **global expansion**.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Netflix Ad-Supported Tier Monthly Active Users",
+        "subtitle": "Count, May 2024 - June 2025",
+        "color": "#E50914",
+        "source": "[The Hollywood Reporter, 2025. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2024-05-01",
+              "value": 40000000.0
+            },
+            {
+              "date": "2024-11-01",
+              "value": 70000000.0
+            },
+            {
+              "date": "2025-05-01",
+              "value": 94000000.0
+            },
+            {
+              "date": "2025-06-01",
+              "value": 94000000.0
+            }
+          ],
+          "currentValue": 94000000.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Brand Conflict",
+      "text": "Netflix will add traditional TV channels to meet its goal of generating **10% of revenue from ads**. The company moves away from its **ad-free model**.",
+      "zoomOutTextQuote": {
+        "text": "traditional TV remained popular in France, and it wanted to offer viewers a “lean-back experience where they don’t have to choose shows.”",
+        "source": "Netflix statement, 2020, regarding Netflix Direct experiment in France"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Netflix is like a restaurant that only sold food you pick from a menu. Now, they're trying out a buffet with TV shows playing at certain times like regular TV. They hope more people will come, and companies will pay to show ads during the buffet.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Netflix adds linear TV in France to boost ad revenue, risking brand dilution.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for Netflix?",
+        "answer": "Netflix built its brand on on-demand viewing, so introducing linear TV could confuse subscribers and weaken its core identity. Success depends on whether the increased ad revenue outweighs potential brand damage and customer churn.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Why test this in France specifically?",
+        "answer": "Netflix likely chose France because traditional TV remains popular there, creating a demand for a more passive viewing experience. This allows Netflix to test the linear model in a market where it might be more readily accepted, before broader implementation.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Netflix's Head of Product",
+    "keyQuestionText": "Netflix is testing linear TV channels with TF1 in France. They plan to expand this model globally. As Netflix's Head of Product, what question would you ask first?",
+    "hintText": "Think about what user behavior or content strategy insights from the French pilot would guide future product decisions.",
+    "shortKeyQuestionText": "As Netflix's Head of Product, what question would you ask first?",
+    "choices": [
+      {
+        "title": "User engagement",
+        "text": "How much time are users watching linear channels?",
+        "followUpQuestion": "User engagement is critical. Why is this the right question for evaluating global linear TV expansion?"
+      },
+      {
+        "title": "Content fit",
+        "text": "Does TF1 content align with global subscriber wants?",
+        "followUpQuestion": "Content fit is always key. Why is this the right question for evaluating global linear TV expansion?"
+      },
+      {
+        "title": "Lean-back appeal",
+        "text": "Are French users embracing this 'lean-back' viewing?",
+        "followUpQuestion": "Lean-back appeal is interesting. Why is this the right question for evaluating global linear TV expansion?"
+      },
+      {
+        "title": "Audience retention",
+        "text": "Are linear channels helping us keep subscribers?",
+        "followUpQuestion": "Audience retention matters. Why is this the right question for evaluating global linear TV expansion?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "disruption_from_below",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/disruption_from_below.png",
+    "mentalModelImageDescription": "A towering castle, representing the established market, is gradually undermined by tiny ants, symbolizing disruptive innovation. The ants slowly weaken the castle's foundation, eventually causing it to crumble. The ants are Netflix linear TV channels, and the castle is Netflix's on-demand model.",
+    "mentalModelLinkText": "Disruption from Below shows how a seemingly minor innovation, like Netflix's linear TV, can slowly undermine an established market. If users embrace this \"lean-back\" experience, it could gradually shift viewership from Netflix's core on-demand content.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a big, strong tree. Now imagine tiny ants start eating the roots. At first, the tree doesn't even notice, but slowly, the ants weaken the tree until one day it falls over. That's disruption from below.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Disruption from below occurs when a seemingly inferior or niche innovation gradually undermines an established market, eventually replacing it.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Netflix's situation?",
+        "answer": "The linear TV experiment may seem like a small addition, but it could slowly change user behavior. If enough users prefer the simplicity of linear channels, they may spend less time browsing on-demand content, potentially reducing the value of Netflix's vast library and impacting its core subscription model.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Netflix should monitor the impact of linear TV on its on-demand viewership closely. Even if the initial adoption is small, it's important to understand if it creates a long-term shift in user behavior. If linear TV becomes significantly popular, Netflix may need to rethink its content strategy and platform design.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Netflix's move into linear TV highlights a classic **cannibalization** dilemma. This occurs when a company's new product eats into the sales of its existing products. Netflix's ad-free streaming is its core offering; linear TV with ads could draw viewers away from that. The nuance here is that Netflix is willingly risking its existing revenue streams to chase new ones in the ad market. *Netflix risks becoming just another cable channel, diluting the brand that disrupted the industry.* It's like burning your own furniture to heat the house."
+}

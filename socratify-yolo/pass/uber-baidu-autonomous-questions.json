@@ -1,0 +1,171 @@
+{
+  "exerciseUuid": "cdf80749-b01d-4edf-a0d0-5d45a0929fc2",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic implications of Uber's partnership with Baidu for AV deployment requires familiarity with concepts like strategic alliances, market expansion challenges, and competitive positioning that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the success factors for this global AV partnership requires understanding market entry dynamics, regulatory environments, and competitive landscapes in Asia and the Middle East, typical of regular industry observers.",
+    "secondaryDomainName": "Operations",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the practicalities of deploying thousands of AVs across diverse markets require understanding operational readiness, infrastructure compatibility, and the development of necessary support ecosystems.",
+    "fileName": "uber-baidu-autonomous-questions.xml",
+    "backgroundNeeded": "Remember that Uber is a ride-hailing service and Baidu is a tech company with AVs, understand the challenges of expanding new technology into diverse global markets with varying regulations and public trust levels, and apply strategic thinking to identify the most critical initial questions for a successful rollout.",
+    "happyPath": "The strategic partnership between Uber and Baidu represents a pivotal moment in the global expansion of autonomous vehicles, shifting the paradigm from proprietary development to collaborative deployment. For both companies, this alliance presents both immense opportunities and complex challenges, necessitating a rigorous approach to strategic questioning. Uber's decision to pivot to an \"AV clearinghouse\" model, rather than developing its own costly technology, aims to accelerate market penetration and reduce operational expenditure, promising \"lower fares\" for consumers and a competitive edge through scale. One critical analytical thread centers on the strategic implications of Uber's \"clearinghouse\" model. While this approach mitigates R&D costs, it raises fundamental questions about platform control and value capture. How does Uber maintain its strategic leverage and prevent partners like Baidu (and others like Waymo) from eventually bypassing its platform with their own direct-to-consumer offerings, as already seen in some markets like San Francisco? Uber's long-term competitive advantage will depend on its ability to offer unique value propositions to both riders and AV developers, potentially through superior network effects, data insights, or integrated mobility solutions beyond simple ride-hailing. The CFO's focus on unit economics and revenue share is paramount here: ensuring that the cost savings from autonomous operations translate into sustainable profitability for Uber, and not just lower fares for consumers or greater margins for AV partners. A second crucial dimension involves the operational and market entry complexities of global AV deployment. Rolling out \"thousands\" of autonomous vehicles across diverse international markets—starting with Asia and the Middle East—demands meticulous planning. This isn't just about software; it's about physical infrastructure compatibility, varying local regulations, and the unique socio-cultural dynamics that influence public acceptance. Baidu's Head of Global Operations must question the readiness of local support ecosystems, including maintenance, charging infrastructure, and emergency response protocols, while Uber's Head of Global Expansion needs to deeply understand the fragmented and evolving regulatory landscapes. Beyond technical readiness, gaining and maintaining public trust, particularly in nascent AV markets, is paramount. As Uber's CMO, questions around proactive public education, managing safety narratives, and consistently communicating the \"superhuman safety\" standard are vital to fostering widespread adoption and preventing isolated incidents from derailing broader expansion. In conclusion, the Uber-Baidu partnership is a masterclass in modern strategic alliance, showcasing the interplay between capital efficiency, global scaling, and complex stakeholder management. Success hinges not on what has been decided, but on the profound questions asked about what comes next. From safeguarding platform control and ensuring financial viability in a partner-heavy ecosystem, to meticulously navigating diverse operational and regulatory challenges, and proactively shaping public perception, the questions posed at every level of both organizations will determine the ultimate trajectory of this ambitious venture and, by extension, the future of autonomous mobility worldwide.",
+    "faviconUrl": "https://cdn.socratify.com/favico/uber.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A dark sedan with a smooth, rounded roof. The roof is topped by a spinning lidar sensor, and the side mirrors are a bright blue. The car sits on a light gray street.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/uber-baidu-autonomous-data-6cd6ca91-a903-4cc3-8612-258933787521.png",
+    "coverPlainTitle": "Uber's Driverless Gamble: Where to First?",
+    "coverWittyTitle": "Autonomous, but not Anonymous",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Where should Uber first launch driverless cars?",
+    "coverParagraph": "**Uber** wants to **launch self-driving cars** with Baidu. Decide where to roll them out first. What's the most important question to ask?",
+    "tags": "Strategy,Operations,Tech,Transportation",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Global Gamble",
+      "text": "After spending billions on **expensive self-driving tech**, Uber now partners with Baidu to deploy thousands of **ready driverless cars**. This cuts costs, but expanding into Asia and the Middle East faces many unknowns.",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "Uber Revenue by Region",
+        "subtitle": "USD billions, 9M 2024",
+        "color": "#1FB6FF",
+        "source": "[Uber Technologies, Inc. SEC 10-Q Report for Q3 2024. Socratify Analysis]",
+        "features": [
+          "vertical-bars"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "APAC",
+              "value": 3.708
+            },
+            {
+              "label": "EMEA",
+              "value": 8.939
+            },
+            {
+              "label": "Total",
+              "value": 32.019
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "As the world’s largest platform spanning mobility, delivery, and freight, Uber is uniquely positioned to help AV leaders like Baidu bring their autonomous technology to the world.",
+        "source": "Dara Khosrowshahi, CEO of Uber, Press Release, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Uber spent years building its own toy cars, but now it's buying ready-made ones from another company. It saves money, but it's like moving your toys to a new country where you don't know anyone.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Uber scraps self-driving, partners with Baidu to expand globally.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What is Uber giving up strategically?",
+        "answer": "Uber gives up owning the self-driving tech stack, which could limit future innovation and differentiation. However, the Baidu partnership enables faster and cheaper expansion, potentially grabbing market share before competitors.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What hurdles will Uber face in Asia and the Middle East?",
+        "answer": "Uber will face regulatory challenges, varying consumer preferences, and competition from local ride-hailing companies. Adapting self-driving tech to diverse road conditions and cultural norms will also be crucial for success.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Uber's Head of Global Expansion",
+    "keyQuestionText": "Uber just announced deploying Baidu's AVs. They're considering initial rollouts in Asia and the Middle East. As Head of Global Expansion, what question would you ask first?",
+    "hintText": "Consider what market-specific factors would be most critical for these first driverless vehicle deployments.",
+    "shortKeyQuestionText": "What question would you ask about initial AV rollouts?",
+    "choices": [
+      {
+        "title": "Local regulatory hurdles",
+        "text": "What specific regulations could stop us from operating there?",
+        "followUpQuestion": "Regulatory hurdles seem critical. Why is understanding local laws the most important question for these deployments?"
+      },
+      {
+        "title": "Public trust readiness",
+        "text": "How will we build public trust in driverless vehicles in these markets?",
+        "followUpQuestion": "Public trust matters greatly. Why is trust the most important question for these deployments?"
+      },
+      {
+        "title": "Infrastructure compatibility",
+        "text": "Is the local infrastructure ready to support thousands of driverless cars?",
+        "followUpQuestion": "Infrastructure compatibility seems important. Why is infrastructure the most important question for these deployments?"
+      },
+      {
+        "title": "Competitive landscape",
+        "text": "Who are the main local competitors and how will they react?",
+        "followUpQuestion": "Competitive landscape is a good focus. Why is local competition the most important question for these deployments?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "trust_transference",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/trust_transference.png",
+    "mentalModelImageDescription": "A hand passing a baton labeled \"Trust\" from a trusted source (e.g., a well-known scientist) to a new entity (e.g., a company). The audience's perception of the new entity is immediately enhanced due to the association with the trusted source.",
+    "mentalModelLinkText": "Trust transference shows how trust in one entity extends to another due to their association—like Uber hoping Baidu's strong reputation for self-driving tech reassures hesitant customers, encouraging adoption of Uber's AV service in new markets.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your favorite superhero teams up with a new hero. You'll probably trust the new hero more because they're friends with someone you already trust! That's trust transference – trust in one thing can rub off on something else.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Trust transference is when trust in one entity or brand extends to another due to their association or partnership.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Uber's situation?",
+        "answer": "Uber is leveraging Baidu's reputation for advanced AI and self-driving technology to build public trust in its AV deployment. Customers may feel more comfortable riding in a driverless Uber if they know it is powered by Baidu's Apollo Go system. This can smooth adoption, especially in new markets.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model highlights the importance of maintaining Baidu's reputation and reliability. Any issues with Baidu's technology will directly affect Uber's brand image and customer trust. Uber needs to ensure stringent safety measures and performance standards for Baidu's AVs to uphold trust transference.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "New markets can be deceptive. **First-mover advantage** suggests the first entrant always wins, but that's rarely true. Uber moving into Asia and the Middle East first might seem like a win. However, Uber might have miscalculated the **switching costs** for consumers. *What's counterintuitive is that being first isn't always best—sometimes, being the \"fast follower\" lets you learn from others' mistakes.* Think of it as planting a flag versus building a lasting city."
+}

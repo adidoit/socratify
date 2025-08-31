@@ -1,0 +1,181 @@
+{
+  "exerciseUuid": "901a2ab5-fc46-4e50-aa68-eed57911e48a",
+  "exerciseVersion": 4,
+  "exerciseType": "options",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Zomato's strategic dilemma of expanding unprofitably requires familiarity with concepts like competitive advantage, market positioning, and strategic trade-offs that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Zomato's growth-vs-profitability strategy requires understanding competitive dynamics in digital markets and capital allocation decisions, typical of regular industry observers.",
+    "secondaryDomainName": "Finance",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because evaluating Zomato's capital-intensive ventures and funding options requires understanding financial concepts like cash burn, investment risk, and capital efficiency.",
+    "fileName": "zomato-beyond-food-options.xml",
+    "backgroundNeeded": "Remember that Zomato is India's largest food delivery service but struggles with core profitability and is investing heavily in new, cash-bleeding ventures like grocery delivery, understand how companies use diversification as a growth strategy in competitive markets, and apply strategic thinking to evaluate trade-offs between immediate profit and long-term value creation.",
+    "happyPath": "Zomato stands as India's foremost player in the food delivery market, handling a remarkable 2 million orders on a daily basis. Despite this considerable dominance and generating $1.1 billion in revenue, the company has consistently struggled to secure reliable profits from its foundational food delivery business. Backed by funds raised during its IPO, the tech giant is now aggressively pursuing growth opportunities beyond its core competency of delivering meals. This expansion includes the significant acquisition of Blinkit for $568 million, aimed at entering the competitive 10-minute grocery delivery space. Furthermore, Zomato is diversifying by adding features like dining deals and event ticket bookings to its platform. This heavy investment in new ventures is occurring simultaneously with the primary food business not achieving consistent profitability. The strategic question arises: why chase expansion into groceries and events when the main food delivery operation isn't reliably generating profit? This is the \"Zomato puzzle.\" The public narrative posits the strategy as building a comprehensive 'going-out' ecosystem, designed to keep users engaged and loyal through integrated convenience—using Zomato for dining, groceries via Blinkit, and even tickets. However, an alternative perspective highlights the substantial financial risk involved. Each foray into these new markets represents a significant drain on capital in highly competitive environments. Speci",
+    "faviconUrl": "https://b.zmtcdn.com/images/square_zomato_logo_new.svg"
+  },
+  "coverElements": {
+    "coverImageDescription": "A bicycle painted in the vibrant crimson of a just-ripened tomato is leaning against a wall, with an insulated delivery bag in the bright warmth of fresh sunflower petals strapped to the back rack.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/swiggy-quick-commerce-questions-8d121ea4-2739-43ee-95f2-d96510375f9a.png",
+    "coverPlainTitle": "Zomato Chooses Between Growth, Profit",
+    "coverWittyTitle": "Beyond Biryani?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can food apps do more than deliver?",
+    "coverParagraph": "**Zomato** is **burning cash** on new businesses like Blinkit. Explore the options for balancing growth and profit.",
+    "tags": "Strategy,Finance,Tech,Food Delivery",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Growth Puzzle",
+      "text": "India's largest food delivery service, Zomato, struggles to make profit despite high revenue. It is rapidly expanding into new ventures like grocery, which **bleed cash**. Zomato bets these ventures will create **long-term value**.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Blinkit Revenue, FY23-FY25",
+        "subtitle": "INR crore, quarterly and annual",
+        "color": "#FF6600",
+        "source": "[Zomato regulatory filing, 2024. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "INR"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2023-03-31",
+              "value": 806.0
+            },
+            {
+              "date": "2024-03-31",
+              "value": 2301.0
+            },
+            {
+              "date": "2024-06-30",
+              "value": 942.0
+            },
+            {
+              "date": "2024-09-30",
+              "value": 1156.0
+            },
+            {
+              "date": "2025-03-31",
+              "value": 1709.0
+            }
+          ],
+          "currentValue": 1709.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "Our confidence in Blinkit is stronger than ever... The goal is to make quick commerce as ubiquitous in daily Indian life as food delivery is today... building multiple growth engines for Zomato beyond our traditional core.",
+        "source": "Deepinder Goyal, Founder & CEO of Zomato, Q4 FY25 Investor Commentary, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you're selling pizza. You make money on pizza, but decide to also sell groceries. Groceries lose money at first, but maybe people buy more from you overall. Zomato hopes groceries will boost their business like that.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Zomato loses money on groceries. It hopes groceries will boost long-term growth.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk of expanding into groceries?",
+        "answer": "Zomato risks burning cash in a new market where it lacks expertise. However, if groceries become popular, it could diversify revenue and reduce dependence on restaurant delivery, making the business more resilient.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What business challenges does Zomato face with groceries?",
+        "answer": "Zomato must build a fast, reliable grocery delivery network to compete with established players. It needs to convince customers to buy groceries on Zomato rather than their usual stores to justify the added expense.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Zomato's Chief Transformation Officer",
+    "keyQuestionText": "New ventures like Blinkit bleed cash for Zomato. They want long-term value. Which options should they consider to balance growth with profit?",
+    "hintText": "Think about how Zomato could manage its resources to ensure both growth and a path to profitability.",
+    "shortKeyQuestionText": "Which options should they consider?",
+    "choices": [
+      {
+        "title": "Prioritize core profit",
+        "text": "Pause all new ventures until food delivery is consistently profitable",
+        "followUpQuestion": "Prioritizing profit makes sense. How would this alternative help Zomato balance growth and profitability?"
+      },
+      {
+        "title": "Seek external funding",
+        "text": "Raise separate investment rounds for new ventures like Blinkit",
+        "followUpQuestion": "External funding looks promising. How would this alternative help Zomato balance growth and profitability?"
+      },
+      {
+        "title": "Spin off ventures",
+        "text": "Spin off new ventures into independent companies Zomato partially owns",
+        "followUpQuestion": "Spinning off seems smart. How would this alternative help Zomato balance growth and profitability?"
+      },
+      {
+        "title": "Acquire rivals",
+        "text": "Acquire smaller rivals in existing and new markets to gain scale faster",
+        "followUpQuestion": "Acquiring rivals is interesting. How would this alternative help Zomato balance growth and profitability?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "razor-and-blade_0",
+    "mentalModelImageUrl": "https://cdn.socratify.com/business-models/images/razor-and-blade_0.png",
+    "mentalModelImageDescription": "A razor being sold cheaply alongside expensive replacement blades, illustrating the business model of selling a durable good at a low margin to drive sales of high-margin consumables.",
+    "mentalModelLinkText": "Razor-and-blade shows how selling a cheap initial product drives sales of high-margin consumables—like Zomato offering discounted Blinkit delivery to attract users, then profiting from recurring grocery orders or subscription fees.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you buy a cheap toy car, but you have to keep buying expensive batteries for it to work. The toy car is like the razor, and the batteries are like the blades. You get hooked on buying the cheap thing, then you have to keep buying the expensive things to keep using it!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The razor-and-blade model involves selling a durable product at a low price to drive sales of high-margin consumable products or services.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How could Zomato use this model?",
+        "answer": "Zomato could offer a Blinkit subscription that provides discounted or free delivery on all orders. While the initial cost of the subscription might be low, the recurring fees and increased order frequency would generate significant revenue over time, making Blinkit a profitable venture.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What opportunity does this model create?",
+        "answer": "This model creates an opportunity for Zomato to build customer loyalty and recurring revenue. By offering a compelling subscription, Zomato can incentivize users to use Blinkit more often, driving profitability and justifying the initial investment in the venture.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes you must lose battles to win the war. This is **strategic patience**: sacrificing short-term gains for long-term dominance. For Zomato, the nuance is whether bleeding cash on Blinkit now will pay off later by locking in customers and dominating the quick commerce market. The potential trap is focusing too much on immediate profitability, which could lead to ceding market share to rivals. *The question is whether they have the resources and stomach to outwait the competition.* It's like planting a forest—you don't get shade overnight."
+}

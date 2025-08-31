@@ -1,0 +1,175 @@
+{
+  "exerciseUuid": "e6eedf10-a9ac-4c66-ae6b-d6392308d38e",
+  "exerciseVersion": 4,
+  "exerciseType": "assumption",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Saudi Aramco's strategic assumptions requires familiarity with concepts like incumbent's dilemma, energy transition, competitive advantage, and economic diversification that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Saudi Aramco's continued oil production despite the global energy transition requires understanding major industry trends, competitive dynamics between fossil fuels and renewables, and the economic implications for a resource-dependent nation, typical of regular industry observers.",
+    "secondaryDomainName": "Economics",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding how Aramco's decisions impact Saudi Arabia's national income, economic diversification, and social resilience requires knowledge of macroeconomic principles and resource-based economies, typical of informed observers.",
+    "fileName": "aramco-diversify-assumption.xml",
+    "backgroundNeeded": "Remember that Saudi Aramco is the world's largest oil producer funding Saudi Arabia, understand the global shift towards renewables and climate concerns, and apply strategic thinking to analyze the assumptions underlying continued high oil production despite these trends.",
+    "happyPath": "Saudi Aramco finds itself at a profound strategic crossroads, embodying the classic \"incumbent's dilemma\" on a national scale. Its immense profitability from oil, which underpins nearly 70% of Saudi Arabia's government income, creates a powerful incentive to maintain the status quo. However, the undeniable global energy transition towards renewables due to climate change poses an existential threat to its core business model. This scenario forces us to examine the critical, often unstated, assumptions that underpin Aramco's ongoing strategic choices. One crucial lens for analysis involves assumptions about the pace and nature of the global energy transition. Aramco might be betting that the transition will be slower and more complex than many anticipate, with oil maintaining a critical role in certain sectors (like petrochemicals, aviation, or heavy industry) for decades to come. Their exceptionally low production costs ($3 per barrel) reinforce an assumption that even in a shrinking market, their oil will be the \"last barrel standing,\" outcompeting higher-cost producers. This perspective also implies beliefs about the scalability and cost-effectiveness of green technologies, suggesting they may not fully displace fossil fuels as quickly or comprehensively as environmental advocates hope. Another vital dimension concerns national economic and social resilience. Pivoting aggressively to less lucrative renewables in the short term would mean accepting lower returns and potentially disrupting the nation's primary income source. Aramco’s strategic decisions are thus intertwined with the Saudi government's ability to diversify its economy and maintain social stability. This suggests an underlying assumption that the Saudi population is willing to accept a gradual, controlled diversification, or that the existing oil wealth provides sufficient buffer to manage a slower transition without significant social unrest or economic hardship. The \"incumbent's dilemma\" here extends beyond corporate profits to the social contract between the state and its citizens. Finally, we must consider geopolitical and competitive assumptions. Aramco might assume that despite tightening climate policies, geopolitical realities and energy security concerns will continue to drive demand for reliable, large-scale energy sources like oil from trusted, low-cost suppliers. This perspective could suggest a belief in the inherent limitations of international climate agreements to enforce a universal, rapid phase-out of fossil fuels, or that certain nations will continue to prioritize energy supply over aggressive decarbonization. Aramco's significant market share (10% of global oil) might also lead to an assumption of continued leverage and influence over global energy policy and market dynamics. In synthesis, Saudi Aramco's strategic balancing act is not merely a short-sighted clinging to past success, but a complex series of calculated bets. By exploring the multifaceted assumptions about global demand, technological maturity, national economic resilience, and geopolitical dynamics, we gain a richer understanding of why an entity facing \"future obsolescence\" might continue to rely on its established, profitable core. This deepens our appreciation for how strategic decisions, even seemingly paradoxical ones, are rationalized through deeply embedded beliefs about the future, offering crucial lessons for any business navigating disruptive change.",
+    "faviconUrl": "https://www.aramco.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A black oil barrel with a shiny gold spigot angled to pour. The barrel has faint horizontal lines suggesting it's made of dark metal.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/aramco-diversify-contrarian-88be939e-21f7-44ac-b191-dea0de56a69f.png",
+    "coverPlainTitle": "Aramco Bets Against Climate Change?",
+    "coverWittyTitle": "Oil's Well That Ends Well?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Why is Aramco still pumping so much oil?",
+    "coverParagraph": "The Saudi government depends on **Aramco's** oil profits. **Figure out** what Aramco assumes about the future of global oil demand.",
+    "tags": "Strategy,Economics,Energy,Climate Change",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Crude Bet",
+      "text": "Saudi Aramco's oil profits fund most of Saudi Arabia. As the world's largest oil producer, Aramco keeps pumping billions of barrels despite a **global move away from fossil fuels**. The company bets on continued high demand, even as nations pursue **climate targets**.",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "Saudi Aramco 2024 Financials",
+        "subtitle": "USD billions, 2024",
+        "color": "#007A3D",
+        "source": "[Aramco News Release, 2025. Socratify Analysis]",
+        "features": [
+          "vertical-bars"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "NetInc",
+              "value": 106.2
+            },
+            {
+              "label": "Revenue",
+              "value": 434.5
+            },
+            {
+              "label": "DivQ4",
+              "value": 21.1
+            },
+            {
+              "label": "CapEx",
+              "value": 53.3
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "We expect demand will continue to be steady and growing compared to 2024, and if the whole issue around tariffs is resolved … that also will add to additional demand that we are seeing from the market.",
+        "source": "Amin Nasser, CEO Saudi Aramco, Q1 2025 Earnings Call, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Saudi Arabia is like a store that only sells oil. Even though people are starting to buy electric cars, the store owner thinks everyone will still buy lots of oil for a long time.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Aramco bets big on continued oil demand despite climate change.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What if oil demand drops faster than Aramco expects?",
+        "answer": "Aramco could face stranded assets and lower profits if demand drops quickly. Investments in new oil projects might not pay off if the world transitions faster to renewable energy sources.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How does global trade impact Aramco's oil bet?",
+        "answer": "Trade tariffs and geopolitical tensions could disrupt supply chains and reduce demand for oil. A resolution of tariff disputes could increase demand, as Aramco's CEO mentioned, influencing Aramco's financial performance.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Saudi Aramco's Head of Operations",
+    "keyQuestionText": "Saudi Aramco's oil profits fund most of Saudi Arabia. They're continuing to produce oil anyway. What do you think they're assuming about global oil demand?",
+    "hintText": "Consider what beliefs about future energy needs could make continued high oil production a sound strategy.",
+    "shortKeyQuestionText": "What are they assuming about global oil demand?",
+    "choices": [
+      {
+        "title": "Demand stays strong",
+        "text": "Global oil demand will remain robust for decades",
+        "followUpQuestion": "Demand matters for profit. What makes global oil demand stay high despite climate concerns?"
+      },
+      {
+        "title": "Developing world growth",
+        "text": "Growth in emerging markets will sustain oil consumption",
+        "followUpQuestion": "Emerging markets are key. What would make developing nations increase oil use over green alternatives?"
+      },
+      {
+        "title": "Alternatives not ready",
+        "text": "Renewables won't fully replace oil in many sectors soon",
+        "followUpQuestion": "Alternative tech seems limited. What makes renewables unable to meet global energy needs quickly?"
+      },
+      {
+        "title": "Low cost advantage",
+        "text": "Their low production cost makes their oil the last one demanded",
+        "followUpQuestion": "Cost advantage could be key. What would make low-cost oil still competitive in a low-carbon world?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "peak_resource",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/peak_resource.png",
+    "mentalModelImageDescription": "Imagine a bell curve. The upward slope represents increasing production of a resource like oil, and the peak of the bell is the point where production hits its maximum. After the peak, the downward slope represents declining production as the resource becomes harder to extract.",
+    "mentalModelLinkText": "Peak resource shows how demand for a resource can eventually decline. Saudi Aramco assumes global oil demand has not peaked and will continue rising, justifying their continued high production despite the global shift from fossil fuels.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a playground slide. Climbing up is like making more and more of something, like oil. At the top (the peak), you can't go any higher. Sliding down means you're making less and less. Aramco thinks we're still climbing the slide, not at the top yet!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Peak resource describes the point after which production of a resource declines, and Aramco is betting that \"peak oil demand\" is further out than many anticipate.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Saudi Aramco's situation?",
+        "answer": "Aramco's investment decisions hinge on their prediction of the peak. If they believe demand will continue to grow, they'll invest in increased production. If they anticipate peak demand soon, they might shift strategies. Their current actions indicate they expect continued growth for now.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model reveals the inherent risk in forecasting resource production. If Aramco overestimates future demand, they could be left with excess capacity and financial losses. Accurate prediction is crucial for making sound investment decisions and avoiding a potential crisis.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes survival means betting against the odds. This is **contrarian investing**: going against prevailing market trends. Saudi Aramco sees continued oil demand despite global climate goals. The nuance here is that Aramco isn't just ignoring the trend; it's wagering that the trend is wrong, or at least overstated. Its **massive** infrastructure investment locks them into this bet. *What nobody talks about is how much risk is created when bets are too big to fail.* It's a gamble where winning maintains the status quo, and losing could destabilize an entire nation."
+}

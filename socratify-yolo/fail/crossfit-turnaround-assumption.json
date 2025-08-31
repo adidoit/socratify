@@ -1,0 +1,172 @@
+{
+  "exerciseUuid": "f5789ffd-7bbc-4894-89ac-03e10292b9e5",
+  "exerciseVersion": 4,
+  "exerciseType": "assumption",
+  "status": "active",
+  "storyType": "Opinions",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding CrossFit's assumption requires familiarity with concepts like business models, brand value, and pricing strategy that first-year business students learn, and it involves analyzing strategic trade-offs based on market signals.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing CrossFit's decision requires following industry trends in fitness and business models, understanding competitive dynamics between brands and independent operators, and recognizing the impact of pricing on customer loyalty.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding the brand value and community perception of CrossFit requires recognizing basic marketing concepts and how brand image influences customer perception, as seen in general news.",
+    "fileName": "crossfit-turnaround-assumption.xml",
+    "backgroundNeeded": "Remember that CrossFit licenses its brand and workout methods to independent gyms for an annual fee, understand how brand value, community, and perceived value for money influence customer loyalty, and apply strategic thinking to analyze why a company might maintain a high-fee model despite significant customer departures.",
+    "happyPath": "CrossFit, a trailblazer in the fitness industry, finds itself at a critical strategic juncture. Its core licensing business model, which relies on thousands of independent affiliate gyms paying an annual fee to use the brand and workout methods, is under immense pressure. The mass departure of affiliates, driven by scandals, increased fees, and a perceived lack of value for the $4,500 annual license, represents a direct threat to the company's revenue, brand equity, and overall viability as a platform. The core strategic puzzle here is why CrossFit HQ appears to be maintaining its high-fee licensing model despite this overwhelming evidence of market rejection and brand erosion. One strategic lens to understand this predicament is the peril of brand commoditization. Historically, CrossFit's brand provided strong recognition and attraction for members, justifying the annual affiliate fee. However, the scenario indicates that the underlying workouts – the \"software\" – are easily replicable by independent gyms. When combined with scandals tarnishing the brand image and a lack of perceived support from HQ, the brand's unique value proposition has eroded. CrossFit's continued reliance on its existing model suggests an underlying assumption that its brand, despite recent setbacks, still possesses an inherent, irreplaceable drawing power, or that the \"software\" itself is somehow less valuable without the \"license.\" This is a bet that the brand's long-term resilience will outweigh current negative sentiment and the ease of replication. Another critical analytical thread involves the inherent vulnerabilities of platform businesses. CrossFit's model, akin to an operating system, thrives when its core value (brand, community, unique programming, HQ support) is robust. The case illustrates a classic platform challenge: when the perceived value of the platform diminishes, participants can extract the core utility and operate independently. The thousands of gyms leaving but continuing similar workouts underscore that the value has shifted from the \"license\" to the \"software.\" CrossFit HQ's current strategy implies an assumption that these departing or future independent gyms will ultimately struggle without the official brand, perhaps underestimating their ability to foster local communities or attract members without the CrossFit name. This also hints at a potential overestimation of switching costs for affiliates, assuming they are \"stuck.\" Finally, the pricing strategy itself reveals key assumptions about market sensitivity and perceived value. The $4,500 annual fee is explicitly cited as a reason for affiliate departures. Maintaining this price point despite a mass exodus suggests that CrossFit HQ assumes that the remaining loyal affiliates, or new affiliates, possess a significantly lower price sensitivity or still derive sufficient unarticulated value from the brand to justify the fee. This could also be a strategic gamble that any price reduction would devalue the brand further, or that the current fee structure is indispensable for CrossFit's own financial survival. Such a stance indicates a belief that a substantial segment of the market will continue to perceive a premium value in the CrossFit brand, even as widespread market signals contradict this perception. CrossFit's current challenges highlight the critical importance of continuously re-evaluating core strategic assumptions in a dynamic market. The company’s predicament stems from deeply held beliefs about its brand’s enduring strength, the true cost of replication for its affiliates, and the market’s price elasticity. For CrossFit to navigate this crisis effectively, it must rigorously test these assumptions, adapt its value proposition to the evolving perceptions of its partners, and potentially overhaul its business model to survive in a fitness landscape where brand loyalty alone is no longer enough to sustain a premium licensing fee.",
+    "faviconUrl": "https://www.crossfit.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A thick black rubber exercise mat with a bright red medicine ball on top. The ball has a slightly textured surface and a single white stripe circling its middle.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/gym_dumbbell-da9eeeb6-0b29-4e6e-adcb-c26deccc36b9.png",
+    "coverPlainTitle": "CrossFit's High Fees Challenge Gyms",
+    "coverWittyTitle": "CrossFit: Worth the annual fee?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Why is CrossFit betting on high fees?",
+    "coverParagraph": "**CrossFit** is losing gyms over its $4,500 annual fee. **Figure out** what they're assuming about gym owners to keep the price so high.",
+    "tags": "Strategy,Marketing,Fitness,Pricing",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "High Fee Bet",
+      "text": "Thousands of independent CrossFit gyms are cancelling their licenses. CrossFit charges affiliates **$4,500 annually** to use its brand and workout programs, despite scandals. Even so, CrossFit maintains this high-fee model, betting owners will pay for the **official brand** and programs.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "CrossFit Affiliate Fee Increase 2023 vs 2024",
+        "subtitle": "USD, annual fee per gym",
+        "color": "#FF5733",
+        "source": "[Iron Bull Strength interview with CEO Don Faul, 2023. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "2023 Fee",
+              "value": 3000.0,
+              "color": "#3366CC"
+            },
+            {
+              "label": "2024 Fee",
+              "value": 4500.0,
+              "color": "#DC3912"
+            }
+          ],
+          "changePercent": 50.0,
+          "changeValue": 1500.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "In exchange for the fee increase, CrossFit CEO Don Faul said that the company pledged to deliver more value to affiliates so they can “build a strong, sustainable business.”",
+        "source": "Don Faul, CrossFit CEO, Barbend.com, 2023"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a lemonade stand that has to pay a fee to use a famous logo. CrossFit gyms pay to use the CrossFit name, but some think the fee is too high and are quitting.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "CrossFit raises fees; gyms drop CrossFit.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's CrossFit betting will happen?",
+        "answer": "CrossFit bets that the value of its brand outweighs the higher cost, and that affiliates can't succeed as well without the CrossFit name. This assumes customers care more about \"official\" branding than price or local gym quality.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are the risks of raising fees?",
+        "answer": "Higher fees may drive away smaller gyms or those in less affluent areas, potentially weakening CrossFit's community. If enough gyms leave, the brand's value erodes, accelerating further departures and impacting overall revenue.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are CrossFit's Head of Affiliate Relations",
+    "keyQuestionText": "CrossFit is losing thousands of affiliate gyms due to a high $4,500 annual fee. They're keeping this high-fee model anyway. What assumption do you think they're making about affiliate gym owners?",
+    "hintText": "Consider what core beliefs about gym owners would make CrossFit continue with this pricing despite departures.",
+    "shortKeyQuestionText": "What assumption are they making about gym owners?",
+    "choices": [
+      {
+        "title": "Brand value endures",
+        "text": "Gym owners will eventually return because the CrossFit brand remains irreplaceable",
+        "followUpQuestion": "Brand endurance is key here. What would make gym owners actually come back despite high fees and scandals?"
+      },
+      {
+        "title": "No viable alternatives",
+        "text": "Gym owners can't truly succeed or grow their businesses without the CrossFit affiliation",
+        "followUpQuestion": "Lack of alternatives matters. What would make unlicensed gyms actually struggle to compete effectively?"
+      },
+      {
+        "title": "Workout quality is top",
+        "text": "The CrossFit workout programming is unique and superior to any independent methods",
+        "followUpQuestion": "Workout quality seems crucial. What would make CrossFit's programming truly irreplaceable for gyms?"
+      },
+      {
+        "title": "Community drives value",
+        "text": "The global CrossFit community provides enough value to justify the high fee",
+        "followUpQuestion": "Community strength is central. What would make the global community actually outweigh the high annual fee for gyms?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "sunk_cost_fallacy",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/sunk_cost_fallacy.png",
+    "mentalModelImageDescription": "A person waist-deep in mud, continuing to shovel more mud around themselves, even though it's clearly making the situation worse. They are focused on the effort already expended, ignoring the increasing futility and the obvious need to change tactics and get out of the mud.",
+    "mentalModelLinkText": "Sunk cost fallacy shows how past investments compel continued spending—like CrossFit assuming gym owners, already invested in branding, will keep paying high fees even if the value no longer justifies it.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you buy a movie ticket, but the movie is boring. You still sit there because you already paid for it, even though you could be doing something fun. That's focusing on what you already spent instead of making the best choice now.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The sunk cost fallacy is continuing to invest in something because of prior investment, even when it's clear the investment is not paying off.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to CrossFit's situation?",
+        "answer": "CrossFit might believe gym owners, having already invested heavily in branding and specialized equipment, will feel forced to stay affiliated to recoup those initial costs, even if the annual fees are too high, leading to a continued payment.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "CrossFit may be overestimating the loyalty of gym owners trapped by their previous investments. Owners will rationally assess if the current and future benefits of affiliation outweigh the costs, regardless of past investments and the brand might overestimate their commitment.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes clinging to what you know can be a trap. That's **status quo bias**: favoring current conditions, even when change offers better outcomes. For CrossFit, sticking with the $4,500 fee assumes affiliates see value despite declining numbers, ignoring that gyms might switch to cheaper alternatives or independent programming. The **inertia** of past decisions blinds them. *The irony is that CrossFit's brand strength might be the very thing preventing it from adapting and surviving.* It's like a ship's captain refusing to change course despite an approaching storm."
+}

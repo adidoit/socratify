@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "8d92de59-324a-4d3b-9bda-2f68e368c2c6",
+  "exerciseVersion": 4,
+  "exerciseType": "elevator_pitch",
+  "status": "active",
+  "storyType": "Trends",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because this exercise requires understanding of standard business concepts like brand relevance, digital transformation, competitive positioning, and strategic trade-offs, which are typical for first-year business students to grasp.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because understanding LEGO's digital shift requires following trends in the toy industry and digital entertainment, and grasping how a legacy brand adapts to new consumer habits, typical of someone who reads industry publications.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the exercise asks the user, as VP of Marketing, to make a case to a parent, requiring an understanding of how to position LEGO's digital shift and articulate value propositions in a way that resonates with consumer concerns and trends.",
+    "fileName": "lego-digital-elevator_pitch.xml",
+    "backgroundNeeded": "Remember that LEGO sells physical bricks and children now prefer screen time, understand how digital play can be constructive and complement physical play, and apply marketing and strategic thinking to convince a parent of LEGO's digital transformation's value.",
+    "happyPath": "LEGO, the world's leading toymaker with over $9 billion in revenue, faces a significant challenge: children now spend dramatically more time engaging with screens than with physical toys. This presents a stark reality for a company historically built entirely on the foundation of its physical bricks. Founded in Denmark in 1958 and famous for its unique interlocking brick system, LEGO is grappling with a digital shift that requires a fundamental evolution. Despite facing near-bankruptcy in 2003 and successfully rebuilding its business around creative physical play, the current digital landscape demands a new leap forward for the giant. Recognizing this profound change, LEGO is embarking on a major digital push. A key part of this strategy involves partnering with Epic Games, the maker of Fortnite, with the aim of creating engaging online experiences for kids. This move directly addresses the challenging reality that children now spend hours daily on screens, far exceeding the time dedicated to traditional toys, which significantly impacts LEGO's future relevance. The central difficulty for LEGO lies in effectively translating the unique, hands-on creativity and the distinctive \"system\" feel inherent in building with physical bricks into a compelling digital format. The company's \"Bricks to Clicks\" journey necessitates investing heavily in digital initiatives beyond simply licensing its brand for games. These new ventures must successfully stand out from estab",
+    "faviconUrl": "https://www.lego.com/lego-logo-512.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A collection of interlocking plastic bricks, mostly bright yellow and red. Some are small squares, others longer rectangles, all with round knobs on top.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/lego-style_bricks_being_used_to_prototype_a_business_model-0c7ac6d6-7e67-465c-b004-119bee0cd789.png",
+    "coverPlainTitle": "LEGO Adapts Play for Digital Natives",
+    "coverWittyTitle": "Bricks to Clicks?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can LEGO win over screen-obsessed kids?",
+    "coverParagraph": "Kids now spend tons of time on screens. How can **LEGO** **make the case** for digital play to parents?",
+    "tags": "Marketing,Product,Tech,Gaming",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Screen Time Shift",
+      "text": "Kids now **prefer screens** to physical toys, challenging LEGO's traditional brick sales. The global toymaker creates digital experiences with Epic Games to engage children and compete against digital giants like **Roblox and Minecraft**.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "LEGO Group Revenue",
+        "subtitle": "DKK billions, YoY change 2024",
+        "color": "#FFCC00",
+        "source": "[LEGO Group Annual Report, 2024. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "DKK"
+        },
+        "data": {
+          "value": 74300000000.0,
+          "change": 13.0,
+          "changeValue": 8600000000.0,
+          "trend": "up",
+          "insight": "Revenue growth despite increased digital investment"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Trust Tightrope",
+      "text": "LEGO invests **$1 billion in Epic Games** but CFO fears **digital drain** repeats 2003 collapse.",
+      "zoomOutTextQuote": {
+        "text": "Kids enjoy playing in digital and physical worlds and move seamlessly between the two. We believe there is huge potential for them to develop life-long skills... through digital experiences.",
+        "source": "Niels B. Christiansen, CEO of The LEGO Group, The LEGO Group and Epic Games Team Up to Build a Place for Kids to Play in the Metaverse, 2022"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine LEGO is like a toy store, but kids now want to play video games more. LEGO is spending money to make its own games, but it's risky because it might not work and they could lose money like they did a long time ago.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "LEGO invests in digital games. Fear of financial collapse resurfaces.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk for LEGO?",
+        "answer": "LEGO risks diluting its brand by chasing digital trends instead of focusing on its core product: physical bricks. Investing in Epic Games could divert resources from LEGO's traditional strengths, potentially weakening its market position if the digital venture fails.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Why is LEGO's CFO worried?",
+        "answer": "The CFO likely fears that LEGO's digital investments won't generate sufficient returns and will cannibalize brick sales. Replicating the success of Roblox and Minecraft requires a different skillset, so LEGO must manage a new cost structure without undermining their existing advantages.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are LEGO's VP of Marketing",
+    "keyQuestionText": "Kids prefer screens, impacting LEGO's relevance. They want to adapt to play habits. How would you make the case for LEGO's shift to digital play to a concerned parent?",
+    "hintText": "Consider what benefits or value propositions you'd emphasize to a parent to explain why LEGO is moving into digital experiences.",
+    "shortKeyQuestionText": "Make the case for LEGO's shift to digital play?",
+    "choices": [
+      {
+        "title": "Screen time value",
+        "text": "Digital play can be constructive, educational screen time",
+        "followUpQuestion": "Screen time value sounds important. How would you expand on this argument to convince a concerned parent about LEGO's digital shift?"
+      },
+      {
+        "title": "Enhanced learning",
+        "text": "Digital tools offer new ways to learn STEM skills and problem-solve",
+        "followUpQuestion": "Enhanced learning makes sense. How would you develop this argument to reassure a concerned parent about LEGO's digital play?"
+      },
+      {
+        "title": "Future readiness",
+        "text": "Digital literacy is crucial for children's future development",
+        "followUpQuestion": "Future readiness looks key. How would you make this case to convince a concerned parent about LEGO's digital strategy?"
+      },
+      {
+        "title": "Shared experiences",
+        "text": "Digital platforms enable children to play and create together online",
+        "followUpQuestion": "Shared experiences seem valuable. How would you present this argument to convince a concerned parent about LEGO's digital shift?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "engagement_trap",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/engagement_trap.png",
+    "mentalModelImageDescription": "A Venus flytrap with alluring nectar lures an insect closer, only to snap shut once the insect is within reach. Once engaged, escaping becomes difficult. This illustrates how engagement can become a trap, where users are captured and exploited.",
+    "mentalModelLinkText": "Engagement trap shows how maximizing screen time can compromise well-being, like concerns parents have about LEGO's digital experiences potentially addicting kids or impacting their privacy instead of fostering healthy play.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a game that's so fun you can't stop playing it, even when you need to do your homework. That's an engagement trap - it tricks you into spending too much time on something.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "An engagement trap occurs when products or platforms are designed to maximize user time and attention, sometimes at the expense of user well-being.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to LEGO's situation?",
+        "answer": "LEGO must ensure its digital platforms promote healthy engagement, balancing entertainment with educational value and responsible screen time. Marketing should emphasize features that promote learning and creativity, and address any concerns about potential addiction or exploitation.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model highlights the need for ethical design and transparency in LEGO's digital initiatives. Focus should be on long-term user value and trust, rather than short-term engagement metrics. This approach builds brand loyalty and reassures parents that LEGO prioritizes their children's well-being.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes chasing growth means transforming so much you lose what made you special—that's the **innovator's dilemma**. It happens when successful companies focus on current customers and miss new waves of disruptive innovation. **LEGO's** billion-dollar bet on Epic Games to counter rivals like **Roblox** risks alienating their core brick-building fans. *The hidden dilemma is that becoming a digital giant may mean ceasing to be the LEGO people know and love.* LEGO might win the battle for screen time and lose the war for creative play."
+}

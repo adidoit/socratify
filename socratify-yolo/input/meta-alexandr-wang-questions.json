@@ -1,0 +1,173 @@
+{
+  "exerciseUuid": "73d1a99a-1181-43e1-9370-867c37583da1",
+  "exerciseVersion": 4,
+  "exerciseType": "questions",
+  "status": "active",
+  "storyType": "news",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic implications of Meta's investment in Scale AI requires familiarity with concepts like competitive advantage, market positioning, and strategic trade-offs that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing Scale AI's client retention and Meta's business development needs requires understanding competitive dynamics and strategic decision-making within the AI industry, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding the need to prevent revenue loss and the potential for client switching requires recognition of basic customer loyalty concepts and market dynamics.",
+    "fileName": "meta-alexandr-wang-questions.xml",
+    "backgroundNeeded": "Remember that Meta invested $15 billion in Scale AI, a data-labeling firm that serves competitors like Google and OpenAI, understand how client relationships and switching costs impact business viability, and apply strategic thinking to identify the most critical question for retaining clients.",
+    "happyPath": "Meta's recent $15 billion investment in Scale AI and the recruitment of its founder, Alexandr Wang, marks a pivotal and unconventional strategic move for the tech giant. Plagued by disappointing AI model performance (like Llama 4) and talent attrition, Meta is clearly making a bold bet to re-establish its competitive position. The multifaceted nature of this deal—involving a massive financial outlay, a unique ownership structure where Wang retains voting control of Scale, and his dual role leading Meta's new 'superintelligence' group—presents a complex landscape of opportunities and significant risks that demand careful strategic thinking. One critical lens for analyzing this situation is the \"Data Paradigm\" thesis, which appears to be the core strategic rationale behind Meta's investment. The article highlights that major AI breakthroughs historically stem from unlocking new data sources rather than purely algorithmic innovation (e.g., ImageNet for computer vision, \"The Internet\" for language models, RLHF for conversational AI). Meta's internal complaints about a \"lack of innovation around data\" suggest they recognize that their current data pipelines may be insufficient. By acquiring a 49% stake in Scale AI—a company that has built the infrastructure for critical human-powered data collection and, specifically, the human preference data that enabled breakthroughs like ChatGPT—Meta is positioning itself to control a fundamental lever of AI progress. The bet is that Wang's unique insights into which data strategies work across the industry, combined with Scale's ability to adapt to new data paradigms like video or embodied AI, will provide Meta with an insurmountable advantage, effectively commoditizing algorithmic research. However, this strategic gamble introduces significant competitive and organizational challenges. Scale AI has historically served many of Meta's rivals, including OpenAI and Google. While OpenAI reportedly intends to stick with Scale, Google is planning to cut ties, posing a substantial risk to Scale's existing revenue. Meta's ability to leverage its sales team to acquire new enterprise clients for Scale, as Microsoft does with OpenAI's models via Azure, will be crucial to offset this. Furthermore, the governance structure, where Wang maintains voting control over Scale despite Meta's significant ownership, creates potential conflicts of interest. Wang's dual role leading Meta's superintelligence group while overseeing an external company that may still serve Meta's competitors necessitates robust legal frameworks and clear information-sharing protocols to prevent strategic leaks and ensure alignment. The market for high-skill data labeling is also rapidly evolving, with new players like Handshake (which quickly achieved a $100M run rate) and Mercor emerging, indicating that Scale's dominance is not guaranteed, and the high cost of expert human data labeling presents an ongoing operational challenge. In conclusion, the Meta-Scale AI deal is a sophisticated, high-stakes wager on a specific theory of AI progress. Its success hinges on the validity of the \"data paradigm\" thesis—that data, and not just algorithms, is the ultimate differentiator—and Meta's ability to skillfully manage the intricate operational, competitive, and governance complexities of this unique arrangement. This scenario forces us to consider how companies navigate rapid technological shifts, identifying where true leverage lies, and how leadership and deal structures must adapt to capture unique, non-traditional assets like Alexandr Wang's unparalleled industry intelligence. The outcome will not only define Meta's future in AI but also provide a real-world case study on the evolving nature of strategic advantage in the age of artificial intelligence.",
+    "faviconUrl": "https://www.meta.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Modern server rack with blinking LED lights in shades of cool azure and artic snow tones, the metal casing reflecting light. Cables snake behind the unit, hinting at complex connections.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/ola-krutrim-define_success-cfbc6cec-9e23-44a3-bea1-ceee91a59fa0.png",
+    "coverPlainTitle": "Meta Questions Data Firm's Clients",
+    "coverWittyTitle": "Friends or Frenemies Data?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Can Meta trust its data partner?",
+    "coverParagraph": "**Meta** owns part of Scale AI that **serves its rivals**. Choose what question to ask about losing key clients.",
+    "tags": "Strategy,Product,Tech,AI",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Data Battle",
+      "text": "Meta invested **$15 billion** in Scale AI, a data-labeling firm. This ownership puts Scale AI's clients, like **Google and OpenAI**, in direct competition with Meta, risking their business.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "Meta Platforms AI Investment Growth",
+        "subtitle": "USD billions, 2023-2025",
+        "color": "#4267B2",
+        "source": "[AInvest news analysis citing Meta’s reported figures, 2023-2024. Socratify Analysis]",
+        "features": [
+          "line-chart",
+          "zero-baseline"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2023-01-01",
+              "value": 27.27
+            },
+            {
+              "date": "2024-01-01",
+              "value": 39.0
+            },
+            {
+              "date": "2025-01-01",
+              "value": 65.0
+            }
+          ],
+          "currentValue": 65.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Data Bet",
+      "text": "Meta’s AI models were **disappointing**, and the company lost **top talent**. It then bet $15 billion on Scale AI's data to catch rivals.",
+      "zoomOutTextQuote": {
+        "text": "Meta continues to invest in AI infrastructure, optimizing it and tweaking models to improve returns. It's important that Meta develops Llama models so it can control its own destiny.",
+        "source": "Mark Zuckerberg, CEO Meta, Earnings Call and LlamaCon, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine two kids, Google and Meta, need help sorting their toys. Meta buys the company that sorts toys, Scale AI. Now, Google might not want Meta's company sorting their toys anymore.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Meta invests in Scale AI. Google and OpenAI become wary customers.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How could this investment backfire on Meta?",
+        "answer": "Scale AI's other clients, like Google and OpenAI, might stop using Scale AI, fearing Meta gains access to their data. This could limit Scale AI's growth and Meta's return on investment, if those clients represent a large part of Scale AI revenue.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Why might Meta take such a risk?",
+        "answer": "Meta likely needs Scale AI's data to improve its AI models after losing talent and falling behind competitors. Access to diverse datasets could be more valuable than Scale AI's revenue from competing AI companies.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Meta's Head of Business Development",
+    "keyQuestionText": "Meta now owns 49% of Scale AI. They're planning to manage Scale AI's client relationships to prevent revenue loss. As Head of Business Development, what question would you ask first?",
+    "hintText": "Think about what market question addresses the immediate competitive threat to Scale AI's existing business.",
+    "shortKeyQuestionText": "What question would you ask about Scale AI clients?",
+    "choices": [
+      {
+        "title": "Competitor switching costs",
+        "text": "What are the costs for Google and OpenAI to switch data providers?",
+        "followUpQuestion": "Switching costs seem key. Why is this the most critical question for Scale AI's client retention?"
+      },
+      {
+        "title": "New client acquisition plan",
+        "text": "What specific plan do we have to replace any lost client revenue?",
+        "followUpQuestion": "Client acquisition makes sense. Why is this the most critical question for Scale AI's client retention?"
+      },
+      {
+        "title": "Contractual obligations",
+        "text": "What existing contracts protect Scale AI from immediate client defections?",
+        "followUpQuestion": "Contractual terms matter. Why is this the most critical question for Scale AI's client retention?"
+      },
+      {
+        "title": "Scale's sales team capacity",
+        "text": "Can Scale AI's current sales team handle new enterprise clients alone?",
+        "followUpQuestion": "Sales team capacity looks important. Why is this the most critical question for Scale AI's client retention?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "principal_agent_problem",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/principal-agent_problem.png",
+    "mentalModelImageDescription": "Imagine a dog walker hired to care for your pet. The walker might take shortcuts, like shorter walks, if they aren't directly rewarded for the dog's well-being. The dog owner (principal) wants a happy dog, but the walker (agent) has incentives to minimize effort. This illustrates how misaligned incentives can lead to suboptimal outcomes for the principal.",
+    "mentalModelLinkText": "Principal-agent problem shows how a hired party's interests can diverge from the hirer's—like Scale AI (agent) serving Meta's rivals, creating conflicts that undermine Meta’s $15 billion investment.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you hire someone to walk your dog, but they also walk your neighbor's dog, who you don't like. The dog walker might spend more time with the neighbor's dog to make more money, even if it means your dog gets less attention. This is the principal-agent problem!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The principal-agent problem arises when an agent's interests don't perfectly align with the principal's, leading to potential conflicts of interest and suboptimal decisions.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Meta's situation?",
+        "answer": "Meta invested heavily in Scale AI for a data advantage, but Scale AI's continued service to competitors creates a conflict. Scale AI could prioritize competitors' needs, slowing down Meta's progress or giving rivals access to better data, ultimately reducing Meta's return on investment.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model highlights the risk that Scale AI might not act entirely in Meta's best interests. To mitigate this, Meta needs strong contractual agreements, oversight mechanisms, or even complete ownership to ensure Scale AI's priorities align with Meta's strategic goals.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes more data isn't always better; consider the **resource curse**. Typically applied to nations rich in natural resources, it shows how wealth can paradoxically hinder development. Here, Scale AI's lucrative contracts with Meta’s rivals could distort its focus. Will Scale AI optimize for Meta's specific needs with equal enthusiasm, or will it prioritize Google and OpenAI for fear of upsetting more diversified revenue streams? *The hidden risk is that Meta’s investment ends up subsidizing its competition.*"
+}

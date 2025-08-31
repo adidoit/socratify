@@ -1,0 +1,171 @@
+{
+  "exerciseUuid": "53f00a54-3acd-47c7-981b-8223c7702641",
+  "exerciseVersion": 4,
+  "exerciseType": "define_success",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding how to balance subscriber loyalty against profitability for Disney's streaming bundle requires familiarity with concepts like customer churn, revenue per user, and segment profitability that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how Disney should define success for its streaming bundle requires understanding market competition and strategic trade-offs, typical of regular industry observers following the media landscape.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic concepts of subscriber retention and discounts as marketing tools to understand their impact on customer loyalty.",
+    "fileName": "disney-streaming-bundle-define_success.xml",
+    "backgroundNeeded": "Remember that Disney bundles Disney+, Hulu, and ESPN+ at a discount to retain subscribers, understand how deep discounts pressure profitability despite subscriber growth, and apply business metrics to define success for this balancing act.",
+    "happyPath": "Not available",
+    "faviconUrl": "https://www.disney.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Three differently shaped remotes stacked atop one another. The first is in the familiar mouse-ear silhouette in bold, vibrant crimson that sits right in the sweet spot between pure red and scarlet. The second is simple and oblong in a subdued, matte chartreuse, while the third is black and angular.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/disney-streaming-bundle-define_success-88371703-c916-46ca-8949-05d78fccb52f.png",
+    "coverPlainTitle": "Disney Balances Subscribers Against Profit",
+    "coverWittyTitle": "Mouse Click Profits?",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How should Disney make streaming bundles profitable?",
+    "coverParagraph": "**Disney** offers a cheap bundle but **profit is squeezed**. Decide how Disney defines success for its streaming bundle balancing act.",
+    "tags": "Strategy,Marketing,Media,Entertainment",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Bundle Trap",
+      "text": "Disney loses $20 per streaming subscriber each month. They bundle three services for just $10, a **70% discount** from the $30 individual price, to keep 150 million subscribers. But Disney risks **mass cancellations** if it raises prices.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Disney+ Subscribers Q1 vs Q2 FY25",
+        "subtitle": "Millions of subscribers, quarterly",
+        "color": "#113CCF",
+        "source": "[The Walt Disney Company Reports First Quarter Earnings for Fiscal 2025, 2025. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "Q1 FY25",
+              "value": 125.0,
+              "color": "#113CCF"
+            },
+            {
+              "label": "Q2 FY25",
+              "value": 126.4,
+              "color": "#FF9900"
+            }
+          ],
+          "changePercent": 1.12,
+          "changeValue": 1.4
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Profit Squeeze",
+      "text": "Disney must make streaming profitable, but its **$33 billion content investment** and **deep bundle discounts** weigh heavily on profits.",
+      "zoomOutTextQuote": {
+        "text": "The presence of Hulu embedded in Disney... and sports content “is definitely having a positive impact.” Not only is engagement up, but churn is down, and significantly.",
+        "source": "Bob Iger, CEO, Disney, Q2 2025 Earnings Call, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Disney is like a toy store selling different toys. To get more kids to visit, they sell a bag with a few toys for much less than buying each toy separately. But now, they're losing money on each bag, and it's hard to raise the price without kids getting upset and leaving.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Disney offers cheap bundles. Subscriber count is high. Profit is low.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What is Disney's biggest strategic challenge here?",
+        "answer": "Disney's challenge is balancing subscriber growth with profitability in streaming. It must find ways to increase revenue per user without triggering mass cancellations, a delicate balance given its heavy reliance on discounted bundles to maintain subscriber numbers.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How do sports affect Disney's bundle strategy?",
+        "answer": "Sports content, likely ESPN, helps reduce churn, but it's costly to acquire and maintain those sports rights. Disney needs to determine if sports drive enough incremental value to justify the high content costs within the bundle, or if it should explore other options.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Disney's Chief Operating Officer",
+    "keyQuestionText": "Disney balances subscriber loyalty against profitability for its streaming bundle. They're trying to make streaming profitable despite deep discounts. How would you define success for this balancing act?",
+    "hintText": "Consider what revenue, cost, and subscriber metrics would show if the bundle achieved profitable growth.",
+    "shortKeyQuestionText": "How would you define success for this balancing act?",
+    "choices": [
+      {
+        "title": "Subscriber Retention",
+        "text": "Bundled customers stay subscribed longer than single-service users",
+        "followUpQuestion": "Retention looks key. Why is this the right metric to balance growth with profitability for Disney's bundle?"
+      },
+      {
+        "title": "Revenue per user",
+        "text": "Bundled customers generate higher average revenue than single subscribers",
+        "followUpQuestion": "Revenue per user seems critical. Why is this the right metric to balance growth with profitability for Disney's streaming bundle?"
+      },
+      {
+        "title": "Segment Profitability",
+        "text": "Streaming division achieves positive operating income despite discount",
+        "followUpQuestion": "Segment profitability looks important. Why is this the right metric to balance growth with profitability for Disney's streaming?"
+      },
+      {
+        "title": "Cross-Service Usage",
+        "text": "Bundled customers use all three services more frequently",
+        "followUpQuestion": "Cross-service usage matters. Why is this the right metric to balance growth with profitability for Disney's bundle?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "loss_leader_pricing",
+    "mentalModelImageUrl": "https://cdn.socratify.com/business-models/images/loss-leader-pricing_0.png",
+    "mentalModelImageDescription": "A grocery store with a large sign advertising milk at a very low price, attracting customers who then purchase other, more profitable items. This illustrates how a low-priced item can draw in customers and drive sales of other goods with higher margins.",
+    "mentalModelLinkText": "Loss leader pricing shows how Disney can sell its streaming bundle cheaply to attract subscribers. The goal is that these customers then spend more on merchandise, theme park visits, or premium content across the Disney ecosystem.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a store sells candy very cheaply to get you inside. Once you're there, you might buy other, more expensive things. That's like a loss leader - a cheap item that gets you to buy more!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Loss leader pricing involves selling a product or service at a loss to attract customers, hoping they'll buy other profitable items.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How could Disney use this model?",
+        "answer": "Disney's streaming bundle, offered at a significantly reduced price, acts as a loss leader to attract subscribers to Disney+, Hulu, and ESPN+. The goal is to increase overall engagement and sell additional content, merchandise, and theme park visits.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What opportunity does this model create?",
+        "answer": "Disney can leverage the loss leader strategy to build a loyal subscriber base and create cross-selling opportunities. By strategically pricing the bundle, Disney can drive engagement across its ecosystem and increase overall revenue, even if the bundle itself isn't profitable.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes loyalty can trap you. That's **switching costs**: the hassle customers face when changing services. Disney hopes its bundled offering makes leaving too painful, but this can backfire. The nuance here is that deep discounts create weak loyalty. Subscribers stay for the price, not the content. This makes Disney vulnerable to competitors. _The more perks it adds, the less each one matters—and the easier it is to leave._ Like a restaurant offering so many discounts nobody remembers what the food tastes like."
+}

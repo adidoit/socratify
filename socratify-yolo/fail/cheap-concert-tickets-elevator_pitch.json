@@ -1,0 +1,173 @@
+{
+  "exerciseUuid": "ff61bb04-0d2c-4116-a8c8-4c2a2c138655",
+  "exerciseVersion": 4,
+  "exerciseType": "elevator_pitch",
+  "status": "active",
+  "storyType": "Trends",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding how to pitch rising ticket prices requires familiarity with concepts like artist economics, production costs, market dynamics, and fan loyalty that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the necessity of rising ticket prices requires understanding the current financial realities of the live music industry and competitive dynamics, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic concepts of fan loyalty and how artists communicate value to their audience.",
+    "fileName": "cheap-concert-tickets-elevator_pitch.xml",
+    "backgroundNeeded": "Remember that touring is a primary income source for artists due to low streaming royalties, understand the financial pressures of production costs and market dynamics, and apply strategic communication to pitch the necessity of rising ticket prices to maintain fan loyalty.",
+    "happyPath": "The soaring cost of concert tickets presents a multifaceted strategic challenge for the live music industry, impacting artists, fans, venues, and market intermediaries alike. What appears on the surface as simple supply-and-demand is, in reality, a complex web of evolving artist revenue models, concentrated market power, escalating production expenses, and the proliferation of secondary markets. Understanding this ecosystem requires dissecting the distinct forces at play and appreciating their interconnectedness, revealing that no single villain or easy solution exists. One critical dimension is the fundamental shift in artist economics. Musicians historically earned most of their income from recorded music sales, with touring serving as promotion. Today, meager streaming royalties have inverted this model, making live performances the primary revenue driver. This structural change compels artists to maximize tour income, leading to higher initial ticket prices and more frequent touring. Simultaneously, an \"arms race\" in production quality further inflates costs, as artists strive to deliver elaborate, social-media-worthy shows to meet evolving fan expectations and differentiate themselves in a competitive landscape. This means a significant portion of the ticket price covers complex logistics, stage design, and personnel, reflecting a direct value exchange for a premium experience rather than pure profit. A second lens examines market structure and power dynamics, particularly concerning Live Nation and Ticketmaster. Their vertical integration across artist management, promotion, venue operation, and ticketing grants them significant leverage. While critics accuse them of monopolistic practices and \"extortion\" through fees and exclusive contracts, Live Nation argues this integration is efficient, providing comprehensive services that benefit artists and venues, and that venues themselves prefer single primary ticketing partners for better deals. This perspective suggests that Live Nation sees itself as a consolidator of a complex value chain, not just a monopolist, and that their pricing strategies, including dynamic pricing, are designed to capture more value for artists and themselves, rather than leaving it to secondary market scalpers. The secondary market introduces another layer of complexity and contention. Resellers often inflate prices dramatically, leading to fan frustration and the perception that artists are \"giving money away\" by underpricing. While secondary platforms like StubHub claim to offer competition and liquidity, critics argue they primarily compete with fans for tickets. The debate around regulating these markets, through measures like the BOTS Act or resale limits, highlights a tension between consumer protection and the concept of \"fan freedom\" to resell. The success of acts like The Cure in implementing face-value exchanges suggests that artist-controlled resale mechanisms can be effective in curbing speculation and redirecting value to fans and artists, rather than third-party profiteers. Ultimately, navigating the \"cheap concert tickets are gone forever\" reality demands a multi-dimensional strategic approach. It's not just about regulating a single dominant player; it's about re-evaluating artist compensation models, incentivizing innovation beyond established monopolies, and crafting policies that balance market efficiency with fan protection and artist control. Understanding these interwoven dynamics—from the economic imperative of artists to the structural power of integrated giants and the disruptive nature of secondary markets—is essential for any stakeholder seeking to reshape the future of the live music experience.",
+    "faviconUrl": "https://www.livenation.com/assets/favicons/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A black concert t-shirt with the name of the artist written in dripping pink letters. The shirt is folded on a dark gray surface.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/cheap-concert-tickets-elevator_pitch-45fdea12-41fb-437c-8772-75b6b2564b87.png",
+    "coverPlainTitle": "Justify Price Hikes to Loyal Fans?",
+    "coverWittyTitle": "Is This Ticket Price Reasonable?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Why are concert tickets so expensive now?",
+    "coverParagraph": "Artists rely on concert income more than ever. Can you justify rising ticket prices? **You'll pitch** a price hike to a **loyal fan**.",
+    "tags": "Marketing,Economics,Media,Pricing",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Fan Frustration",
+      "text": "Artists rely on touring for most of their income. This makes **concert tickets expensive for fans** since streaming royalties pay musicians very little. High prices strain **longtime fan loyalty**.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "StubHub Revenue Growth",
+        "subtitle": "USD billions, 2022-2024",
+        "color": "#1f77b4",
+        "source": "[StubHub SEC IPO Filing, 2025. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2022-12-31",
+              "value": 1.04
+            },
+            {
+              "date": "2023-12-31",
+              "value": 1.37
+            },
+            {
+              "date": "2024-12-31",
+              "value": 1.77
+            }
+          ],
+          "currentValue": 1.77
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Fan Betrayal",
+      "text": "StubHub **bleeds fans $500** while scalpers **triple seat prices** - both selling your seats",
+      "zoomOutTextQuote": {
+        "text": "If you underprice your ticket, someone's going to buy it and put it on StubHub or one of these other sites. You're just giving the money away, as an artist.",
+        "source": "Jarred Arfa, Head of Global Music, Independent Artist Group"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine your favorite ice cream costs $5, but to actually buy it, you have to pay $15 because someone else bought it first and marked it up. Artists want you to see them, but high ticket prices make it hard.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "StubHub scalpers inflate concert tickets, hurting loyal fans and testing artist goodwill.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How does this impact artists?",
+        "answer": "Artists risk alienating their fan base if ticket prices are too high on resale markets. They need to balance maximizing revenue with maintaining a positive relationship with the people who support them most.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What can artists do about this?",
+        "answer": "Artists can implement strategies like verified fan programs or tiered pricing to combat scalping and ensure tickets reach genuine fans at reasonable prices. They might partner with ticket platforms that limit resale markups.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are a Major Touring Artist's Manager",
+    "keyQuestionText": "Concert fans are frustrated by rising ticket prices. They want to maintain fan loyalty. How would you pitch rising ticket prices as necessary to a loyal fan?",
+    "hintText": "Consider how you would explain the financial realities of touring and production to help a fan understand the necessity of current pricing.",
+    "shortKeyQuestionText": "Pitch rising ticket prices as necessary to a fan.",
+    "choices": [
+      {
+        "title": "Artist income source",
+        "text": "Touring is now artists' main source of income",
+        "followUpQuestion": "Artist income looks key. How would you expand on this argument to justify rising prices to a loyal fan?"
+      },
+      {
+        "title": "Show production costs",
+        "text": "Complex visuals and sets require higher ticket prices",
+        "followUpQuestion": "Show production costs are high. How would you develop this case to justify rising prices to a loyal fan?"
+      },
+      {
+        "title": "Countering resellers",
+        "text": "Higher initial prices prevent scalpers from profiting",
+        "followUpQuestion": "Countering resellers makes sense. How would you make this case to justify rising prices to a loyal fan?"
+      },
+      {
+        "title": "Unmatched experience",
+        "text": "Live events offer unique value streaming cannot match",
+        "followUpQuestion": "Unmatched experience feels valuable. How would you present this argument to justify rising prices to a loyal fan?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "value_perception_manipulation",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/value_perception_manipulation.png",
+    "mentalModelImageDescription": "Imagine a plain cup of coffee versus the same coffee served in an elegant, upscale setting with ornate decorations. The perceived value increases due to the presentation, even though the product is the same. This illustrates how artists can enhance the perceived value of a concert through enhanced production, VIP packages, or exclusive experiences, justifying higher prices to fans.",
+    "mentalModelLinkText": "Value perception shows how artists can justify higher ticket prices by enhancing the concert experience. This means investing in elaborate stage designs, special effects, or VIP packages, making fans willing to pay more for the unique show.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine getting a toy in a plain box versus getting the same toy wrapped in shiny paper with a big bow. The shiny wrapping makes the toy seem more special and worth more, even though it's the same toy!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Value perception manipulation is enhancing the perceived value of a product or service to justify a higher price.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to [Company]'s situation?",
+        "answer": "The artist can use elaborate stage productions, exclusive VIP experiences, and limited-edition merchandise to increase the perceived value of attending the concert, making fans more willing to pay higher ticket prices.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model reveals that fans are not just paying for the music but also for the overall experience, indicating that investments in enhancing the concert atmosphere can directly impact fans' willingness to accept higher ticket prices.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "The core issue is **price elasticity of demand**: how much demand changes when prices shift. When ticket prices surge, some fans will still pay, but others are priced out. For artists, this means balancing revenue with fan loyalty, especially among their core supporters. The trick is that **perceived value** becomes more important than actual cost. _The hidden dynamic is that focusing solely on maximizing short-term profit can erode the long-term foundation of fan support_, leaving artists vulnerable when trends change."
+}

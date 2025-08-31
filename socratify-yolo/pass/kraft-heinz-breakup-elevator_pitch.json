@@ -1,0 +1,172 @@
+{
+  "exerciseUuid": "9d4e3ed7-546c-45e3-894b-9dd5887d17ee",
+  "exerciseVersion": 4,
+  "exerciseType": "elevator_pitch",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because pitching a corporate breakup requires understanding strategic trade-offs, market valuation principles, and the impact of past failures, concepts typically covered in first-year business studies.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the Kraft Heinz breakup proposal requires understanding industry trends in food conglomerates, competitive dynamics, and the strategic rationale for portfolio rationalization, typical of regular industry observers.",
+    "secondaryDomainName": "Finance",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because convincing the board necessitates understanding financial principles like sum-of-the-parts valuation and how market perception affects stock value, requiring knowledge beyond basic financial literacy.",
+    "fileName": "kraft-heinz-breakup-elevator_pitch.xml",
+    "backgroundNeeded": "Remember that Kraft Heinz is a packaged food giant with underperforming stock since its 2015 merger and has faced challenges from changing consumer tastes, understand how corporate structure impacts strategic focus and market valuation, and apply principles of portfolio rationalization and damage control to pitch a breakup scenario to a board.",
+    "happyPath": "Kraft Heinz’s proposed breakup is a high-stakes strategic maneuver, coming a decade after a \"historically bad deal\" that led to billions in market value erosion. This decision isn't merely a financial re-engineering; it's a profound re-evaluation of the company's structure and strategy in the face of dramatically changed consumer preferences and a challenging \"Big Food\" landscape. Convincing stakeholders, particularly a skeptical board and investors, requires a clear, forward-looking narrative that directly addresses past missteps while articulating a credible path to future value creation and agility. One critical strategic lens to apply here is portfolio rationalization and focus. The original merger created a sprawling conglomerate with brands ranging from fast-growing condiments to slower-moving processed foods. This breakup signals a recognition that a \"one-size-fits-all\" management approach is no longer effective. By separating the more dynamic, consumer-preference-aligned offerings (like sauces and dressings) from the mature, staple grocery businesses (like Kraft macaroni and cheese), each new entity can allocate capital, innovation, and marketing resources more precisely to its distinct market segment. This sharper focus, exemplified by the company's prioritization of \"faster-growing offerings,\" promises greater agility and efficiency that the combined entity lacked. Secondly, the strategy hinges on the \"sum-of-the-parts\" valuation principle. The article explicitly states that Kraft Heinz hopes \"the two separate units would be in total worth more than Kraft Heinz’s roughly $31 billion market value.\" This isn't just wishful thinking; it reflects how different investor classes value businesses. A stable, cash-generating grocery business might appeal to dividend-focused investors, while a growth-oriented condiments business could attract investors seeking higher growth multiples. Untangling these distinct profiles allows each entity to be valued more appropriately by the market, potentially leading to a higher combined market capitalization. This strategy is also gaining traction in the \"Big Food\" sector, as seen with Kellogg's recent splits, indicating a broader industry trend towards specialization. Finally, the breakup represents a crucial opportunity to rebuild credibility and address historical baggage. The $15 billion write-down in 2019 and the $57 billion in market value erased since the merger are undeniable failures. A successful pitch must acknowledge this past, not just sweep it under the rug. The departure of 3G Capital and Berkshire Hathaway's reduced board involvement also clear the way for a fresh start, demonstrating a tangible break from the past strategies that flopped. This move can be framed as a decisive, proactive step to learn from past mistakes, adapt to structural market shifts, and intentionally manage the portfolio for future resilience, rather than just a desperate measure. It positions Kraft Heinz as a company willing to undergo significant structural change to ensure its long-term relevance and unlock true value for shareholders.",
+    "faviconUrl": "https://www.kraftheinzcompany.com/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Imagine a bright red ketchup bottle and a dark green pickle jar sitting apart on a dark wooden table. No labels. Both are half empty.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/kraft-heinz-breakup-elevator_pitch-92689b51-3648-417a-b8f9-25cd07a059c8.png",
+    "coverPlainTitle": "Kraft Heinz Board Faces Breakup Pitch",
+    "coverWittyTitle": "Ketchup and Pickles Apart?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "Should Kraft Heinz split to create more value?",
+    "coverParagraph": "Since its merger, **Kraft Heinz** stock has plunged. **Pitch the board** on a company breakup to regain lost value and adapt to changing tastes.",
+    "tags": "Strategy,Finance,Food,Mergers & Acquisitions",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Value Split",
+      "text": "Kraft Heinz's 2015 merger erased $57 billion, plunging its stock. The packaged food giant now proposes splitting into two companies to **regain lost value** and correct a **decade of failed strategy**. It must convince a skeptical board the breakup will make it agile and profitable.",
+      "chartConfig": {
+        "archetype": "minibar-comparison",
+        "title": "Kraft Heinz Market Value: 2015 vs 2025",
+        "subtitle": "USD billions, 2015 & 2025",
+        "color": "#D32F2F",
+        "source": "[Macrotrends, 2015 & 2024. Socratify Analysis]",
+        "features": [
+          "changePercent",
+          "changeValue"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "items": [
+            {
+              "label": "2015 Post-Merger",
+              "value": 80.0,
+              "color": "#1976D2"
+            },
+            {
+              "label": "2025 Current Value",
+              "value": 32.93,
+              "color": "#D32F2F"
+            }
+          ],
+          "changePercent": -58.84,
+          "changeValue": -47.07
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "The Missing Money",
+      "text": "**$4B marriage** was supposed to create **$1.7B synergy**. Instead the CFO watched **zero delivered** and must now explain breaking us apart.",
+      "zoomOutTextQuote": {
+        "text": "We were overly optimistic on delivering savings that did not materialize.",
+        "source": "Bernardo Hees, then-Chief Executive of Kraft Heinz"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine two toy stores merging to save money, but instead they lose toys and customers. Kraft Heinz is like that, and splitting up is like hoping each smaller store can do better on its own.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Kraft Heinz merger failed. Breakup is now the plan.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk of splitting up Kraft Heinz?",
+        "answer": "Splitting Kraft Heinz could fail if the underlying problems like changing consumer tastes remain unaddressed. However, focused management and investment in each separate entity may lead to quicker innovation and profit growth.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "Why did Kraft Heinz's promised savings fail to materialize?",
+        "answer": "Aggressive cost-cutting at Kraft Heinz damaged brands and failed to deliver promised synergies. Splitting apart assumes that smaller units can respond to market changes better than one giant bureaucracy.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Kraft Heinz's CEO",
+    "keyQuestionText": "Kraft Heinz stock has plunged since a failed merger. They want board approval for a company breakup. How would you pitch this company split to the board?",
+    "hintText": "Consider what arguments would convince the board this new plan avoids past mistakes and secures future value.",
+    "shortKeyQuestionText": "How would you pitch this company split to the board?",
+    "choices": [
+      {
+        "title": "Regain market value",
+        "text": "Two units are worth more than one combined",
+        "followUpQuestion": "Market value sounds key. How would you expand on this argument to convince the board about the Kraft Heinz company split?"
+      },
+      {
+        "title": "Focus on core strengths",
+        "text": "Each unit can focus on its unique market segment",
+        "followUpQuestion": "Core strengths look promising. How would you develop this case to convince the board about the Kraft Heinz breakup?"
+      },
+      {
+        "title": "Address past failures",
+        "text": "New plan avoids mistakes from the failed prior merger",
+        "followUpQuestion": "Addressing past failures is vital. How would you present this argument to convince the board about the Kraft Heinz company split?"
+      },
+      {
+        "title": "Adapt to consumer shifts",
+        "text": "Faster-growing brands can respond quickly to trends",
+        "followUpQuestion": "Consumer shifts are important. How would you make this case to convince the board about the Kraft Heinz company breakup?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "unbundling_arbitrage",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/unbundling_arbitrage.png",
+    "mentalModelImageDescription": "Imagine a cable TV package with hundreds of channels, most of which you never watch. Unbundling is like choosing only the specific channels you want, paying less overall and focusing on the value you actually use, showing how individual components become more valuable when sold separately.",
+    "mentalModelLinkText": "Unbundling arbitrage shows how separating bundled assets can unlock hidden value—like Kraft Heinz splitting its diverse brands so investors can better value faster-growing segments apart from slower ones.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a toy set with many pieces. Some pieces are really fun, but others are boring. Unbundling is like selling only the fun pieces separately so people can buy just what they want.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Unbundling arbitrage is extracting more value by selling individual components or services separately rather than as a bundled package.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Kraft Heinz's situation?",
+        "answer": "Kraft Heinz can unlock value by separating brands with high growth potential from those with slower growth. This allows investors to value each unit independently, potentially leading to a higher overall valuation for the combined entities.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "This model suggests that splitting the company can reveal hidden value. Each unit can attract investors who are specifically interested in its market segment and growth prospects, leading to greater investment and innovation.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Sometimes companies grow so large they suffer from **diseconomies of scope**. This happens when the costs of managing a sprawling business outweigh the benefits of its size. For Kraft Heinz, merging created a complex portfolio, with diverse brands from Oscar Mayer to Velveeta. The nuance here is that internal **complexity** may be obscuring the value of individual, high-growth brands. _What nobody talks about is that breaking up might be easier than fixing a broken marriage._ Think of it as untangling a garden hose to let the water flow again."
+}

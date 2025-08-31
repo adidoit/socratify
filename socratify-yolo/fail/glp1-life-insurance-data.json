@@ -1,0 +1,161 @@
+{
+  "exerciseUuid": "5fbbe9d0-2f0a-4863-99a6-3c534c80cb21",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the strategic implications of GLP-1s for life insurers requires familiarity with concepts like risk assessment, market segmentation, and competitive advantage that first-year business students learn, along with the strategic trade-offs involved in patient retention.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how insurers can gain a competitive edge by understanding patient preferences for GLP-1 adherence requires following trends in healthcare and insurance, and understanding competitive dynamics in patient retention.",
+    "secondaryDomainName": "Product",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because the exercise focuses on what data related to patient preferences is needed to develop and offer competitive products (adherence programs), requiring an understanding of product development in response to market needs.",
+    "fileName": "glp1-life-insurance-data.xml",
+    "backgroundNeeded": "Remember that life insurers use mortality data to price policies and GLP-1 drugs temporarily improve health, understand how medication adherence affects long-term health risks and insurer profitability, and apply this knowledge to identify what patient preference data is needed to create competitive advantages in customer retention.",
+    "happyPath": "The rise of GLP-1 medications presents a profound strategic puzzle for life insurers, directly challenging their decades-old, data-driven underwriting models. The core issue is the disconnect between a GLP-1 user's current 'mirage' of good health and their actual long-term risk profile, which is heavily influenced by medication adherence. This situation demands a multi-faceted approach to re-evaluate risk, engage patients, and forge new partnerships, all underpinned by a need for different, more dynamic data. One critical strategic lens involves the evolution of underwriting practices. Historically, insurers relied on static health metrics to predict mortality with high accuracy. However, GLP-1s introduce a dynamic variable: health improvements that are conditional on continued medication use. To counter \"mortality slippage,\" insurers need more than just current BMI or HbA1c. They must incorporate longitudinal data, understanding an applicant's pre-GLP-1 health status, the duration of medication use, and, crucially, whether they have recently discontinued treatment. This shifts underwriting from a snapshot assessment to a more continuous, behavior-informed risk evaluation, requiring data-sharing mechanisms and more nuanced applicant disclosures to capture the true, evolving health trajectory. Another vital dimension is addressing the patient adherence problem through behavioral economics. The article highlights that most GLP-1 users quit within a year, leading to health relapse. Insurers and their partners need data to understand why patients disengage and what interventions effectively promote sustained use. Drawing from the \"statin playbook,\" insights into prescription refill patterns, the impact of convenience (like 90-day refills), the effectiveness of 'wrap-around care' components (e.g., coaching, digital nudges), and patient preferences for support mechanisms become paramount. This requires analyzing engagement data, surveying patient experiences, and conducting A/B tests on intervention strategies to identify what truly drives long-term adherence and translates to sustained health benefits and lower claims costs. Finally, the scenario demands a proactive strategic partnership approach. Insurers recognize that cracking GLP-1 retention is a lucrative opportunity, but they face \"vague promises\" from potential partners. To select effective collaborators, insurers need rigorous data on partner performance. This includes hard metrics like patient retention rates for their GLP-1 programs, demonstrable long-term health outcomes of their patient cohorts, and the cost-effectiveness of their adherence initiatives. Evaluating partners goes beyond clinical efficacy; it involves scrutinizing their operational capabilities for seamless medication delivery and patient support, their data collection methodologies, and their ability to show a causal link between their interventions and sustained patient adherence, ensuring a true win-win-win. In conclusion, navigating the GLP-1 revolution requires life insurers to fundamentally rethink their data strategy. It's not just about collecting more health data, but about acquiring dynamic, behavioral, and partnership-specific information. By evolving underwriting to account for treatment adherence, leveraging behavioral insights to improve patient retention, and strategically partnering based on verifiable outcomes, insurers can transform the GLP-1 \"mirage\" into a sustainable advantage, demonstrating sophisticated strategic thinking in a rapidly changing healthcare landscape.",
+    "faviconUrl": "https://www.novonordisk.com/etc.clientlibs/nncorp/components/structure/page/clientlib/resources/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "Standard insurance claim form, printed on thin white paper. The form includes sections highlighted in a pale sky blue, with various empty fields and check boxes awaiting completion in black ink.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/transformation_leads_change_readiness_assessment-be1ae1ee-d187-4a69-a296-63111cf0871a.png",
+    "coverPlainTitle": "Insurers Track Weight-Loss Drug Habits",
+    "coverWittyTitle": "Fat Chance for Insurers?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How can life insurers track drug adherence?",
+    "coverParagraph": "**Life insurers** face **mis-priced policies** due to weight-loss drugs. Determine what patient data gives them a competitive edge.",
+    "tags": "Strategy,Product,Health,Pharma",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Policy Risk",
+      "text": "GLP-1 drugs improve patient health, leading life insurers to miscalculate long-term risk. **Most GLP-1 users quit within a year**, causing health relapses. Insurers need new data to **retain long-term customers**.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "GLP-1 Patient Retention Rate",
+        "subtitle": "%, 1-year discontinuation",
+        "color": "#1F77B4",
+        "source": "[JAMA Netw Open, 2025. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "percentage"
+        },
+        "data": {
+          "value": 65.0,
+          "change": 0.0,
+          "changeValue": 0.0,
+          "trend": "flat",
+          "insight": "Most patients quit GLP-1 within one year"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "Insurers face tough risk call on weight loss drugs like Ozempic... health and group insurers have begun paying out more claims related to the use of GLP-1 drugs like Ozempic and Mounjaro.",
+        "source": "John Hilton, InsuranceNewsNet, Insurers face tough risk call on weight loss drugs like Ozempic, says panel, NAILBA 43, 2024"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine insurance companies are betting on how long people will stay healthy. If many people start a diet but quit after a few months and get sick again, the insurance company loses money because they didn't guess right.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "GLP-1 drugs show great promise, but most users quit them within a year, which messes up insurance risk calculations.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How should insurers adjust strategy?",
+        "answer": "Insurers need to find ways to keep people on GLP-1 drugs longer, or they will face increased payouts when people relapse. They could offer discounts to those who stick with it, or programs that help with long-term adherence.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What new data is needed?",
+        "answer": "Insurers need more data on why people quit GLP-1s and what interventions improve adherence. Understanding patient behavior will allow insurers to better predict costs and design effective support programs.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are a Life Insurer's Head of Product Strategy",
+    "keyQuestionText": "Cracking GLP-1 retention helps capture the market. They want to gain a competitive edge. What data do you think they need about patient preferences?",
+    "hintText": "Think about what insights into patient support preferences would help insurers differentiate competitively.",
+    "shortKeyQuestionText": "What data do you think they need about patient preferences?",
+    "choices": [
+      {
+        "title": "Barriers to sustained use",
+        "text": "Specific challenges patients face that lead them to stop GLP-1 treatment",
+        "followUpQuestion": "Barriers to use seem critical. Why would this data help gain a competitive edge?"
+      },
+      {
+        "title": "Desired support mechanisms",
+        "text": "What type of ongoing support patients value most for long-term adherence",
+        "followUpQuestion": "Desired support is important. How might this information help them differentiate?"
+      },
+      {
+        "title": "Preferred digital tools",
+        "text": "The specific apps or platforms patients prefer for health tracking and engagement",
+        "followUpQuestion": "Digital tools sound useful. Why is this data crucial for competitive differentiation?"
+      },
+      {
+        "title": "Willingness to pay for support",
+        "text": "How much extra patients would pay for comprehensive adherence programs",
+        "followUpQuestion": "Willingness to pay is interesting. Why would this data help gain a competitive advantage?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "peltzman_effect",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/peltzman_effect.png",
+    "mentalModelImageDescription": "A driver speeding down a road with a seatbelt fastened, feeling safer and taking more risks as a result. This illustrates how increased safety measures can paradoxically lead to riskier behavior, offsetting the intended benefits.",
+    "mentalModelLinkText": "The Peltzman Effect applies to GLP-1s: patients, feeling 'safe' due to initial weight loss, might relax diet/exercise, leading to relapse after stopping medication. Insurers need to anticipate this behavior to accurately assess long-term risk and design effective support systems.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you have super strong knee pads on when you're skateboarding. You might try to do bigger and riskier tricks because you feel safer, even though you could still get hurt. That's the Peltzman Effect!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The Peltzman Effect is when safety measures unintentionally lead to riskier behavior, negating some or all of their intended benefits.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to the Insurer's situation?",
+        "answer": "The insurer should anticipate that patients might engage in less healthy behaviors once they see initial success with GLP-1 drugs. They can collect data on secondary behaviors that could contribute to long term risks (diet, exercise, follow-up appointments). This allows them to manage risk effectively, and offer targeted support to mitigate these behaviors.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The insurer must recognize that providing GLP-1 drugs alone is insufficient. They need to implement proactive measures that promote sustained lifestyle changes and address the potential for increased risk-taking behavior, leading to better long-term outcomes.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Life insurers need to worry about **customer lifetime value**. It predicts net profit attributed to the entire future relationship with a customer. For GLP-1 drugs, many insurers may see an initial surge in costs followed by customer churn as patients stop medication and relapse. The nuance here is forecasting long-term adherence. *It's not just about acquiring GLP-1 users, but about predicting who will stay and what support they'll need.* It's like valuing a gym membership based on initial sign-ups rather than long-term attendance."
+}

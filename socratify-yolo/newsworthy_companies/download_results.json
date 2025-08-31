@@ -1,0 +1,450 @@
+{
+  "stats": {
+    "successful": 306,
+    "failed": 9,
+    "categories": {
+      "AI_ML_STARTUPS": {
+        "successful": 23,
+        "failed": 1
+      },
+      "EUROPEAN_TECH_SCALEUPS": {
+        "successful": 24,
+        "failed": 1
+      },
+      "ASIAN_TECH_COMPANIES": {
+        "successful": 24,
+        "failed": 0
+      },
+      "LATIN_AMERICAN_TECH": {
+        "successful": 24,
+        "failed": 0
+      },
+      "AFRICAN_TECH": {
+        "successful": 24,
+        "failed": 0
+      },
+      "CLIMATE_TECH": {
+        "successful": 25,
+        "failed": 0
+      },
+      "BIOTECH_HEALTHCARE": {
+        "successful": 23,
+        "failed": 1
+      },
+      "FINTECH_DISRUPTORS": {
+        "successful": 24,
+        "failed": 0
+      },
+      "SUPPLY_CHAIN_LOGISTICS": {
+        "successful": 23,
+        "failed": 1
+      },
+      "CREATOR_ECONOMY": {
+        "successful": 22,
+        "failed": 2
+      },
+      "B2B_SAAS": {
+        "successful": 25,
+        "failed": 0
+      },
+      "SPACE_TECH": {
+        "successful": 23,
+        "failed": 1
+      },
+      "QUANTUM_COMPUTING": {
+        "successful": 22,
+        "failed": 2
+      }
+    }
+  },
+  "results": {
+    "AI_ML_STARTUPS": {
+      "successful": [
+        "Anthropic",
+        "Cohere",
+        "Character_AI",
+        "Jasper",
+        "Copy_AI",
+        "Runway",
+        "Stability_AI",
+        "Midjourney",
+        "Leonardo_AI",
+        "Perplexity_AI",
+        "You_com",
+        "Phind",
+        "Together_AI",
+        "Replicate",
+        "Modal",
+        "Hugging_Face",
+        "Weights_and_Biases",
+        "Scale_AI",
+        "Harvey_AI",
+        "Adept",
+        "Inflection_AI",
+        "AI21_Labs",
+        "Colossal_Biosciences"
+      ],
+      "failed": [
+        "Mistral_AI"
+      ]
+    },
+    "EUROPEAN_TECH_SCALEUPS": {
+      "successful": [
+        "Helsing",
+        "Northvolt",
+        "Klarna",
+        "Revolut",
+        "Monzo",
+        "N26",
+        "Starling_Bank",
+        "Bunq",
+        "Qonto",
+        "UiPath",
+        "Spotify",
+        "SoundCloud",
+        "Deezer",
+        "BlaBlaCar",
+        "Deliveroo",
+        "Just_Eat",
+        "Glovo",
+        "GetYourGuide",
+        "Bolt",
+        "Wise",
+        "Cazoo",
+        "Arrival",
+        "Celonis",
+        "ContentKing"
+      ],
+      "failed": [
+        "Mistral_AI"
+      ]
+    },
+    "ASIAN_TECH_COMPANIES": {
+      "successful": [
+        "Grab",
+        "Gojek",
+        "Sea_Limited",
+        "Shopee",
+        "Tokopedia",
+        "Bukalapak",
+        "Traveloka",
+        "OYO",
+        "RedDoorz",
+        "Carousell",
+        "PropertyGuru",
+        "GoTo_Group",
+        "Xendit",
+        "Akulaku",
+        "Kredivo",
+        "Dana",
+        "OVO",
+        "LinkAja",
+        "TrueID",
+        "Agoda",
+        "Pomelo_Fashion",
+        "Zilingo",
+        "Coda_Payments",
+        "Razer"
+      ],
+      "failed": []
+    },
+    "LATIN_AMERICAN_TECH": {
+      "successful": [
+        "Rappi",
+        "Kavak",
+        "Clip",
+        "Nubank",
+        "Banco_Inter",
+        "Stone",
+        "PagSeguro",
+        "iFood",
+        "Cornershop",
+        "Loggi",
+        "99",
+        "Cabify",
+        "Beat",
+        "Didi",
+        "MercadoLibre",
+        "Vtex",
+        "Magazine_Luiza",
+        "Americanas",
+        "Submarino",
+        "Loft",
+        "QuintoAndar",
+        "Creditas",
+        "GuiaBolso",
+        "ContaAzul"
+      ],
+      "failed": []
+    },
+    "AFRICAN_TECH": {
+      "successful": [
+        "Flutterwave",
+        "Paystack",
+        "Interswitch",
+        "Jumia",
+        "Konga",
+        "Andela",
+        "Kobo360",
+        "TradeDEPOT",
+        "Cars45",
+        "Autochek",
+        "PiggyVest",
+        "Cowrywise",
+        "Carbon",
+        "FairMoney",
+        "Branch",
+        "Tala",
+        "OPay",
+        "PalmPay",
+        "Chipper_Cash",
+        "Wave",
+        "Mogo",
+        "Yoco",
+        "Peach_Payments",
+        "Ozow"
+      ],
+      "failed": []
+    },
+    "CLIMATE_TECH": {
+      "successful": [
+        "Rivian",
+        "Lucid_Motors",
+        "Canoo",
+        "Fisker",
+        "Polestar",
+        "QuantumScape",
+        "Solid_Power",
+        "Sila_Nanotechnologies",
+        "StoreDot",
+        "CATL",
+        "Northvolt",
+        "Form_Energy",
+        "ESS_Tech",
+        "Ambri",
+        "Malta",
+        "Energy_Vault",
+        "Commonwealth_Fusion",
+        "Helion_Energy",
+        "TAE_Technologies",
+        "General_Fusion",
+        "Impossible_Foods",
+        "Beyond_Meat",
+        "Perfect_Day",
+        "Memphis_Meats",
+        "NotCo"
+      ],
+      "failed": []
+    },
+    "BIOTECH_HEALTHCARE": {
+      "successful": [
+        "23andMe",
+        "Color_Genomics",
+        "Invitae",
+        "Myriad_Genetics",
+        "Foundation_Medicine",
+        "Guardant_Health",
+        "Natera",
+        "Veracyte",
+        "10x_Genomics",
+        "Illumina",
+        "Oxford_Nanopore",
+        "Pacific_Biosciences",
+        "Twist_Bioscience",
+        "Synthetic_Genomics",
+        "Modern_Meadow",
+        "Bolt_Threads",
+        "Spiber",
+        "Biome_Makers",
+        "Zymergen",
+        "Amyris",
+        "Genomatica",
+        "Intrexon",
+        "Editas_Medicine"
+      ],
+      "failed": [
+        "Ginkgo_Bioworks"
+      ]
+    },
+    "FINTECH_DISRUPTORS": {
+      "successful": [
+        "Chime",
+        "Current",
+        "Varo",
+        "Dave",
+        "MoneyLion",
+        "Credit_Karma",
+        "SoFi",
+        "M1_Finance",
+        "Webull",
+        "Robinhood",
+        "Affirm",
+        "Afterpay",
+        "Sezzle",
+        "Zip",
+        "Tabby",
+        "Tamara",
+        "Circle",
+        "Ripple",
+        "Paxos",
+        "Anchorage",
+        "Fireblocks",
+        "BitGo",
+        "Chainalysis",
+        "Elliptic"
+      ],
+      "failed": []
+    },
+    "SUPPLY_CHAIN_LOGISTICS": {
+      "successful": [
+        "Flexport",
+        "Convoy",
+        "Uber_Freight",
+        "Loadsmart",
+        "Transfix",
+        "Freightos",
+        "Shippo",
+        "ShipBob",
+        "EasyShip",
+        "Sendcloud",
+        "Sendle",
+        "Parcel_Perform",
+        "Nuvocargo",
+        "Cargamos",
+        "Ontruck",
+        "Saloodo",
+        "Trucknet",
+        "Timocom",
+        "FreightHub",
+        "Zencargo",
+        "Stord",
+        "Darkstore",
+        "Fabric"
+      ],
+      "failed": [
+        "Shippie"
+      ]
+    },
+    "CREATOR_ECONOMY": {
+      "successful": [
+        "Patreon",
+        "OnlyFans",
+        "Cameo",
+        "Gumroad",
+        "Teachable",
+        "Thinkific",
+        "Kajabi",
+        "Circle",
+        "Mighty_Networks",
+        "Geneva",
+        "Partiful",
+        "IRL",
+        "Punchbowl",
+        "Evite",
+        "Substack",
+        "ConvertKit",
+        "Ghost",
+        "Medium",
+        "LinkedIn_Creator",
+        "Beehiiv",
+        "MailerLite",
+        "Flodesk"
+      ],
+      "failed": [
+        "Revue",
+        "Buttondown"
+      ]
+    },
+    "B2B_SAAS": {
+      "successful": [
+        "Monday_com",
+        "Asana",
+        "ClickUp",
+        "Airtable",
+        "Smartsheet",
+        "Coda",
+        "Basecamp",
+        "Linear",
+        "Height",
+        "Notion",
+        "Obsidian",
+        "Roam_Research",
+        "Logseq",
+        "Figma",
+        "Framer",
+        "Webflow",
+        "Bubble",
+        "Retool",
+        "Internal",
+        "Airplane",
+        "Vercel",
+        "Netlify",
+        "Railway",
+        "Render",
+        "Fly_io"
+      ],
+      "failed": []
+    },
+    "SPACE_TECH": {
+      "successful": [
+        "SpaceX",
+        "Blue_Origin",
+        "Virgin_Galactic",
+        "Virgin_Orbit",
+        "Rocket_Lab",
+        "Relativity_Space",
+        "Firefly_Aerospace",
+        "Astra",
+        "ABL_Space",
+        "Planet_Labs",
+        "Maxar",
+        "BlackSky",
+        "Capella_Space",
+        "Iceye",
+        "Spire_Global",
+        "Swarm_Technologies",
+        "Astroscale",
+        "ClearSpace",
+        "Orbit_Fab",
+        "Made_In_Space",
+        "Varda_Space",
+        "Gateway_Earth",
+        "Stoke_Space"
+      ],
+      "failed": [
+        "Vector_Launch"
+      ]
+    },
+    "QUANTUM_COMPUTING": {
+      "successful": [
+        "IonQ",
+        "Rigetti",
+        "PsiQuantum",
+        "Xanadu",
+        "D_Wave",
+        "Cambridge_Quantum",
+        "QuEra",
+        "Atom_Computing",
+        "Alpine_Quantum",
+        "IQM",
+        "Quantinuum",
+        "Quantum_Computing_Inc",
+        "Zapata_Computing",
+        "ProteinQure",
+        "Menten_AI",
+        "Cambridge_Quantum_Computing",
+        "Rahko",
+        "Biogen_Quantum",
+        "Quantum_Circuits",
+        "QC_Ware",
+        "Strangeworks",
+        "1QBit"
+      ],
+      "failed": [
+        "Pasqal",
+        "SiQure"
+      ]
+    }
+  },
+  "timestamp": "2025-08-11 07:10:32"
+}

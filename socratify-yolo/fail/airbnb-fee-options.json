@@ -1,0 +1,162 @@
+{
+  "exerciseUuid": "77989444-e642-4f12-9e90-63310acfdf6c",
+  "exerciseVersion": 4,
+  "exerciseType": "options",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding Airbnb's strategic dilemma requires familiarity with concepts like two-sided marketplaces, supplier leverage, and pricing strategies, which first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing how Airbnb should balance host demands and guest pricing requires following marketplace dynamics and understanding competitive positioning, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because users need to recognize basic pricing perception concepts and how platform appeal can be influenced by guest-facing costs.",
+    "fileName": "airbnb-fee-options.xml",
+    "backgroundNeeded": "Remember that Airbnb is a marketplace connecting hosts and guests and that powerful hosts can leave if unhappy, understand how shifting fees to one side can impact perceived pricing and competitiveness, and apply strategic thinking to balance the needs of different stakeholder groups.",
+    "happyPath": "Airbnb finds itself navigating a classic two-sided marketplace dilemma: how to satisfy powerful suppliers without alienating consumers. Professional hosts, controlling a substantial portion of listings, are demanding lower fees, threatening Airbnb's inventory. While Airbnb's current experimental response involves shifting fees entirely to guests, this creates a critical tension, as the platform risks appearing uncompetitively priced on comparison tools. This scenario compels a deeper strategic inquiry beyond simple fee adjustments.To address this complex challenge, Airbnb must consider a multi-pronged approach that moves beyond the immediate pricing dilemma. One strategic lens involves enhancing the value proposition for professional hosts beyond just fees. Instead of competing purely on price, Airbnb could invest in developing advanced proprietary tools and services tailored to professional property managers. This could include sophisticated dynamic pricing algorithms, seamless channel management integrations with their existing systems, advanced analytics dashboards providing market insights, or dedicated concierge-level support. By embedding itself more deeply into their operational workflows and providing indispensable value, Airbnb could foster stickiness, making it harder for these powerful hosts to simply jump to competitors like Vrbo, even if fee structures differ slightly. This shifts the competitive battle from price alone to a more comprehensive value offering.A second critical perspective focuses on diversifying the supplier base and reducing reliance on a concentrated group of powerful professional hosts. While professional managers are crucial for scale, their collective leverage presents a systemic risk. Airbnb could strategically invest in campaigns to recruit and empower more individual, non-professional hosts, perhaps offering simplified listing tools, enhanced insurance, or community-building initiatives. By nurturing a broader, more distributed base of unique listings, Airbnb could gradually dilute the bargaining power of any single large segment of professional hosts. This might involve re-emphasizing its roots as a platform for unique, local experiences offered by individual hosts, differentiating itself from more commoditized property rental sites.Finally, Airbnb must also consider innovating the guest value equation to justify perceived higher prices. If total costs appear higher due to fee shifts, Airbnb needs to ensure guests perceive commensurately higher value. This could involve curating more unique or premium listings, offering bundled services (e.g., airport transfers, local tours, exclusive experiences) that are integrated into the booking process, or developing robust loyalty programs that offer tangible benefits to frequent travelers. Furthermore, increasing pricing transparency, by clearly articulating what value the fees cover, could help manage guest perception. The goal is to shift the guest's mental model from a simple price comparison to a holistic value assessment, where Airbnb offers a superior, more reliable, or more differentiated overall travel experience.Successfully navigating the demands of powerful professional hosts while maintaining guest demand requires Airbnb to adopt a comprehensive strategic toolkit. Relying solely on fee adjustments creates a zero-sum game. Instead, by simultaneously enhancing the non-financial value proposition for hosts, diversifying its supplier base to mitigate leverage risks, and innovating how guests perceive and receive value, Airbnb can build a more resilient and sustainable marketplace. This multi-faceted approach underscores that strategic insight in complex platform businesses comes from exploring diverse angles and understanding the interconnectedness of different stakeholder needs.",
+    "faviconUrl": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-76x76-3b313d93b1b5823293524b9764352ac9.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "The signature bright coral-pink house with crisp white trim, featuring a distinctive front door in soft honey-gold, surrounded by the angular silhouette of a modern townhouse with vintage window shutters painted in deep midnight blue.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/airbnb-fee-options-8fc9e764-226e-4fa3-9784-5472a456b980.png",
+    "coverPlainTitle": "Airbnb Host Fee Crunch",
+    "coverWittyTitle": "Fee or Flee?",
+    "coverRatingStat": 4.7,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "How should Airbnb keep hosts and guests?",
+    "coverParagraph": "**Airbnb** shifted **all fees to guests** to keep powerful hosts happy. Find other ways they could balance both sides' needs.",
+    "tags": "Strategy,Product,Tech,Travel Tech",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Host Dilemma",
+      "text": "Airbnb's **powerful hosts** demand lower fees, threatening to pull thousands of listings. To appease them, Airbnb shifted all guest fees. But this made listings appear much **more expensive** on rival travel sites.",
+      "chartConfig": {
+        "archetype": "kpi-metric",
+        "title": "Airbnb Net Revenue",
+        "subtitle": "USD billions, Q3 2024 YoY",
+        "color": "#FF5A5F",
+        "source": "[Airbnb Q3 2024 Financial Results via news.airbnb.com, 2024. Socratify Analysis]",
+        "features": [
+          "trend"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "value": 3700000000.0,
+          "change": 10.0,
+          "changeValue": 336363636.0,
+          "trend": "up",
+          "insight": "10% YoY revenue growth despite fee model shifts"
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Fee Dilemma",
+      "text": "Airbnb puts **all fees on guests** to keep powerful hosts. This makes its listings appear **more expensive in comparisons**.",
+      "zoomOutTextQuote": {
+        "text": "Strategically, these adjustments help Airbnb... manage financial risks better, and protect itself from financial liabilities. Yet, these measures simultaneously shift financial uncertainty towards hosts, making predictable cash flow potentially more challenging.",
+        "source": "Rental Scale-Up, Airbnb Payment Terms 2025 Analysis, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine Airbnb is like a store. To keep the people who put stuff in the store happy, Airbnb made shoppers pay all the fees. Now, the store looks more expensive than others.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Airbnb shifts fees to guests, angering hosts and inflating prices.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "How does this impact Airbnb's competitiveness?",
+        "answer": "Airbnb risks losing price-sensitive customers who comparison shop on other travel sites. However, appeasing hosts prevents mass exodus of listings, protecting overall inventory and network effects.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "What are the business execution challenges here?",
+        "answer": "Airbnb must balance host satisfaction with attracting budget travelers. The company also needs a way to dynamically adjust fees to remain competitive without alienating either side.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Airbnb's Chief Strategy Officer",
+    "keyQuestionText": "Powerful professional hosts threaten Airbnb's inventory. They tried shifting all fees to guests. What other approaches should they explore to balance hosts and guests?",
+    "hintText": "Think beyond fee structures – how else can Airbnb satisfy powerful hosts and keep guest pricing competitive?",
+    "shortKeyQuestionText": "What other approaches should they explore?",
+    "choices": [
+      {
+        "title": "Host Partnership",
+        "text": "Offer advanced tools and dedicated support to top hosts",
+        "followUpQuestion": "Good idea. How would dedicated tools help balance host and guest needs?"
+      },
+      {
+        "title": "Guest Value Add",
+        "text": "Create unique guest experiences and loyalty programs",
+        "followUpQuestion": "Interesting. How would unique guest experiences help balance host and guest needs?"
+      },
+      {
+        "title": "Individual Host Focus",
+        "text": "Recruit more individual hosts to balance market power",
+        "followUpQuestion": "That's a shift. How would more individual hosts balance host and guest needs?"
+      },
+      {
+        "title": "Premium Host Service",
+        "text": "Create a premium service for professional hosts",
+        "followUpQuestion": "I see a premium tier. How would a separate service balance host and guest needs?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "cross-side_network_effects",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/cross-side_network_effects.webp",
+    "mentalModelImageDescription": "A bustling town square: more merchants (hosts) attract more shoppers (guests), who then attract even more merchants, creating a self-reinforcing cycle of increasing activity and value for everyone involved. The square remains vibrant due to the interplay between these two distinct groups.",
+    "mentalModelLinkText": "Cross-side network effects show how value for one group depends on the other—like more hosts attracting more guests. Airbnb shifting fees to guests makes listings look expensive, potentially driving guests away and harming hosts.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine a playground: the more kids that are there, the more fun it is for everyone. But if it's too expensive to get into the playground, fewer kids will come, and it won't be as fun for anyone. That's cross-side network effects!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Cross-side network effects occur when the value of a product or service increases for users on one side of the platform as the number of users on the other side grows.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Airbnb's situation?",
+        "answer": "Airbnb's marketplace depends on attracting both hosts and guests. Increasing fees for guests could reduce demand, which in turn would make hosting less attractive, creating a negative feedback loop that weakens the overall platform.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Airbnb needs to carefully manage the incentives for both hosts and guests to maintain a healthy network effect. Finding a balance between host profitability and guest affordability is crucial for long-term sustainability and growth.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "Airbnb's fight highlights the challenge of **two-sided markets**. Success hinges on balancing the needs of distinct user groups—here, hosts and guests. When one side becomes too powerful, they can extract disproportionate value, destabilizing the entire platform. Airbnb risks a **host exodus** if it doesn't address their fee concerns. *The nuance here is that pleasing one group can alienate the other, undermining the network effects that made Airbnb thrive.* It's like a seesaw—too much weight on one side and everything topples."
+}

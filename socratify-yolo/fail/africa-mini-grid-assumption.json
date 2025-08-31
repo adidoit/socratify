@@ -1,0 +1,192 @@
+{
+  "exerciseUuid": "b23cf10e-480b-444d-b76d-ffca7c01cbd0",
+  "exerciseVersion": 4,
+  "exerciseType": "assumption",
+  "status": "active",
+  "storyType": "News",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding the rationale behind a massive $85 billion investment in mini-grids requires familiarity with concepts like infrastructure development trade-offs, economic development drivers, and the basic principles of decentralized power systems, which first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because analyzing the World Bank's bet on mini-grids requires following trends in global development finance and understanding the strategic considerations between rapid deployment of alternative infrastructure versus traditional grid expansion, typical of those who follow development economics and finance news.",
+    "secondaryDomainName": "Economics",
+    "secondaryDomainLevel": 3,
+    "secondaryDomainLevelDescription": "Level 3 - Informed because understanding the economic growth potential and sustainability of mini-grids in rural African communities requires knowledge of micro-economic principles, local business development, and how infrastructure impacts economic activity, as discussed in development economics.",
+    "fileName": "africa-mini-grid-assumption.xml",
+    "backgroundNeeded": "Remember that Africa has a large electricity access deficit and traditional grids are slow, understand how mini-grids offer a faster, decentralized alternative, and apply basic economic principles to consider how reliable power can spark local businesses and improve lives in communities.",
+    "happyPath": "The strategic decision by the World Bank's Mission 300 to invest $85 billion in solar mini-grids for Africa highlights a critical development challenge: how to bring electricity to over 500 million unserved people quickly, while also ensuring long-term economic prosperity. This massive bet on decentralized power, despite concerns about its robustness and potential to be an \"expensive, temporary solution,\" forces us to consider the underlying assumptions driving such a significant shift from traditional infrastructure models. One key analytical thread is the calculus of urgency versus long-term potential. The immediate problem is a profound lack of access affecting daily life and economic potential, with traditional grids taking \"decades\" to expand. Mini-grids offer \"quick deployment\" and a \"clear alternative to bypass this wait.\" The implicit assumption here is that *any* reliable power, even if limited, unlocks immediate human and micro-economic potential (e.g., lighting for education, charging phones for communication, powering small businesses) which profoundly outweighs the waiting period for a potentially more robust but distant national grid connection. This suggests a belief that the marginal benefit of *some* power now is exponentially higher than waiting for *optimal* power later, and that this initial access can create a vital virtuous cycle. A second perspective involves redefining \"economic growth\" in a decentralized context. The core concern raised in the text is whether mini-grids can \"truly fuel sustained economic growth affordably.\" This challenges the conventional view that large-scale industrialization, requiring massive, centralized power, is the only viable path to prosperity. The underlying assumption might be that future African economic growth will be more decentralized, driven by smaller-scale agriculture, micro-enterprises, digital services, and local value creation, which are less power-intensive. This \"major bet on leapfrogging traditional infrastructure\" implies that unique, sustainable economic models can emerge tailored to rural communities, which may not require the same energy profile as established industrial economies. Finally, the viability and adaptation of the local ecosystem are crucial. For mini-grids to be more than \"expensive, temporary solutions,\" the World Bank must assume a high degree of adaptability and resilience at the community level. This includes assumptions about the financial viability of these systems (will communities consistently pay for electricity, even if limited?), operational sustainability (can local communities manage and maintain these systems effectively with appropriate support?), and demand evolution (will demand grow organically in a way that allows for self-sustaining operations, or will limited supply cap economic ambition?). Understanding these underlying beliefs about community behavior and capacity is essential to evaluating the long-term success and transformative potential of the mini-grid strategy.",
+    "faviconUrl": "https://www.worldbank.org/content/dam/wbr-redesign/logos/wbg-favicon.png"
+  },
+  "coverElements": {
+    "coverImageDescription": "A small, rectangular solar panel with a dark blue surface, mounted on a simple metal frame. Thin black wires connect it to a small, glowing LED lightbulb.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/sharp_photovoltaic_system-3d60af5f-9948-4cdb-9ac4-4f14684ecb42.png",
+    "coverPlainTitle": "World Bank's Risky African Power Bet",
+    "coverWittyTitle": "Power to the People...Eventually?",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "What's the World Bank betting on in Africa?",
+    "coverParagraph": "Over 500 million Africans lack power. The **World Bank** is **spending billions** on mini-grids. Question what they're assuming about these rural communities' response.",
+    "tags": "Strategy,Economics,Africa,Infrastructure",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Power Gamble",
+      "text": "Over 500 million people in Africa lack electricity; national grids are decades away. The World Bank's Mission 300 is spending **$85 billion on mini-grids** to power communities quickly. This is a bet on whether these communities will generate **future economic growth**.",
+      "chartConfig": {
+        "archetype": "time-series",
+        "title": "People Connected to Electricity by Mission 300",
+        "subtitle": "Millions, 2023-2030",
+        "color": "#1f77b4",
+        "source": "[World Bank, 2024. Socratify Analysis]",
+        "features": [
+          "line",
+          "points"
+        ],
+        "metadata": {
+          "valueType": "count"
+        },
+        "data": {
+          "points": [
+            {
+              "date": "2023-12-31",
+              "value": 12.0
+            },
+            {
+              "date": "2024-12-31",
+              "value": 40.0
+            },
+            {
+              "date": "2025-12-31",
+              "value": 80.0
+            },
+            {
+              "date": "2026-12-31",
+              "value": 120.0
+            },
+            {
+              "date": "2027-12-31",
+              "value": 160.0
+            },
+            {
+              "date": "2028-12-31",
+              "value": 200.0
+            },
+            {
+              "date": "2029-12-31",
+              "value": 250.0
+            },
+            {
+              "date": "2030-12-31",
+              "value": 300.0
+            }
+          ],
+          "currentValue": 300.0
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "",
+      "text": "",
+      "zoomOutTextQuote": {
+        "text": "With an average of 24 inhabitants per square kilometer, Zambia is amongst the least densely populated countries, making electricity grid extension challenging and costly.",
+        "source": "Makozo Chikote, Minister of Energy of Zambia, World Bank Press Release, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine the World Bank is planting seeds by giving small towns in Africa their own power sources. They hope these towns will grow into big cities with more jobs because they have electricity.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "World Bank invests billions in African mini-grids, betting electricity sparks economic boom.",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the biggest risk in this plan?",
+        "answer": "If communities lack skills or capital to start businesses, the mini-grids become expensive white elephants. The bet only pays off if electricity unlocks productive new economic activity beyond household use.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How could local politics impact this project?",
+        "answer": "If local elites capture the mini-grid revenues or favor certain groups, the project could fail. Fair access to electricity and transparent management are key to building trust and widespread economic participation.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are the World Bank's Head of Rural Development",
+    "keyQuestionText": "Over 500 million people in Africa lack electricity. The World Bank's Mission 300 is spending $85 billion on mini-grids anyway. What do you think Mission 300 is betting on about these communities?",
+    "hintText": "Consider the simplest beliefs about how communities will use this new power.",
+    "shortKeyQuestionText": "What is Mission 300 betting on about these communities?",
+    "choices": [
+      {
+        "title": "Basic power suffices",
+        "text": "Basic power access will significantly improve lives immediately",
+        "followUpQuestion": "Immediate impact matters. What would make basic power access alone improve lives enough for this investment?"
+      },
+      {
+        "title": "Affordable access priority",
+        "text": "Communities will choose affordable, quick power over waiting for full grids",
+        "followUpQuestion": "Affordability is a factor. What would make communities prefer quick, basic power over waiting for a full grid connection?"
+      },
+      {
+        "title": "Local economic boost",
+        "text": "Mini-grids will spark enough small local businesses to pay for power",
+        "followUpQuestion": "Local economy is critical. What would make mini-grids actually spark new, self-sustaining micro-enterprises?"
+      },
+      {
+        "title": "Easy maintenance uptake",
+        "text": "Villagers will easily learn to maintain and manage their local mini-grids",
+        "followUpQuestion": "Maintenance seems key. What would make local communities actually manage and maintain complex power systems themselves?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "demand_aggregation",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/demand_aggregation.png",
+    "mentalModelImageDescription": "A group of people pulling together on a single rope, each contributing their strength to achieve a common goal. The image represents how combining individual efforts can create a force greater than the sum of its parts, demonstrating the power of collective action and shared resources.",
+    "mentalModelLinkText": "Demand aggregation shows how pooling community power use can make mini-grids viable. Individual homes use little, but collective use for shared workshops or irrigation boosts total demand, sustaining the grids and attracting investment.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you and your friends each want to buy a toy. If you all pool your money together, you can afford a much bigger, better toy that none of you could buy alone!",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "Demand aggregation means pooling individual demands together to create a larger, more attractive opportunity.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to the Mission 300's situation?",
+        "answer": "The mini-grids are most viable if there's a consistent baseline of electricity usage. Rather than relying only on household consumption, Mission 300 can support shared facilities and businesses that will stabilize demand and make the grids sustainable.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "The model shows that Mission 300 should focus on facilitating collective electricity use to drive demand. Supporting community projects that require power creates a win-win situation and increases the probability of the grids' long-term profitability.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "**Network effects** occur when a product or service becomes more valuable as more people use it. Think of Facebook: it’s useful because your friends are on it. The nuance here is applying this to **mini-grids**. If only a few homes connect, the grid struggles, and it remains expensive. But if enough businesses and homes join, the grid becomes more efficient and attractive. *The trick is creating incentives for widespread adoption, turning a costly project into a self-sustaining ecosystem.* It’s like building a road; it only pays off if people drive on it."
+}

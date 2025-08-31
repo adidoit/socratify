@@ -1,0 +1,171 @@
+{
+  "exerciseUuid": "0efa92e8-6e5e-48c9-8342-e1a7f757d0d7",
+  "exerciseVersion": 4,
+  "exerciseType": "data",
+  "status": "active",
+  "storyType": "Opinions",
+  "metaData": {
+    "generalLevel": 3,
+    "generalLevelDescription": "Level 3 - Definition because understanding competitor data needs for diversified ventures requires familiarity with concepts like competitive analysis, resource allocation, and strategic focus that first-year business students learn.",
+    "primaryDomainName": "Strategy",
+    "primaryDomainLevel": 3,
+    "primaryDomainLevelDescription": "Level 3 - Informed because identifying crucial competitor data requires understanding competitive dynamics across multiple industries (ride-hailing, EV, AI) and how different data points inform strategic choices, typical of regular industry observers.",
+    "secondaryDomainName": "Marketing",
+    "secondaryDomainLevel": 2,
+    "secondaryDomainLevelDescription": "Level 2 - Observer because understanding the implications of competitor pricing and user growth requires recognizing basic marketing concepts and how they relate to market positioning.",
+    "fileName": "ola-krutrim-data.xml",
+    "backgroundNeeded": "Remember that Ola operates in ride-hailing, EV, and AI, understand that competing effectively requires knowledge of rivals' actions, and apply this to identify what competitor data is most useful for strategic decision-making.",
+    "happyPath": "Ola's audacious expansion into three capital-intensive sectors—ride-hailing, EV manufacturing, and AI—presents a fascinating strategic tightrope walk. This diversification, while potentially unlocking massive future growth, introduces significant complexity. The fundamental challenge lies in effectively allocating finite resources like capital, top talent, and leadership attention across vastly different business models, each demanding intense focus and substantial investment to succeed in highly competitive markets. The stakes are high for Ola, as analysts question the feasibility of excelling on so many fronts simultaneously. One critical lens is resource allocation and portfolio management. Ola's situation highlights the classic corporate challenge of managing a diversified portfolio where individual business units have distinct capital, talent, and operational requirements. The company must gather precise data on the return on investment for capital deployed in each venture, understanding not just financial returns but also the strategic benefits (e.g., market share growth, technological breakthroughs). Furthermore, it needs robust internal talent market data to identify skill gaps, retention drivers, and potential for mobility across its ride-hailing, EV, and AI divisions. This granular understanding of resource consumption and output is essential to prevent one venture from draining resources from another, potentially hindering the overall corporate objective. A second strategic perspective involves evaluating potential synergies against the diseconomies of scope. While diversification often aims for cross-business advantages like shared technology, customer bases, or brand leverage, Ola must rigorously assess if such benefits are materializing or if the ventures are creating internal competition and managerial overhead. For instance, is the AI initiative, Krutrim, truly enhancing the ride-hailing or EV business, or is it merely a separate, resource-hungry bet? Data on cross-selling effectiveness, shared technology platform utilization, and customer overlap across services would be crucial. Conversely, understanding the operational complexities unique to each sector (e.g., supply chain for EVs vs. algorithmic development for AI) is vital to identify areas where diversification adds unnecessary cost or distraction. Finally, managing external market perception, particularly from investors, is paramount. Investors often favor companies with clear strategic focus. Ola's multi-venture approach, while exciting, could be perceived as unfocused or excessively risky. The company needs to proactively gather data on investor sentiment towards conglomerates, their specific risk appetite for early-stage AI or hardware ventures, and how their valuation multiples might differ from pure-play companies in each sector. This data can inform communication strategies, helping Ola articulate a compelling narrative that justifies its ambitious diversification, highlights the long-term vision, and demonstrates a clear path to profitability or market leadership across its diverse portfolio, thereby maintaining access to crucial capital. Navigating Ola's complex multi-venture strategy requires a sophisticated understanding of internal capabilities, external market dynamics, and investor psychology. By adopting analytical frameworks focused on disciplined resource allocation, rigorous synergy assessment, and proactive stakeholder management, Ola can move beyond simply juggling businesses to strategically integrating them or making informed decisions about divestiture if necessary. This multi-faceted approach to data and strategy is essential for any diversified company aiming to not just survive but thrive across multiple, demanding frontiers.",
+    "faviconUrl": "https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magento_Theme/favicon.ico"
+  },
+  "coverElements": {
+    "coverImageDescription": "A bright yellow electric scooter with a black seat and silver handlebars is parked on a city street. The scooter has a round headlight and a small digital display. The background shows blurred buildings and pedestrians.",
+    "coverImageUrl": "https://cdn.socratify.com/cover/images/ola-krutrim-data-c3b3127b-89d4-405f-99ea-c3516b66b35a.png",
+    "coverPlainTitle": "Ola's Data: Beat Three Rivals",
+    "coverWittyTitle": "Ola: Triple Threat, Data Defense",
+    "coverRatingStat": 4.6,
+    "coverUsersPlayedStat": 18,
+    "coverQuestion": "What data helps Ola win three markets?",
+    "coverParagraph": "**Ola** faces tough competition in three sectors. **Decide** what data Ola needs to stay ahead.",
+    "tags": "Strategy,Product,AI,Transportation",
+    "level": 3,
+    "authoredDate": "2025-07-29",
+    "situationDate": "2025-07-27",
+    "expirationDate": "2025-08-05"
+  },
+  "introElements": {
+    "entityExplainer": {
+      "title": "Three Fronts",
+      "text": "Ola, India's top ride-hailing company, now runs three businesses: ride-hailing, electric scooters, and AI. Each requires massive investment and **faces fierce competition**. To beat rivals in **these distinct markets**, Ola needs specific data.",
+      "chartConfig": {
+        "archetype": "bar-chart",
+        "title": "Ola Venture Investments",
+        "subtitle": "USD millions, 2025 forecast",
+        "color": "#1f77b4",
+        "source": "[BusinessWire, 2025. Socratify Analysis]",
+        "features": [
+          "vertical-bars"
+        ],
+        "metadata": {
+          "valueType": "currency",
+          "currencyCode": "USD"
+        },
+        "data": {
+          "bars": [
+            {
+              "label": "Krutrim",
+              "value": 1200.0
+            },
+            {
+              "label": "Scoot",
+              "value": 230.0
+            },
+            {
+              "label": "Initial",
+              "value": 50.0
+            }
+          ]
+        }
+      }
+    },
+    "situationExplainer": {
+      "title": "Debt Trap",
+      "text": "Ola bleeds **$300M/month** on EV factories while scooter **revenue** funds dry up. Each new venture drains capital before AI researcher hunt even begins.",
+      "zoomOutTextQuote": {
+        "text": "Ola’s investment-heavy approach, with gigafactory plans and future expansion... may be stretching resources too thin too soon. Its focus appears split across too many verticals, as tech-startup-style blitz-scaling collides with physical complexities.",
+        "source": "Cartoq Analyst Commentary, Ola Electric Market Analysis, 2025"
+      }
+    },
+    "questions": [
+      {
+        "id": "eli5",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine you have three lemonade stands, but you run out of lemons and money to buy more before any of them make enough money. Ola is trying to run three big businesses at once, but it's running out of money fast.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr",
+        "text": "Too Long; Didn't Read",
+        "answer": "Ola is burning cash across three businesses. Can it survive?",
+        "type": "quick"
+      },
+      {
+        "id": "deep1",
+        "text": "What's the strategic risk of this situation?",
+        "answer": "Ola risks spreading itself too thin, failing to achieve a leading position in any of its ventures. Focusing resources on one core business, like ride-hailing, could create a defensible market position and improve Ola's chances of long-term survival.",
+        "type": "deep"
+      },
+      {
+        "id": "deep2",
+        "text": "How does Ola's debt impact its market position?",
+        "answer": "Ola's debt burden limits its ability to invest in crucial areas such as research and development and marketing, hindering its competitiveness. If Ola cannot secure new funding sources, it may have to sell assets or restructure, which could weaken its market position.",
+        "type": "deep"
+      }
+    ]
+  },
+  "keyQuestion": {
+    "keyQuestionRole": "You are Ola's Head of Market Intelligence",
+    "keyQuestionText": "Ola faces fierce competition in all three of its markets. They want to beat rivals in all sectors. What data do you think they need about competitors?",
+    "hintText": "Consider what information about competitors in ride-hailing, EV, and AI would help Ola's strategy.",
+    "shortKeyQuestionText": "What data do you think they need about competitors?",
+    "choices": [
+      {
+        "title": "Rival Product Features",
+        "text": "What new features or services competitors are launching in each sector",
+        "followUpQuestion": "New features are crucial. Why would this help them beat rivals in each market?"
+      },
+      {
+        "title": "Competitor Pricing Moves",
+        "text": "How rival companies are adjusting prices for ride-hailing or EVs",
+        "followUpQuestion": "Pricing moves are vital. How could this information guide their market response?"
+      },
+      {
+        "title": "Competitor User Growth",
+        "text": "How quickly competitors are gaining or losing users in their core markets",
+        "followUpQuestion": "User growth looks important. What might this reveal about beating rivals?"
+      },
+      {
+        "title": "Rival Partnership Deals",
+        "text": "What strategic partnerships competitors are forming in the AI or EV space",
+        "followUpQuestion": "Partnership deals matter. Why would this data help them compete effectively?"
+      }
+    ]
+  },
+  "implicationQuestion": {
+    "question": "",
+    "choices": []
+  },
+  "mentalModel": {
+    "mentalModelName": "winner's_curse",
+    "mentalModelImageUrl": "https://cdn.socratify.com/mental-models/images/winner's_curse.png",
+    "mentalModelImageDescription": "A person smiles broadly after winning an auction, holding a valuable prize. However, in the background, the person is surrounded by unpaid bills and worried faces, indicating that they overpaid for the prize and now face financial difficulties as a result.",
+    "mentalModelLinkText": "Winner's curse shows how winning a competitive bid can mean overpaying, leading to financial strain. Like Ola's heavy investment in Krutrim AI and electric scooters, they might overspend to beat rivals, risking a debt trap.",
+    "questions": [
+      {
+        "id": "eli5_mental_model",
+        "text": "Explain Like I'm 5",
+        "answer": "Imagine everyone is guessing how many candies are in a jar. The person who guesses the highest usually overestimates and wins the jar, but they probably paid too much for it! That's the winner's curse - winning something but paying too much.",
+        "type": "quick"
+      },
+      {
+        "id": "tldr_mental_model",
+        "text": "Too Long; Didn't Read",
+        "answer": "The winner's curse is a tendency for the winner in an auction or competitive bidding situation to overpay, leading to lower-than-expected or negative returns.",
+        "type": "quick"
+      },
+      {
+        "id": "mental_model_application",
+        "text": "How does this model apply to Ola's situation?",
+        "answer": "Ola's aggressive pursuit of market share in ride-hailing and EVs, along with its ambitious AI venture, risks overspending to outcompete rivals. This could leave them with unsustainable financial burdens, hindering their long-term viability.",
+        "type": "deep"
+      },
+      {
+        "id": "mental_model_insight",
+        "text": "What insight does this model reveal?",
+        "answer": "Ola must ensure its investments align with expected returns. They need a disciplined approach to avoid overbidding for market share, talent, and resources, maintaining a balance between growth and profitability for sustainable success.",
+        "type": "deep"
+      }
+    ]
+  },
+  "context": "When markets get hot, watch out for **escalation of commitment**: throwing good money after bad. It means sticking with a failing plan just because you've already invested so much. Ola is pouring cash into multiple ventures, doubling down even as losses mount. The nuance here is that each division—ride-hailing, EVs, AI—competes for limited resources. *What nobody talks about is how early bets can become traps, forcing you to play a losing hand.* Ola risks becoming a jack of all trades, master of none."
+}
