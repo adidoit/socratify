@@ -1,0 +1,7 @@
+### Expedia Group
+
+- **Principles/Values:** "Expedia Group's mission is to power global travel for everyone, everywhere. At Expedia Group, they believe travel is a force for good – it opens minds, builds connections, and bridges divides. They create transformative tech that enables unforgettable experiences for all travelers, everywhere. At Expedia Group, they put people first. Their travelers, teams and partners are their priority because they recognize the importance of what they do. Their role is to make travel more accessible because it has the power to make people's lives better – that responsibility inspires them to be the place where exceptional people want to do their best work, and to provide them the tools to do so. Driven by the core belief that travel is a force for good, they help people experience the world in new ways and build lasting connections. They cultivate an open culture where every voice matters, and everyone belongs. Regardless of gender, race, ethnicity, age, disability, or sexual orientation, they're united by their mission: to power global travel for everyone, everywhere."
+
+- **Source:** https://www.expediagroup.com/who-we-are/our-story/default.aspx
+
+- **Date Accessed:** 2025-01-14

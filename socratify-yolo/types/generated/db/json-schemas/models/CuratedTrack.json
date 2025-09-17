@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "Socratify/CuratedTrackModel",
+  "title": "CuratedTrackModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "trackUuid": {
+      "type": "string"
+    },
+    "trackName": {
+      "type": "string"
+    },
+    "trackDescription": {
+      "type": "string"
+    },
+    "trackCoverImage": {
+      "type": "string"
+    },
+    "publishedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "metadata": {},
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "trackGoal": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "trackUuid",
+    "trackName",
+    "createdBy",
+    "tags",
+    "metadata",
+    "createdAt",
+    "updatedAt",
+    "trackGoal",
+    "status"
+  ],
+  "additionalProperties": true
+}

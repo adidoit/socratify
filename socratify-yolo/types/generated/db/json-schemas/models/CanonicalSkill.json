@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "Socratify/CanonicalSkillModel",
+  "title": "CanonicalSkillModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "skillUuid": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "HARD",
+        "FLUID",
+        "SOFT"
+      ]
+    },
+    "definition": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "parentSkillUuid": {
+      "type": "string"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "beginnerCriteria": {
+      "type": "string"
+    },
+    "apprenticeCriteria": {
+      "type": "string"
+    },
+    "practitionerCriteria": {
+      "type": "string"
+    },
+    "expertCriteria": {
+      "type": "string"
+    },
+    "top10Criteria": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "metadata": {},
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id",
+    "skillUuid",
+    "name",
+    "category",
+    "definition",
+    "version",
+    "status",
+    "level",
+    "beginnerCriteria",
+    "apprenticeCriteria",
+    "practitionerCriteria",
+    "expertCriteria",
+    "top10Criteria",
+    "tags",
+    "metadata",
+    "createdAt",
+    "updatedAt"
+  ],
+  "additionalProperties": true
+}

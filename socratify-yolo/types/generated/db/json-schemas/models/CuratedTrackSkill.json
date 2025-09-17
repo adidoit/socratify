@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "Socratify/CuratedTrackSkillModel",
+  "title": "CuratedTrackSkillModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "trackId": {
+      "type": "integer"
+    },
+    "skillUuid": {
+      "type": "string"
+    },
+    "importance": {
+      "type": "string",
+      "enum": [
+        "CORE",
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "coveragePercent": {
+      "type": "number"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id",
+    "trackId",
+    "skillUuid",
+    "importance",
+    "coveragePercent",
+    "createdAt",
+    "updatedAt"
+  ],
+  "additionalProperties": true
+}

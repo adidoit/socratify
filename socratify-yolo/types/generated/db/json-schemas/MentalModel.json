@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/MentalModelSchema",
+  "definitions": {
+    "MentalModelSchema": {
+      "type": "object",
+      "properties": {
+        "mentalModelName": {
+          "type": "string"
+        },
+        "mentalModelImageUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "mentalModelLinkText": {
+          "type": "string"
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              },
+              "answer": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "quick",
+                  "deep"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "text",
+              "answer",
+              "type"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "mentalModelName",
+        "mentalModelImageUrl",
+        "mentalModelLinkText",
+        "questions"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

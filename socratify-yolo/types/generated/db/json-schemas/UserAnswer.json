@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/UserAnswerSchema",
+  "definitions": {
+    "UserAnswerSchema": {
+      "type": "object",
+      "properties": {
+        "questionId": {
+          "type": "string"
+        },
+        "answer": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "selectedChoiceIndex": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "questionId",
+        "answer",
+        "timestamp",
+        "type"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

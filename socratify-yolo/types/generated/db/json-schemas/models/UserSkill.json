@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "Socratify/UserSkillModel",
+  "title": "UserSkillModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "clerkId": {
+      "type": "string"
+    },
+    "skillUuid": {
+      "type": "string"
+    },
+    "proficiencyScore": {
+      "type": "number"
+    },
+    "proficiencyLevel": {
+      "type": "string",
+      "enum": [
+        "BEGINNER",
+        "APPRENTICE",
+        "PRACTITIONER",
+        "EXPERT",
+        "TOP_10"
+      ]
+    },
+    "numAttempts": {
+      "type": "integer"
+    },
+    "evidenceSummary": {},
+    "lastPracticed": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "nextReview": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string"
+    },
+    "sourceId": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id",
+    "clerkId",
+    "skillUuid",
+    "proficiencyScore",
+    "proficiencyLevel",
+    "numAttempts",
+    "evidenceSummary",
+    "source",
+    "createdAt",
+    "updatedAt"
+  ],
+  "additionalProperties": true
+}

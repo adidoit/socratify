@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "Socratify/SkillRelationshipModel",
+  "title": "SkillRelationshipModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "sourceSkillUuid": {
+      "type": "string"
+    },
+    "targetSkillUuid": {
+      "type": "string"
+    },
+    "relationshipType": {
+      "type": "string",
+      "enum": [
+        "REQUIRES",
+        "CONTRASTS_WITH",
+        "SUPPORTS"
+      ]
+    },
+    "strength": {
+      "type": "string",
+      "enum": [
+        "HARD",
+        "IMPORTANT",
+        "HELPFUL"
+      ]
+    },
+    "riskLevel": {
+      "type": "string",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    },
+    "metadata": {},
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id",
+    "sourceSkillUuid",
+    "targetSkillUuid",
+    "relationshipType",
+    "metadata",
+    "createdAt",
+    "updatedAt"
+  ],
+  "additionalProperties": true
+}

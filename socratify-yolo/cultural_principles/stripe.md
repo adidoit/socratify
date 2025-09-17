@@ -1,0 +1,33 @@
+### Stripe
+
+- **Principles/Values:**
+  - **How We Work Principles:**
+    - Users first
+    - Move with urgency and focus
+    - Be meticulous in your craft
+    - Seek feedback
+    - Deliver outstanding results
+  - **Who We Are Principles:**
+    - Curious
+    - Resilient
+    - Humble
+    - Macro-optimistic
+    - Exothermic
+  - **Leadership Principles:**
+    - Obsess over talent
+    - Elevate ambitions
+    - Set the pace and energy
+    - Make decisions; be accountable
+    - Lead with clarity and context
+    - Solve problems
+  - **Additional Guiding Slogans:**
+    - We haven't won yet
+    - Efficiency is leverage
+    - Be meticulous about the foundations
+    - Disagree and commit
+    - Really, really, really care
+    - Operate from first principles
+    - Be politely relentless
+
+- **Source:** https://stripe.com/jobs/culture
+- **Date Accessed:** 2025-01-14

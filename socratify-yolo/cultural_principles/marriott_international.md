@@ -1,0 +1,7 @@
+### Marriott International
+
+- **Principles/Values:** "Marriott International's vision statement is To be the world's favorite travel company. Marriott International does not have a mission statement; rather, we have a vision statement which is 'To be the World's Favorite travel Company.' Marriott International's mission, vision, and core values reflect its commitment to providing exceptional experiences, fostering a culture of excellence, and creating value for its stakeholders. These guiding principles shape the company's strategic decisions, operational practices, and interactions with guests, employees, and communities. Key values include: Integrity is held in the utmost regard, with all employees held to high ethical standards and expected to demonstrate unwavering integrity in all their actions and decisions. This involves being honest, fair, responsible, truthful, and maintaining consistent words, behaviors, principles, and values. As part of its 2025 sustainability and social impact goals, Marriott is committed to providing economic development opportunities and products that benefit local communities."
+
+- **Source:** https://marriott.gcs-web.com/investor-faqs
+
+- **Date Accessed:** 2025-01-14

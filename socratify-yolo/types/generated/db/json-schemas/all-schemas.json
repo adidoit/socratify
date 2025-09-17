@@ -1,0 +1,2411 @@
+{
+  "CoverElements": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/CoverElementsSchema",
+    "definitions": {
+      "CoverElementsSchema": {
+        "type": "object",
+        "properties": {
+          "coverImageDescription": {
+            "type": "string"
+          },
+          "coverImageUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "coverPlainTitle": {
+            "type": "string"
+          },
+          "coverWittyTitle": {
+            "type": "string"
+          },
+          "coverRatingStat": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 5
+          },
+          "coverUsersPlayedStat": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "coverQuestion": {
+            "type": "string"
+          },
+          "coverParagraph": {
+            "type": "string"
+          },
+          "tags": {
+            "type": "string"
+          },
+          "level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "authoredDate": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "situationDate": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "expirationDate": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        "required": [
+          "coverImageDescription",
+          "coverImageUrl",
+          "coverPlainTitle",
+          "coverWittyTitle",
+          "coverRatingStat",
+          "coverUsersPlayedStat",
+          "coverQuestion",
+          "coverParagraph",
+          "tags",
+          "level",
+          "authoredDate",
+          "situationDate",
+          "expirationDate"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "IntroElements": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/IntroElementsSchema",
+    "definitions": {
+      "IntroElementsSchema": {
+        "type": "object",
+        "properties": {
+          "entityExplainer": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              },
+              "imageUrl": {
+                "type": "string"
+              },
+              "chartConfig": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "archetype": {
+                        "type": "string",
+                        "const": "kpi-metric"
+                      },
+                      "title": {
+                        "type": "string",
+                        "minLength": 5,
+                        "maxLength": 30
+                      },
+                      "subtitle": {
+                        "type": "string",
+                        "minLength": 3,
+                        "maxLength": 40
+                      },
+                      "color": {
+                        "type": "string",
+                        "pattern": "^#[0-9A-Fa-f]{6}$"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "features": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "metadata": {
+                        "type": "object",
+                        "properties": {
+                          "valueType": {
+                            "type": "string",
+                            "enum": [
+                              "currency",
+                              "percentage",
+                              "count",
+                              "ratio",
+                              "decimal"
+                            ]
+                          },
+                          "currencyCode": {
+                            "type": "string",
+                            "enum": [
+                              "USD",
+                              "EUR",
+                              "GBP",
+                              "JPY"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "valueType"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "value": {
+                            "type": "number"
+                          },
+                          "change": {
+                            "type": "number"
+                          },
+                          "changeValue": {
+                            "type": "number"
+                          },
+                          "trend": {
+                            "type": "string",
+                            "enum": [
+                              "up",
+                              "down",
+                              "flat"
+                            ]
+                          },
+                          "insight": {
+                            "type": "string",
+                            "minLength": 10,
+                            "maxLength": 50
+                          }
+                        },
+                        "required": [
+                          "value",
+                          "change",
+                          "changeValue",
+                          "trend",
+                          "insight"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "archetype",
+                      "title",
+                      "color",
+                      "features",
+                      "metadata",
+                      "data"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "archetype": {
+                        "type": "string",
+                        "const": "time-series"
+                      },
+                      "title": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                      },
+                      "subtitle": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                      },
+                      "color": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                      },
+                      "source": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                      },
+                      "features": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                      },
+                      "metadata": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "points": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "date": {
+                                  "type": "string"
+                                },
+                                "value": {
+                                  "type": "number"
+                                }
+                              },
+                              "required": [
+                                "date",
+                                "value"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "minItems": 1,
+                            "maxItems": 12
+                          },
+                          "currentValue": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "points",
+                          "currentValue"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "archetype",
+                      "title",
+                      "color",
+                      "features",
+                      "metadata",
+                      "data"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "archetype": {
+                        "type": "string",
+                        "const": "bar-chart"
+                      },
+                      "title": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                      },
+                      "subtitle": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                      },
+                      "color": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                      },
+                      "source": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                      },
+                      "features": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                      },
+                      "metadata": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "bars": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "label": {
+                                  "type": "string",
+                                  "maxLength": 10
+                                },
+                                "value": {
+                                  "type": "number"
+                                }
+                              },
+                              "required": [
+                                "label",
+                                "value"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "minItems": 3,
+                            "maxItems": 5
+                          }
+                        },
+                        "required": [
+                          "bars"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "archetype",
+                      "title",
+                      "color",
+                      "features",
+                      "metadata",
+                      "data"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "archetype": {
+                        "type": "string",
+                        "const": "sparkline-widget"
+                      },
+                      "title": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                      },
+                      "subtitle": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                      },
+                      "color": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                      },
+                      "source": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                      },
+                      "features": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                      },
+                      "metadata": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                      },
+                      "symbol": {
+                        "type": "string",
+                        "minLength": 2,
+                        "maxLength": 10
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "symbol": {
+                            "type": "string"
+                          },
+                          "history": {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            },
+                            "minItems": 3,
+                            "maxItems": 30
+                          },
+                          "current": {
+                            "type": "number"
+                          },
+                          "change": {
+                            "type": "number"
+                          },
+                          "changePercent": {
+                            "type": "number"
+                          },
+                          "startDate": {
+                            "type": "string",
+                            "minLength": 3,
+                            "maxLength": 20
+                          },
+                          "endDate": {
+                            "type": "string",
+                            "minLength": 3,
+                            "maxLength": 20
+                          },
+                          "insight": {
+                            "type": "string",
+                            "minLength": 5,
+                            "maxLength": 30
+                          }
+                        },
+                        "required": [
+                          "symbol",
+                          "history",
+                          "current",
+                          "change",
+                          "changePercent",
+                          "startDate",
+                          "endDate",
+                          "insight"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "archetype",
+                      "title",
+                      "color",
+                      "features",
+                      "metadata",
+                      "symbol",
+                      "data"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "archetype": {
+                        "type": "string",
+                        "const": "multi-line-comparison"
+                      },
+                      "title": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                      },
+                      "subtitle": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                      },
+                      "color": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                      },
+                      "source": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                      },
+                      "features": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                      },
+                      "metadata": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "series": {
+                            "type": "array",
+                            "minItems": 2,
+                            "maxItems": 2,
+                            "items": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "name": {
+                                    "type": "string"
+                                  },
+                                  "color": {
+                                    "type": "string",
+                                    "pattern": "^#[0-9A-Fa-f]{6}$"
+                                  },
+                                  "valueType": {
+                                    "type": "string",
+                                    "enum": [
+                                      "currency",
+                                      "percentage",
+                                      "count",
+                                      "ratio",
+                                      "decimal"
+                                    ]
+                                  },
+                                  "points": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "object",
+                                      "properties": {
+                                        "year": {
+                                          "type": "number"
+                                        },
+                                        "value": {
+                                          "type": "number"
+                                        }
+                                      },
+                                      "required": [
+                                        "year",
+                                        "value"
+                                      ],
+                                      "additionalProperties": false
+                                    }
+                                  }
+                                },
+                                "required": [
+                                  "name",
+                                  "color",
+                                  "valueType",
+                                  "points"
+                                ],
+                                "additionalProperties": false
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "name": {
+                                    "type": "string"
+                                  },
+                                  "color": {
+                                    "type": "string",
+                                    "pattern": "^#[0-9A-Fa-f]{6}$"
+                                  },
+                                  "valueType": {
+                                    "type": "string",
+                                    "enum": [
+                                      "currency",
+                                      "percentage",
+                                      "count",
+                                      "ratio",
+                                      "decimal"
+                                    ]
+                                  },
+                                  "points": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "object",
+                                      "properties": {
+                                        "year": {
+                                          "type": "number"
+                                        },
+                                        "value": {
+                                          "type": "number"
+                                        }
+                                      },
+                                      "required": [
+                                        "year",
+                                        "value"
+                                      ],
+                                      "additionalProperties": false
+                                    }
+                                  }
+                                },
+                                "required": [
+                                  "name",
+                                  "color",
+                                  "valueType",
+                                  "points"
+                                ],
+                                "additionalProperties": false
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "series"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "archetype",
+                      "title",
+                      "color",
+                      "features",
+                      "data"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "archetype": {
+                        "type": "string",
+                        "const": "area-history"
+                      },
+                      "title": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                      },
+                      "subtitle": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                      },
+                      "color": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                      },
+                      "source": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                      },
+                      "features": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                      },
+                      "metadata": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "trend": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "year": {
+                                  "type": "number"
+                                },
+                                "value": {
+                                  "type": "number"
+                                }
+                              },
+                              "required": [
+                                "year",
+                                "value"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "minItems": 5,
+                            "maxItems": 20
+                          },
+                          "peakValue": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "trend",
+                          "peakValue"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "archetype",
+                      "title",
+                      "color",
+                      "features",
+                      "metadata",
+                      "data"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "archetype": {
+                        "type": "string",
+                        "const": "minibar-comparison"
+                      },
+                      "title": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                      },
+                      "subtitle": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                      },
+                      "color": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                      },
+                      "source": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                      },
+                      "features": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                      },
+                      "metadata": {
+                        "$ref": "#/definitions/IntroElementsSchema/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "items": {
+                            "type": "array",
+                            "minItems": 2,
+                            "maxItems": 2,
+                            "items": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "label": {
+                                    "type": "string"
+                                  },
+                                  "value": {
+                                    "type": "number"
+                                  },
+                                  "color": {
+                                    "type": "string",
+                                    "pattern": "^#[0-9A-Fa-f]{6}$"
+                                  }
+                                },
+                                "required": [
+                                  "label",
+                                  "value",
+                                  "color"
+                                ],
+                                "additionalProperties": false
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "label": {
+                                    "type": "string"
+                                  },
+                                  "value": {
+                                    "type": "number"
+                                  },
+                                  "color": {
+                                    "type": "string",
+                                    "pattern": "^#[0-9A-Fa-f]{6}$"
+                                  }
+                                },
+                                "required": [
+                                  "label",
+                                  "value",
+                                  "color"
+                                ],
+                                "additionalProperties": false
+                              }
+                            ]
+                          },
+                          "changePercent": {
+                            "type": "number"
+                          },
+                          "changeValue": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "items",
+                          "changePercent",
+                          "changeValue"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "archetype",
+                      "title",
+                      "color",
+                      "features",
+                      "metadata",
+                      "data"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "text",
+              "imageUrl",
+              "chartConfig"
+            ],
+            "additionalProperties": false
+          },
+          "situationExplainer": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              },
+              "imageUrl": {
+                "type": "string"
+              },
+              "zoomOutTextQuote": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "source": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "source"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "title",
+              "text",
+              "imageUrl",
+              "zoomOutTextQuote"
+            ],
+            "additionalProperties": false
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "answer": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "quick",
+                    "deep"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "text",
+                "answer",
+                "type"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "entityExplainer",
+          "situationExplainer",
+          "questions"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "ImplicationQuestion": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/ImplicationQuestionSchema",
+    "definitions": {
+      "ImplicationQuestionSchema": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string"
+          },
+          "choices": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "feedback": {
+                  "type": "string"
+                },
+                "correct": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "title",
+                "text",
+                "feedback",
+                "correct"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "question",
+          "choices"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "MentalModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/MentalModelSchema",
+    "definitions": {
+      "MentalModelSchema": {
+        "type": "object",
+        "properties": {
+          "mentalModelName": {
+            "type": "string"
+          },
+          "mentalModelImageUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "mentalModelLinkText": {
+            "type": "string"
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "answer": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "quick",
+                    "deep"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "text",
+                "answer",
+                "type"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "mentalModelName",
+          "mentalModelImageUrl",
+          "mentalModelLinkText",
+          "questions"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "KeyQuestion": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/KeyQuestionSchema",
+    "definitions": {
+      "KeyQuestionSchema": {
+        "type": "object",
+        "properties": {
+          "keyQuestionRole": {
+            "type": "string"
+          },
+          "keyQuestionText": {
+            "type": "string"
+          },
+          "hintText": {
+            "type": "string"
+          },
+          "shortKeyQuestionText": {
+            "type": "string"
+          },
+          "choices": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "followUpQuestion": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "text",
+                "followUpQuestion"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "keyQuestionRole",
+          "keyQuestionText",
+          "hintText",
+          "shortKeyQuestionText",
+          "choices"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "MetaData": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/MetaDataSchema",
+    "definitions": {
+      "MetaDataSchema": {
+        "type": "object",
+        "properties": {
+          "generalLevel": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "generalLevelDescription": {
+            "type": "string"
+          },
+          "primaryDomainName": {
+            "type": "string"
+          },
+          "primaryDomainLevel": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "primaryDomainLevelDescription": {
+            "type": "string"
+          },
+          "secondaryDomainName": {
+            "type": "string"
+          },
+          "secondaryDomainLevel": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "secondaryDomainLevelDescription": {
+            "type": "string"
+          },
+          "fileName": {
+            "type": "string"
+          },
+          "faviconUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "happyPath": {
+            "type": "string"
+          },
+          "backgroundNeeded": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "generalLevel",
+          "generalLevelDescription",
+          "primaryDomainName",
+          "primaryDomainLevel",
+          "primaryDomainLevelDescription",
+          "secondaryDomainName",
+          "secondaryDomainLevel",
+          "secondaryDomainLevelDescription",
+          "fileName",
+          "faviconUrl",
+          "happyPath",
+          "backgroundNeeded"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "SocratifyExercise": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/SocratifyExerciseSchema",
+    "definitions": {
+      "SocratifyExerciseSchema": {
+        "type": "object",
+        "properties": {
+          "exerciseVersion": {
+            "type": "integer"
+          },
+          "exerciseUuid": {
+            "type": "string"
+          },
+          "exerciseType": {
+            "type": "string"
+          },
+          "storyType": {
+            "type": "string"
+          },
+          "metaData": {
+            "type": "object",
+            "properties": {
+              "generalLevel": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              },
+              "generalLevelDescription": {
+                "type": "string"
+              },
+              "primaryDomainName": {
+                "type": "string"
+              },
+              "primaryDomainLevel": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              },
+              "primaryDomainLevelDescription": {
+                "type": "string"
+              },
+              "secondaryDomainName": {
+                "type": "string"
+              },
+              "secondaryDomainLevel": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              },
+              "secondaryDomainLevelDescription": {
+                "type": "string"
+              },
+              "fileName": {
+                "type": "string"
+              },
+              "faviconUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "happyPath": {
+                "type": "string"
+              },
+              "backgroundNeeded": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "generalLevel",
+              "generalLevelDescription",
+              "primaryDomainName",
+              "primaryDomainLevel",
+              "primaryDomainLevelDescription",
+              "secondaryDomainName",
+              "secondaryDomainLevel",
+              "secondaryDomainLevelDescription",
+              "fileName",
+              "faviconUrl",
+              "happyPath",
+              "backgroundNeeded"
+            ],
+            "additionalProperties": false
+          },
+          "coverElements": {
+            "type": "object",
+            "properties": {
+              "coverImageDescription": {
+                "type": "string"
+              },
+              "coverImageUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "coverPlainTitle": {
+                "type": "string"
+              },
+              "coverWittyTitle": {
+                "type": "string"
+              },
+              "coverRatingStat": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "coverUsersPlayedStat": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "coverQuestion": {
+                "type": "string"
+              },
+              "coverParagraph": {
+                "type": "string"
+              },
+              "tags": {
+                "type": "string"
+              },
+              "level": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              },
+              "authoredDate": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "situationDate": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "expirationDate": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              }
+            },
+            "required": [
+              "coverImageDescription",
+              "coverImageUrl",
+              "coverPlainTitle",
+              "coverWittyTitle",
+              "coverRatingStat",
+              "coverUsersPlayedStat",
+              "coverQuestion",
+              "coverParagraph",
+              "tags",
+              "level",
+              "authoredDate",
+              "situationDate",
+              "expirationDate"
+            ],
+            "additionalProperties": false
+          },
+          "introElements": {
+            "type": "object",
+            "properties": {
+              "entityExplainer": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  },
+                  "imageUrl": {
+                    "type": "string"
+                  },
+                  "chartConfig": {
+                    "anyOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "archetype": {
+                            "type": "string",
+                            "const": "kpi-metric"
+                          },
+                          "title": {
+                            "type": "string",
+                            "minLength": 5,
+                            "maxLength": 30
+                          },
+                          "subtitle": {
+                            "type": "string",
+                            "minLength": 3,
+                            "maxLength": 40
+                          },
+                          "color": {
+                            "type": "string",
+                            "pattern": "^#[0-9A-Fa-f]{6}$"
+                          },
+                          "source": {
+                            "type": "string"
+                          },
+                          "features": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "metadata": {
+                            "type": "object",
+                            "properties": {
+                              "valueType": {
+                                "type": "string",
+                                "enum": [
+                                  "currency",
+                                  "percentage",
+                                  "count",
+                                  "ratio",
+                                  "decimal"
+                                ]
+                              },
+                              "currencyCode": {
+                                "type": "string",
+                                "enum": [
+                                  "USD",
+                                  "EUR",
+                                  "GBP",
+                                  "JPY"
+                                ]
+                              }
+                            },
+                            "required": [
+                              "valueType"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "value": {
+                                "type": "number"
+                              },
+                              "change": {
+                                "type": "number"
+                              },
+                              "changeValue": {
+                                "type": "number"
+                              },
+                              "trend": {
+                                "type": "string",
+                                "enum": [
+                                  "up",
+                                  "down",
+                                  "flat"
+                                ]
+                              },
+                              "insight": {
+                                "type": "string",
+                                "minLength": 10,
+                                "maxLength": 50
+                              }
+                            },
+                            "required": [
+                              "value",
+                              "change",
+                              "changeValue",
+                              "trend",
+                              "insight"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "archetype",
+                          "title",
+                          "color",
+                          "features",
+                          "metadata",
+                          "data"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "archetype": {
+                            "type": "string",
+                            "const": "time-series"
+                          },
+                          "title": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                          },
+                          "subtitle": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                          },
+                          "color": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                          },
+                          "source": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                          },
+                          "features": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                          },
+                          "metadata": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                          },
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "points": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "date": {
+                                      "type": "string"
+                                    },
+                                    "value": {
+                                      "type": "number"
+                                    }
+                                  },
+                                  "required": [
+                                    "date",
+                                    "value"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                "minItems": 1,
+                                "maxItems": 12
+                              },
+                              "currentValue": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "points",
+                              "currentValue"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "archetype",
+                          "title",
+                          "color",
+                          "features",
+                          "metadata",
+                          "data"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "archetype": {
+                            "type": "string",
+                            "const": "bar-chart"
+                          },
+                          "title": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                          },
+                          "subtitle": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                          },
+                          "color": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                          },
+                          "source": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                          },
+                          "features": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                          },
+                          "metadata": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                          },
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "bars": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "label": {
+                                      "type": "string",
+                                      "maxLength": 10
+                                    },
+                                    "value": {
+                                      "type": "number"
+                                    }
+                                  },
+                                  "required": [
+                                    "label",
+                                    "value"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                "minItems": 3,
+                                "maxItems": 5
+                              }
+                            },
+                            "required": [
+                              "bars"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "archetype",
+                          "title",
+                          "color",
+                          "features",
+                          "metadata",
+                          "data"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "archetype": {
+                            "type": "string",
+                            "const": "sparkline-widget"
+                          },
+                          "title": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                          },
+                          "subtitle": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                          },
+                          "color": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                          },
+                          "source": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                          },
+                          "features": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                          },
+                          "metadata": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                          },
+                          "symbol": {
+                            "type": "string",
+                            "minLength": 2,
+                            "maxLength": 10
+                          },
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "symbol": {
+                                "type": "string"
+                              },
+                              "history": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number"
+                                },
+                                "minItems": 3,
+                                "maxItems": 30
+                              },
+                              "current": {
+                                "type": "number"
+                              },
+                              "change": {
+                                "type": "number"
+                              },
+                              "changePercent": {
+                                "type": "number"
+                              },
+                              "startDate": {
+                                "type": "string",
+                                "minLength": 3,
+                                "maxLength": 20
+                              },
+                              "endDate": {
+                                "type": "string",
+                                "minLength": 3,
+                                "maxLength": 20
+                              },
+                              "insight": {
+                                "type": "string",
+                                "minLength": 5,
+                                "maxLength": 30
+                              }
+                            },
+                            "required": [
+                              "symbol",
+                              "history",
+                              "current",
+                              "change",
+                              "changePercent",
+                              "startDate",
+                              "endDate",
+                              "insight"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "archetype",
+                          "title",
+                          "color",
+                          "features",
+                          "metadata",
+                          "symbol",
+                          "data"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "archetype": {
+                            "type": "string",
+                            "const": "multi-line-comparison"
+                          },
+                          "title": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                          },
+                          "subtitle": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                          },
+                          "color": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                          },
+                          "source": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                          },
+                          "features": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                          },
+                          "metadata": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                          },
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "series": {
+                                "type": "array",
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "items": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "color": {
+                                        "type": "string",
+                                        "pattern": "^#[0-9A-Fa-f]{6}$"
+                                      },
+                                      "valueType": {
+                                        "type": "string",
+                                        "enum": [
+                                          "currency",
+                                          "percentage",
+                                          "count",
+                                          "ratio",
+                                          "decimal"
+                                        ]
+                                      },
+                                      "points": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "year": {
+                                              "type": "number"
+                                            },
+                                            "value": {
+                                              "type": "number"
+                                            }
+                                          },
+                                          "required": [
+                                            "year",
+                                            "value"
+                                          ],
+                                          "additionalProperties": false
+                                        }
+                                      }
+                                    },
+                                    "required": [
+                                      "name",
+                                      "color",
+                                      "valueType",
+                                      "points"
+                                    ],
+                                    "additionalProperties": false
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "color": {
+                                        "type": "string",
+                                        "pattern": "^#[0-9A-Fa-f]{6}$"
+                                      },
+                                      "valueType": {
+                                        "type": "string",
+                                        "enum": [
+                                          "currency",
+                                          "percentage",
+                                          "count",
+                                          "ratio",
+                                          "decimal"
+                                        ]
+                                      },
+                                      "points": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "year": {
+                                              "type": "number"
+                                            },
+                                            "value": {
+                                              "type": "number"
+                                            }
+                                          },
+                                          "required": [
+                                            "year",
+                                            "value"
+                                          ],
+                                          "additionalProperties": false
+                                        }
+                                      }
+                                    },
+                                    "required": [
+                                      "name",
+                                      "color",
+                                      "valueType",
+                                      "points"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "series"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "archetype",
+                          "title",
+                          "color",
+                          "features",
+                          "data"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "archetype": {
+                            "type": "string",
+                            "const": "area-history"
+                          },
+                          "title": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                          },
+                          "subtitle": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                          },
+                          "color": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                          },
+                          "source": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                          },
+                          "features": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                          },
+                          "metadata": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                          },
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "trend": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "year": {
+                                      "type": "number"
+                                    },
+                                    "value": {
+                                      "type": "number"
+                                    }
+                                  },
+                                  "required": [
+                                    "year",
+                                    "value"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                "minItems": 5,
+                                "maxItems": 20
+                              },
+                              "peakValue": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "trend",
+                              "peakValue"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "archetype",
+                          "title",
+                          "color",
+                          "features",
+                          "metadata",
+                          "data"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "archetype": {
+                            "type": "string",
+                            "const": "minibar-comparison"
+                          },
+                          "title": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/title"
+                          },
+                          "subtitle": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/subtitle"
+                          },
+                          "color": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/color"
+                          },
+                          "source": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/source"
+                          },
+                          "features": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/features"
+                          },
+                          "metadata": {
+                            "$ref": "#/definitions/SocratifyExerciseSchema/properties/introElements/properties/entityExplainer/properties/chartConfig/anyOf/0/properties/metadata"
+                          },
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "items": {
+                                "type": "array",
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "items": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "label": {
+                                        "type": "string"
+                                      },
+                                      "value": {
+                                        "type": "number"
+                                      },
+                                      "color": {
+                                        "type": "string",
+                                        "pattern": "^#[0-9A-Fa-f]{6}$"
+                                      }
+                                    },
+                                    "required": [
+                                      "label",
+                                      "value",
+                                      "color"
+                                    ],
+                                    "additionalProperties": false
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "label": {
+                                        "type": "string"
+                                      },
+                                      "value": {
+                                        "type": "number"
+                                      },
+                                      "color": {
+                                        "type": "string",
+                                        "pattern": "^#[0-9A-Fa-f]{6}$"
+                                      }
+                                    },
+                                    "required": [
+                                      "label",
+                                      "value",
+                                      "color"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                ]
+                              },
+                              "changePercent": {
+                                "type": "number"
+                              },
+                              "changeValue": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "items",
+                              "changePercent",
+                              "changeValue"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "archetype",
+                          "title",
+                          "color",
+                          "features",
+                          "metadata",
+                          "data"
+                        ],
+                        "additionalProperties": false
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "title",
+                  "text",
+                  "imageUrl",
+                  "chartConfig"
+                ],
+                "additionalProperties": false
+              },
+              "situationExplainer": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  },
+                  "imageUrl": {
+                    "type": "string"
+                  },
+                  "zoomOutTextQuote": {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "source"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "title",
+                  "text",
+                  "imageUrl",
+                  "zoomOutTextQuote"
+                ],
+                "additionalProperties": false
+              },
+              "questions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "answer": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "quick",
+                        "deep"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "text",
+                    "answer",
+                    "type"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "entityExplainer",
+              "situationExplainer",
+              "questions"
+            ],
+            "additionalProperties": false
+          },
+          "implicationQuestion": {
+            "type": "object",
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "choices": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "feedback": {
+                      "type": "string"
+                    },
+                    "correct": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "text",
+                    "feedback",
+                    "correct"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "question",
+              "choices"
+            ],
+            "additionalProperties": false
+          },
+          "mentalModel": {
+            "type": "object",
+            "properties": {
+              "mentalModelName": {
+                "type": "string"
+              },
+              "mentalModelImageUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "mentalModelLinkText": {
+                "type": "string"
+              },
+              "questions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "answer": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "quick",
+                        "deep"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "text",
+                    "answer",
+                    "type"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "mentalModelName",
+              "mentalModelImageUrl",
+              "mentalModelLinkText",
+              "questions"
+            ],
+            "additionalProperties": false
+          },
+          "context": {
+            "type": "string"
+          },
+          "keyQuestion": {
+            "type": "object",
+            "properties": {
+              "keyQuestionRole": {
+                "type": "string"
+              },
+              "keyQuestionText": {
+                "type": "string"
+              },
+              "hintText": {
+                "type": "string"
+              },
+              "shortKeyQuestionText": {
+                "type": "string"
+              },
+              "choices": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "followUpQuestion": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "text",
+                    "followUpQuestion"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "keyQuestionRole",
+              "keyQuestionText",
+              "hintText",
+              "shortKeyQuestionText",
+              "choices"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "exerciseVersion",
+          "exerciseUuid",
+          "exerciseType",
+          "storyType",
+          "metaData",
+          "coverElements",
+          "introElements",
+          "implicationQuestion",
+          "mentalModel",
+          "context",
+          "keyQuestion"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "SocratifyQuestion": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/SocratifyQuestionSchema",
+    "definitions": {
+      "SocratifyQuestionSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "timestamp": {
+            "type": "string"
+          },
+          "choices": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "correct": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "title",
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "rankingItems": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "text"
+              ],
+              "additionalProperties": false
+            },
+            "description": "Items to be ranked by the user"
+          },
+          "rankingInstructions": {
+            "type": "string",
+            "description": "Instructions for how to rank the items"
+          },
+          "isRanking": {
+            "type": "boolean",
+            "description": "Whether this is a ranking-type question"
+          }
+        },
+        "required": [
+          "id",
+          "text",
+          "type",
+          "timestamp"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "UserAnswer": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/UserAnswerSchema",
+    "definitions": {
+      "UserAnswerSchema": {
+        "type": "object",
+        "properties": {
+          "questionId": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          },
+          "timestamp": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "selectedChoiceIndex": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "questionId",
+          "answer",
+          "timestamp",
+          "type"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "SkillMetadata": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/SkillMetadataSchema",
+    "definitions": {
+      "SkillMetadataSchema": {
+        "type": "object",
+        "properties": {
+          "icon": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "decayRate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "masteryThreshold": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "minAttemptsForProficiency": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "exampleCompanies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "relatedConcepts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "article",
+                    "video",
+                    "book",
+                    "course"
+                  ]
+                }
+              },
+              "required": [
+                "title",
+                "url"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "assessmentTypes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "conversation",
+                "exercise",
+                "quiz",
+                "project"
+              ]
+            }
+          },
+          "difficultyModifier": {
+            "type": "number",
+            "minimum": 0.5,
+            "maximum": 2
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "SkillOverrides": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/SkillOverridesSchema",
+    "definitions": {
+      "SkillOverridesSchema": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    }
+  },
+  "SkillEvidence": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/SkillEvidenceSchema",
+    "definitions": {
+      "SkillEvidenceSchema": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "attemptId": {
+              "type": "string"
+            },
+            "timestamp": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "proficiencyScore": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "proficiencyLevel": {
+              "type": "string",
+              "enum": [
+                "BEGINNER",
+                "APPRENTICE",
+                "PRACTITIONER",
+                "EXPERT",
+                "TOP_10"
+              ]
+            },
+            "context": {
+              "type": "string"
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "feedbackNotes": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "timestamp",
+            "proficiencyScore",
+            "proficiencyLevel"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

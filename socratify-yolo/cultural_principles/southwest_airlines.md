@@ -1,0 +1,7 @@
+### Southwest Airlines
+
+- **Principles/Values:** "Southwest Airlines' mission statement is Dedication to the highest quality of customer service delivered with a sense of warmth, friendliness, individual pride, and company spirit. The mission also includes a commitment to provide our Employees a stable work environment with equal opportunity for learning and personal growth. Southwest's corporate responsibility initiatives focus on three core principles: loving People, building resilience, and living responsibly. Most importantly, and without compromise, Southwest puts Safety first, expecting employees to follow company policies and procedures designed to enable operations at an acceptable level of risk in compliance with regulatory requirements. After operating safely, they balance being low-cost and reliable, all delivered with world-class Hospitality. Key foundational values include: People First: Southwest was founded on the principle of putting People first, and they've never wavered from that commitment to all People; Diversity and Inclusion: Southwest recognizes, respects, and values differences, cultivating a diverse and inclusive experience for customers, employees, and all people to thrive."
+
+- **Source:** https://www.southwestairlinesinvestorrelations.com/our-company/purpose-vision-and-the-southwest-way
+
+- **Date Accessed:** 2025-01-14

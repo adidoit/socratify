@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/MetaDataSchema",
+  "definitions": {
+    "MetaDataSchema": {
+      "type": "object",
+      "properties": {
+        "generalLevel": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "generalLevelDescription": {
+          "type": "string"
+        },
+        "primaryDomainName": {
+          "type": "string"
+        },
+        "primaryDomainLevel": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "primaryDomainLevelDescription": {
+          "type": "string"
+        },
+        "secondaryDomainName": {
+          "type": "string"
+        },
+        "secondaryDomainLevel": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "secondaryDomainLevelDescription": {
+          "type": "string"
+        },
+        "fileName": {
+          "type": "string"
+        },
+        "faviconUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "happyPath": {
+          "type": "string"
+        },
+        "backgroundNeeded": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "generalLevel",
+        "generalLevelDescription",
+        "primaryDomainName",
+        "primaryDomainLevel",
+        "primaryDomainLevelDescription",
+        "secondaryDomainName",
+        "secondaryDomainLevel",
+        "secondaryDomainLevelDescription",
+        "fileName",
+        "faviconUrl",
+        "happyPath",
+        "backgroundNeeded"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

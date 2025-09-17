@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "Socratify/TrackModel",
+  "title": "TrackModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "trackUuid": {
+      "type": "string"
+    },
+    "clerkUserId": {
+      "type": "string"
+    },
+    "userGoal": {
+      "type": "string"
+    },
+    "userGoalText": {
+      "type": "string"
+    },
+    "numItems": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "poolSize": {
+      "type": "integer"
+    },
+    "sampleSize": {
+      "type": "integer"
+    },
+    "trackName": {
+      "type": "string"
+    },
+    "trackCoverImage": {
+      "type": "string"
+    },
+    "errorMessage": {
+      "type": "string"
+    },
+    "generationCompletedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "generationStartedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "generationStatus": {
+      "type": "string"
+    },
+    "progressPercent": {
+      "type": "integer"
+    },
+    "retryCount": {
+      "type": "integer"
+    },
+    "statusMessage": {
+      "type": "string"
+    },
+    "workflowRunId": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "string"
+    },
+    "forkedFromUuid": {
+      "type": "string"
+    },
+    "clerkOrganizationId": {
+      "type": "string"
+    },
+    "metadata": {}
+  },
+  "required": [
+    "id",
+    "trackUuid",
+    "clerkUserId",
+    "userGoal",
+    "numItems",
+    "status",
+    "createdAt",
+    "updatedAt",
+    "trackName",
+    "progressPercent",
+    "retryCount",
+    "visibility",
+    "metadata"
+  ],
+  "additionalProperties": true
+}

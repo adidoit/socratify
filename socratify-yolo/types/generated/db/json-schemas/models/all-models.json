@@ -1,0 +1,744 @@
+{
+  "ExerciseModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/ExerciseModel",
+    "title": "ExerciseModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "exerciseVersion": {
+        "type": "integer"
+      },
+      "exerciseUuid": {
+        "type": "string"
+      },
+      "exerciseType": {
+        "type": "string"
+      },
+      "storyType": {
+        "type": "string"
+      },
+      "coverElements": {},
+      "introElements": {},
+      "implicationQuestion": {},
+      "mentalModel": {},
+      "context": {
+        "type": "string"
+      },
+      "keyQuestion": {},
+      "status": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "tags": {
+        "type": "string"
+      },
+      "metaData": {},
+      "skills": {}
+    },
+    "required": [
+      "id",
+      "exerciseVersion",
+      "exerciseUuid",
+      "exerciseType",
+      "storyType",
+      "coverElements",
+      "introElements",
+      "implicationQuestion",
+      "mentalModel",
+      "context",
+      "keyQuestion",
+      "status",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "metaData",
+      "skills"
+    ],
+    "additionalProperties": true
+  },
+  "ExerciseHistoryModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/ExerciseHistoryModel",
+    "title": "ExerciseHistoryModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "exerciseUuid": {
+        "type": "string"
+      },
+      "clerkId": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "currentStep": {
+        "type": "string"
+      },
+      "finalExerciseData": {},
+      "hotTake": {
+        "type": "string"
+      },
+      "rating": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "completedSteps": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "socratifyQuestions": {
+        "type": "array",
+        "items": {}
+      },
+      "userAnswers": {
+        "type": "array",
+        "items": {}
+      },
+      "XPEarned": {
+        "type": "integer"
+      },
+      "trackUuid": {
+        "type": "string"
+      },
+      "feedbackForUser": {
+        "type": "string"
+      },
+      "skills": {}
+    },
+    "required": [
+      "id",
+      "exerciseUuid",
+      "clerkId",
+      "createdAt",
+      "currentStep",
+      "updatedAt",
+      "completedSteps",
+      "socratifyQuestions",
+      "userAnswers",
+      "XPEarned"
+    ],
+    "additionalProperties": true
+  },
+  "TrackModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/TrackModel",
+    "title": "TrackModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "trackUuid": {
+        "type": "string"
+      },
+      "clerkUserId": {
+        "type": "string"
+      },
+      "userGoal": {
+        "type": "string"
+      },
+      "userGoalText": {
+        "type": "string"
+      },
+      "numItems": {
+        "type": "integer"
+      },
+      "status": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "poolSize": {
+        "type": "integer"
+      },
+      "sampleSize": {
+        "type": "integer"
+      },
+      "trackName": {
+        "type": "string"
+      },
+      "trackCoverImage": {
+        "type": "string"
+      },
+      "errorMessage": {
+        "type": "string"
+      },
+      "generationCompletedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "generationStartedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "generationStatus": {
+        "type": "string"
+      },
+      "progressPercent": {
+        "type": "integer"
+      },
+      "retryCount": {
+        "type": "integer"
+      },
+      "statusMessage": {
+        "type": "string"
+      },
+      "workflowRunId": {
+        "type": "string"
+      },
+      "visibility": {
+        "type": "string"
+      },
+      "forkedFromUuid": {
+        "type": "string"
+      },
+      "clerkOrganizationId": {
+        "type": "string"
+      },
+      "metadata": {}
+    },
+    "required": [
+      "id",
+      "trackUuid",
+      "clerkUserId",
+      "userGoal",
+      "numItems",
+      "status",
+      "createdAt",
+      "updatedAt",
+      "trackName",
+      "progressPercent",
+      "retryCount",
+      "visibility",
+      "metadata"
+    ],
+    "additionalProperties": true
+  },
+  "CuratedTrackModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/CuratedTrackModel",
+    "title": "CuratedTrackModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "trackUuid": {
+        "type": "string"
+      },
+      "trackName": {
+        "type": "string"
+      },
+      "trackDescription": {
+        "type": "string"
+      },
+      "trackCoverImage": {
+        "type": "string"
+      },
+      "publishedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "createdBy": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "string"
+      },
+      "metadata": {},
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "trackGoal": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "trackUuid",
+      "trackName",
+      "createdBy",
+      "tags",
+      "metadata",
+      "createdAt",
+      "updatedAt",
+      "trackGoal",
+      "status"
+    ],
+    "additionalProperties": true
+  },
+  "CuratedTrackExerciseModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/CuratedTrackExerciseModel",
+    "title": "CuratedTrackExerciseModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "trackId": {
+        "type": "integer"
+      },
+      "levelId": {
+        "type": "integer"
+      },
+      "exerciseUuid": {
+        "type": "string"
+      },
+      "sequenceNumber": {
+        "type": "integer"
+      },
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "primarySkillUuid": {
+        "type": "string"
+      },
+      "selectionRationale": {
+        "type": "string"
+      },
+      "skillFocusNote": {
+        "type": "string"
+      },
+      "skillOverrides": {}
+    },
+    "required": [
+      "id",
+      "trackId",
+      "exerciseUuid",
+      "sequenceNumber",
+      "createdAt",
+      "updatedAt",
+      "selectionRationale",
+      "skillOverrides"
+    ],
+    "additionalProperties": true
+  },
+  "CanonicalSkillModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/CanonicalSkillModel",
+    "title": "CanonicalSkillModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "skillUuid": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "HARD",
+          "FLUID",
+          "SOFT"
+        ]
+      },
+      "definition": {
+        "type": "string"
+      },
+      "version": {
+        "type": "integer"
+      },
+      "status": {
+        "type": "string"
+      },
+      "parentSkillUuid": {
+        "type": "string"
+      },
+      "level": {
+        "type": "integer"
+      },
+      "beginnerCriteria": {
+        "type": "string"
+      },
+      "apprenticeCriteria": {
+        "type": "string"
+      },
+      "practitionerCriteria": {
+        "type": "string"
+      },
+      "expertCriteria": {
+        "type": "string"
+      },
+      "top10Criteria": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "string"
+      },
+      "metadata": {},
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      }
+    },
+    "required": [
+      "id",
+      "skillUuid",
+      "name",
+      "category",
+      "definition",
+      "version",
+      "status",
+      "level",
+      "beginnerCriteria",
+      "apprenticeCriteria",
+      "practitionerCriteria",
+      "expertCriteria",
+      "top10Criteria",
+      "tags",
+      "metadata",
+      "createdAt",
+      "updatedAt"
+    ],
+    "additionalProperties": true
+  },
+  "SkillRelationshipModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/SkillRelationshipModel",
+    "title": "SkillRelationshipModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "sourceSkillUuid": {
+        "type": "string"
+      },
+      "targetSkillUuid": {
+        "type": "string"
+      },
+      "relationshipType": {
+        "type": "string",
+        "enum": [
+          "REQUIRES",
+          "CONTRASTS_WITH",
+          "SUPPORTS"
+        ]
+      },
+      "strength": {
+        "type": "string",
+        "enum": [
+          "HARD",
+          "IMPORTANT",
+          "HELPFUL"
+        ]
+      },
+      "riskLevel": {
+        "type": "string",
+        "enum": [
+          "LOW",
+          "MEDIUM",
+          "HIGH"
+        ]
+      },
+      "notes": {
+        "type": "string"
+      },
+      "metadata": {},
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      }
+    },
+    "required": [
+      "id",
+      "sourceSkillUuid",
+      "targetSkillUuid",
+      "relationshipType",
+      "metadata",
+      "createdAt",
+      "updatedAt"
+    ],
+    "additionalProperties": true
+  },
+  "UserSkillModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/UserSkillModel",
+    "title": "UserSkillModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "clerkId": {
+        "type": "string"
+      },
+      "skillUuid": {
+        "type": "string"
+      },
+      "proficiencyScore": {
+        "type": "number"
+      },
+      "proficiencyLevel": {
+        "type": "string",
+        "enum": [
+          "BEGINNER",
+          "APPRENTICE",
+          "PRACTITIONER",
+          "EXPERT",
+          "TOP_10"
+        ]
+      },
+      "numAttempts": {
+        "type": "integer"
+      },
+      "evidenceSummary": {},
+      "lastPracticed": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "nextReview": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "source": {
+        "type": "string"
+      },
+      "sourceId": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      }
+    },
+    "required": [
+      "id",
+      "clerkId",
+      "skillUuid",
+      "proficiencyScore",
+      "proficiencyLevel",
+      "numAttempts",
+      "evidenceSummary",
+      "source",
+      "createdAt",
+      "updatedAt"
+    ],
+    "additionalProperties": true
+  },
+  "UserTrackSkillModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/UserTrackSkillModel",
+    "title": "UserTrackSkillModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "clerkId": {
+        "type": "string"
+      },
+      "trackUuid": {
+        "type": "string"
+      },
+      "skillUuid": {
+        "type": "string"
+      },
+      "proficiencyScore": {
+        "type": "number"
+      },
+      "proficiencyLevel": {
+        "type": "string",
+        "enum": [
+          "BEGINNER",
+          "APPRENTICE",
+          "PRACTITIONER",
+          "EXPERT",
+          "TOP_10"
+        ]
+      },
+      "numAttempts": {
+        "type": "integer"
+      },
+      "evidenceSummary": {},
+      "isSelected": {
+        "type": "boolean"
+      },
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      }
+    },
+    "required": [
+      "id",
+      "clerkId",
+      "trackUuid",
+      "skillUuid",
+      "proficiencyScore",
+      "proficiencyLevel",
+      "numAttempts",
+      "evidenceSummary",
+      "isSelected",
+      "createdAt",
+      "updatedAt"
+    ],
+    "additionalProperties": true
+  },
+  "CuratedTrackSkillModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/CuratedTrackSkillModel",
+    "title": "CuratedTrackSkillModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "trackId": {
+        "type": "integer"
+      },
+      "skillUuid": {
+        "type": "string"
+      },
+      "importance": {
+        "type": "string",
+        "enum": [
+          "CORE",
+          "PRIMARY",
+          "SECONDARY"
+        ]
+      },
+      "rationale": {
+        "type": "string"
+      },
+      "coveragePercent": {
+        "type": "number"
+      },
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      }
+    },
+    "required": [
+      "id",
+      "trackId",
+      "skillUuid",
+      "importance",
+      "coveragePercent",
+      "createdAt",
+      "updatedAt"
+    ],
+    "additionalProperties": true
+  },
+  "ExerciseSkillModel": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Socratify/ExerciseSkillModel",
+    "title": "ExerciseSkillModel",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "exerciseUuid": {
+        "type": "string"
+      },
+      "skillUuid": {
+        "type": "string"
+      },
+      "weight": {
+        "type": "number"
+      },
+      "targetMinLevel": {
+        "type": "string",
+        "enum": [
+          "BEGINNER",
+          "APPRENTICE",
+          "PRACTITIONER",
+          "EXPERT",
+          "TOP_10"
+        ]
+      },
+      "targetMaxLevel": {
+        "type": "string",
+        "enum": [
+          "BEGINNER",
+          "APPRENTICE",
+          "PRACTITIONER",
+          "EXPERT",
+          "TOP_10"
+        ]
+      },
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "type": "string",
+        "format": "date-time"
+      }
+    },
+    "required": [
+      "id",
+      "exerciseUuid",
+      "skillUuid",
+      "weight",
+      "targetMinLevel",
+      "targetMaxLevel",
+      "createdAt",
+      "updatedAt"
+    ],
+    "additionalProperties": true
+  }
+}

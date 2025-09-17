@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "Socratify/ExerciseSkillModel",
+  "title": "ExerciseSkillModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "exerciseUuid": {
+      "type": "string"
+    },
+    "skillUuid": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "number"
+    },
+    "targetMinLevel": {
+      "type": "string",
+      "enum": [
+        "BEGINNER",
+        "APPRENTICE",
+        "PRACTITIONER",
+        "EXPERT",
+        "TOP_10"
+      ]
+    },
+    "targetMaxLevel": {
+      "type": "string",
+      "enum": [
+        "BEGINNER",
+        "APPRENTICE",
+        "PRACTITIONER",
+        "EXPERT",
+        "TOP_10"
+      ]
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id",
+    "exerciseUuid",
+    "skillUuid",
+    "weight",
+    "targetMinLevel",
+    "targetMaxLevel",
+    "createdAt",
+    "updatedAt"
+  ],
+  "additionalProperties": true
+}

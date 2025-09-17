@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "Socratify/ExerciseModel",
+  "title": "ExerciseModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "exerciseVersion": {
+      "type": "integer"
+    },
+    "exerciseUuid": {
+      "type": "string"
+    },
+    "exerciseType": {
+      "type": "string"
+    },
+    "storyType": {
+      "type": "string"
+    },
+    "coverElements": {},
+    "introElements": {},
+    "implicationQuestion": {},
+    "mentalModel": {},
+    "context": {
+      "type": "string"
+    },
+    "keyQuestion": {},
+    "status": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "metaData": {},
+    "skills": {}
+  },
+  "required": [
+    "id",
+    "exerciseVersion",
+    "exerciseUuid",
+    "exerciseType",
+    "storyType",
+    "coverElements",
+    "introElements",
+    "implicationQuestion",
+    "mentalModel",
+    "context",
+    "keyQuestion",
+    "status",
+    "createdAt",
+    "updatedAt",
+    "tags",
+    "metaData",
+    "skills"
+  ],
+  "additionalProperties": true
+}

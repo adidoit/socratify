@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/ImplicationQuestionSchema",
+  "definitions": {
+    "ImplicationQuestionSchema": {
+      "type": "object",
+      "properties": {
+        "question": {
+          "type": "string"
+        },
+        "choices": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              },
+              "feedback": {
+                "type": "string"
+              },
+              "correct": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "title",
+              "text",
+              "feedback",
+              "correct"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "question",
+        "choices"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

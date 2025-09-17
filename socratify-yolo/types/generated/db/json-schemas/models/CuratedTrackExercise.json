@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "Socratify/CuratedTrackExerciseModel",
+  "title": "CuratedTrackExerciseModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "trackId": {
+      "type": "integer"
+    },
+    "levelId": {
+      "type": "integer"
+    },
+    "exerciseUuid": {
+      "type": "string"
+    },
+    "sequenceNumber": {
+      "type": "integer"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "primarySkillUuid": {
+      "type": "string"
+    },
+    "selectionRationale": {
+      "type": "string"
+    },
+    "skillFocusNote": {
+      "type": "string"
+    },
+    "skillOverrides": {}
+  },
+  "required": [
+    "id",
+    "trackId",
+    "exerciseUuid",
+    "sequenceNumber",
+    "createdAt",
+    "updatedAt",
+    "selectionRationale",
+    "skillOverrides"
+  ],
+  "additionalProperties": true
+}

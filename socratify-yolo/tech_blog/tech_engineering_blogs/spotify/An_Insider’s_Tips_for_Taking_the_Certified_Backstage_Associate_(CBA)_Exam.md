@@ -1,0 +1,82 @@
+---
+title: "An Insider’s Tips for Taking the Certified Backstage Associate (CBA) Exam"
+author: "Unknown"
+url: "https://engineering.atspotify.com/2025/3/certified-backstage-associate-exam-tips/"
+published_date: "Unknown"
+downloaded_date: "2025-09-15T10:17:27.038079"
+company: "spotify"
+---
+
+# An Insider’s Tips for Taking the Certified Backstage Associate (CBA) Exam
+![Feature Image](/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fp762jor363g1%2Fattachment_eacdf1a11b57c77583c6c547e22baccb%2Ffad128b2fd07857ef9d6fbb677f1b213%2Fattachment_eacdf1a11b57c77583c6c547e22baccb.png&w=1920&q=75)
+**TL;DR** There’s a brand new engineering certification in town: Certified Backstage Associate (CBA). Offered through The Linux Foundation, the certification shows that you have the skills and knowledge to build and manage Backstage — the open framework for internal developer portals (IDPs) that was developed at Spotify and is now used at thousands of companies around the world. If you’re interested in building your engineering career — or just want to know more about what makes Backstage such a popular platform for developer experience — here’s everything I learned from taking the CBA exam.
+You’ll learn:
+* The value of becoming a Certified Backstage Associate
+* How to prepare for the proctored exam (Don’t read the questions out loud to yourself!🤫)
+* The four main subject areas covered by the exam itself
+Let’s dive in!
+## Why get certified in Backstage?
+[Backstage](https://backstage.spotify.com/discover/backstage-101/) is the framework for building internal developer portals that Spotify developed internally before open sourcing it in 2020 and then [donating](https://www.cncf.io/projects/backstage/) it to the Cloud Native Computing Foundation (CNCF) — which is also home to other great technologies, like Argo, Crossplane, Envoy, and the granddaddy of cloud native, Kubernetes.
+Backstage continues to prove itself as [the tool of choice](https://newsletter.getdx.com/p/backstage-and-the-developer-portal-market) for improving developer experience and developer productivity for companies of all shapes and sizes — from [Adobe](https://backstage.io/blog/2024/12/09/kubecon-slc-24#and-the-award-goes-to) and [American Airlines](https://backstage.spotify.com/discover/blog/adopter-spotlight/american-airlines-runway/), to [Expedia Group](https://backstage.spotify.com/discover/blog/measuring-backstage-proof-of-value-at-expedia/), [H&M](https://www.youtube.com/watch?v=Vj0-hlQB6EM&list=PL8iP9yIjU0Q1i_KQGYvGwyBKA1iPL9SW2), and [Toyota](https://backstage.spotify.com/discover/blog/adopter-spotlight-toyota/), to [startups](https://backstage.io/blog/2023/07/08/stash-adopter-post/), [scale-ups](https://backstage.spotify.com/discover/blog/silverflow-soundcheck-leaderboards/), [100-year-old financial institutions](https://youtu.be/ulSSv42BVJs?list=PL8iP9yIjU0Q1bUK28-KrTUMl8n08CEPpf&si=m2kX2QuAaJxRpBhN&t=300), [government consulting agencies](https://www.youtube.com/watch?v=RTYVmMbkdNA&list=PL8iP9yIjU0Q3UUDXdAoCaTC4Ci8asWg-X), [healthcare companies](https://www.youtube.com/watch?v=cGJXATEPYfQ), and more. You’ll find the need for Backstage experts nearly everywhere you find developer teams working together, whether that’s 50 engineers or thousands of them, like at Spotify.
+All that is to say, in the last five years, Backstage has grown from Spotify’s homegrown developer portal to one of the most popular platform engineering tools today. This growth means more companies than ever are looking for people with the expertise to stand up, maintain, and build out a Backstage IDP of their own within their engineering orgs.
+### Who the CBA is for
+The Linux Foundation [launched](https://training.linuxfoundation.org/blog/just-launched-certified-backstage-associate-cba/) the new certification program for becoming a Certified Backstage Associate last November. The program is intended for developers who have 3–6 months experience using Backstage. The CBA is ideal for site reliability engineers (SREs), DevOps engineers, platform engineers, and other software developers who want to demonstrate their Backstage proficiency. As a Certified Backstage Associate, companies will know that you have the expertise to set up, deploy, and manage a Backstage project either independently or as a team lead.
+## Why listen to this guy?
+![andre-spotify-backstage-expert](//images.ctfassets.net/p762jor363g1/attachment_55d95e19fda42ab36b969b7a07ddd380/760fee19a9b434e41ebaad6e922e18d1/attachment_55d95e19fda42ab36b969b7a07ddd380.png)
+_The blog post’s author, experiencing_[ _issues_](https://youtu.be/Ybf5Hi_8Eqo&list=PLf1KFlSkDLIBmA5TLXn2BzEHmwWzckP8y) _with his video call background settings_
+Maybe you’re already thinking: “Wow, the CBA sounds pretty great!” Or: “I already use Backstage a lot and would love to showcase my skills.” And: “I’d love to know more about what the certification process looks like and how I should prepare for the exam.” But, also: “Who the heck is the author and why should I trust him?”
+Well, I’m André, aka [@awanlin](https://github.com/awanlin) on GitHub. Hello! 👋 I’m an engineer on Spotify’s Backstage team, but I’ve been working with Backstage since early 2021 before I worked at Spotify. You might recognize me from answering questions in the community [Discord server](https://discord.gg/zNABCpNm), as a maintainer of the [Community Plugins repository](https://github.com/backstage/community-plugins), as the lead for the [Documentation Special Interest Group (SIG)](https://github.com/backstage/community/blob/main/sigs/sig-docs/README.md), or as the contributor of several [Backstage](https://github.com/backstage/community-plugins/tree/main/workspaces/azure-devops) [plugins](https://github.com/backstage/community-plugins/tree/main/workspaces/linguist). My early contributions to the open source project and broad Backstage knowledge are actually what led me to joining Spotify!
+Currently, as a customer success engineer, I spend my days working with [Spotify’s enterprise customers](https://backstage.spotify.com), making sure they’re getting the most value out of their Backstage IDP — including with [Spotify Portal for Backstage](https://backstage.spotify.com/products/portal/), the SaaS version of Backstage that Spotify recently made available as a [beta](https://backstage.spotify.com/contact-us/try-portal/). Every day, I work with Backstage experts at other companies, helping to problem-solve technical issues and optimize developer experience through Portal, so that their devs can focus on building great features and products instead of dealing with infrastructure complexity. OK, that’s plenty about me. Onto the exam!
+## Preparing for the proctored exam
+![preparing-for-the-proctored-CBA-exam](//images.ctfassets.net/p762jor363g1/attachment_435a6c136e54b4d76338ea813ad29eff/2b732527d0a88530dcd3c265a50e2594/attachment_435a6c136e54b4d76338ea813ad29eff.png)
+In order to become a Certified Backstage Associate, you’ll need to complete a 90-minute, proctored, multiple-choice exam. A [proctored exam](https://training.linuxfoundation.org/blog/proctoring-for-linux-foundation-certification-exams-explained/) means someone will be monitoring you while you are taking it. This person will not suddenly show up in your home and stand over your shoulder. But they will be actively monitoring you via webcam — and, trust me, they’re paying attention! How do I know?
+Well, while I was taking the CBA I ran into a challenging question. As I often do when I’m thinking through a problem, I reread the question out loud to help me better understand it. Unfortunately, the proctor thought I might be asking someone offscreen for help, and gave me a stern warning. I made sure to keep my thoughts in my head from that point on.
+Now, for those who are also new to taking a proctored exam remotely, let me share some other tips based on my experience, as I had never taken one until I took the CBA. Some of these may sound pretty basic, but if you’re taking the exam from home, the controlled conditions of the exam might feel a little strange there. So it’s best to do a little bit of prep ahead of time to help you get used to your new exam environment.
+* **Don’t wait until the last-minute.** Make sure to give yourself plenty of time before the exam to get set up and settled, so you can avoid any surprises. Also, one less thing to worry about!
+* **Create a zen space for yourself.** Take your exam in a quiet room with an empty desk that is free of distractions. (And let family/housemates know not to disturb. Maybe put a sign on the door.) Before the exam, the proctor will ask you to pan your room with the webcam, so they can “verify that the workspace is clear of any disallowed materials”.
+* **Test the exam tools ahead of time.** The day before the exam, take the time to test out your system with the tools that will be used for the exam. The exam organizers will send you detailed instructions about this well beforehand, so you should have plenty of time to familiarize yourself with the system requirements.
+* **H2O is your friend.** You can have water, so make sure you have some handy (note: only “clear liquids in a clear container”). You’ll be happy you did!
+With the process for the CBA exam understood, you’ll want to make sure to study and brush up on your Backstage skills. The following is a rundown of what you should know heading into the exam and links to documentation worth reading to help with that.
+## Study guide: What is and isn’t in the exam
+![CBA-study-guide](//images.ctfassets.net/p762jor363g1/attachment_e16d5a2593a72ea218b097a82cb8864c/6be8dcb8030289af9ddd3cbe5439ab1d/attachment_e16d5a2593a72ea218b097a82cb8864c.png)
+Backstage is a code-first framework for building an internal developer portal (IDP). To support all the various integrations you might need, it uses a plugin system. This flexibility and extensibility makes Backstage extremely powerful and allows you to quickly build a full-featured IDP that fits your org’s particular processes, practices, and tech stack. It also means that for an exam on the topic, there will be a very broad number of areas to study.
+### Three subject areas you don’t need to know for the exam
+But before we get into what will be in the exam, here are a few things that won’t be.
+* **🚫 The New Backend System (and other newer features).** It’s worth mentioning that the CBA was written before what is known as the New Backend System became the default method for the backend and backend plugins — so you won’t need to study this. You also won’t be expected to know about alpha features, such as the New Frontend System and Canon, the new design library.
+* **🚫 How to build custom plugins.** While a CBA should be capable of _installing_ Backstage plugins — which involves working with and customizing TypeScript — _developing_ custom plugins falls outside the scope of a minimally qualified CBA.
+* **🚫 The nitty-gritty of Yarn and Node.js.** Regarding Yarn and Node, the exam won’t cover specifics about either of these — for example, you won’t be asked about the different features of Yarn Classic and Yarn 4. But you will have to know that Yarn is the default package manager used in Backstage and how to use it to add packages. Similarly, specific features of various Node versions will also not be covered, but knowing Backstage’s Node Version Policy would be.
+### Four subject areas you do need to know for the exam
+The four subject areas below focus on the technical implementation and features of the Backstage framework. But it’s also good to keep in mind how those technology details relate to the principles underlying the overall goals of Backstage — i.e., how the architecture and design of the framework enables anyone to build a customizable, centralized, scalable platform for collaborative software development — or, as we like to say, “a single pane of glass” for all your software development processes and infrastructure.
+**✅ Backstage Development Workflow**
+Backstage offers a lot of nice features that make the local development experience smooth and easy. I would go over the various aspects of your local development workflow to start:
+* Be able to build and run Backstage locally
+* Know the various [Backstage CLI commands](https://backstage.io/docs/tooling/cli/commands) and their uses
+* Understand the use of TypeScript in Backstage and how to generate the typed code
+* Have a familiarity with how to [install Backstage plugins with Yarn](https://backstage.io/docs/getting-started/configure-app-with-plugins)
+* Know how to [build a Docker container](https://backstage.io/docs/deployment/docker) of a Backstage instance
+**✅ Backstage Infrastructure**
+After going over local development, I would work on:
+* Understanding that [Backstage is a framework](https://backstage.io/docs/overview/what-is-backstage) and what its various aspects consist of
+* Know the [configuration system](https://backstage.io/docs/conf/) used by Backstage, including use of secrets and includes
+* Be aware of the various [deployment options](https://backstage.io/docs/deployment/) for Backstage
+* Have a familiarity with the overall client-server [architecture of Backstage](https://backstage.io/docs/overview/architecture-overview)
+**✅ Backstage Catalog**
+The Catalog is the heart of Backstage — and as such, there’s a good chunk of the CBA exam that covers it. You’ll want to go over the following topics:
+* Understand [how/why to use the Catalog](https://backstage.io/docs/features/software-catalog/)
+* Populating the Catalog and the various ingestions method
+* Understand the [YAML syntax](https://backstage.io/docs/features/software-catalog/descriptor-format) for Kinds
+* Know the [Catalog System Model](https://backstage.io/docs/features/software-catalog/system-model) and its various Kinds
+* Be able to explain the difference between [entity providers](https://backstage.io/docs/features/software-catalog/external-integrations#custom-entity-providers) and an [entity processors](https://backstage.io/docs/features/software-catalog/external-integrations#custom-processors)
+* Working understanding of the [“Life of an Entity”](https://backstage.io/docs/features/software-catalog/life-of-an-entity)
+**✅ Customizing Backstage**
+Some consider customization one of Backstage’s most powerful, yet least talked about features. Here’s some of the topics in this broad feature that I would suggest keeping in mind:
+* Knowing the difference between frontend and backend plugins
+* Understanding the [general customization](https://backstage.io/docs/getting-started/app-custom-theme) options for plugins and core features
+* How to make changes to React code and where those changes would be made
+* Using Material UI components — where to get them from and how to apply them
+### One more thing: Begin with the basics
+To lead off your studying, I would take the time to refresh yourself on the basics, in addition to the subject areas above. Walk through the initial [Getting Started guide](https://backstage.io/docs/getting-started/) and create a new Backstage instance. It might have been a long time since you’ve done this yourself and aspects of this will likely be on the exam. I would also re-familiarize yourself with the Backstage prerequisites, like Yarn and Node (see above for what will/won’t be covered). These are tools you might take for granted in your day to day — grounding yourself in them will give you a solid foundation for the rest of the exam.
+And with that, you should be able to comfortably take the [Certified Backstage Associate](https://training.linuxfoundation.org/certification/certified-backstage-associate-cba/) exam! Remember, if you don’t pass the first time, you get a second chance. So, just do your best — and good luck!
+## Let me know how you did!
+Once you complete your exam, feel free to share your experience and your certification with me [on LinkedIn](https://www.linkedin.com/in/andr%C3%A9-wanlin-31a00a16a/). I would love to hear about your journey to becoming a Certified Backstage Associate! I’ll make sure to update this post with any new tips I hear!
+Tags: [Developer Experience](/tag/developer-experience), [engineering culture](/tag/engineering-culture), [engineering leadership](/tag/engineering-leadership)

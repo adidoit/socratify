@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/SkillMetadataSchema",
+  "definitions": {
+    "SkillMetadataSchema": {
+      "type": "object",
+      "properties": {
+        "icon": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "decayRate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "masteryThreshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "minAttemptsForProficiency": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "exampleCompanies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedConcepts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "resources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "article",
+                  "video",
+                  "book",
+                  "course"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "url"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "assessmentTypes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "conversation",
+              "exercise",
+              "quiz",
+              "project"
+            ]
+          }
+        },
+        "difficultyModifier": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 2
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

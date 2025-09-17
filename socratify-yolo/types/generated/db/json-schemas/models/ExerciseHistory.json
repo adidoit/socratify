@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "Socratify/ExerciseHistoryModel",
+  "title": "ExerciseHistoryModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "exerciseUuid": {
+      "type": "string"
+    },
+    "clerkId": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "currentStep": {
+      "type": "string"
+    },
+    "finalExerciseData": {},
+    "hotTake": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completedSteps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "socratifyQuestions": {
+      "type": "array",
+      "items": {}
+    },
+    "userAnswers": {
+      "type": "array",
+      "items": {}
+    },
+    "XPEarned": {
+      "type": "integer"
+    },
+    "trackUuid": {
+      "type": "string"
+    },
+    "feedbackForUser": {
+      "type": "string"
+    },
+    "skills": {}
+  },
+  "required": [
+    "id",
+    "exerciseUuid",
+    "clerkId",
+    "createdAt",
+    "currentStep",
+    "updatedAt",
+    "completedSteps",
+    "socratifyQuestions",
+    "userAnswers",
+    "XPEarned"
+  ],
+  "additionalProperties": true
+}
