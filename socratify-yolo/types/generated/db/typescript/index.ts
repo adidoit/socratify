@@ -1,5 +1,5 @@
 // Auto-generated TypeScript types from Zod
-// Generated: 2025-09-17T15:56:30.461Z
+// Generated: 2025-09-18T23:27:02.106Z
 import { z } from 'zod';
 
 import { CoverElementsSchema } from '../zod/cover-elements';

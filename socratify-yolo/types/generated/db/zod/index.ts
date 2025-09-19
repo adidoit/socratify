@@ -26,6 +26,7 @@ export { CuratedTrackSkillModelSchema } from './models/curated-track-skill';
 export { ExerciseSkillModelSchema } from './models/exercise-skill';
 
 // Standalone schemas
+export { AssumptionDebriefResponseSchema } from './assumption-debrief-response';
 export { BucketSortDebriefResponseSchema } from './bucket-sort-debrief-response';
 export { ChartMetadataSchema } from './chart-config';
 export { BaseChartSchema } from './chart-config';

@@ -1,5 +1,5 @@
 // Auto-generated Model types from Zod (strong fields only)
-// Generated: 2025-09-17T15:56:30.570Z
+// Generated: 2025-09-18T23:27:02.264Z
 import { z } from 'zod';
 
 import { ExerciseModelSchema } from '../zod/models/exercise';
